@@ -69,16 +69,16 @@ author:
   medium           : # URL
   pinterest        : # Username
   soundcloud       : # Username
-  steam            : "76561198986448814" # Username
+  steam            : # Username
   telegram         : # URL
   tumblr           : # Username
   twitter          : "HYQLarry" # Username for X / Twitter
   vine             : # Username
-  weibo            : "5548033405" # Username
+  weibo            : # Username
   wikipedia        : # Username
   xing             : # Username
-  youtube          : "LarryHYQ" # Username
-  zhihu            : "long-yin-hu-xiao-70" # Username
+  youtube          : # Username
+  zhihu            : # Username
   bilibili         : "37874360" # Username
 
 # Publication Category - The following the list of publication categories and their headings
