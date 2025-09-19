@@ -16,9 +16,9 @@ I am Yeqi He (贺业祺), a Ph.D. candidate at Hangzhou Dianzi University's Inte
 Education Background
 ------
 
-2023.9-Present &ensp;Ph.D. in Cyberspace Security, School of Cyberspace Security, Hangzhou Dianzi University, China.
+2023.9-Present &ensp;Ph.D. in Cyberspace Security, Hangzhou Dianzi University, China.
 
-2019.9-2023.6  &ensp;&ensp;B.E. in intelligence science and technology, Zhuoyue Honors College, Hangzhou Dianzi University, China.
+2019.9-2023.6  &ensp;&ensp;B.E. in intelligence science and technology, Hangzhou Dianzi University, China.
 
 2016.9-2019.6  &ensp;&ensp;Senior High School in Huizhen Academy, Ningbo, Zhejiang, China.
 
