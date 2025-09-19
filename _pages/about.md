@@ -20,5 +20,11 @@ Education Background
 
 2019.9-2023.6  &ensp;&ensp;B.E. in intelligence science and technology, Zhuoyue Honors College, Hangzhou Dianzi University, China.
 
+2016.9-2019.6  &ensp;&ensp;Senior High School in Huizhen Academy, Ningbo, Zhejiang, China.
+
+2012.9-2016.6  &ensp;&ensp;Junior High School in Huizhen Academy, Ningbo, Zhejiang, China.
+
+2007.9-2012.6  &ensp;&ensp;Primary School in Huizhen Academy, Ningbo, Zhejiang, China.
+
 Current Research Interests
 ------
