@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Yeqi He(贺业祺)"
+title: "Yeqi He’s Personal Website"
 author_profile: true
 redirect_from: 
   - /about/
