@@ -8,6 +8,7 @@
 
 # Basic Site Settings
 locale                   : "zh-CN"
+# locale                   : "en-US"
 site_theme               : "default" # Currently available options are "default", "air"
 title                    : "LarryHYQ's Attic"
 title_separator          : "-"
