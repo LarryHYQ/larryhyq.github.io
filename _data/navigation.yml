@@ -19,9 +19,12 @@ main:
     
   # - title: "Portfolio"
   #   url: /portfolio/
-        
+
   - title: "Blog"
-    url: /year-archive/
+    url: /year-archive
+        
+  - title: "Honors & Awards"
+    url: /honors-and-awards/
     
   # - title: "CV"
   #   url: /cv/
