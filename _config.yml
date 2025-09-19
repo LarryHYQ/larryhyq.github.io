@@ -11,7 +11,7 @@
 locale                   : "en-US"
 site_theme               : "default" # Currently available options are "default", "air"
 title                    : "LarryHYQ's Attic"
-title_separator          : "-"
+# title_separator          : "-"
 name                     : &name "Yeqi He"
 description              : &description "Yeqi He's academic portfolio"   # Update this with a general description of your site, this is the default if not overridden by a page
 url                      : https://larryhyq.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
@@ -27,7 +27,7 @@ author:
   avatar           : "Yeqihe.jpg"
   name             : "Yeqi He(贺业祺)"
   pronouns         : # example: "she/her"  
-  bio              : "Yeqi He received the B.E. degree in intelligence science and technology from Hangzhou Dianzi University, Hangzhou, China, in 2023. He is currently pursuing the Ph.D. degree with Hangzhou Dianzi University, Hangzhou, China. His research interests include computer vision and generative models."
+  bio              : "Currently pursuing the Ph.D. degree with Hangzhou Dianzi University"
   location         : "Hangzhou, Zhejiang, China"
   employer         : "Hangzhou Dianzi University"
   uri              : "https://iipl.hdu.edu.cn/index/team_details/id/157.aspx" # URL
