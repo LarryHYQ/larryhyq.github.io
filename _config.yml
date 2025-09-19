@@ -62,23 +62,23 @@ author:
   goodreads        : # Username
   google_plus      : # Username
   keybase          : # Username
-  instagram        : # Username
+  instagram        : "yeqi_he" # Username
   lastfm           : # Username
   linkedin         : # Username
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username
   soundcloud       : # Username
-  steam            : # Username
+  steam            : "LarryHYQ" # Username
   telegram         : # URL
   tumblr           : # Username
-  twitter          : # Username for X / Twitter
+  twitter          : "HYQLarry" # Username for X / Twitter
   vine             : # Username
-  weibo            : # Username
+  weibo            : "5548033405" # Username
   wikipedia        : # Username
   xing             : # Username
-  youtube          : # Username
-  zhihu            : # Username
+  youtube          : "LarryHYQ" # Username
+  zhihu            : "long-yin-hu-xiao-70" # Username
   bilibili         : "37874360" # Username
 
 # Publication Category - The following the list of publication categories and their headings
