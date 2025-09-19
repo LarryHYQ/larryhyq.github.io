@@ -29,7 +29,7 @@ author:
   pronouns         : "He/Him" # example: "she/her"
   bio              : "Ph.D. Candidate, Intelligent Information Processing Laboratory, Hangzhou Dianzi University."
   location         : "Hangzhou, Zhejiang, China"
-  employer         : <a href="www.hdu.edu.cn" target="_blank" style="color: inherit; text-decoration: none;">Hangzhou Dianzi University</a>
+  employer         : "<a href="www.hdu.edu.cn" target="_blank" style="color: inherit; text-decoration: none;">Hangzhou Dianzi University</a>"
   uri              : "https://iipl.hdu.edu.cn/index/team_details/id/157.aspx" # URL
   email            : "yeqihe@hdu.edu.cn" 
 
