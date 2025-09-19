@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: 
+title: "Yeqi He’s Personal Website"
 excerpt: "Yeqi He"
 author_profile: true
 redirect_from: 
