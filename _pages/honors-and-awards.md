@@ -6,7 +6,9 @@ author_profile: true
 redirect_from:
   - /resume
 ---
-
+<!-- 在页面头部引入 -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
 
 Mathematical Contest In Modeling(数学建模竞赛)
 ------
@@ -23,11 +25,12 @@ Mathematical Contest In Modeling(数学建模竞赛)
   <span><strong>Meritorious Winner</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>国际一等奖</strong></span>
 </div>
 
+<!-- 图片代码 -->
 <table style="border: none; width: 100%;">
 <tr style="border: none;">
-<td style="border: none; width: 33.33%;"><a href="/images/honors-and-awards/20数模省三.jpg"><img src='/images/honors-and-awards/20数模省三.jpg' alt='2020 China Undergraduate Mathematical Contest in Modeling Zhejiang Division Third Prize' style="width: 100%; height: 250px; object-fit: cover;"></a></td>
-<td style="border: none; width: 33.33%;"><a href="/images/honors-and-awards/21数模省三.jpg"><img src='/images/honors-and-awards/21数模省三.jpg' alt='2021 China Undergraduate Mathematical Contest in Modeling Zhejiang Division Third Prize' style="width: 100%; height: 250px; object-fit: cover;"></a></td>
-<td style="border: none; width: 33.33%;"><a href="/images/honors-and-awards/ICM-M.jpg"><img src='/images/honors-and-awards/ICM-M.jpg' alt='2021 The Interdisciplinary Contest in Modeling(ICM)® Meritorious Winner' style="width: 100%; height: 250px; object-fit: cover;"></a></td>
+<td style="border: none; width: 33.33%;"><a href="/images/honors-and-awards/20数模省三.jpg" data-lightbox="modeling" data-title="2020 China Undergraduate Mathematical Contest in Modeling Zhejiang Division Third Prize"><img src='/images/honors-and-awards/20数模省三.jpg' alt='2020 China Undergraduate Mathematical Contest in Modeling Zhejiang Division Third Prize' style="width: 100%; height: 250px; object-fit: cover;"></a></td>
+<td style="border: none; width: 33.33%;"><a href="/images/honors-and-awards/21数模省三.jpg" data-lightbox="modeling" data-title="2021 China Undergraduate Mathematical Contest in Modeling Zhejiang Division Third Prize"><img src='/images/honors-and-awards/21数模省三.jpg' alt='2021 China Undergraduate Mathematical Contest in Modeling Zhejiang Division Third Prize' style="width: 100%; height: 250px; object-fit: cover;"></a></td>
+<td style="border: none; width: 33.33%;"><a href="/images/honors-and-awards/ICM-M.jpg" data-lightbox="modeling" data-title="2021 The Interdisciplinary Contest in Modeling(ICM)® Meritorious Winner"><img src='/images/honors-and-awards/ICM-M.jpg' alt='2021 The Interdisciplinary Contest in Modeling(ICM)® Meritorious Winner' style="width: 100%; height: 250px; object-fit: cover;"></a></td>
 </tr>
 </table>
 
