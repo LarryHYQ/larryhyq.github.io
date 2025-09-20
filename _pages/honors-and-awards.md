@@ -7,12 +7,36 @@ redirect_from:
   - /resume
 ---
 
-National University Students Intelligent Car Race
+National University Students Intelligent Car Race(全国大学生智能汽车竞赛)
 ------
 
-- 2021 National University Students Intelligent Car Race Zhejiang Division &ensp;&ensp; **First Prize**
+<div style="display: flex; justify-content: space-between; width: 100%; margin-bottom: 5px;">
+  <span>2021 National University Students Intelligent Car Race Zhejiang Division</span>
+  <span><strong>First Prize</strong> <small>浙江赛区一等奖</small></span>
+</div>
+<div style="display: flex; justify-content: space-between; width: 100%; margin-bottom: 5px;">
+  <span>2021 National University Students Intelligent Car Race Eastern Division</span>
+  <span><strong>Second Prize</strong> <small>东部赛区一等奖</small></span>
+</div>
+<div style="display: flex; justify-content: space-between; width: 100%; margin-bottom: 5px;">
+  <span>2021 National University Students Intelligent Car Race National Finals</span>
+  <span><strong>Second Prize</strong> <small>全国总决赛二等奖</small></span>
+</div>
+<div style="display: flex; justify-content: space-between; width: 100%; margin-bottom: 5px;">
+  <span>2022 National University Students Intelligent Car Race Zhejiang Division</span>
+  <span><strong>First Prize</strong> <small>浙江赛区一等奖</small></span>
+</div>
 
-<img src='/images/honors-and-awards/21智能车省一.jpg' width='480' alt='2021 National University Students Intelligent Car Race Zhejiang Division First Prize'>
+<table style="border: none;">
+<tr style="border: none;">
+<td style="border: none;"><img src='/images/honors-and-awards/21智能车省一.jpg' alt='2021 National University Students Intelligent Car Race Zhejiang Division First Prize'></td>
+<td style="border: none;"><img src='/images/honors-and-awards/21智能车东部二.jpg' alt='2021 National University Students Intelligent Car Race Eastern Division Second Prize'></td>
+<td style="border: none;"><img src='/images/honors-and-awards/21智能车国二.jpg' alt='2021 National University Students Intelligent Car Race National Finals Second Prize'></td>
+<td style="border: none;"><img src='/images/honors-and-awards/22智能车省一.jpg' alt='2022 National University Students Intelligent Car Race Zhejiang Division First Prize'></td>
+</tr></table>
+
+
+
 
 
 
