@@ -33,8 +33,8 @@ Advisor: Sr. Experimentalist <a href="https://faculty.hdu.edu.cn/zdhxy/czp/main.
 Current Research Interests
 ------
 
-- Computer Vision;
+- Computer Vision.
 
-- Image/Video Synthesis and Editing;
+- Image/Video Synthesis and Editing.
 
 - Multimodal Generation.
