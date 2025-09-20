@@ -48,27 +48,27 @@ layout: default
         {{ content }}
 
         {% if page.citation and page.paperurl and page.slidesurl and page.bibtexurl %}
-          <p style="font-size: smaller">Cite: {{ page.citation }}<br /><a href="{{ page.paperurl }}">Paper</a> | <a href="{{ page.slidesurl }}">Code</a> | <a href="{{ page.bibtexurl }}">Bibtex</a></p>
+          <p style="font-size: smaller">Cite: {{ page.citation }}<br /><a href="{{ page.paperurl }}" target="_blank">Paper</a> | <a href="{{ page.slidesurl }}" target="_blank">Code</a> | <a href="{{ page.bibtexurl }}">Bibtex</a></p>
         {% elsif page.citation and page.paperurl and page.slidesurl %}
-          <p style="font-size: smaller">Cite: {{ page.citation }}<br /><a href="{{ page.paperurl }}">Paper</a> | <a href="{{ page.slidesurl }}">Code</a></p>
+          <p style="font-size: smaller">Cite: {{ page.citation }}<br /><a href="{{ page.paperurl }}" target="_blank">Paper</a> | <a href="{{ page.slidesurl }}" target="_blank">Code</a></p>
         {% elsif page.citation and page.paperurl and page.bibtexurl %}
-          <p style="font-size: smaller">Cite: {{ page.citation }}<br /><a href="{{ page.paperurl }}">Paper</a> | <a href="{{ page.bibtexurl }}">Bibtex</a></p>
+          <p style="font-size: smaller">Cite: {{ page.citation }}<br /><a href="{{ page.paperurl }}" target="_blank">Paper</a> | <a href="{{ page.bibtexurl }}">Bibtex</a></p>
         {% elsif page.citation and page.paperurl %}
-          <p style="font-size: smaller">Cite: {{ page.citation }}<br /><a href="{{ page.paperurl }}">Paper</a></p>
+          <p style="font-size: smaller">Cite: {{ page.citation }}<br /><a href="{{ page.paperurl }}" target="_blank">Paper</a></p>
         {% elsif page.citation and page.slidesurl and page.bibtexurl %}
-          <p style="font-size: smaller">Cite: {{ page.citation }}<br /><a href="{{ page.slidesurl }}">Code</a> | <a href="{{ page.bibtexurl }}">Bibtex</a></p>
+          <p style="font-size: smaller">Cite: {{ page.citation }}<br /><a href="{{ page.slidesurl }}" target="_blank">Code</a> | <a href="{{ page.bibtexurl }}">Bibtex</a></p>
         {% elsif page.citation and page.slidesurl %}
-          <p style="font-size: smaller">Cite: {{ page.citation }}<br /><a href="{{ page.slidesurl }}">Code</a></p>
+          <p style="font-size: smaller">Cite: {{ page.citation }}<br /><a href="{{ page.slidesurl }}" target="_blank">Code</a></p>
         {% elsif page.slidesurl and page.bibtexurl %}
-          <p style="font-size: smaller"><a href="{{ page.slidesurl }}">Code</a> | <a href="{{ page.bibtexurl }}">Bibtex</a></p>
+          <p style="font-size: smaller"><a href="{{ page.slidesurl }}" target="_blank">Code</a> | <a href="{{ page.bibtexurl }}">Bibtex</a></p>
         {% elsif page.paperurl and page.bibtexurl %}
-          <p style="font-size: smaller"><a href="{{ page.paperurl }}">Paper</a> | <a href="{{ page.bibtexurl }}">Bibtex</a></p>
+          <p style="font-size: smaller"><a href="{{ page.paperurl }}" target="_blank">Paper</a> | <a href="{{ page.bibtexurl }}">Bibtex</a></p>
         {% elsif page.citation and page.bibtexurl %}
           <p style="font-size: smaller">Cite: {{ page.citation }}<br /><a href="{{ page.bibtexurl }}">Bibtex</a></p>
         {% elsif page.citation %}
           <p style="font-size: smaller">Cite: {{ page.citation }}</p>
         {% elsif page.slidesurl %}
-          <p style="font-size: smaller"><a href="{{ page.slidesurl }}">Code</a></p>
+          <p style="font-size: smaller"><a href="{{ page.slidesurl }}" target="_blank">Code</a></p>
         {% elsif page.bibtexurl %}
           <p style="font-size: smaller"><a href="{{ page.bibtexurl }}">Bibtex</a></p>
         {% endif %}
