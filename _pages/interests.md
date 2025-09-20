@@ -22,8 +22,8 @@ Photography
 
 <table style="border: none; width: 100%;">
 <tr style="border: none;">
-<td style="border: none; width: 50%;"><a href="/images/interests/photography/Shore-1.jpg"><img src='/images/interests/photography/Shore-1.jpg' style="width: 100%; height: 300px; object-fit: cover;"></a></td>
-<td style="border: none; width: 50%;"><a href="/images/interests/photography/Shore-2.jpg"><img src='/images/interests/photography/Shore-2.jpg' style="width: 100%; height: 300px; object-fit: cover;"></a></td>
+<td style="border: none; width: 50%;"><a href="/images/interests/photography/Shore-1.jpg"><img src='/images/interests/photography/Shore-1.jpg' style="width: 100%; object-fit: cover;"></a></td>
+<td style="border: none; width: 50%;"><a href="/images/interests/photography/Shore-2.jpg"><img src='/images/interests/photography/Shore-2.jpg' style="width: 100%; object-fit: cover;"></a></td>
 </tr>
 </table>
 
