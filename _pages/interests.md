@@ -37,8 +37,8 @@ redirect_from:
 
 <table style="border: none; width: 100%;">
 <tr style="border: none;">
-<td style="border: none; width: 48%"><a href="/images/interests/photography/Bresson-1.jpg"><img src='/images/interests/photography/Bresson-1.jpg' style="width: 100%; object-fit: cover;"></a></td>
-<td style="border: none; width: 52%"><a href="/images/interests/photography/Bresson-2.jpg"><img src='/images/interests/photography/Bresson-2.jpg' style="width: 100%; object-fit: cover;"></a></td>
+<td style="border: none; width: 48.1%"><a href="/images/interests/photography/Bresson-1.jpg"><img src='/images/interests/photography/Bresson-1.jpg' style="width: 100%; object-fit: cover;"></a></td>
+<td style="border: none; width: 51.9%"><a href="/images/interests/photography/Bresson-2.jpg"><img src='/images/interests/photography/Bresson-2.jpg' style="width: 100%; object-fit: cover;"></a></td>
 </tr>
 <tr style="border: none;">
 <td colspan="2" style="border: none; text-align: center; font-size: 1.0em; color: #666; padding: 5px 0;">
@@ -49,8 +49,8 @@ redirect_from:
 
 <table style="border: none; width: 100%;">
 <tr style="border: none;">
-<td style="border: none; width: 37.7%"><a href="/images/interests/photography/Evans-1.jpg"><img src='/images/interests/photography/Evans-1.jpg' style="width: 100%; object-fit: cover;"></a></td>
-<td style="border: none; width: 62.3%"><a href="/images/interests/photography/Evans-2.jpg"><img src='/images/interests/photography/Evans-2.jpg' style="width: 100%; object-fit: cover;"></a></td>
+<td style="border: none; width: 37.74%"><a href="/images/interests/photography/Evans-1.jpg"><img src='/images/interests/photography/Evans-1.jpg' style="width: 100%; object-fit: cover;"></a></td>
+<td style="border: none; width: 62.26%"><a href="/images/interests/photography/Evans-2.jpg"><img src='/images/interests/photography/Evans-2.jpg' style="width: 100%; object-fit: cover;"></a></td>
 </tr>
 <tr style="border: none;">
 <td colspan="2" style="border: none; text-align: center; font-size: 1.0em; color: #666; padding: 5px 0;">
