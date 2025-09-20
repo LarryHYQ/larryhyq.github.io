@@ -7,8 +7,15 @@ redirect_from:
   - /resume
 ---
 
-Smart Car
+National University Students Intelligent Car Race
 ------
 
-MCM
+- 2021 National University Students Intelligent Car Race Zhejiang Division &ensp;&ensp; **First Prize**
+
+<img src='/images/honors-and-awards/21智能车省一.jpg' width='480' alt='2021 National University Students Intelligent Car Race Zhejiang Division First Prize'>
+
+
+
+
+Mathematical Contest In Modeling
 ------
