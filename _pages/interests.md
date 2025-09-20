@@ -21,9 +21,7 @@ redirect_from:
   - DJI Mavic 2 Pro HASSELBLAD
   - iPhone 16 Pro Max
 
-### Photography Gallery
-
-#### Photography Masterpieces
+### Photography Masterpieces
 
 <table style="border: none; width: 100%;">
 <tr style="border: none;">
@@ -73,7 +71,7 @@ redirect_from:
 </tr>
 </table>
 
-#### Personal Photography Works
+### Personal Photography Works
 
 <table style="border: none; width: 100%;">
 <tr style="border: none;">
