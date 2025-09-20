@@ -10,21 +10,21 @@ redirect_from:
 National University Students Intelligent Car Race(全国大学生智能汽车竞赛)
 ------
 
-<div style="display: flex; justify-content: space-between; width: 100%; margin-bottom: 5px;">
-  <span>2021 National University Students Intelligent Car Race Zhejiang Division</span>
-  <span><strong>First Prize</strong> <small>浙江赛区一等奖</small></span>
+<div style="width: 100%; margin-bottom: 5px;">
+  <span>2021 National University Students Intelligent Car Race</span>&nbsp;&nbsp;
+  <span><strong>Zhejiang Division First Prize</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<small><strong>浙江赛区一等奖</strong></small></span>
 </div>
-<div style="display: flex; justify-content: space-between; width: 100%; margin-bottom: 5px;">
-  <span>2021 National University Students Intelligent Car Race Eastern Division</span>
-  <span><strong>Second Prize</strong> <small>东部赛区一等奖</small></span>
+<div style="width: 100%; margin-bottom: 5px;">
+  <span>2021 National University Students Intelligent Car Race</span>&nbsp;&nbsp;
+  <span><strong>Eastern Division Second Prize</strong>&nbsp;&nbsp;<small><strong>东部赛区二等奖</strong></small></span>
 </div>
-<div style="display: flex; justify-content: space-between; width: 100%; margin-bottom: 5px;">
-  <span>2021 National University Students Intelligent Car Race National Finals</span>
-  <span><strong>Second Prize</strong> <small>全国总决赛二等奖</small></span>
+<div style="width: 100%; margin-bottom: 5px;">
+  <span>2021 National University Students Intelligent Car Race</span>&nbsp;&nbsp;
+  <span><strong>National Finals Second Prize</strong>&nbsp;&nbsp;&nbsp;&nbsp;<small><strong>全国总决赛二等奖</strong></small></span>
 </div>
-<div style="display: flex; justify-content: space-between; width: 100%; margin-bottom: 5px;">
-  <span>2022 National University Students Intelligent Car Race Zhejiang Division</span>
-  <span><strong>First Prize</strong> <small>浙江赛区一等奖</small></span>
+<div style="width: 100%; margin-bottom: 5px;">
+  <span>2022 National University Students Intelligent Car Race</span>&nbsp;&nbsp;
+  <span><strong>Zhejiang Division First Prize</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<small><strong>浙江赛区一等奖</strong></small></span>
 </div>
 
 <table style="border: none;">
