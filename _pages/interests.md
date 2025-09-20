@@ -184,27 +184,6 @@ redirect_from:
 <tr style="border: none;">
 <td style="border: none; width: 50%;">
   <figure style="margin: 0;">
-    <a href="/images/interests/photography/DSC1667.jpg">
-      <img src='/images/interests/photography/DSC1667.jpg' style="width: 100%; object-fit: cover;">
-    </a>
-    <figcaption style="text-align: center; font-size: 1.0em; color: #666; padding: 5px 0;">Hangzhou Xiaoshan International Airport, Hangzhou, Zhejiang, Jun. 16, 2023</figcaption>
-  </figure>
-</td>
-<td style="border: none; width: 50%;">
-  <figure style="margin: 0;">
-    <a href="/images/interests/photography/IMG_2189-HDR.jpg">
-      <img src='/images/interests/photography/IMG_2189-HDR.jpg' style="width: 100%; object-fit: cover;">
-    </a>
-    <figcaption style="text-align: center; font-size: 1.0em; color: #666; padding: 5px 0;">Jiayuguan, Jiayuguan City, Gansu, Oct. 4, 2021</figcaption>
-  </figure>
-</td>
-</tr>
-</table>
-
-<table style="border: none; width: 100%;">
-<tr style="border: none;">
-<td style="border: none; width: 50%;">
-  <figure style="margin: 0;">
     <a href="/images/interests/photography/DJI_0121-HDR.jpg">
       <img src='/images/interests/photography/DJI_0121-HDR.jpg' style="width: 100%; object-fit: cover;">
     </a>
@@ -238,6 +217,27 @@ redirect_from:
       <img src='/images/interests/photography/IMG_2067.jpg' style="width: 100%; object-fit: cover;">
     </a>
     <figcaption style="text-align: center; font-size: 1.0em; color: #666; padding: 5px 0;">Jinta Populus Euphratica Forests, Jiuquan, Gansu, Oct. 3, 2021</figcaption>
+  </figure>
+</td>
+</tr>
+</table>
+
+<table style="border: none; width: 100%;">
+<tr style="border: none;">
+<td style="border: none; width: 50%;">
+  <figure style="margin: 0;">
+    <a href="/images/interests/photography/DSC1667.jpg">
+      <img src='/images/interests/photography/DSC1667.jpg' style="width: 100%; object-fit: cover;">
+    </a>
+    <figcaption style="text-align: center; font-size: 1.0em; color: #666; padding: 5px 0;">Hangzhou Xiaoshan International Airport, Hangzhou, Zhejiang, Jun. 16, 2023</figcaption>
+  </figure>
+</td>
+<td style="border: none; width: 50%;">
+  <figure style="margin: 0;">
+    <a href="/images/interests/photography/IMG_2189-HDR.jpg">
+      <img src='/images/interests/photography/IMG_2189-HDR.jpg' style="width: 100%; object-fit: cover;">
+    </a>
+    <figcaption style="text-align: center; font-size: 1.0em; color: #666; padding: 5px 0;">Jiayuguan, Jiayuguan City, Gansu, Oct. 4, 2021</figcaption>
   </figure>
 </td>
 </tr>
