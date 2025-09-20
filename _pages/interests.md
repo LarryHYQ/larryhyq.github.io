@@ -33,7 +33,7 @@ redirect_from:
 </tr>
 </table>
 
-<table style="border: none; width: 100%;">
+<table style="border: none;">
 <tr style="border: none;">
 <td style="border: none;"><a href="/images/interests/photography/Bresson-1.jpg"><img src='/images/interests/photography/Bresson-1.jpg' style="width: 100%; height: 350px; object-fit: cover;"></a></td>
 <td style="border: none;"><a href="/images/interests/photography/Bresson-2.jpg"><img src='/images/interests/photography/Bresson-2.jpg' style="width: 100%; height: 350px; object-fit: cover;"></a></td>
@@ -45,7 +45,7 @@ redirect_from:
 </tr>
 </table>
 
-<table style="border: none; width: 100%;">
+<table style="border: none;">
 <tr style="border: none;">
 <td style="border: none;"><a href="/images/interests/photography/Evans-1.jpg"><img src='/images/interests/photography/Evans-1.jpg' style="width: 100%; height: 350px; object-fit: cover;"></a></td>
 <td style="border: none;"><a href="/images/interests/photography/Evans-2.jpg"><img src='/images/interests/photography/Evans-2.jpg' style="width: 100%; height: 350px; object-fit: cover;"></a></td>
