@@ -26,7 +26,7 @@ author:
   # Biographic information
   avatar           : "Yeqihe.jpg"
   name             : "Yeqi He(贺业祺)"
-  pronouns         : "He/Him" # example: "she/her"
+  pronouns         : # example: "she/her"
   bio              : "Ph.D. Candidate, Intelligent Information Processing Laboratory(IIPL), Hangzhou Dianzi University."
   location         : "Hangzhou, Zhejiang, China"
   employer         : "Hangzhou Dianzi University"
