@@ -79,7 +79,7 @@ redirect_from:
 <tr style="border: none;">
 <td style="border: none; width: 50%;">
   <figure style="margin: 0;">
-    <a href="/images/interests/photography/_DSC6335.jpg">
+    <a href="images/interests/photography/_DSC6335.jpg">
       <img src='/images/interests/photography/_DSC6335.jpg' style="width: 100%; object-fit: cover;">
     </a>
     <figcaption style="text-align: center; font-size: 1.0em; color: #666; padding: 5px 0;">Tiananmen Square, Beijing, Jul. 6, 2025</figcaption>
