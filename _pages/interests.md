@@ -21,6 +21,10 @@ redirect_from:
   - DJI Mavic 2 Pro HASSELBLAD
   - iPhone 16 Pro Max
 
+### Photography Gallery
+
+#### Photography Masterpieces
+
 <table style="border: none; width: 100%;">
 <tr style="border: none;">
 <td style="border: none; width: 50%;"><a href="/images/interests/photography/Shore-1.jpg"><img src='/images/interests/photography/Shore-1.jpg' style="width: 100%; object-fit: cover;"></a></td>
@@ -33,7 +37,7 @@ redirect_from:
 </tr>
 </table>
 
-<table style="border: none;">
+<table style="border: none; width: 100%;">
 <tr style="border: none;">
 <td style="border: none;"><a href="/images/interests/photography/Bresson-1.jpg"><img src='/images/interests/photography/Bresson-1.jpg' style="width: 100%; height: 350px; object-fit: cover;"></a></td>
 <td style="border: none;"><a href="/images/interests/photography/Bresson-2.jpg"><img src='/images/interests/photography/Bresson-2.jpg' style="width: 100%; height: 350px; object-fit: cover;"></a></td>
@@ -45,7 +49,7 @@ redirect_from:
 </tr>
 </table>
 
-<table style="border: none;">
+<table style="border: none; width: 100%;">
 <tr style="border: none;">
 <td style="border: none;"><a href="/images/interests/photography/Evans-1.jpg"><img src='/images/interests/photography/Evans-1.jpg' style="width: 100%; height: 350px; object-fit: cover;"></a></td>
 <td style="border: none;"><a href="/images/interests/photography/Evans-2.jpg"><img src='/images/interests/photography/Evans-2.jpg' style="width: 100%; height: 350px; object-fit: cover;"></a></td>
@@ -69,6 +73,31 @@ redirect_from:
 </tr>
 </table>
 
+#### Personal Photography Works
+
+<table style="border: none; width: 100%;">
+<tr style="border: none;">
+<td style="border: none; width: 50%;">
+  <figure style="margin: 0;">
+    <a href="/images/interests/photography/_DSC6335.jpg">
+      <img src='/images/interests/photography/_DSC6335.jpg' style="width: 100%; object-fit: cover;">
+    </a>
+    <figcaption style="text-align: center; font-size: 1.0em; color: #666; padding: 5px 0;">Tiananmen Square, Beijing, Jul. 6, 2025</figcaption>
+  </figure>
+</td>
+<td style="border: none; width: 50%;">
+  <figure style="margin: 0;">
+    <a href="/images/interests/photography/_DSC3578.jpg">
+      <img src='/images/interests/photography/_DSC3578.jpg' style="width: 100%; object-fit: cover;">
+    </a>
+    <figcaption style="text-align: center; font-size: 1.0em; color: #666; padding: 5px 0;">Faxi Temple, Hangzhou, Zhejiang, Mar. 30, 2024</figcaption>
+  </figure>
+</td>
+</tr>
+</table>
+
+
+
 ## Formula 1
 
 
@@ -80,4 +109,3 @@ redirect_from:
 
 
 ## Music
-
