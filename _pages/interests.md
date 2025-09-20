@@ -26,7 +26,7 @@ Photography
 <td style="border: none; width: 50%;"><a href="/images/interests/photography/Shore-2.jpg"><img src='/images/interests/photography/Shore-2.jpg' style="width: 100%; object-fit: cover;"></a></td>
 </tr>
 <tr style="border: none;">
-<td colspan="2" style="border: none; text-align: center; font-size: 0.9em; color: #666; padding: 5px 0;">
+<td colspan="2" style="border: none; text-align: center; font-size: 1.0em; color: #666; padding: 5px 0;">
   Stephen Shore: Uncommon Places
 </td>
 </tr>
