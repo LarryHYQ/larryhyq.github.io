@@ -21,7 +21,7 @@ main:
   #   url: /portfolio/
 
   - title: "Blog"
-    url: /year-archive
+    url: /blog
         
   - title: "Honors & Awards"
     url: /honors-and-awards/
