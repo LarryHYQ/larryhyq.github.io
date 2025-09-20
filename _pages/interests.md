@@ -35,8 +35,8 @@ redirect_from:
 
 <table style="border: none; width: 100%;">
 <tr style="border: none;">
-<td style="border: none;"><a href="/images/interests/photography/Bresson-1.jpg"><img src='/images/interests/photography/Bresson-1.jpg' style="width: 100%; height: 300px; object-fit: cover;"></a></td>
-<td style="border: none;"><a href="/images/interests/photography/Bresson-2.jpg"><img src='/images/interests/photography/Bresson-2.jpg' style="width: 100%; height: 300px; object-fit: cover;"></a></td>
+<td style="border: none;"><a href="/images/interests/photography/Bresson-1.jpg"><img src='/images/interests/photography/Bresson-1.jpg' style="width: 100%; height: 350px; object-fit: cover;"></a></td>
+<td style="border: none;"><a href="/images/interests/photography/Bresson-2.jpg"><img src='/images/interests/photography/Bresson-2.jpg' style="width: 100%; height: 350px; object-fit: cover;"></a></td>
 </tr>
 <tr style="border: none;">
 <td colspan="2" style="border: none; text-align: center; font-size: 1.0em; color: #666; padding: 5px 0;">
@@ -47,8 +47,8 @@ redirect_from:
 
 <table style="border: none; width: 100%;">
 <tr style="border: none;">
-<td style="border: none;"><a href="/images/interests/photography/Evans-1.jpg"><img src='/images/interests/photography/Evans-1.jpg' style="width: 100%; height: 300px; object-fit: cover;"></a></td>
-<td style="border: none;"><a href="/images/interests/photography/Evans-2.jpg"><img src='/images/interests/photography/Evans-2.jpg' style="width: 100%; height: 300px; object-fit: cover;"></a></td>
+<td style="border: none;"><a href="/images/interests/photography/Evans-1.jpg"><img src='/images/interests/photography/Evans-1.jpg' style="width: 100%; height: 350px; object-fit: cover;"></a></td>
+<td style="border: none;"><a href="/images/interests/photography/Evans-2.jpg"><img src='/images/interests/photography/Evans-2.jpg' style="width: 100%; height: 350px; object-fit: cover;"></a></td>
 </tr>
 <tr style="border: none;">
 <td colspan="2" style="border: none; text-align: center; font-size: 1.0em; color: #666; padding: 5px 0;">
