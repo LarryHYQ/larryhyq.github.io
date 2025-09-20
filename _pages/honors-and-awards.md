@@ -25,9 +25,9 @@ Mathematical Contest In Modeling(数学建模竞赛)
 
 <table style="border: none; width: 100%;">
 <tr style="border: none;">
-<td style="border: none; width: 33.33%;"><a href="/images/honors-and-awards/20数模省三.jpg"><img src='/images/honors-and-awards/20数模省三.jpg' alt='2020 China Undergraduate Mathematical Contest in Modeling Zhejiang Division Third Prize' style="width: 100%; height: 200px; object-fit: cover;"></a></td>
-<td style="border: none; width: 33.33%;"><a href="/images/honors-and-awards/21数模省三.jpg"><img src='/images/honors-and-awards/21数模省三.jpg' alt='2021 China Undergraduate Mathematical Contest in Modeling Zhejiang Division Third Prize' style="width: 100%; height: 200px; object-fit: cover;"></a></td>
-<td style="border: none; width: 33.33%;"><a href="/images/honors-and-awards/ICM-M.jpg"><img src='/images/honors-and-awards/ICM-M.jpg' alt='2021 The Interdisciplinary Contest in Modeling(ICM)® Meritorious Winner' style="width: 100%; height: 200px; object-fit: cover;"></a></td>
+<td style="border: none; width: 33.33%;"><a href="/images/honors-and-awards/20数模省三.jpg"><img src='/images/honors-and-awards/20数模省三.jpg' alt='2020 China Undergraduate Mathematical Contest in Modeling Zhejiang Division Third Prize' style="width: 100%; height: 250px; object-fit: cover;"></a></td>
+<td style="border: none; width: 33.33%;"><a href="/images/honors-and-awards/21数模省三.jpg"><img src='/images/honors-and-awards/21数模省三.jpg' alt='2021 China Undergraduate Mathematical Contest in Modeling Zhejiang Division Third Prize' style="width: 100%; height: 250px; object-fit: cover;"></a></td>
+<td style="border: none; width: 33.33%;"><a href="/images/honors-and-awards/ICM-M.jpg"><img src='/images/honors-and-awards/ICM-M.jpg' alt='2021 The Interdisciplinary Contest in Modeling(ICM)® Meritorious Winner' style="width: 100%; height: 250px; object-fit: cover;"></a></td>
 </tr>
 </table>
 
@@ -82,9 +82,9 @@ Other Honors & Awards(其他奖项)
 
 <table style="border: none; width: 100%;">
 <tr style="border: none;">
-<td style="border: none; width: 25%;"><a href="/images/honors-and-awards/20数竞国三.jpg"><img src='/images/honors-and-awards/20数竞国三.jpg' alt='2020 The 12th Chinese Mathematics Competitions for College Students Third Prize' style="width: 100%; height: 200px; object-fit: cover;"></a></td>
-<td style="border: none; width: 25%;"><a href="/images/honors-and-awards/大创.jpg"><img src='/images/honors-and-awards/大创.jpg' alt='2021 National Undergraduate Training Program for Innovation and Entrepreneurship National project' style="width: 100%; height: 200px; object-fit: cover;"></a></td>
-<td style="border: none; width: 25%;"><a href="/images/honors-and-awards/华为智能基座.jpg"><img src='/images/honors-and-awards/华为智能基座.jpg' alt='2021 Ministry of Education-Huawei Smart Base Future Star' style="width: 100%; height: 200px; object-fit: cover;"></a></td>
-<td style="border: none; width: 25%;"><a href="/images/honors-and-awards/服务外包东部三.jpg"><img src='/images/honors-and-awards/服务外包东部三.jpg' alt='2022 Competition of Service Outsourcing and Entrepreneurship Innovation Eastern Division Third Prize' style="width: 100%; height: 200px; object-fit: cover;"></a></td>
+<td style="border: none; width: 25%;"><a href="/images/honors-and-awards/20数竞国三.jpg"><img src='/images/honors-and-awards/20数竞国三.jpg' alt='2020 The 12th Chinese Mathematics Competitions for College Students Third Prize' style="width: 100%; height: 250px; object-fit: cover;"></a></td>
+<td style="border: none; width: 25%;"><a href="/images/honors-and-awards/大创.jpg"><img src='/images/honors-and-awards/大创.jpg' alt='2021 National Undergraduate Training Program for Innovation and Entrepreneurship National project' style="width: 100%; height: 250px; object-fit: cover;"></a></td>
+<td style="border: none; width: 25%;"><a href="/images/honors-and-awards/华为智能基座.jpg"><img src='/images/honors-and-awards/华为智能基座.jpg' alt='2021 Ministry of Education-Huawei Smart Base Future Star' style="width: 100%; height: 250px; object-fit: cover;"></a></td>
+<td style="border: none; width: 25%;"><a href="/images/honors-and-awards/服务外包东部三.jpg"><img src='/images/honors-and-awards/服务外包东部三.jpg' alt='2022 Competition of Service Outsourcing and Entrepreneurship Innovation Eastern Division Third Prize' style="width: 100%; height: 250px; object-fit: cover;"></a></td>
 </tr>
 </table>
