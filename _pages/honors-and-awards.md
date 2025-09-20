@@ -8,8 +8,8 @@ redirect_from:
 ---
 
 
-Mathematical Contest In Modeling(数学建模竞赛)
-------
+## Mathematical Contest In Modeling(数学建模竞赛)
+
 <div style="width: 100%; margin-bottom: 5px;">
   <span>2020 China Undergraduate Mathematical Contest in Modeling</span>&nbsp;&nbsp;
   <span><strong>Zhejiang Division Third Prize</strong>&nbsp;&nbsp;<strong>浙江赛区三等奖</strong></span>
@@ -31,8 +31,7 @@ Mathematical Contest In Modeling(数学建模竞赛)
 </tr>
 </table>
 
-National University Students Intelligent Car Race(全国大学生智能汽车竞赛)
-------
+## National University Students Intelligent Car Race(全国大学生智能汽车竞赛)
 
 <div style="width: 100%; margin-bottom: 5px;">
   <span>2021 National University Students Intelligent Car Race</span>&nbsp;&nbsp;
@@ -60,8 +59,7 @@ National University Students Intelligent Car Race(全国大学生智能汽车竞
 </tr>
 </table>
 
-Other Honors & Awards(其他奖项)
-------
+## Other Honors & Awards(其他奖项)
 
 <div style="width: 100%; margin-bottom: 5px;">
   <span>2020 The 12th Chinese Mathematics Competitions for College Students</span>&nbsp;&nbsp;
