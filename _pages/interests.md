@@ -12,11 +12,11 @@ redirect_from:
 ## Photography
 
 - Humanistic Street Photographer
-- Favorite Photographer: Stephen Shore, Henri Cartier-Bresson, Walker Evans, William Eggleston.
-- Camera and Lens
+- Favorite Photographers: Stephen Shore, Henri Cartier-Bresson, Walker Evans and William Eggleston.
+- Current Cameras and Lenses:
   - Sony ILCE-7RM3
-  - Tamron 28-75mm F/2.8 Di III VXD G2 (A063)
-  - Tamron 28-200mm F/2.8-5.6 Di III RXD (A071)
+    - Tamron 28-75mm F/2.8 Di III VXD G2 (A063)
+    - Tamron 28-200mm F/2.8-5.6 Di III RXD (A071)
   - DJI Osmo Action 4
   - DJI Mavic 2 Pro HASSELBLAD
   - iPhone 16 Pro Max
@@ -49,8 +49,8 @@ redirect_from:
 
 <table style="border: none; width: 100%;">
 <tr style="border: none;">
-<td style="border: none; width: 38%"><a href="/images/interests/photography/Evans-1.jpg"><img src='/images/interests/photography/Evans-1.jpg' style="width: 100%; object-fit: cover;"></a></td>
-<td style="border: none; width: 62%"><a href="/images/interests/photography/Evans-2.jpg"><img src='/images/interests/photography/Evans-2.jpg' style="width: 100%; object-fit: cover;"></a></td>
+<td style="border: none; width: 38.2%"><a href="/images/interests/photography/Evans-1.jpg"><img src='/images/interests/photography/Evans-1.jpg' style="width: 100%; object-fit: cover;"></a></td>
+<td style="border: none; width: 61.8%"><a href="/images/interests/photography/Evans-2.jpg"><img src='/images/interests/photography/Evans-2.jpg' style="width: 100%; object-fit: cover;"></a></td>
 </tr>
 <tr style="border: none;">
 <td colspan="2" style="border: none; text-align: center; font-size: 1.0em; color: #666; padding: 5px 0;">
