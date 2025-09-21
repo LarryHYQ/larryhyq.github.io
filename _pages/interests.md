@@ -326,6 +326,7 @@ redirect_from:
 </table>
 
 <table style="border: none; width: 100%;">
+<tr style="border: none;">
 <td style="border: none; width: 50%;">
   <figure style="margin: 0;">
     <a href="/images/interests/photography/IMG_2189-HDR.jpg">
@@ -334,7 +335,6 @@ redirect_from:
     <figcaption style="text-align: center; font-size: 1.0em; color: #666; padding: 5px 0;">Jiayuguan, Jiayuguan City, Gansu, Oct. 4, 2021</figcaption>
   </figure>
 </td>
-<tr style="border: none;">
 <td style="border: none; width: 50%;">
   <figure style="margin: 0;">
     <a href="/images/interests/photography/DSC1667.jpg">
