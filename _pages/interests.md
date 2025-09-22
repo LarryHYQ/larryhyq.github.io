@@ -386,8 +386,8 @@ Still We Rise.
 <tr style="border: none;">
 <td style="border: none; width: 100%;">
   <figure style="margin: 0;">
-    <a href="/images/interests/formula1/LH44合照-Sun-1.jpg">
-      <img src='/images/interests/formula1/LH44合照-Sun-1.jpg' style="width: 100%; object-fit: cover;">
+    <a href="/images/interests/formula1/LH44合照-Sun.jpg">
+      <img src='/images/interests/formula1/LH44合照-Sun.jpg' style="width: 100%; object-fit: cover;">
     </a>
     <figcaption style="text-align: center; font-size: 1.0em; color: #666; padding: 5px 0;">Group photo of TeamLHChina, Shanghai International Circuit, Shanghai, Mar. 23, 2025</figcaption>
   </figure>
