@@ -386,7 +386,7 @@ Still We Rise.
 {: .no_toc}
 
 <div style="position:relative;padding-bottom:56.25%;width:100%;height:0;">
-  <iframe src="https://player.bilibili.com/player.html?isOutside=true&amp;aid=114222323277231&bvid=BV1sZosY8E5Y&cid=29061352328&amp;page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position:absolute;height:100%;width:100%;">
+  <iframe src="https://player.bilibili.com/player.html?isOutside=true&amp;aid=114222323277231&bvid=BV1sZosY8E5Y&cid=29061352328&amp;page=1&autoplay=0" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position:absolute;height:100%;width:100%;">
   </iframe>
 </div>
 
@@ -486,7 +486,7 @@ Still We Rise.
 {: .no_toc}
 
 <div style="position:relative;padding-bottom:75%;width:100%;height:0;">
-    <iframe src="https://player.bilibili.com/player.html?isOutside=true&amp;aid=113252348466280&bvid=BV1yi1QYuEAe&cid=26146507121&amp;page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position:absolute;height:100%;width:100%;">
+    <iframe src="https://player.bilibili.com/player.html?isOutside=true&amp;aid=113252348466280&bvid=BV1yi1QYuEAe&cid=26146507121&amp;page=1&autoplay=0" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position:absolute;height:100%;width:100%;">
     </iframe>
 </div>
 
@@ -494,7 +494,7 @@ Still We Rise.
 {: .no_toc}
 
 <div style="position:relative;padding-bottom:56.25%;width:100%;height:0;">
-    <iframe src="https://player.bilibili.com/player.html?isOutside=true&amp;aid=115203119256789&bvid=BV1VDpwziE7s&cid=32382584090&amp;page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position:absolute;height:100%;width:100%;">
+    <iframe src="https://player.bilibili.com/player.html?isOutside=true&amp;aid=115203119256789&bvid=BV1VDpwziE7s&cid=32382584090&amp;page=1&autoplay=0" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position:absolute;height:100%;width:100%;">
     </iframe>
 </div>
 
@@ -502,6 +502,6 @@ Still We Rise.
 {: .no_toc}
 
 <div style="position:relative;padding-bottom:56.25%;width:100%;height:0;">
-    <iframe src="https://player.bilibili.com/player.html?isOutside=true&amp;aid=115196693649326&bvid=BV1ijpJzXE5N&cid=32357154953&amp;page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position:absolute;height:100%;width:100%;">
+    <iframe src="https://player.bilibili.com/player.html?isOutside=true&amp;aid=115196693649326&bvid=BV1ijpJzXE5N&cid=32357154953&amp;page=1&autoplay=0" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position:absolute;height:100%;width:100%;">
     </iframe>
 </div>
