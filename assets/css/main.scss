@@ -41,13 +41,3 @@
     "vendor/font-awesome/solid",
     "vendor/font-awesome/brands"
 ;
-
-.jvectormap-container {
-  position: relative !important;
-  width: 100% !important;
-  height: auto !important;
-  max-width: 250px !important;   /* 适配 sidebar */
-  max-height: 200px !important;  /* 控制高度，避免撑满 */
-  margin: 0 auto !important;
-  overflow: hidden !important;   /* 防止溢出 */
-}
