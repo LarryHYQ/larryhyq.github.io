@@ -463,16 +463,23 @@ Still We Rise.
 
 ## Music
 
-<table style="border: none; width: 100%;">
-<tr style="border: none;">
-<td style="border: none; width: 33.33%; vertical-align: top;">
-  <iframe src="//player.bilibili.com/player.html?isOutside=true&aid=113252348466280&bvid=BV1yi1QYuEAe&cid=26146507121&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="width: 100%; height: 200px;"></iframe>
-</td>
-<td style="border: none; width: 33.33%; vertical-align: top;">
-  <iframe src="//player.bilibili.com/player.html?isOutside=true&aid=115203119256789&bvid=BV1VDpwziE7s&cid=32382584090&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="width: 100%; height: 200px;"></iframe>
-</td>
-<td style="border: none; width: 33.33%; vertical-align: top;">
-  <iframe src="//player.bilibili.com/player.html?isOutside=true&aid=115196693649326&bvid=BV1ijpJzXE5N&cid=32357154953&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="width: 100%; height: 200px;"></iframe>
-</td>
-</tr>
-</table>
+<div style="position:relative;padding-bottom:75%;width:100%;height:0;">
+    <iframe src="https://player.bilibili.com/player.html?isOutside=true&amp;aid=113252348466280&bvid=BV1yi1QYuEAe&cid=26146507121&amp;page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position:absolute;height:100%;width:100%;">
+    </iframe>
+</div>
+
+<div style="position:relative;padding-bottom:56.25%;width:100%;height:0;">
+    <iframe src="https://player.bilibili.com/player.html?isOutside=true&amp;aid=115203119256789&bvid=BV1VDpwziE7s&cid=32382584090&amp;page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position:absolute;height:100%;width:100%;">
+    </iframe>
+</div>
+
+<div style="position:relative;padding-bottom:56.25%;width:100%;height:0;">
+    <iframe src="https://player.bilibili.com/player.html?isOutside=true&amp;aid=115196693649326&bvid=BV1ijpJzXE5N&cid=32357154953&amp;page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position:absolute;height:100%;width:100%;">
+    </iframe>
+</div>
+
+<!-- <iframe src="//player.bilibili.com/player.html?isOutside=true&aid=113252348466280&bvid=BV1yi1QYuEAe&cid=26146507121&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
+
+<iframe src="//player.bilibili.com/player.html?isOutside=true&aid=115203119256789&bvid=BV1VDpwziE7s&cid=32382584090&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
+
+<iframe src="//player.bilibili.com/player.html?isOutside=true&aid=115196693649326&bvid=BV1ijpJzXE5N&cid=32357154953&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe> -->
