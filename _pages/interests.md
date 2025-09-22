@@ -378,14 +378,18 @@ redirect_from:
 
 I first watched an F1 race in 2008, when Lewis Hamilton won his first World Drivers' Championship. I wasn't very interested after that, as I was in elementary school, but Lewis Hamilton's name was deeply engraved in my mind. Later, nearing the end of middle school and having been recommended for high school, I revisited F1 in the 2015 season, witnessing the reign of Lewis and Mercedes. 2018, 2019, and 2020 are the three most unforgettable seasons for me. 2021... what can I say, that stupid FIA?
 
-In 2025, I had the privilege of joining TeamLHChina and the opportunity to attend the Shanghai International Circuit for the first time, watching the F1 Shanghai Grand Prix live and hearing the roar of the engines. By then, Lewis had shed the Mercedes Silver Arrow jersey and donned the Red Ferrari Prancing Horse jersey. Thanks to TeamLHChina's organization, I was seated in the front row of the stands, just one track away from Lewis's pit house. I was also fortunate to meet Lewis Hamilton, my hero since my youth, on the track. I was also fortunate to witness Lewis take pole position for the sprint qualifying at the F1 Shanghai Grand Prix, and then pole to win, taking the sprint championship. My Vlog has been uploaded to BiliBili. Click <a href="https://www.bilibili.com/video/BV1sZosY8E5Y/?share_source=copy_web&vd_source=0d22072f9aa0bb9ed22a0dbf32814795" target="_blank" style="text-decoration: none;">here</a> to access it.
+In 2025, I had the privilege of joining TeamLHChina and the opportunity to attend the Shanghai International Circuit for the first time, watching the F1 Shanghai Grand Prix live and hearing the roar of the engines. By then, Lewis had shed the Mercedes Silver Arrow jersey and donned the Red Ferrari Prancing Horse jersey. Thanks to TeamLHChina's organization, I was seated in the front row of the stands, just one track away from Lewis's pit house. I was also fortunate to meet Lewis Hamilton, my hero since my youth, on the track. I was also fortunate to witness Lewis take pole position for the sprint qualifying at the F1 Shanghai Grand Prix, and then pole to win, taking the sprint championship.
 
 Still We Rise.
 
-<div style="position:relative;padding-bottom:75%;width:100%;height:0;">
+### My Vlog of 2025 F1 Shanghai Grand Prix
+
+<div style="position:relative;padding-bottom:56.25%;width:100%;height:0;">
   <iframe src="https://player.bilibili.com/player.html?isOutside=true&amp;aid=114222323277231&bvid=BV1sZosY8E5Y&cid=29061352328&amp;page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position:absolute;height:100%;width:100%;">
   </iframe>
 </div>
+
+### Photos of Lewis Hamilton
 
 <table style="border: none; width: 100%;">
 <tr style="border: none;">
@@ -462,24 +466,23 @@ Still We Rise.
 
 ## Football
 
-
 ## Badminton
-
 
 ## Music
 
+### Fear and Dreams - Encore(空城计, K歌之王, 与我常在) - Hangzhou, Sept. 30, 2024 - Eason Chan(陈奕迅)
 <div style="position:relative;padding-bottom:75%;width:100%;height:0;">
     <iframe src="https://player.bilibili.com/player.html?isOutside=true&amp;aid=113252348466280&bvid=BV1yi1QYuEAe&cid=26146507121&amp;page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position:absolute;height:100%;width:100%;">
     </iframe>
 </div>
 
-
-
+### The Best Place - 爱错 - Beijing, Jun. 22, 2025 - Leehom Wang(王力宏)
 <div style="position:relative;padding-bottom:56.25%;width:100%;height:0;">
     <iframe src="https://player.bilibili.com/player.html?isOutside=true&amp;aid=115203119256789&bvid=BV1VDpwziE7s&cid=32382584090&amp;page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position:absolute;height:100%;width:100%;">
     </iframe>
 </div>
 
+### The Best Place - 你不知道的事 - Beijing, Jun. 22, 2025 - Leehom Wang(王力宏)
 <div style="position:relative;padding-bottom:56.25%;width:100%;height:0;">
     <iframe src="https://player.bilibili.com/player.html?isOutside=true&amp;aid=115196693649326&bvid=BV1ijpJzXE5N&cid=32357154953&amp;page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position:absolute;height:100%;width:100%;">
     </iframe>
