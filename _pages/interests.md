@@ -382,6 +382,47 @@ In 2025, I had the privilege of joining TeamLHChina and the opportunity to atten
 
 Still We Rise.
 
+<table style="border: none; width: 100%;">
+<tr style="border: none;">
+<td style="border: none; width: 100%;">
+  <figure style="margin: 0;">
+    <a href="/images/interests/formula1/LH44合照-Sun-1.jpg">
+      <img src='/images/interests/formula1/LH44合照-Sun-1.jpg' style="width: 100%; object-fit: cover;">
+    </a>
+    <figcaption style="text-align: center; font-size: 1.0em; color: #666; padding: 5px 0;">Group photo of TeamLHChina, Shanghai International Circuit, Shanghai, Mar. 23, 2025</figcaption>
+  </figure>
+</td>
+</tr>
+</table>
+
+<table style="border: none; width: 100%;">
+<tr style="border: none;">
+<td style="border: none; width: 50%;">
+  <figure style="margin: 0;">
+    <a href="/images/interests/formula1/DSC4867.jpg">
+      <img src='/images/interests/formula1/DSC4867.jpg' style="width: 100%; object-fit: cover;">
+    </a>
+    <figcaption style="text-align: center; font-size: 1.0em; color: #666; padding: 5px 0;">Shanghai International Circuit, Shanghai, Mar. 21, 2025</figcaption>
+  </figure>
+</td>
+<td style="border: none; width: 50%;">
+  <figure style="margin: 0;">
+    <a href="/images/interests/formula1/DSC5343.jpg">
+      <img src='/images/interests/formula1/DSC5343.jpg' style="width: 100%; object-fit: cover;">
+    </a>
+    <figcaption style="text-align: center; font-size: 1.0em; color: #666; padding: 5px 0;">Shanghai International Circuit, Shanghai, Mar. 22, 2025</figcaption>
+  </figure>
+</td>
+</tr>
+</table>
+
+<table style="border: none; width: 100%;">
+<tr style="border: none;">
+<td style="border: none; width: 66%;"><a href="/images/interests/formula1/25Shanghai-Fri.jpg"><img src='/images/interests/formula1/25Shanghai-Fri.jpg' style="width: 100%; object-fit: cover;"></a></td>
+<td style="border: none; width: 34%;"><a href="/images/interests/formula1/2025Shanghai-Sat.jpg"><img src='/images/interests/formula1/2025Shanghai-Sat.jpg' style="width: 100%; object-fit: cover;"></a></td>
+</tr>
+</table>
+
 ## Football
 
 
