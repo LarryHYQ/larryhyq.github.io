@@ -382,6 +382,11 @@ In 2025, I had the privilege of joining TeamLHChina and the opportunity to atten
 
 Still We Rise.
 
+<div style="position:relative;padding-bottom:75%;width:100%;height:0;">
+  <iframe src="https://player.bilibili.com/player.html?isOutside=true&amp;aid=114222323277231&bvid=BV1sZosY8E5Y&cid=29061352328&amp;page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position:absolute;height:100%;width:100%;">
+  </iframe>
+</div>
+
 <table style="border: none; width: 100%;">
 <tr style="border: none;">
 <td style="border: none; width: 100%;">
@@ -463,28 +468,22 @@ Still We Rise.
 
 ## Music
 
-<table style="border: none; width: 100%;">
-<tr style="border: none;">
-<td style="border: none; width: 33.33%; vertical-align: top;">
-  <div style="position:relative;padding-bottom:75%;width:100%;height:0;">
+<div style="position:relative;padding-bottom:75%;width:100%;height:0;">
     <iframe src="https://player.bilibili.com/player.html?isOutside=true&amp;aid=113252348466280&bvid=BV1yi1QYuEAe&cid=26146507121&amp;page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position:absolute;height:100%;width:100%;">
     </iframe>
-  </div>
-</td>
-<td style="border: none; width: 33.33%; vertical-align: top;">
-  <div style="position:relative;padding-bottom:75%;width:100%;height:0;">
+</div>
+
+
+
+<div style="position:relative;padding-bottom:56.25%;width:100%;height:0;">
     <iframe src="https://player.bilibili.com/player.html?isOutside=true&amp;aid=115203119256789&bvid=BV1VDpwziE7s&cid=32382584090&amp;page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position:absolute;height:100%;width:100%;">
     </iframe>
-  </div>
-</td>
-<td style="border: none; width: 33.33%; vertical-align: top;">
-  <div style="position:relative;padding-bottom:75%;width:100%;height:0;">
+</div>
+
+<div style="position:relative;padding-bottom:56.25%;width:100%;height:0;">
     <iframe src="https://player.bilibili.com/player.html?isOutside=true&amp;aid=115196693649326&bvid=BV1ijpJzXE5N&cid=32357154953&amp;page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position:absolute;height:100%;width:100%;">
     </iframe>
-  </div>
-</td>
-</tr>
-</table>
+</div>
 
 <!-- <iframe src="//player.bilibili.com/player.html?isOutside=true&aid=113252348466280&bvid=BV1yi1QYuEAe&cid=26146507121&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
 
