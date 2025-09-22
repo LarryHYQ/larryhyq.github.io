@@ -22,15 +22,18 @@
     {% endif %}
   {% endif %}
   <script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=fMpC7E1DOxihNe0lw6ulVcp7WeUjmTPI_e-dGrf7VpA&cl=ffffff&w=a"></script>
-  <!-- 覆盖 ClustrMaps 默认样式 -->
   <style>
-    .sidebar .jvectormap-container {
-      position: relative !important;
-      width: 100% !important;
-      height: auto !important;
-      max-width: 250px;   /* 适配 sidebar 宽度 */
-      margin: 0 auto;
-    }
+  /* 强力覆盖 ClustrMaps 默认样式 */
+  html body .jvectormap-container,
+  html body div.jvectormap-container {
+    position: relative !important;
+    width: 100% !important;
+    height: auto !important;
+    max-width: 250px !important;  /* 调整为适合 sidebar 的宽度 */
+    max-height: 200px !important; /* 如果需要限制高度可以加上 */
+    margin: 0 auto !important;
+    overflow: hidden !important;  /* 防止溢出 */
+  }
   </style>
   </div>
 {% endif %}
