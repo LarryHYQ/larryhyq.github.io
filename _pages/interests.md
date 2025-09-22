@@ -378,7 +378,7 @@ redirect_from:
 
 I first watched an F1 race in 2008, when Lewis Hamilton won his first World Drivers' Championship. I wasn't very interested after that, as I was in elementary school, but Lewis Hamilton's name was deeply engraved in my mind. Later, nearing the end of middle school and having been recommended for high school, I revisited F1 in the 2015 season, witnessing the reign of Lewis and Mercedes. 2018, 2019, and 2020 are the three most unforgettable seasons for me. 2021... what can I say, that stupid FIA?
 
-In 2025, I had the privilege of joining TeamLHChina and the opportunity to attend the Shanghai International Circuit for the first time, watching the F1 Shanghai Grand Prix live and hearing the roar of the engines. By then, Lewis had shed the Mercedes Silver Arrow jersey and donned the Red Ferrari Prancing Horse jersey. Thanks to TeamLHChina's organization, I was seated in the front row of the stands, just one track away from Lewis's pit house. I was also fortunate to meet Lewis Hamilton, my hero since my youth, on the track. I was also fortunate to witness Lewis take pole position for the sprint qualifying at the F1 Shanghai Grand Prix, and then pole to win, taking the sprint championship.
+In 2025, I had the privilege of joining TeamLHChina and the opportunity to attend the Shanghai International Circuit for the first time, watching the F1 Shanghai Grand Prix live and hearing the roar of the engines. By then, Lewis had shed the Mercedes Silver Arrow jersey and donned the Red Ferrari Prancing Horse jersey. Thanks to TeamLHChina's organization, I was seated in the front row of the stands, just one track away from Lewis's pit house. I was also fortunate to meet Lewis Hamilton, my hero since my youth, on the track. I was also fortunate to witness Lewis take pole position for the sprint qualifying at the F1 Shanghai Grand Prix, and then pole to win, taking the sprint championship. My Vlog has been uploaded to BiliBili. Click <a href="https://www.bilibili.com/video/BV1sZosY8E5Y/?share_source=copy_web&vd_source=0d22072f9aa0bb9ed22a0dbf32814795" target="_blank" style="text-decoration: none;">here</a> to access it.
 
 Still We Rise.
 
@@ -418,22 +418,8 @@ Still We Rise.
 
 <table style="border: none; width: 100%;">
 <tr style="border: none;">
-<td style="border: none; width: 66%;">
-  <figure style="margin: 0;">
-    <a href="/images/interests/formula1/25Shanghai-Fri.jpg">
-      <img src='/images/interests/formula1/25Shanghai-Fri.jpg' style="width: 100%; object-fit: cover;">
-    </a>
-    <figcaption style="text-align: center; font-size: 1.0em; color: #666; padding: 5px 0;">Shanghai International Circuit, Shanghai, Mar. 21, 2025</figcaption>
-  </figure>
-</td>
-<td style="border: none; width: 34%;">
-  <figure style="margin: 0;">
-    <a href="/images/interests/formula1/2025Shanghai-Sat.jpg">
-      <img src='/images/interests/formula1/2025Shanghai-Sat.jpg' style="width: 100%; object-fit: cover;">
-    </a>
-    <figcaption style="text-align: center; font-size: 1.0em; color: #666; padding: 5px 0;">Shanghai International Circuit, Shanghai, Mar. 22, 2025</figcaption>
-  </figure>
-</td>
+<td style="border: none; width: 66%;"><a href="/images/interests/formula1/25Shanghai-Fri.jpg"><img src='/images/interests/formula1/25Shanghai-Fri.jpg' style="width: 100%; object-fit: cover;"></a></td>
+<td style="border: none; width: 34%;"><a href="/images/interests/formula1/2025Shanghai-Sat.jpg"><img src='/images/interests/formula1/2025Shanghai-Sat.jpg' style="width: 100%; object-fit: cover;"></a></td>
 </tr>
 </table>
 
