@@ -382,6 +382,8 @@ In 2025, I had the privilege of joining TeamLHChina and the opportunity to atten
 
 Still We Rise.
 
+<iframe src="//player.bilibili.com/player.html?isOutside=true&aid=114222323277231&bvid=BV1sZosY8E5Y&cid=29061352328&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
+
 <table style="border: none; width: 100%;">
 <tr style="border: none;">
 <td style="border: none; width: 100%;">
