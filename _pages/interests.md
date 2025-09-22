@@ -382,14 +382,9 @@ In 2025, I had the privilege of joining TeamLHChina and the opportunity to atten
 
 Still We Rise.
 
-
-
 <table style="border: none; width: 100%;">
 <tr style="border: none;">
-<td style="border: none; width: 50%;">
-  <iframe src="//player.bilibili.com/player.html?isOutside=true&aid=114222323277231&bvid=BV1sZosY8E5Y&cid=29061352328&p=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"></iframe>
-</td>
-<td style="border: none; width: 50%;">
+<td style="border: none; width: 100%;">
   <figure style="margin: 0;">
     <a href="/images/interests/formula1/LH44groupphoto-Sun.jpg">
       <img src='/images/interests/formula1/LH44groupphoto-Sun.jpg' style="width: 100%; object-fit: cover;">
