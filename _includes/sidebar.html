@@ -21,6 +21,10 @@
       {% include nav_list nav=page.sidebar.nav %}
     {% endif %}
   {% endif %}
-  <script type="text/javascript" id="clustrmaps" src="//clustrmaps.com/map_v2.js?d=fMpC7E1DOxihNe0lw6ulVcp7WeUjmTPI_e-dGrf7VpA&cl=ffffff&w=a"></script>
+  <!-- Clustrmaps 容器 -->
+  <div id="clustrmaps-container" style="height: 200px; margin-top: 20px;">
+    <a href="http://clustrmaps.com/site/1c800" target="_top" id="clustrmaps-link" style="display: none;"></a>
+    <div id="clustrmaps-widget"></div>
+  </div>
   </div>
 {% endif %}

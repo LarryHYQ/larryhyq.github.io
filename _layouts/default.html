@@ -26,6 +26,44 @@ layout: compress
     </div>
 
     {% include scripts.html %}
-
+  <!-- Clustrmaps 脚本 - 放置在body底部 -->
+  <script>
+  // 等待页面完全加载
+  window.addEventListener('load', function() {
+    // 创建脚本元素
+    var script = document.createElement('script');
+    script.type = 'text/javascript';
+    script.id = 'clustrmaps';
+    script.src = '//clustrmaps.com/map_v2.js?d=fMpC7E1DOxihNe0lw6ulVcp7WeUjmTPI_e-dGrf7VpA&cl=ffffff&w=a';
+    
+    // 将脚本添加到文档底部
+    document.body.appendChild(script);
+    
+    // 监听脚本加载完成
+    script.onload = function() {
+      // 查找并处理所有样式元素
+      var styleElements = document.querySelectorAll('style');
+      styleElements.forEach(function(style) {
+        // 如果样式包含Clustrmaps相关样式，确保它们被正确放置在head中
+        if (style.textContent.includes('jvectormap-container') || 
+            style.textContent.includes('clustrmaps')) {
+          // 如果样式不在head中，移动到head
+          if (style.parentNode !== document.head) {
+            document.head.appendChild(style);
+          }
+        }
+      });
+      
+      // 移除任何可能被当作文本显示的CSS代码
+      var allElements = document.querySelectorAll('*');
+      allElements.forEach(function(element) {
+        if (element.nodeType === 3 && 
+            element.textContent.includes('jvectormap-container')) {
+          element.parentNode.removeChild(element);
+        }
+      });
+    };
+  });
+  </script>
   </body>
 </html>
