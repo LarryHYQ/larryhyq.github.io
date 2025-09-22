@@ -495,3 +495,10 @@ Still We Rise.
     <iframe src="https://player.bilibili.com/player.html?isOutside=true&amp;aid=115196693649326&bvid=BV1ijpJzXE5N&cid=32357154953&amp;page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position:absolute;height:100%;width:100%;">
     </iframe>
 </div>
+
+
+<iframe src="https://jx.playerjy.com/?url=https://www.bilibili.com/video/BV1ijpJzXE5N"
+    frameborder="no" scrolling="no"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+    allowfullscreen="true">
+</iframe>
