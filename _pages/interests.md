@@ -373,8 +373,13 @@ redirect_from:
 
 ## Formula 1
 
-- Favorite Driver: <a href="https://www.instagram.com/lewishamilton/" target="_blank" style="text-decoration: none;">**Lewis Hamilton**</a>
-- Favorite Team: <a href="https://www.mercedesamgf1.com/" target="_blank" style="text-decoration: none;">**Mercedes-AMG Petronas F1 Team**</a>, <a href="https://www.ferrari.com/en-EN/formula1" target="_blank" style="text-decoration: none;">**Scuderia Ferrari**</a> (Emmm...Only Dowry Fans🙂)
+### Favorite Driver
+{: .no_toc}
+<a href="https://www.instagram.com/lewishamilton/" target="_blank" style="text-decoration: none;">**Lewis Hamilton**</a>
+
+### Favorite Team
+{: .no_toc}
+<a href="https://www.mercedesamgf1.com/" target="_blank" style="text-decoration: none;">**Mercedes-AMG Petronas F1 Team**</a>, <a href="https://www.ferrari.com/en-EN/formula1" target="_blank" style="text-decoration: none;">**Scuderia Ferrari**</a> (Emmm...Only Dowry Fans🙂)
 
 I first watched an F1 race in 2008, when Lewis Hamilton won his first World Drivers' Championship. I wasn't very interested after that, as I was in elementary school, but Lewis Hamilton's name was deeply engraved in my mind. Later, nearing the end of middle school and having been recommended for high school, I revisited F1 in the 2015 season, witnessing the reign of Lewis and Mercedes. 2018, 2019, and 2020 are the three most unforgettable seasons for me. 2021... what can I say, that stupid FIA?
 
