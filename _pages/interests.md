@@ -472,10 +472,12 @@ Still We Rise.
 
 ## Music
 
-**Favorite Singers:** Eason Chan(陈奕迅), Leehom Wang(王力宏)
+### Favorite Singers
+{: .no_toc}
+ <a href="https://www.instagram.com/mreasonchan/" target="_blank" style="text-decoration: none;">Eason Chan(陈奕迅)</a>, <a href="https://www.instagram.com/wangleehom/" target="_blank" style="text-decoration: none;">Leehom Wang(王力宏)</a>
 
-**Favorite Albums:**
-
+### Favorite Albums
+{: .no_toc}
 *Eason Chan(陈奕迅)*
 > <span style="font-style: normal;">《与我常在》（1997）；《我的快乐时代》（1998）；《Shall We Dance? Shall We Talk》（2001）；《U87》（2005）；《认了吧》（2007）；《H<sup>3</sup>M》（2009）；《Time Flies》（2010）；《The Key》（2013）；《准备中》（2015）；《L.O.V.E.》（2018）；《CHIN UP!》（2023）</span>
 
