@@ -565,9 +565,9 @@ Club Team: <a href="https://fcbayern.com/" target="_blank" style="text-decoratio
 
 <table style="border: none; width: 100%;">
 <tr style="border: none;">
-<td style="border: none; width: 37.5%;"><a href="/images/interests/badminton/lindan-2.jpg"><img src='/images/interests/badminton/lindan-2.jpg' style="width: 100%; object-fit: cover;"></a></td>
-<td style="border: none; width: 37.5%;"><a href="/images/interests/badminton/lindan-3.jpg"><img src='/images/interests/badminton/lindan-3.jpg' style="width: 100%; object-fit: cover;"></a></td>
-<td style="border: none; width: 25%;"><a href="/images/interests/badminton/lindan-1.jpg"><img src='/images/interests/badminton/lindan-1.jpg' style="width: 100%; object-fit: cover;"></a></td>
+<td style="border: none; width: 40.9%;"><a href="/images/interests/badminton/lindan-2.jpg"><img src='/images/interests/badminton/lindan-2.jpg' style="width: 100%; object-fit: cover;"></a></td>
+<td style="border: none; width: 40.9%;"><a href="/images/interests/badminton/lindan-3.jpg"><img src='/images/interests/badminton/lindan-3.jpg' style="width: 100%; object-fit: cover;"></a></td>
+<td style="border: none; width: 18.2%;"><a href="/images/interests/badminton/lindan-1.jpg"><img src='/images/interests/badminton/lindan-1.jpg' style="width: 100%; object-fit: cover;"></a></td>
 </tr>
 <tr style="border: none;">
 <td colspan="3" style="border: none; text-align: center; font-size: 1.0em; color: #666; padding: 5px 0;">
@@ -578,9 +578,9 @@ Club Team: <a href="https://fcbayern.com/" target="_blank" style="text-decoratio
 
 <table style="border: none; width: 100%;">
 <tr style="border: none;">
-<td style="border: none; width: 37.5%;"><a href="/images/interests/badminton/leechongwei-2.jpg"><img src='/images/interests/badminton/leechongwei-2.jpg' style="width: 100%; object-fit: cover;"></a></td>
-<td style="border: none; width: 37.5%;"><a href="/images/interests/badminton/leechongwei-3.jpg"><img src='/images/interests/badminton/leechongwei-3.jpg' style="width: 100%; object-fit: cover;"></a></td>
-<td style="border: none; width: 25%;"><a href="/images/interests/badminton/leechongwei-1.jpg"><img src='/images/interests/badminton/leechongwei-1.jpg' style="width: 100%; object-fit: cover;"></a></td>
+<td style="border: none; width: 40.9%;"><a href="/images/interests/badminton/leechongwei-2.jpg"><img src='/images/interests/badminton/leechongwei-2.jpg' style="width: 100%; object-fit: cover;"></a></td>
+<td style="border: none; width: 40.9%;"><a href="/images/interests/badminton/leechongwei-3.jpg"><img src='/images/interests/badminton/leechongwei-3.jpg' style="width: 100%; object-fit: cover;"></a></td>
+<td style="border: none; width: 18.2%;"><a href="/images/interests/badminton/leechongwei-1.jpg"><img src='/images/interests/badminton/leechongwei-1.jpg' style="width: 100%; object-fit: cover;"></a></td>
 </tr>
 <tr style="border: none;">
 <td colspan="3" style="border: none; text-align: center; font-size: 1.0em; color: #666; padding: 5px 0;">
@@ -591,9 +591,9 @@ Club Team: <a href="https://fcbayern.com/" target="_blank" style="text-decoratio
 
 <table style="border: none; width: 100%;">
 <tr style="border: none;">
-<td style="border: none; width: 37.5%;"><a href="/images/interests/badminton/momota-3.jpg"><img src='/images/interests/badminton/momota-3.jpg' style="width: 100%; object-fit: cover;"></a></td>
-<td style="border: none; width: 37.5%;"><a href="/images/interests/badminton/momota-1.jpg"><img src='/images/interests/badminton/momota-1.jpg' style="width: 100%; object-fit: cover;"></a></td>
-<td style="border: none; width: 25%;"><a href="/images/interests/badminton/momota-2.jpg"><img src='/images/interests/badminton/momota-2.jpg' style="width: 100%; object-fit: cover;"></a></td>
+<td style="border: none; width: 40.9%;"><a href="/images/interests/badminton/momota-3.jpg"><img src='/images/interests/badminton/momota-3.jpg' style="width: 100%; object-fit: cover;"></a></td>
+<td style="border: none; width: 40.9%;"><a href="/images/interests/badminton/momota-1.jpg"><img src='/images/interests/badminton/momota-1.jpg' style="width: 100%; object-fit: cover;"></a></td>
+<td style="border: none; width: 18.2%;"><a href="/images/interests/badminton/momota-2.jpg"><img src='/images/interests/badminton/momota-2.jpg' style="width: 100%; object-fit: cover;"></a></td>
 </tr>
 <tr style="border: none;">
 <td colspan="3" style="border: none; text-align: center; font-size: 1.0em; color: #666; padding: 5px 0;">
@@ -604,9 +604,9 @@ Club Team: <a href="https://fcbayern.com/" target="_blank" style="text-decoratio
 
 <table style="border: none; width: 100%;">
 <tr style="border: none;">
-<td style="border: none; width: 37.5%;"><a href="/images/interests/badminton/shiyuqi-1.jpg"><img src='/images/interests/badminton/shiyuqi-1.jpg' style="width: 100%; object-fit: cover;"></a></td>
-<td style="border: none; width: 37.5%;"><a href="/images/interests/badminton/shiyuqi-2.jpg"><img src='/images/interests/badminton/shiyuqi-2.jpg' style="width: 100%; object-fit: cover;"></a></td>
-<td style="border: none; width: 25%;"><a href="/images/interests/badminton/shiyuqi-3.jpg"><img src='/images/interests/badminton/shiyuqi-3.jpg' style="width: 100%; object-fit: cover;"></a></td>
+<td style="border: none; width: 40.9%;"><a href="/images/interests/badminton/shiyuqi-1.jpg"><img src='/images/interests/badminton/shiyuqi-1.jpg' style="width: 100%; object-fit: cover;"></a></td>
+<td style="border: none; width: 40.9%;"><a href="/images/interests/badminton/shiyuqi-2.jpg"><img src='/images/interests/badminton/shiyuqi-2.jpg' style="width: 100%; object-fit: cover;"></a></td>
+<td style="border: none; width: 18.2%;"><a href="/images/interests/badminton/shiyuqi-3.jpg"><img src='/images/interests/badminton/shiyuqi-3.jpg' style="width: 100%; object-fit: cover;"></a></td>
 </tr>
 <tr style="border: none;">
 <td colspan="3" style="border: none; text-align: center; font-size: 1.0em; color: #666; padding: 5px 0;">
