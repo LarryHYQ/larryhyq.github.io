@@ -11,19 +11,25 @@ redirect_from:
 
 ## Photography
 
-- Humanistic Street Photographer
-- Favorite Photographers:
-  - Stephen Shore
-  - Henri Cartier-Bresson
-  - Walker Evans
-  - William Eggleston
-- Current Cameras and Lenses:
-  - Sony ILCE-7RM3
-    - Tamron 28-75mm F/2.8 Di III VXD G2 (A063)
-    - Tamron 28-200mm F/2.8-5.6 Di III RXD (A071)
-  - DJI Osmo Action 4
-  - DJI Mavic 2 Pro HASSELBLAD
-  - iPhone 16 Pro Max
+### Humanistic Street Photographer
+{: .no_toc}
+
+### Favorite Photographers:
+{: .no_toc}
+
+- Stephen Shore
+- Henri Cartier-Bresson
+- Walker Evans
+- William Eggleston
+
+### Current Cameras and Lenses:
+{: .no_toc}
+- Sony ILCE-7RM3
+  - Tamron 28-75mm F/2.8 Di III VXD G2 (A063)
+  - Tamron 28-200mm F/2.8-5.6 Di III RXD (A071)
+- DJI Osmo Action 4
+- DJI Mavic 2 Pro HASSELBLAD
+- iPhone 16 Pro Max
 
 ### Photography Masterpieces
 
@@ -373,11 +379,11 @@ redirect_from:
 
 ## Formula 1
 
-### Favorite Driver
+### Favorite Driver:
 {: .no_toc}
 <a href="https://www.instagram.com/lewishamilton/" target="_blank" style="text-decoration: none;">**Lewis Hamilton**</a>
 
-### Favorite Team
+### Favorite Team:
 {: .no_toc}
 <a href="https://www.mercedesamgf1.com/" target="_blank" style="text-decoration: none;">**Mercedes-AMG Petronas F1 Team**</a>, <a href="https://www.ferrari.com/en-EN/formula1" target="_blank" style="text-decoration: none;">**Scuderia Ferrari**</a> (Emmm...Only Dowry Fans🙂)
 
@@ -473,7 +479,7 @@ Still We Rise.
 
 ## Football
 
-### Favorite Team
+### Favorite Team:
 {: .no_toc}
 National Team: <a href="https://www.dfb.de/" target="_blank" style="text-decoration: none;">**Die deutsche Fußballnationalmannschaft 🇩🇪**</a> from 2006
 
@@ -481,7 +487,7 @@ Club Team: <a href="https://fcbayern.com/" target="_blank" style="text-decoratio
 
 **Mia San Mia!!!**
 
-### Favorite Players
+### Favorite Players:
 {: .no_toc}
 **Thomas Müller**, **Philipp Lahm**, **Manuel Neuer**, **Bastian Schweinsteiger**, **Miroslav Klose**, **Toni Kroos**, **Mario Götze**, **Mats Hummels**, **Jerome Boateng**, **Joshua Kimmich**, **Jamal Musiala**.
 
@@ -537,11 +543,11 @@ Club Team: <a href="https://fcbayern.com/" target="_blank" style="text-decoratio
 
 ## Music
 
-### Favorite Singers
+### Favorite Singers:
 {: .no_toc}
  <a href="https://www.instagram.com/mreasonchan/" target="_blank" style="text-decoration: none;">Eason Chan(陈奕迅)</a>, <a href="https://www.instagram.com/wangleehom/" target="_blank" style="text-decoration: none;">Leehom Wang(王力宏)</a>
 
-### Favorite Albums
+### Favorite Albums:
 {: .no_toc}
 **Eason Chan(陈奕迅)**
 > <span style="font-style: normal;">《与我常在》（1997）；《我的快乐时代》（1998）；《Shall We Dance? Shall We Talk》（2001）；《U87》（2005）；《认了吧》（2007）；《H<sup>3</sup>M》（2009）；《Time Flies》（2010）；《The Key》（2013）；《准备中》（2015）；《L.O.V.E.》（2018）；《CHIN UP!》（2023）</span>
