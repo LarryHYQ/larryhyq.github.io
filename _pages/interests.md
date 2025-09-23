@@ -460,8 +460,8 @@ Still We Rise.
 <table style="border: none; width: 100%;">
 <tr style="border: none;">
 <td style="border: none; width: 25%;"><a href="/images/interests/formula1/20Spa.jpg"><img src='/images/interests/formula1/20Spa.jpg' style="width: 100%; object-fit: cover;"></a></td>
-<td style="border: none; width: 25%;"><a href="/images/interests/formula1/24Abu.jpg"><img src='/images/interests/formula1/24Abu.jpg' style="width: 100%; object-fit: cover;"></a></td>
 <td style="border: none; width: 25%;"><a href="/images/interests/formula1/2024Sliverstone.jpg"><img src='/images/interests/formula1/2024Sliverstone.jpg' style="width: 100%; object-fit: cover;"></a></td>
+<td style="border: none; width: 25%;"><a href="/images/interests/formula1/24Abu.jpg"><img src='/images/interests/formula1/24Abu.jpg' style="width: 100%; object-fit: cover;"></a></td>
 <td style="border: none; width: 25%;"><a href="/images/interests/formula1/2025Monza.jpg"><img src='/images/interests/formula1/2025Monza.jpg' style="width: 100%; object-fit: cover;"></a></td>
 </tr>
 </table>
@@ -481,6 +481,37 @@ Still We Rise.
 
 *Leehom Wang(王力宏)*
 > <span style="font-style: normal;">《公转自转》（1998）；《不可能错过你》（1999）；《唯一》（2001）；《心中的日月》（2004）；《盖世英雄》（2005）；《改变自己》（2007）；《心·跳》（2008）；《十八般武艺》（2010）；《火力全开》（2011）；《A.I. 爱》（2017）</span>
+
+
+### Concert Posters
+{: .no_toc}
+<table style="border: none; width: 100%;">
+<tr style="border: none;">
+<td style="border: none; width: 33.3%;"><a href="/images/interests/music/Eason-Hangzhou.jpg"><img src='/images/interests/music/Eason-Hangzhou.jpg' style="width: 100%; object-fit: cover;"></a></td>
+<td style="border: none; width: 33.3%;"><a href="/images/interests/music/Leehom-Beijing.jpg"><img src='/images/interests/music/Leehom-Beijing.jpg' style="width: 100%; object-fit: cover;"></a></td>
+<td style="border: none; width: 33.3%;"><a href="/images/interests/music/Leehom-Ningbo.jpg"><img src='/images/interests/music/Leehom-Ningbo.jpg' style="width: 100%; object-fit: cover;"></a></td>
+</tr>
+</table>
+
+### Fear and Dreams - Hangzhou, Sept. 30, 2024 - Eason Chan(陈奕迅) - Concert Photos
+{: .no_toc}
+<table style="border: none; width: 100%;">
+<tr style="border: none;">
+<td style="border: none; width: 36%;"><a href="/images/interests/music/Eason-Hangzhou-1.jpg"><img src='/images/interests/music/Eason-Hangzhou-1.jpg' style="width: 100%; object-fit: cover;"></a></td>
+<td style="border: none; width: 32%;"><a href="/images/interests/music/IMG_20240930_202924.jpg"><img src='/images/interests/music/IMG_20240930_202924.jpg' style="width: 100%; object-fit: cover;"></a></td>
+<td style="border: none; width: 32%;"><a href="/images/interests/music/IMG_20240930_213837.jpg"><img src='/images/interests/music/IMG_20240930_213837.jpg' style="width: 100%; object-fit: cover;"></a></td>
+</tr>
+</table>
+
+### The Best Place - Beijing, Jun. 22, 2025 - Leehom Wang(王力宏) - Concert Photos
+{: .no_toc}
+<table style="border: none; width: 100%;">
+<tr style="border: none;">
+<td style="border: none; width: 29.6%;"><a href="/images/interests/music/Leehom-Beijing-1.jpg"><img src='/images/interests/music/Leehom-Beijing-1.jpg' style="width: 100%; object-fit: cover;"></a></td>
+<td style="border: none; width: 35.2%;"><a href="/images/interests/music/IMG_3305.jpg"><img src='/images/interests/music/IMG_3305.jpg' style="width: 100%; object-fit: cover;"></a></td>
+<td style="border: none; width: 35.2%;"><a href="/images/interests/music/IMG_3417.jpg"><img src='/images/interests/music/IMG_3417.jpg' style="width: 100%; object-fit: cover;"></a></td>
+</tr>
+</table>
 
 ### Fear and Dreams - Encore(空城计, K歌之王, 与我常在) - Hangzhou, Sept. 30, 2024 - Eason Chan(陈奕迅)
 {: .no_toc}
