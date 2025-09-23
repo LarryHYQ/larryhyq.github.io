@@ -482,13 +482,11 @@ Club Team: <a href="https://fcbayern.com/" target="_blank" style="text-decoratio
 
 <table style="border: none; width: 100%;">
 <tr style="border: none;">
-<td style="border: none; width: 25%;"><a href="/images/interests/football/IMG_4536.jpg"><img src='/images/interests/football/IMG_4536.jpg' style="width: 100%; object-fit: cover;"></a></td>
-<td style="border: none; width: 25%;"><a href="/images/interests/football/IMG_4535.jpg"><img src='/images/interests/football/IMG_4535.jpg' style="width: 100%; object-fit: cover;"></a></td>
-<td style="border: none; width: 25%;"><a href="/images/interests/football/IMG_4534.jpg"><img src='/images/interests/football/IMG_4534.jpg' style="width: 100%; object-fit: cover;"></a></td>
-<td style="border: none; width: 25%;"><a href="/images/interests/football/IMG_4533.jpg"><img src='/images/interests/football/IMG_4533.jpg' style="width: 100%; object-fit: cover;"></a></td>
+<td style="border: none; width: 50%;"><a href="/images/interests/football/IMG_4536.jpg"><img src='/images/interests/football/IMG_4536.jpg' style="width: 100%; object-fit: cover;"></a></td>
+<td style="border: none; width: 50%;"><a href="/images/interests/football/IMG_4535.jpg"><img src='/images/interests/football/IMG_4535.jpg' style="width: 100%; object-fit: cover;"></a></td>
 </tr>
 <tr style="border: none;">
-<td colspan="4" style="border: none; text-align: center; font-size: 1.0em; color: #666; padding: 5px 0;">
+<td colspan="2" style="border: none; text-align: center; font-size: 1.0em; color: #666; padding: 5px 0;">
   2014 FIFA World Cup Champion
 </td>
 </tr>
@@ -496,14 +494,36 @@ Club Team: <a href="https://fcbayern.com/" target="_blank" style="text-decoratio
 
 <table style="border: none; width: 100%;">
 <tr style="border: none;">
-<td style="border: none; width: 25%;"><a href="/images/interests/football/IMG_4527.jpg"><img src='/images/interests/football/IMG_4527.jpg' style="width: 100%; object-fit: cover;"></a></td>
-<td style="border: none; width: 25%;"><a href="/images/interests/football/IMG_4528.jpg"><img src='/images/interests/football/IMG_4528.jpg' style="width: 100%; object-fit: cover;"></a></td>
-<td style="border: none; width: 25%;"><a href="/images/interests/football/IMG_4529.jpg"><img src='/images/interests/football/IMG_4529.jpg' style="width: 100%; object-fit: cover;"></a></td>
-<td style="border: none; width: 25%;"><a href="/images/interests/football/IMG_4531.jpg"><img src='/images/interests/football/IMG_4531.jpg' style="width: 100%; object-fit: cover;"></a></td>
+<td style="border: none; width: 50%;"><a href="/images/interests/football/IMG_4534.jpg"><img src='/images/interests/football/IMG_4534.jpg' style="width: 100%; object-fit: cover;"></a></td>
+<td style="border: none; width: 50%;"><a href="/images/interests/football/IMG_4533.jpg"><img src='/images/interests/football/IMG_4533.jpg' style="width: 100%; object-fit: cover;"></a></td>
+</tr>
+<tr style="border: none;">
+<td colspan="2" style="border: none; text-align: center; font-size: 1.0em; color: #666; padding: 5px 0;">
+  2014 FIFA World Cup Champion
+</td>
+</tr>
+</table>
+
+<table style="border: none; width: 100%;">
+<tr style="border: none;">
+<td style="border: none; width: 50%;"><a href="/images/interests/football/IMG_4527.jpg"><img src='/images/interests/football/IMG_4527.jpg' style="width: 100%; object-fit: cover;"></a></td>
+<td style="border: none; width: 50%;"><a href="/images/interests/football/IMG_4528.jpg"><img src='/images/interests/football/IMG_4528.jpg' style="width: 100%; object-fit: cover;"></a></td>
 </tr>
 <tr style="border: none;">
 <td colspan="4" style="border: none; text-align: center; font-size: 1.0em; color: #666; padding: 5px 0;">
-  2012/13 UEFA Champions League Champion(Left two), 2019/20 UEFA Champions League Champion(Right two)
+  2012/13 UEFA Champions League Champion
+</td>
+</tr>
+</table>
+
+<table style="border: none; width: 100%;">
+<tr style="border: none;">
+<td style="border: none; width: 50%;"><a href="/images/interests/football/IMG_4529.jpg"><img src='/images/interests/football/IMG_4529.jpg' style="width: 100%; object-fit: cover;"></a></td>
+<td style="border: none; width: 50%;"><a href="/images/interests/football/IMG_4531.jpg"><img src='/images/interests/football/IMG_4531.jpg' style="width: 100%; object-fit: cover;"></a></td>
+</tr>
+<tr style="border: none;">
+<td colspan="4" style="border: none; text-align: center; font-size: 1.0em; color: #666; padding: 5px 0;">
+  2019/20 UEFA Champions League Champion
 </td>
 </tr>
 </table>
