@@ -521,7 +521,7 @@ Club Team: <a href="https://fcbayern.com/" target="_blank" style="text-decoratio
 <td style="border: none; width: 50%;"><a href="/images/interests/football/IMG_4528.jpg"><img src='/images/interests/football/IMG_4528.jpg' style="width: 100%; object-fit: cover;"></a></td>
 </tr>
 <tr style="border: none;">
-<td colspan="4" style="border: none; text-align: center; font-size: 1.0em; color: #666; padding: 5px 0;">
+<td colspan="2" style="border: none; text-align: center; font-size: 1.0em; color: #666; padding: 5px 0;">
   2012/13 UEFA Champions League Champion
 </td>
 </tr>
@@ -533,13 +533,87 @@ Club Team: <a href="https://fcbayern.com/" target="_blank" style="text-decoratio
 <td style="border: none; width: 50%;"><a href="/images/interests/football/IMG_4531.jpg"><img src='/images/interests/football/IMG_4531.jpg' style="width: 100%; object-fit: cover;"></a></td>
 </tr>
 <tr style="border: none;">
-<td colspan="4" style="border: none; text-align: center; font-size: 1.0em; color: #666; padding: 5px 0;">
+<td colspan="2" style="border: none; text-align: center; font-size: 1.0em; color: #666; padding: 5px 0;">
   2019/20 UEFA Champions League Champion
 </td>
 </tr>
 </table>
 
 ## Badminton
+
+### Favorite Players:
+{: .no_toc}
+**Lin Dan(林丹)**, **Lee Chongwei(李宗伟)**, **Kento Momota(桃田贤斗)**, **Shi Yuqi(石宇奇)**
+
+### My Equipment:
+{: .no_toc}
+- Racket: 
+  - ASTROX 99(2018) - Sun Orange - Main racket, considering retiring it for collection
+  - ASTROX 88D Pro(2021) - Gradually replace ASTROX 99
+  - DUORA 10 LCW(2016) - Lost by classmate
+  - DUORA Z-STRIKE(2017) - Classmate compensated me
+  - DUORA 7(2016) - My first high-end racket
+- String:
+  - Yonex AEROBITE
+  - Yonex NANOGY 98
+  - Victor VBS NANO - In use, for cheap
+- Shoes:
+  - SAGA III Pro Artist(贴地飞行3Pro 艺术家配色)
+  - SAGA I Pro(贴地飞行1Pro)
+- Grip:
+  - Yonex AC102C(Yellow)
+
+<table style="border: none; width: 100%;">
+<tr style="border: none;">
+<td style="border: none; width: 37.5%;"><a href="/images/interests/badminton/lindan-2.jpg"><img src='/images/interests/badminton/lindan-2.jpg' style="width: 100%; object-fit: cover;"></a></td>
+<td style="border: none; width: 37.5%;"><a href="/images/interests/badminton/lindan-3.jpg"><img src='/images/interests/badminton/lindan-3.jpg' style="width: 100%; object-fit: cover;"></a></td>
+<td style="border: none; width: 25%;"><a href="/images/interests/badminton/lindan-1.jpg"><img src='/images/interests/badminton/lindan-1.jpg' style="width: 100%; object-fit: cover;"></a></td>
+</tr>
+<tr style="border: none;">
+<td colspan="3" style="border: none; text-align: center; font-size: 1.0em; color: #666; padding: 5px 0;">
+  Lin Dan(林丹)
+</td>
+</tr>
+</table>
+
+<table style="border: none; width: 100%;">
+<tr style="border: none;">
+<td style="border: none; width: 37.5%;"><a href="/images/interests/badminton/leechongwei-2.jpg"><img src='/images/interests/badminton/leechongwei-2.jpg' style="width: 100%; object-fit: cover;"></a></td>
+<td style="border: none; width: 37.5%;"><a href="/images/interests/badminton/leechongwei-3.jpg"><img src='/images/interests/badminton/leechongwei-3.jpg' style="width: 100%; object-fit: cover;"></a></td>
+<td style="border: none; width: 25%;"><a href="/images/interests/badminton/leechongwei-1.jpg"><img src='/images/interests/badminton/leechongwei-1.jpg' style="width: 100%; object-fit: cover;"></a></td>
+</tr>
+<tr style="border: none;">
+<td colspan="3" style="border: none; text-align: center; font-size: 1.0em; color: #666; padding: 5px 0;">
+  Lee Chongwei(李宗伟)
+</td>
+</tr>
+</table>
+
+<table style="border: none; width: 100%;">
+<tr style="border: none;">
+<td style="border: none; width: 37.5%;"><a href="/images/interests/badminton/momota-3.jpg"><img src='/images/interests/badminton/momota-3.jpg' style="width: 100%; object-fit: cover;"></a></td>
+<td style="border: none; width: 37.5%;"><a href="/images/interests/badminton/momota-1.jpg"><img src='/images/interests/badminton/momota-1.jpg' style="width: 100%; object-fit: cover;"></a></td>
+<td style="border: none; width: 25%;"><a href="/images/interests/badminton/momota-2.jpg"><img src='/images/interests/badminton/momota-2.jpg' style="width: 100%; object-fit: cover;"></a></td>
+</tr>
+<tr style="border: none;">
+<td colspan="3" style="border: none; text-align: center; font-size: 1.0em; color: #666; padding: 5px 0;">
+  Kento Momota(桃田贤斗)
+</td>
+</tr>
+</table>
+
+<table style="border: none; width: 100%;">
+<tr style="border: none;">
+<td style="border: none; width: 37.5%;"><a href="/images/interests/badminton/shiyuqi-1.jpg"><img src='/images/interests/badminton/shiyuqi-1.jpg' style="width: 100%; object-fit: cover;"></a></td>
+<td style="border: none; width: 37.5%;"><a href="/images/interests/badminton/shiyuqi-2.jpg"><img src='/images/interests/badminton/shiyuqi-2.jpg' style="width: 100%; object-fit: cover;"></a></td>
+<td style="border: none; width: 25%;"><a href="/images/interests/badminton/shiyuqi-3.jpg"><img src='/images/interests/badminton/shiyuqi-3.jpg' style="width: 100%; object-fit: cover;"></a></td>
+</tr>
+<tr style="border: none;">
+<td colspan="3" style="border: none; text-align: center; font-size: 1.0em; color: #666; padding: 5px 0;">
+  Shi Yuqi(石宇奇)
+</td>
+</tr>
+</table>
 
 ## Music
 
