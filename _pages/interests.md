@@ -16,7 +16,7 @@ redirect_from:
   - Stephen Shore
   - Henri Cartier-Bresson
   - Walker Evans
-  - William Eggleston.
+  - William Eggleston
 - Current Cameras and Lenses:
   - Sony ILCE-7RM3
     - Tamron 28-75mm F/2.8 Di III VXD G2 (A063)
