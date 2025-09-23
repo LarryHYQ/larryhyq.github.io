@@ -378,7 +378,7 @@ redirect_from:
 
 I first watched an F1 race in 2008, when Lewis Hamilton won his first World Drivers' Championship. I wasn't very interested after that, as I was in elementary school, but Lewis Hamilton's name was deeply engraved in my mind. Later, nearing the end of middle school and having been recommended for high school, I revisited F1 in the 2015 season, witnessing the reign of Lewis and Mercedes. 2018, 2019, and 2020 are the three most unforgettable seasons for me. 2021... what can I say, that stupid FIA?
 
-In 2025, I had the privilege of joining TeamLHChina and the opportunity to attend the Shanghai International Circuit for the first time, watching the F1 Shanghai Grand Prix live and hearing the roar of the engines. By then, Lewis had shed the Mercedes Silver Arrow jersey and donned the Red Ferrari Prancing Horse jersey. Thanks to TeamLHChina's organization, I was seated in the front row of the stands, just one track away from Lewis's pit house. I was also fortunate to meet Lewis Hamilton, my hero since my youth, on the track. I was also fortunate to witness Lewis take pole position for the sprint qualifying at the F1 Shanghai Grand Prix, and then pole to win, taking the sprint championship.
+In 2025, I had the privilege of joining <a href="https://www.weibo.com/u/2104353354" target="_blank" style="text-decoration: none;">TeamLHChina</a> and the opportunity to attend the Shanghai International Circuit for the first time, watching the F1 Shanghai Grand Prix live and hearing the roar of the engines. By then, Lewis had shed the Mercedes Silver Arrow jersey and donned the Red Ferrari Prancing Horse jersey. Thanks to <a href="https://www.weibo.com/u/2104353354" target="_blank" style="text-decoration: none;">TeamLHChina</a>'s organization, I was seated in the front row of the stands, just one track away from Lewis's pit house. I was also fortunate to meet Lewis Hamilton, my hero since my youth, on the track. I was also fortunate to witness Lewis take pole position for the sprint qualifying at the F1 Shanghai Grand Prix, and then pole to win, taking the sprint championship.
 
 Still We Rise.
 
@@ -488,7 +488,7 @@ Club Team: <a href="https://fcbayern.com/" target="_blank" style="text-decoratio
 <td style="border: none; width: 25%;"><a href="/images/interests/football/IMG_4533.jpg"><img src='/images/interests/football/IMG_4533.jpg' style="width: 100%; object-fit: cover;"></a></td>
 </tr>
 <tr style="border: none;">
-<td colspan="2" style="border: none; text-align: center; font-size: 1.0em; color: #666; padding: 5px 0;">
+<td colspan="4" style="border: none; text-align: center; font-size: 1.0em; color: #666; padding: 5px 0;">
   2014 FIFA World Cup Champion
 </td>
 </tr>
@@ -502,7 +502,7 @@ Club Team: <a href="https://fcbayern.com/" target="_blank" style="text-decoratio
 <td style="border: none; width: 25%;"><a href="/images/interests/football/IMG_4531.jpg"><img src='/images/interests/football/IMG_4531.jpg' style="width: 100%; object-fit: cover;"></a></td>
 </tr>
 <tr style="border: none;">
-<td colspan="2" style="border: none; text-align: center; font-size: 1.0em; color: #666; padding: 5px 0;">
+<td colspan="4" style="border: none; text-align: center; font-size: 1.0em; color: #666; padding: 5px 0;">
   2012/13 UEFA Champions League Champion(Left two), 2019/20 UEFA Champions League Champion(Right two)
 </td>
 </tr>
