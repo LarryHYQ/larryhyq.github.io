@@ -574,9 +574,9 @@ Club Team: <a href="https://fcbayern.com/" target="_blank" style="text-decoratio
 {: .no_toc}
 <table style="border: none; width: 100%;">
 <tr style="border: none;">
-<td style="border: none; width: 29.6%;"><a href="/images/interests/music/Leehom-Beijing-1.jpg"><img src='/images/interests/music/Leehom-Beijing-1.jpg' style="width: 100%; object-fit: cover;"></a></td>
-<td style="border: none; width: 35.2%;"><a href="/images/interests/music/IMG_3305.jpg"><img src='/images/interests/music/IMG_3305.jpg' style="width: 100%; object-fit: cover;"></a></td>
-<td style="border: none; width: 35.2%;"><a href="/images/interests/music/IMG_3417.jpg"><img src='/images/interests/music/IMG_3417.jpg' style="width: 100%; object-fit: cover;"></a></td>
+<td style="border: none; width: 29.8%;"><a href="/images/interests/music/Leehom-Beijing-1.jpg"><img src='/images/interests/music/Leehom-Beijing-1.jpg' style="width: 100%; object-fit: cover;"></a></td>
+<td style="border: none; width: 35.1%;"><a href="/images/interests/music/IMG_3305.jpg"><img src='/images/interests/music/IMG_3305.jpg' style="width: 100%; object-fit: cover;"></a></td>
+<td style="border: none; width: 35.1%;"><a href="/images/interests/music/IMG_3417.jpg"><img src='/images/interests/music/IMG_3417.jpg' style="width: 100%; object-fit: cover;"></a></td>
 </tr>
 </table>
 
