@@ -14,14 +14,14 @@ redirect_from:
 **Humanistic Street Photographer**
 
 ### Favorite Photographers:
-
+{: .no_toc}
 - Stephen Shore
 - Henri Cartier-Bresson
 - Walker Evans
 - William Eggleston
 
 ### Current Cameras and Lenses:
-
+{: .no_toc}
 - Sony ILCE-7RM3
   - Tamron 28-75mm F/2.8 Di III VXD G2 (A063)
   - Tamron 28-200mm F/2.8-5.6 Di III RXD (A071)
@@ -378,11 +378,11 @@ redirect_from:
 ## Formula 1
 
 ### Favorite Driver:
-
+{: .no_toc}
 <a href="https://www.instagram.com/lewishamilton/" target="_blank" style="text-decoration: none;">**Lewis Hamilton**</a>
 
 ### Favorite Team:
-
+{: .no_toc}
 <a href="https://www.mercedesamgf1.com/" target="_blank" style="text-decoration: none;">**Mercedes-AMG Petronas F1 Team**</a>, <a href="https://www.ferrari.com/en-EN/formula1" target="_blank" style="text-decoration: none;">**Scuderia Ferrari**</a> (Emmm...Only Dowry Fans🙂)
 
 I first watched an F1 race in 2008, when Lewis Hamilton won his first World Drivers' Championship. I wasn't very interested after that, as I was in elementary school, but Lewis Hamilton's name was deeply engraved in my mind. Later, nearing the end of middle school and having been recommended for high school, I revisited F1 in the 2015 season, witnessing the reign of Lewis and Mercedes. 2018, 2019, and 2020 are the three most unforgettable seasons for me. 2021... what can I say, that stupid FIA?
@@ -476,7 +476,7 @@ Still We Rise.
 ## Football
 
 ### Favorite Team:
-
+{: .no_toc}
 National Team: <a href="https://www.dfb.de/" target="_blank" style="text-decoration: none;">**Die deutsche Fußballnationalmannschaft 🇩🇪**</a> from 2006
 
 Club Team: <a href="https://fcbayern.com/" target="_blank" style="text-decoration: none;">**Fußball-Club Bayern München**</a> from  2008
@@ -484,7 +484,7 @@ Club Team: <a href="https://fcbayern.com/" target="_blank" style="text-decoratio
 **Mia San Mia!!!**
 
 ### Favorite Players:
-
+{: .no_toc}
 **Thomas Müller**, **Philipp Lahm**, **Manuel Neuer**, **Bastian Schweinsteiger**, **Miroslav Klose**, **Toni Kroos**, **Mario Götze**, **Mats Hummels**, **Jerome Boateng**, **Joshua Kimmich**, **Jamal Musiala**.
 
 ### Photos of Bayern and DFB
@@ -618,11 +618,11 @@ Club Team: <a href="https://fcbayern.com/" target="_blank" style="text-decoratio
 ## Music
 
 ### Favorite Singers:
-
+{: .no_toc}
  <a href="https://www.instagram.com/mreasonchan/" target="_blank" style="text-decoration: none;">Eason Chan(陈奕迅)</a>, <a href="https://www.instagram.com/wangleehom/" target="_blank" style="text-decoration: none;">Leehom Wang(王力宏)</a>
 
 ### Favorite Albums:
-
+{: .no_toc}
 **Eason Chan(陈奕迅)**
 > <span style="font-style: normal;">《与我常在》（1997）；《我的快乐时代》（1998）；《Shall We Dance? Shall We Talk》（2001）；《U87》（2005）；《认了吧》（2007）；《H<sup>3</sup>M》（2009）；《Time Flies》（2010）；《The Key》（2013）；《准备中》（2015）；《L.O.V.E.》（2018）；《CHIN UP!》（2023）</span>
 
@@ -630,7 +630,7 @@ Club Team: <a href="https://fcbayern.com/" target="_blank" style="text-decoratio
 > <span style="font-style: normal;">《公转自转》（1998）；《不可能错过你》（1999）；《唯一》（2001）；《心中的日月》（2004）；《盖世英雄》（2005）；《改变自己》（2007）；《心·跳》（2008）；《十八般武艺》（2010）；《火力全开》（2011）；《A.I. 爱》（2017）</span>
 
 ### Favorite Songs:
-
+{: .no_toc}
 **Eason Chan(陈奕迅)**
 > <span style="font-style: normal;">沙龙，七百年后，与我常在，我的快乐时代，落花流水，任我行，富士山下，打回原形，防不胜防，十面埋伏，苦瓜，粤语残片，无人之境，陀飞轮，最佳损友，我们万岁，葡萄成熟时，黄金时代，无条件，今日，于心有愧，浮夸，告别婆娑，人生马拉松……</span>
 
@@ -638,7 +638,7 @@ Club Team: <a href="https://fcbayern.com/" target="_blank" style="text-decoratio
 > <span style="font-style: normal;">爱错，你不知道的事，唯一，心中的日月，心跳，One 一个，I'm Alive，Kiss Goodbye，Forever Love，改变自己，我们的歌，缘分一道桥，天地龙鳞，大城小爱，花田错，火力全开，落叶归根，Julia，依然爱你，需要人陪……</span>
 
 ### Favorite Concerts:
-
+{: .no_toc}
 - **Fear and Dreams** - **Eason Chan(陈奕迅)** - 182 - Dec. 2022 - Aug. 2025 ❤
 - **Another EASON's LIFE** - **Eason Chan(陈奕迅)** - 59 - Apr. 2015 - Oct. 2016
 - **EASON's LIFE** - **Eason Chan(陈奕迅)** - 76 - Jul. 2013 - Dec. 2014
