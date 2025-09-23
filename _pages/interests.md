@@ -555,6 +555,24 @@ Club Team: <a href="https://fcbayern.com/" target="_blank" style="text-decoratio
 **Leehom Wang(王力宏)**
 > <span style="font-style: normal;">《公转自转》（1998）；《不可能错过你》（1999）；《唯一》（2001）；《心中的日月》（2004）；《盖世英雄》（2005）；《改变自己》（2007）；《心·跳》（2008）；《十八般武艺》（2010）；《火力全开》（2011）；《A.I. 爱》（2017）</span>
 
+### Favorite Songs:
+{: .no_toc}
+**Eason Chan(陈奕迅)**
+> <span style="font-style: normal;">沙龙，七百年后，与我常在，我的快乐时代，落花流水，任我行，富士山下，打回原形，防不胜防，十面埋伏，苦瓜，粤语残片，无人之境，陀飞轮，最佳损友，我们万岁，葡萄成熟时，黄金时代，无条件，今日，于心有愧，浮夸，告别婆娑，人生马拉松……</span>
+
+**Leehom Wang(王力宏)**
+> <span style="font-style: normal;">爱错，你不知道的事，唯一，心中的日月，心跳，One 一个，I'm Alive，Kiss Goodbye，Forever Love，改变自己，我们的歌，缘分一道桥，天地龙鳞，大城小爱，花田错，火力全开，落叶归根，Julia，依然爱你，需要人陪……</span>
+
+### Favorite Concerts:
+{: .no_toc}
+- **Fear and Dreams** - **Eason Chan(陈奕迅)** - 182 - Dec. 2022 - Aug. 2025 ❤
+- **Another EASON's LIFE** - **Eason Chan(陈奕迅)** - 59 - Apr. 2015 - Oct. 2016
+- **EASON's LIFE** - **Eason Chan(陈奕迅)** - 76 - Jul. 2013 - Dec. 2014
+- **DUO** - **Eason Chan(陈奕迅)** - 66 - Mar. 2010 - Dec. 2012 ❤
+- **Get A Life** - **Eason Chan(陈奕迅)** - 10 - Feb. 2006 - Aug. 2006
+- **The Best Place** - **Leehom Wang(王力宏)** - 41 - Apr. 2025 - Present
+- **MUSIC MAN II 火力全开** - **Leehom Wang(王力宏)** - 56 - Nov. 2011 - Jun. 2014 ❤
+- **MUSIC MAN** - **Leehom Wang(王力宏)** - 22 - Sept. 2008 - Jun. 2011 ❤
 
 ### Concert Posters
 {: .no_toc}
