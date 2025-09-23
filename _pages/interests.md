@@ -489,9 +489,9 @@ Still We Rise.
 {: .no_toc}
 <table style="border: none; width: 100%;">
 <tr style="border: none;">
-<td style="border: none; width: 33.3%;"><a href="/images/interests/music/Eason-Hangzhou.jpg"><img src='/images/interests/music/Eason-Hangzhou.jpg' style="width: 100%; object-fit: cover;"></a></td>
-<td style="border: none; width: 33.3%;"><a href="/images/interests/music/Leehom-Beijing.jpg"><img src='/images/interests/music/Leehom-Beijing.jpg' style="width: 100%; object-fit: cover;"></a></td>
-<td style="border: none; width: 33.3%;"><a href="/images/interests/music/Leehom-Ningbo.jpg"><img src='/images/interests/music/Leehom-Ningbo.jpg' style="width: 100%; object-fit: cover;"></a></td>
+<td style="border: none; width: 35.3%;"><a href="/images/interests/music/Eason-Hangzhou.jpg"><img src='/images/interests/music/Eason-Hangzhou.jpg' style="width: 100%; object-fit: cover;"></a></td>
+<td style="border: none; width: 33.1%;"><a href="/images/interests/music/Leehom-Beijing.jpg"><img src='/images/interests/music/Leehom-Beijing.jpg' style="width: 100%; object-fit: cover;"></a></td>
+<td style="border: none; width: 31.6%;"><a href="/images/interests/music/Leehom-Ningbo.jpg"><img src='/images/interests/music/Leehom-Ningbo.jpg' style="width: 100%; object-fit: cover;"></a></td>
 </tr>
 </table>
 
