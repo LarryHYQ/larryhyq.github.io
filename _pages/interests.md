@@ -485,7 +485,7 @@ Club Team: <a href="https://fcbayern.com/" target="_blank" style="text-decoratio
 
 ### Favorite Players:
 {: .no_toc}
-**Thomas Müller**, **Philipp Lahm**, **Manuel Neuer**, **Bastian Schweinsteiger**, **Miroslav Klose**, **Toni Kroos**, **Mario Götze**, **Mats Hummels**, **Jerome Boateng**, **Joshua Kimmich**, **Jamal Musiala**.
+**Thomas Müller**, **Philipp Lahm**, **Manuel Neuer**, **Bastian Schweinsteiger**, **Miroslav Klose**, **Toni Kroos**, **Mario Götze**, **Mats Hummels**, **Jerome Boateng**, **Joshua Kimmich**, **Jamal Musiala**, **Florian Wirtz**.
 
 ### Photos of Bayern and DFB
 
