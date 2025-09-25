@@ -358,10 +358,31 @@ redirect_from:
 <tr style="border: none;">
 <td style="border: none; width: 50%;">
   <figure style="margin: 0;">
+    <a href="/images/interests/photography/IMG_4035.jpg">
+      <img src='/images/interests/photography/IMG_4035.jpg' style="width: 100%; object-fit: cover;">
+    </a>
+    <figcaption style="text-align: center; font-size: 1.0em; color: #666; padding: 5px 0;">Zhinan Village, Linan, Hangzhou, Zhejiang, Nov. 18, 2022</figcaption>
+  </figure>
+</td>
+<td style="border: none; width: 50%;">
+  <figure style="margin: 0;">
+    <a href="/images/interests/photography/IMG_4043.jpg">
+      <img src='/images/interests/photography/IMG_4043.jpg' style="width: 100%; object-fit: cover;">
+    </a>
+    <figcaption style="text-align: center; font-size: 1.0em; color: #666; padding: 5px 0;">Zhinan Village, Linan, Hangzhou, Zhejiang, Nov. 18, 2022</figcaption>
+  </figure>
+</td>
+</tr>
+</table>
+
+<table style="border: none; width: 100%;">
+<tr style="border: none;">
+<td style="border: none; width: 50%;">
+  <figure style="margin: 0;">
     <a href="/images/interests/photography/IMG_9615.jpg">
       <img src='/images/interests/photography/IMG_9615.jpg' style="width: 100%; object-fit: cover;">
     </a>
-    <figcaption style="text-align: center; font-size: 1.0em; color: #666; padding: 5px 0;">Hanling Old Street, Ningbo, Zhejiang, Feb. 8, 2021</figcaption>
+    <figcaption style="text-align: center; font-size: 1.0em; color: #666; padding: 5px 0;">Hanling Old Street, Dongqian Lake, Ningbo, Zhejiang, Feb. 8, 2021</figcaption>
   </figure>
 </td>
 <td style="border: none; width: 50%;">
