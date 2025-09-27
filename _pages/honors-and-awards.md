@@ -19,8 +19,8 @@ redirect_from:
   <span><strong>Zhejiang Division Third Prize</strong>&nbsp;&nbsp;<strong>浙江赛区三等奖</strong></span>
 </div>
 <div style="width: 100%; margin-bottom: 5px;">
-  <span>2021 The Interdisciplinary Contest in Modeling(ICM)®</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <span><strong>Meritorious Winner</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>国际一等奖</strong></span>
+  <span>2021 The Interdisciplinary Contest in Modeling(ICM)®</span>&nbsp;&nbsp;
+  <span><strong>Meritorious Winner</strong>&nbsp;&nbsp;<strong>国际一等奖</strong></span>
 </div>
 
 <table style="border: none; width: 100%;">
@@ -35,7 +35,7 @@ redirect_from:
 
 <div style="width: 100%; margin-bottom: 5px;">
   <span>2021 National University Students Intelligent Car Race</span>&nbsp;&nbsp;
-  <span><strong>Zhejiang Division First Prize</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>浙江赛区一等奖</strong></span>
+  <span><strong>Zhejiang Division First Prize</strong>&nbsp;&nbsp;<strong>浙江赛区一等奖</strong></span>
 </div>
 <div style="width: 100%; margin-bottom: 5px;">
   <span>2021 National University Students Intelligent Car Race</span>&nbsp;&nbsp;
@@ -43,11 +43,11 @@ redirect_from:
 </div>
 <div style="width: 100%; margin-bottom: 5px;">
   <span>2021 National University Students Intelligent Car Race</span>&nbsp;&nbsp;
-  <span><strong>National Finals Second Prize</strong>&nbsp;&nbsp;&nbsp;&nbsp;<strong>全国总决赛二等奖</strong></span>
+  <span><strong>National Finals Second Prize</strong>&nbsp;&nbsp;<strong>全国总决赛二等奖</strong></span>
 </div>
 <div style="width: 100%; margin-bottom: 5px;">
   <span>2022 National University Students Intelligent Car Race</span>&nbsp;&nbsp;
-  <span><strong>Zhejiang Division First Prize</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>浙江赛区一等奖</strong></span>
+  <span><strong>Zhejiang Division First Prize</strong>&nbsp;&nbsp;<strong>浙江赛区一等奖</strong></span>
 </div>
 
 <table style="border: none;">
