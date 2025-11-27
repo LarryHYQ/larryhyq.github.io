@@ -726,3 +726,11 @@ Club Team: <a href="https://fcbayern.com/" target="_blank" style="text-decoratio
     <iframe src="https://player.bilibili.com/player.html?isOutside=true&amp;aid=115196693649326&bvid=BV1ijpJzXE5N&cid=32357154953&amp;page=1&autoplay=0" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position:absolute;height:100%;width:100%;">
     </iframe>
 </div>
+
+#### The Best Place - 不可能错过你 - Ningbo, Oct. 19, 2025 - Leehom Wang(王力宏)
+{: .no_toc}
+
+<div style="position:relative;padding-bottom:56.25%;width:100%;height:0;">
+    <iframe src="https://player.bilibili.com/player.html?isOutside=true&amp;aid=115616560191684&bvid=BV1sSUeBoENB&cid=34285947613&amp;page=1&autoplay=0" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position:absolute;height:100%;width:100%;">
+    </iframe>
+</div>
