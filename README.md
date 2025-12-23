@@ -2,7 +2,7 @@
 
 <div align="center">
 
-[![GitHub stars](https://img.shields.io/github/stars/LarryHYQ/larryhyq.github.io)](https://github.com/LarryHYQ/larryhyq.github.io)
+<!-- [![GitHub stars](https://img.shields.io/github/stars/LarryHYQ/larryhyq.github.io)](https://github.com/LarryHYQ/larryhyq.github.io) -->
 [![GitHub forks](https://img.shields.io/github/forks/LarryHYQ/larryhyq.github.io)](https://github.com/LarryHYQ/larryhyq.github.io)
 [![GitHub license](https://img.shields.io/github/license/academicpages/academicpages.github.io?color=blue)](https://github.com/LarryHYQ/larryhyq.github.io/blob/main/LICENSE)
 
