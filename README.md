@@ -1,91 +1,7 @@
-# Academic Pages
-**Academic Pages is a GitHub Pages template for personal and professional portfolio-oriented websites.**
+# Academic Pages - 个人学术主页模板
 
-![Academic Pages template example](images/themes/homepage-light.png "Academic Pages template example")
-
-# Getting Started
-
-1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
-1. Click the "Use this template" button in the top right.
-1. On the "New repository" page, enter your public repository name as "[your GitHub username].github.io", which will also be your website's URL.
-1. Set site-wide configuration and add your content.
-1. Upload any files (like PDFs, .zip files, etc.) to the `files/` directory. They will appear at https://[your GitHub username].github.io/files/example.pdf.
-1. Check status by going to the repository settings, in the "GitHub pages" section
-1. (Optional) Use the Jupyter notebooks or python scripts in the `markdown_generator` folder to generate markdown files for publications and talks from a TSV file.
-
-See more info at https://academicpages.github.io/
-
-## Running locally
-
-When you are initially working on your website, it is very useful to be able to preview the changes locally before pushing them to GitHub. To work locally you will need to:
-
-1. Clone the repository and made updates as detailed above.
-
-### Using a different IDE
-1. Make sure you have ruby-dev, bundler, and nodejs installed
-    
-    On most Linux distribution and [Windows Subsystem Linux](https://learn.microsoft.com/en-us/windows/wsl/about) the command is:
-    ```bash
-    sudo apt install ruby-dev ruby-bundler nodejs
-    ```
-    If you see error `Unable to locate package ruby-bundler`, `Unable to locate package nodejs `, run the following:
-    ```bash
-    sudo apt update && sudo apt upgrade -y
-    ```
-    then try run `sudo apt install ruby-dev ruby-bundler nodejs` again.
-
-    On MacOS the commands are:
-    ```bash
-    brew install ruby
-    brew install node
-    gem install bundler
-    ```
-1. Run `bundle install` to install ruby dependencies. If you get errors, delete Gemfile.lock and try again.
-
-    If you see file permission error like `Fetching bundler-2.6.3.gem ERROR:  While executing gem (Gem::FilePermissionError) You don't have write permissions for the /var/lib/gems/3.2.0 directory.` or `Bundler::PermissionError: There was an error while trying to write to /usr/local/bin.`
-    Install Gems Locally (Recommended):
-    ```bash
-    bundle config set --local path 'vendor/bundle'
-    ```
-    then try run `bundle install` again. If succeeded, you should see a folder called `vendor` and `.bundle`.
-
-1. Run `jekyll serve -l -H localhost` to generate the HTML and serve it from `localhost:4000` the local server will automatically rebuild and refresh the pages on change.
-    You may also try `bundle exec jekyll serve -l -H localhost` to ensure jekyll to use specific dependencies on your own local machine.
-
-If you are running on Linux it may be necessary to install some additional dependencies prior to being able to run locally: `sudo apt install build-essential gcc make`
-
-## Using Docker
-
-Working from a different OS, or just want to avoid installing dependencies? You can use the provided `Dockerfile` to build a container that will run the site for you if you have [Docker](https://www.docker.com/) installed.
-
-You can build and execute the container by running the following command in the repository:
-
-```bash
-chmod -R 777 .
-docker compose up
-```
-
-You should now be able to access the website from `localhost:4000`.
-
-### Using the DevContainer in VS Code
-
-If you are using [Visual Studio Code](https://code.visualstudio.com/) you can use the [Dev Container](https://code.visualstudio.com/docs/devcontainers/containers) that comes with this Repository. Normally VS Code detects that a development coontainer configuration is available and asks you if you want to use the container. If this doesn't happen you can manually start the container by **F1->DevContainer: Reopen in Container**. This restarts your VS Code in the container and automatically hosts your academic page locally on http://localhost:4000. All changes will be updated live to that page after a few seconds.
-
-# Maintenance
-
-Bug reports and feature requests to the template should be [submitted via GitHub](https://github.com/academicpages/academicpages.github.io/issues/new/choose). For questions concerning how to style the template, please feel free to start a [new discussion on GitHub](https://github.com/academicpages/academicpages.github.io/discussions).
-
-This repository was forked (then detached) by [Stuart Geiger](https://github.com/staeiou) from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/), which is © 2016 Michael Rose and released under the MIT License (see LICENSE.md). It is currently being maintained by [Robert Zupko](https://github.com/rjzupkoii) and additional maintainers would be welcomed.
-
-## Bugfixes and enhancements
-
-If you have bugfixes and enhancements that you would like to submit as a pull request, you will need to [fork](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo) this repository as opposed to using it as a template. This will also allow you to [synchronize your copy](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/syncing-a-fork) of template to your fork as well.
-
-Unfortunately, one logistical issue with a template theme like Academic Pages that makes it a little tricky to get bug fixes and updates to the core theme. If you use this template and customize it, you will probably get merge conflicts if you attempt to synchronize. If you want to save your various .yml configuration files and markdown files, you can delete the repository and fork it again. Or you can manually patch.
-
----
 <div align="center">
-    
+
 ![pages-build-deployment](https://github.com/academicpages/academicpages.github.io/actions/workflows/pages/pages-build-deployment/badge.svg)
 [![GitHub contributors](https://img.shields.io/github/contributors/academicpages/academicpages.github.io.svg)](https://github.com/academicpages/academicpages.github.io/graphs/contributors)
 [![GitHub release](https://img.shields.io/github/v/release/academicpages/academicpages.github.io)](https://github.com/academicpages/academicpages.github.io/releases/latest)
@@ -93,4 +9,89 @@ Unfortunately, one logistical issue with a template theme like Academic Pages th
 
 [![GitHub stars](https://img.shields.io/github/stars/academicpages/academicpages.github.io)](https://github.com/academicpages/academicpages.github.io)
 [![GitHub forks](https://img.shields.io/github/forks/academicpages/academicpages.github.io)](https://github.com/academicpages/academicpages.github.io/fork)
+
 </div>
+
+**Academic Pages** 是一个专为个人和专业学术作品集网站设计的 GitHub Pages 模板。
+
+![Academic Pages 模板示例](images/themes/homepage-light.png "Academic Pages 模板示例")
+
+## 🚀 快速开始
+
+1. 如果您还没有 GitHub 账号，请先注册并确认您的电子邮件（必须！）。
+2. 点击右上角的 **"Use this template"** 按钮。
+3. 在 "New repository" 页面上，输入您的公开仓库名称为 `[您的GitHub用户名].github.io`，这也将是您网站的 URL。
+4. 设置全站配置并添加您的内容。
+5. 将任何文件（如 PDF、.zip 文件等）上传到 `files/` 目录。它们将可以通过 `https://[您的GitHub用户名].github.io/files/example.pdf` 访问。
+6. 通过进入仓库设置中的 "GitHub pages" 部分检查状态。
+7. （可选）使用 `markdown_generator` 文件夹中的 Jupyter notebooks 或 python 脚本，从 TSV 文件生成出版物和演讲的 markdown 文件。
+
+更多信息请访问 [https://academicpages.github.io/](https://academicpages.github.io/)
+
+## 💻 本地运行
+
+在初步构建网站时，能够在推送到 GitHub 之前在本地预览更改是非常有用的。要在本地工作，您需要：
+
+1. 克隆仓库并按照上述说明进行更新。
+
+### 使用 IDE 本地开发
+
+1. 确保您已安装 `ruby-dev`、`bundler` 和 `nodejs`。
+    
+    在大多数 Linux 发行版和 [Windows Subsystem Linux (WSL)](https://learn.microsoft.com/zh-cn/windows/wsl/about) 上，命令如下：
+    ```bash
+    sudo apt install ruby-dev ruby-bundler nodejs
+    ```
+    如果遇到错误 `Unable to locate package ruby-bundler` 或 `Unable to locate package nodejs`，请运行：
+    ```bash
+    sudo apt update && sudo apt upgrade -y
+    ```
+    然后再次尝试运行安装命令。
+
+    在 macOS 上，命令如下：
+    ```bash
+    brew install ruby
+    brew install node
+    gem install bundler
+    ```
+
+2. 运行 `bundle install` 安装 Ruby 依赖项。如果遇到错误，请删除 `Gemfile.lock` 并重试。
+
+    如果遇到文件权限错误，如 `Fetching bundler-2.6.3.gem ERROR: While executing gem (Gem::FilePermissionError)`，建议在本地安装 Gems：
+    ```bash
+    bundle config set --local path 'vendor/bundle'
+    ```
+    然后再次运行 `bundle install`。成功后，您应该会看到 `vendor` 和 `.bundle` 文件夹。
+
+3. 运行 `jekyll serve -l -H localhost` 生成 HTML 并在 `localhost:4000` 上提供服务。本地服务器会在更改时自动重建并刷新页面。
+    您也可以尝试 `bundle exec jekyll serve -l -H localhost` 以确保 Jekyll 使用您本地机器上的特定依赖项。
+
+如果您在 Linux 上运行，可能需要安装一些额外的依赖项：`sudo apt install build-essential gcc make`。
+
+## 🐳 使用 Docker
+
+在不同的操作系统上工作，或者只是想避免安装依赖项？如果您安装了 [Docker](https://www.docker.com/)，可以使用提供的 `Dockerfile` 构建一个容器来为您运行网站。
+
+在仓库中运行以下命令来构建并执行容器：
+
+```bash
+chmod -R 777 .
+docker compose up
+```
+
+现在您应该可以通过 `localhost:4000` 访问网站了。
+
+### 在 VS Code 中使用 DevContainer
+
+如果您使用 [Visual Studio Code](https://code.visualstudio.com/)，可以使用此仓库自带的 [Dev Container](https://code.visualstudio.com/docs/devcontainers/containers)。通常 VS Code 会检测到开发容器配置可用，并询问您是否要使用容器。如果没有发生这种情况，您可以手动启动容器：**F1 -> DevContainer: Reopen in Container**。这将在容器中重启您的 VS Code，并自动在 http://localhost:4000 本地托管您的学术主页。所有更改将在几秒钟后实时更新到该页面。
+
+## 🔧 维护与致谢
+
+本项目基于 [Academic Pages](https://github.com/academicpages/academicpages.github.io) 模板修改。
+
+原始项目由 [Stuart Geiger](https://github.com/staeiou) 从 [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) 分叉（然后分离），后者由 Michael Rose © 2016 创建并在 MIT 许可下发布。目前由 [Robert Zupko](https://github.com/rjzupkoii) 维护。
+
+如果您有关于模板的错误报告或功能请求，请[通过 GitHub 提交](https://github.com/academicpages/academicpages.github.io/issues/new/choose)。关于如何设置模板样式的问题，请随时在 [GitHub 上发起新的讨论](https://github.com/academicpages/academicpages.github.io/discussions)。
+
+---
+*感谢原作者及社区的贡献。*
