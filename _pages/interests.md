@@ -85,18 +85,18 @@ redirect_from:
 <tr style="border: none;">
 <td style="border: none; width: 50%;">
   <figure style="margin: 0;">
-    <a href="/images/interests/photography/DSC6335.jpg">
-      <img src='/images/interests/photography/DSC6335.jpg' style="width: 100%; object-fit: cover;">
+    <a href="/images/interests/photography/DSC7606.jpg">
+      <img src='/images/interests/photography/DSC7606.jpg' style="width: 100%; object-fit: cover;">
     </a>
-    <figcaption style="text-align: center; font-size: 1.0em; color: #666; padding: 5px 0;">Tiananmen Square, Beijing, Jul. 6, 2025</figcaption>
+    <figcaption style="text-align: center; font-size: 1.0em; color: #666; padding: 5px 0;">The Palace Museum, Beijing, Jan. 3, 2026</figcaption>
   </figure>
 </td>
 <td style="border: none; width: 50%;">
   <figure style="margin: 0;">
-    <a href="/images/interests/photography/DSC3578.jpg">
-      <img src='/images/interests/photography/DSC3578.jpg' style="width: 100%; object-fit: cover;">
+    <a href="/images/interests/photography/DSC7721.jpg">
+      <img src='/images/interests/photography/DSC7721.jpg' style="width: 100%; object-fit: cover;">
     </a>
-    <figcaption style="text-align: center; font-size: 1.0em; color: #666; padding: 5px 0;">Faxi Temple, Hangzhou, Zhejiang, Mar. 30, 2024</figcaption>
+    <figcaption style="text-align: center; font-size: 1.0em; color: #666; padding: 5px 0;">The Palace Museum, Beijing, Jan. 3, 2026</figcaption>
   </figure>
 </td>
 </tr>
@@ -114,10 +114,10 @@ redirect_from:
 </td>
 <td style="border: none; width: 50%;">
   <figure style="margin: 0;">
-    <a href="/images/interests/photography/DSC6116-HDR.jpg">
-      <img src='/images/interests/photography/DSC6116-HDR.jpg' style="width: 100%; object-fit: cover;">
+    <a href="/images/interests/photography/DSC3578.jpg">
+      <img src='/images/interests/photography/DSC3578.jpg' style="width: 100%; object-fit: cover;">
     </a>
-    <figcaption style="text-align: center; font-size: 1.0em; color: #666; padding: 5px 0;">Jingshan Park, Beijing, May 6, 2025</figcaption>
+    <figcaption style="text-align: center; font-size: 1.0em; color: #666; padding: 5px 0;">Faxi Temple, Hangzhou, Zhejiang, Mar. 30, 2024</figcaption>
   </figure>
 </td>
 </tr>
@@ -169,27 +169,6 @@ redirect_from:
 <tr style="border: none;">
 <td style="border: none; width: 50%;">
   <figure style="margin: 0;">
-    <a href="/images/interests/photography/DSC5481.jpg">
-      <img src='/images/interests/photography/DSC5481.jpg' style="width: 100%; object-fit: cover;">
-    </a>
-    <figcaption style="text-align: center; font-size: 1.0em; color: #666; padding: 5px 0;">National Botanical Garden, Beijing, Sept. 21, 2025</figcaption>
-  </figure>
-</td>
-<td style="border: none; width: 50%;">
-  <figure style="margin: 0;">
-    <a href="/images/interests/photography/DSC5688.jpg">
-      <img src='/images/interests/photography/DSC5688.jpg' style="width: 100%; object-fit: cover;">
-    </a>
-    <figcaption style="text-align: center; font-size: 1.0em; color: #666; padding: 5px 0;">China Academy of Art Art Museum, Hangzhou, Zhejiang, Apr. 20, 2025</figcaption>
-  </figure>
-</td>
-</tr>
-</table>
-
-<table style="border: none; width: 100%;">
-<tr style="border: none;">
-<td style="border: none; width: 50%;">
-  <figure style="margin: 0;">
     <a href="/images/interests/photography/DSC3772.jpg">
       <img src='/images/interests/photography/DSC3772.jpg' style="width: 100%; object-fit: cover;">
     </a>
@@ -232,90 +211,6 @@ redirect_from:
 <tr style="border: none;">
 <td style="border: none; width: 50%;">
   <figure style="margin: 0;">
-    <a href="/images/interests/photography/DSC3497.jpg">
-      <img src='/images/interests/photography/DSC3497.jpg' style="width: 100%; object-fit: cover;">
-    </a>
-    <figcaption style="text-align: center; font-size: 1.0em; color: #666; padding: 5px 0;">Jing'an Temple, Shanghai, Jan. 23, 2024</figcaption>
-  </figure>
-</td>
-<td style="border: none; width: 50%;">
-  <figure style="margin: 0;">
-    <a href="/images/interests/photography/DSC3475.jpg">
-      <img src='/images/interests/photography/DSC3475.jpg' style="width: 100%; object-fit: cover;">
-    </a>
-    <figcaption style="text-align: center; font-size: 1.0em; color: #666; padding: 5px 0;">Wulumuqi North Road, Shanghai, Jan. 23, 2024</figcaption>
-  </figure>
-</td>
-</tr>
-</table>
-
-<table style="border: none; width: 100%;">
-<tr style="border: none;">
-<td style="border: none; width: 50%;">
-  <figure style="margin: 0;">
-    <a href="/images/interests/photography/DSC3441.jpg">
-      <img src='/images/interests/photography/DSC3441.jpg' style="width: 100%; object-fit: cover;">
-    </a>
-    <figcaption style="text-align: center; font-size: 1.0em; color: #666; padding: 5px 0;">Huaihai Middle Road, Shanghai, Jan. 23, 2024</figcaption>
-  </figure>
-</td>
-<td style="border: none; width: 50%;">
-  <figure style="margin: 0;">
-    <a href="/images/interests/photography/DSC3506.jpg">
-      <img src='/images/interests/photography/DSC3506.jpg' style="width: 100%; object-fit: cover;">
-    </a>
-    <figcaption style="text-align: center; font-size: 1.0em; color: #666; padding: 5px 0;">Yan'an Middle Road, Shanghai, Jan. 23, 2024</figcaption>
-  </figure>
-</td>
-</tr>
-</table>
-
-<table style="border: none; width: 100%;">
-<tr style="border: none;">
-<td style="border: none; width: 50%;">
-  <figure style="margin: 0;">
-    <a href="/images/interests/photography/IMG_0652.jpg">
-      <img src='/images/interests/photography/IMG_0652.jpg' style="width: 100%; object-fit: cover;">
-    </a>
-    <figcaption style="text-align: center; font-size: 1.0em; color: #666; padding: 5px 0;">Nanjing Road, Shanghai, Jul. 21, 2021</figcaption>
-  </figure>
-</td>
-<td style="border: none; width: 50%;">
-  <figure style="margin: 0;">
-    <a href="/images/interests/photography/IMG_5240.jpg">
-      <img src='/images/interests/photography/IMG_5240.jpg' style="width: 100%; object-fit: cover;">
-    </a>
-    <figcaption style="text-align: center; font-size: 1.0em; color: #666; padding: 5px 0;">Daxue Road, Qingdao, Shandong, May 15, 2023</figcaption>
-  </figure>
-</td>
-</tr>
-</table>
-
-<table style="border: none; width: 100%;">
-<tr style="border: none;">
-<td style="border: none; width: 50%;">
-  <figure style="margin: 0;">
-    <a href="/images/interests/photography/IMG_5383.jpg">
-      <img src='/images/interests/photography/IMG_5383.jpg' style="width: 100%; object-fit: cover;">
-    </a>
-    <figcaption style="text-align: center; font-size: 1.0em; color: #666; padding: 5px 0;">ZhanQiao Pier, Qingdao, Shandong, May 15, 2023</figcaption>
-  </figure>
-</td>
-<td style="border: none; width: 50%;">
-  <figure style="margin: 0;">
-    <a href="/images/interests/photography/IMG_2499.jpg">
-      <img src='/images/interests/photography/IMG_2499.jpg' style="width: 100%; object-fit: cover;">
-    </a>
-    <figcaption style="text-align: center; font-size: 1.0em; color: #666; padding: 5px 0;">U-shaped highway, Geermu, Qinghai, Oct. 8, 2021</figcaption>
-  </figure>
-</td>
-</tr>
-</table>
-
-<table style="border: none; width: 100%;">
-<tr style="border: none;">
-<td style="border: none; width: 50%;">
-  <figure style="margin: 0;">
     <a href="/images/interests/photography/IMG_2639-HDR.jpg">
       <img src='/images/interests/photography/IMG_2639-HDR.jpg' style="width: 100%; object-fit: cover;">
     </a>
@@ -328,69 +223,6 @@ redirect_from:
       <img src='/images/interests/photography/IMG_2468-HDR.jpg' style="width: 100%; object-fit: cover;">
     </a>
     <figcaption style="text-align: center; font-size: 1.0em; color: #666; padding: 5px 0;">Mangya Emerald Lake, Mangya, Qinghai, Oct. 6, 2021</figcaption>
-  </figure>
-</td>
-</tr>
-</table>
-
-<table style="border: none; width: 100%;">
-<tr style="border: none;">
-<td style="border: none; width: 50%;">
-  <figure style="margin: 0;">
-    <a href="/images/interests/photography/IMG_2189-HDR.jpg">
-      <img src='/images/interests/photography/IMG_2189-HDR.jpg' style="width: 100%; object-fit: cover;">
-    </a>
-    <figcaption style="text-align: center; font-size: 1.0em; color: #666; padding: 5px 0;">Jiayuguan, Jiayuguan City, Gansu, Oct. 4, 2021</figcaption>
-  </figure>
-</td>
-<td style="border: none; width: 50%;">
-  <figure style="margin: 0;">
-    <a href="/images/interests/photography/DSC1667.jpg">
-      <img src='/images/interests/photography/DSC1667.jpg' style="width: 100%; object-fit: cover;">
-    </a>
-    <figcaption style="text-align: center; font-size: 1.0em; color: #666; padding: 5px 0;">Hangzhou Xiaoshan International Airport, Hangzhou, Zhejiang, Jun. 16, 2023</figcaption>
-  </figure>
-</td>
-</tr>
-</table>
-
-<table style="border: none; width: 100%;">
-<tr style="border: none;">
-<td style="border: none; width: 50%;">
-  <figure style="margin: 0;">
-    <a href="/images/interests/photography/IMG_4035.jpg">
-      <img src='/images/interests/photography/IMG_4035.jpg' style="width: 100%; object-fit: cover;">
-    </a>
-    <figcaption style="text-align: center; font-size: 1.0em; color: #666; padding: 5px 0;">Zhinan Village, Linan, Hangzhou, Zhejiang, Nov. 18, 2022</figcaption>
-  </figure>
-</td>
-<td style="border: none; width: 50%;">
-  <figure style="margin: 0;">
-    <a href="/images/interests/photography/IMG_4043.jpg">
-      <img src='/images/interests/photography/IMG_4043.jpg' style="width: 100%; object-fit: cover;">
-    </a>
-    <figcaption style="text-align: center; font-size: 1.0em; color: #666; padding: 5px 0;">Zhinan Village, Linan, Hangzhou, Zhejiang, Nov. 18, 2022</figcaption>
-  </figure>
-</td>
-</tr>
-</table>
-
-<table style="border: none; width: 100%;">
-<tr style="border: none;">
-<td style="border: none; width: 50%;">
-  <figure style="margin: 0;">
-    <a href="/images/interests/photography/IMG_9615.jpg">
-      <img src='/images/interests/photography/IMG_9615.jpg' style="width: 100%; object-fit: cover;">
-    </a>
-    <figcaption style="text-align: center; font-size: 1.0em; color: #666; padding: 5px 0;">Hanling Old Street, Dongqian Lake, Ningbo, Zhejiang, Feb. 8, 2021</figcaption>
-  </figure>
-</td>
-<td style="border: none; width: 50%;">
-  <figure style="margin: 0;">
-    <a href="/images/interests/photography/DSC3355.jpg">
-      <img src='/images/interests/photography/DSC3355.jpg' style="width: 100%; object-fit: cover;">
-    </a>
-    <figcaption style="text-align: center; font-size: 1.0em; color: #666; padding: 5px 0;">WestLake, Hangzhou, Zhejiang, Dec. 31, 2023</figcaption>
   </figure>
 </td>
 </tr>
@@ -701,6 +533,16 @@ Club Team: <a href="https://fcbayern.com/" target="_blank" style="text-decoratio
 </tr>
 </table>
 
+#### The Best Place - Ningbo, Oct. 19, 2025 - Leehom Wang(王力宏) - Concert Photos
+{: .no_toc}
+<table style="border: none; width: 100%;">
+<tr style="border: none;">
+<td style="border: none; width: 33.3%;"><a href="/images/interests/music/IMG_6301.jpg"><img src='/images/interests/music/IMG_6301.jpg' style="width: 100%; object-fit: cover;"></a></td>
+<td style="border: none; width: 33.3%;"><a href="/images/interests/music/IMG_6302.jpg"><img src='/images/interests/music/IMG_6302.jpg' style="width: 100%; object-fit: cover;"></a></td>
+<td style="border: none; width: 33.3%;"><a href="/images/interests/music/IMG_6303.jpg"><img src='/images/interests/music/IMG_6303.jpg' style="width: 100%; object-fit: cover;"></a></td>
+</tr>
+</table>
+
 ### Concert Vlogs
 
 #### Fear and Dreams - Encore(空城计, K歌之王, 与我常在) - Hangzhou, Sept. 30, 2024 - Eason Chan(陈奕迅)
@@ -732,5 +574,13 @@ Club Team: <a href="https://fcbayern.com/" target="_blank" style="text-decoratio
 
 <div style="position:relative;padding-bottom:56.25%;width:100%;height:0;">
     <iframe src="https://player.bilibili.com/player.html?isOutside=true&amp;aid=115616560191684&bvid=BV1sSUeBoENB&cid=34285947613&amp;page=1&autoplay=0" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position:absolute;height:100%;width:100%;">
+    </iframe>
+</div>
+
+#### The Best Place - 唯一 - Ningbo, Oct. 19, 2025 - Leehom Wang(王力宏)
+{: .no_toc}
+
+<div style="position:relative;padding-bottom:56.25%;width:100%;height:0;">
+    <iframe src="https://player.bilibili.com/player.html?isOutside=true&amp;aid=115625854767938&bvid=BV16aS5BhEqH&cid=34327171032&amp;page=1&autoplay=0" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position:absolute;height:100%;width:100%;">
     </iframe>
 </div>
