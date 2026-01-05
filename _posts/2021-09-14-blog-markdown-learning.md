@@ -1,7 +1,7 @@
 ---
 title: 'Markdown 快速入门'
 date: 2021-09-14
-permalink: /posts/2021/09/markdown-learning/
+permalink: /blog/2021/09/markdown-learning/
 tags:
   - markdown
   - basic-knowledge

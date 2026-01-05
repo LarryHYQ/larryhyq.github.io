@@ -1,7 +1,7 @@
 ---
 title: 'Git 快速入门及在线协同'
 date: 2021-09-15
-permalink: /posts/2021/09/git-learning/
+permalink: /blog/2021/09/git-learning/
 tags:
   - git
   - basic-knowledge
