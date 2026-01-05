@@ -305,7 +305,7 @@ for epoch in range(num_epochs):
 ## Pytorch 模块参考文档
 
 - `torch.utils.data`数据处理模块 🧐[中文](https://pytorch-cn.readthedocs.io/zh/latest/package_references/data/) / [官方英文](https://pytorch.org/docs/stable/data.html)
-- `torch.nn`神经网络基本 Block，如全连接层、卷积层、损失函数等等的实现 🧐[中文](https://pytorch-cn.readthedocs.io/zh/latest/package_references/torch-nn/) / [官方英文](https://pytorch.org/docs/stable/nn.html)
+- `torch.nn`神经网络基本 Block，如全连接层、卷积层、损失函数等的实现 🧐[中文](https://pytorch-cn.readthedocs.io/zh/latest/package_references/torch-nn/) / [官方英文](https://pytorch.org/docs/stable/nn.html)
 - `torch.optim`神经网络常用优化器的实现 🧐[中文](https://pytorch-cn.readthedocs.io/zh/latest/package_references/torch-optim/) / [官方英文](https://pytorch.org/docs/stable/optim.html)
 
 ---
