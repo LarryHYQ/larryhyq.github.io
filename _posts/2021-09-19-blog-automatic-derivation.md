@@ -49,8 +49,12 @@ $$
 令：
 
 $$
-a={\langle\bf{x,w}\rangle} \\
-b={a-y} \\
+a={\langle\bf{x,w}\rangle}
+$$
+$$
+b={a-y}
+$$
+$$
 z=b^2
 $$
 
@@ -72,13 +76,17 @@ $$
 
 - 矩阵链式法则求导示例
 
-假设：矩阵 $\mathbf{X} \in \mathbb{R}^{m \times n}$，向量 $\mathbf{w} \in \mathbb{R}^n$，$\mathbf{y} \in \mathbb{R}^m$，$z=||\mathbf{X}\mathbf{w}-\mathbf{y}||^2$，求 $\frac{\partial z}{\partial \mathbf{w}}$ ？
+假设：矩阵 $\mathbf{X} \in \mathbb{R}^{m \times n}$，向量 $\mathbf{w} \in \mathbb{R}^n$，$\mathbf{y} \in \mathbb{R}^m$，$z=\Vert\mathbf{X}\mathbf{w}-\mathbf{y}\Vert^2$，求 $\frac{\partial z}{\partial \mathbf{w}}$ ？
 
 令：
 
 $$
-{\bf{a}=\bf{Xw}} \\
-{\bf{b}=\bf{a-y}} \\
+\mathbf{a}=\mathbf{Xw}
+$$
+$$
+\mathbf{b}=\mathbf{a-y} 
+$$
+$$
 z=||\bf{b}||^2
 $$
 
