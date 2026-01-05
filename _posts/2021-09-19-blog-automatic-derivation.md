@@ -128,7 +128,11 @@ $$
 
 关于计算图相关知识，李沐的视频教程较为简略，可参考官方文档中的文字讲解 👉[点击这里](https://zh.d2l.ai/chapter_multilayer-perceptrons/backprop.html)，同时还可观看吴恩达(AndrewNG)的 DeepLearning.ai 课程中的《计算图》章节 👇
 
-[![computation_graph_andrew](/images/blog/2021-09-19-blog-automatic-derivation/computation_graph_andrew.PNG)](https://www.bilibili.com/video/BV1FT4y1E74V?p=13)
+[![computation_graph_andrew]()](https://www.bilibili.com/video/BV1FT4y1E74V?p=13)
+
+<a href="https://www.bilibili.com/video/BV1FT4y1E74V?p=13" target="_blank">
+  <img src="/images/blog/2021-09-19-blog-automatic-derivation/computation_graph_andrew.jpg">
+</a>
 
 ## 自动求导代码实现
 
