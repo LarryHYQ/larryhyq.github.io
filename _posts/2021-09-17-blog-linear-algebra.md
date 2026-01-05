@@ -3,8 +3,8 @@ title: '线性代数'
 date: 2021-09-17
 permalink: /blog/2021/09/linear-algebra/
 tags:
-  - deep-learning
-  - basic-knowledge
+  - Deep Learning
+  - Basic Knowledge
 ---
 
 本文总结了深度学习中常用的线性代数基础知识，包括向量点乘、范数、矩阵乘法、特征值分解等基本运算，并提供了对应的 PyTorch 代码实现，最后解答了关于 Tensor 数据类型转换的常见问题。

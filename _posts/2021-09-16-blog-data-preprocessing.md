@@ -3,8 +3,8 @@ title: '数据操作及数据预处理'
 date: 2021-09-16
 permalink: /blog/2021/09/data-preprocessing/
 tags:
-  - deep-learning
-  - basic-knowledge
+  - Deep Learning
+  - Basic Knowledge
 ---
 
 本文介绍了深度学习中 N 维数组的概念，以及使用 PyTorch 和 Pandas 进行数据操作和预处理的基本方法，包括张量的创建、运算、广播机制以及 CSV 文件的读取和缺失值处理。

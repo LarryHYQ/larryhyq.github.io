@@ -3,8 +3,8 @@ title: 'Git 快速入门及在线协同'
 date: 2021-09-15
 permalink: /blog/2021/09/git-learning/
 tags:
-  - git
-  - basic-knowledge
+  - Git
+  - Basic Knowledge
 ---
 
 本文介绍了 Git 的安装与 VSCode 集成配置，讲解了 Git 的基本语法，并详细说明了如何使用 Github 进行多人在线协同，包括贡献者协同（Pull Requests）和核心开发组内协同的流程。
