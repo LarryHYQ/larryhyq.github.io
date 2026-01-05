@@ -89,7 +89,7 @@ Mermaid 是一个基于 Javascript 的图表绘制工具，通过解析类 Markd
 
 详细使用教程可以参考 👉[Mermaid 官方文档](https://mermaid-js.github.io/mermaid/#/)
 
-![Mermaid](https://mermaid-js.github.io/mermaid/img/header.png)
+![Mermaid](/images/blog/2021-09-14-blog-markdown-learning/header.png)
 
 以下为快速入门示例：
 
