@@ -8,6 +8,23 @@ document.addEventListener('DOMContentLoaded', function() {
       return;
     }
 
+    // Prevent duplicate buttons for nested structures
+    // (e.g. div.highlighter-rouge > div.highlight > pre.highlight)
+    // We only want to add the button to the outermost container.
+    var parent = codeBlock.parentElement;
+    var isNested = false;
+    while (parent) {
+      if (parent.matches && parent.matches('div.highlighter-rouge, div.highlight, pre.highlight')) {
+        isNested = true;
+        break;
+      }
+      parent = parent.parentElement;
+    }
+
+    if (isNested) {
+      return;
+    }
+
     var button = document.createElement('button');
     button.className = 'copy-code-button';
     button.type = 'button';
