@@ -7,6 +7,8 @@ tags:
   - basic-knowledge
 ---
 
+本文介绍了如何配置 VSCode 以优化 Markdown 编写体验，包括推荐安装的扩展插件如 Markdown All In One、Markdown Emoji 等，以及如何利用这些工具提升文档编写效率。
+
 ## 为 Markdown 优化 VSCode 设置
 
 目前安装好的 VSCode 仅支持最基础的 Markdown 编辑功能，这里为了提供更好的编写体验，需要在 VSCode 安装以下扩展：
@@ -28,19 +30,19 @@ tags:
 
 3. 在左侧扩展商店选择`Chinese(Simplified)(简体中文)`，点击安装
 
-   ![step3](Images/git_tutorials_1.png)
+   ![step3](/images/blog/2021-09-14-blog-markdown-learning/git_tutorials_1.png)
 
 4. 重复第 2 步，选择`zh-cn`重启 VSCode，便切换为中文界面
 
 5. 继续在左侧打开扩展商店，在顶部搜素框输入`markdown`，安装如下扩展：
 
-   ![step3](Images/git_tutorials_2.png)
+   ![step4](/images/blog/2021-09-14-blog-markdown-learning/git_tutorials_2.png)
 
 6. 同理再安装`Markdown Preview Mermaid Support`插件
 
 7. 安装完毕后，在编写 Markdown 文档时，点击顶部“放大镜 🔍”图标，便可在右侧开启实时预览功能
 
-   ![step4](Images/git_tutorials_3.png)
+   ![step5](/images/blog/2021-09-14-blog-markdown-learning/git_tutorials_3.png)
 
 ## 基础语法
 
@@ -73,11 +75,13 @@ Markdown 支持插入 Latex 公式语法，分为两种写法：
 
 以下为 Latex 数学符号语法整理：
 
-![latex_1](Images/latex_1.webp)
+![latex_1](/images/blog/2021-09-14-blog-markdown-learning/latex_1.webp)
 
-![latex_2](Images/latex_2.webp)
+![latex_2](/images/blog/2021-09-14-blog-markdown-learning/latex_2.webp)
 
-![latex_3](Images/latex_3.webp)
+![latex_3](/images/blog/2021-09-14-blog-markdown-learning/latex_3.webp)
+
+![latex_4](/images/blog/2021-09-14-blog-markdown-learning/latex_4.webp)
 
 ## Mermaid 作图语法
 
@@ -230,7 +234,7 @@ pie
       Sit down: 3: Me
 </pre></td>
   <td align="center">
-    <img alt="User Journey Diagram" src="Images/gray-user-journey.png" />
+    <img alt="User Journey Diagram" src="/images/blog/2021-09-14-blog-markdown-learning/gray-user-journey.png" />
   </td>
 </tr>
 <!-- </Journey> -->
@@ -268,7 +272,7 @@ pie
 
 3. 在需要转换的 VSCode 窗口文件右键，出现以下菜单，选择`Markdown PDF:Export(PDF)`即可在 markdown 文件所在目录找到导出的 PDF 文件。
 
-![markdown2pdf](Images/markdown2pdf.jpg)
+![markdown2pdf](/images/blog/2021-09-14-blog-markdown-learning/markdown2pdf.jpg)
 
 ## 参考链接
 
