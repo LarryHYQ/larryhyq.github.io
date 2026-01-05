@@ -3,16 +3,17 @@ title: '数据操作及数据预处理'
 date: 2021-09-16
 permalink: /blog/2021/09/data-preprocessing/
 tags:
-  - Deep Learning
-  - Basic Knowledge
-excerpt: "本文介绍了深度学习中 N 维数组的概念，以及使用 PyTorch 和 Pandas 进行数据操作和预处理的基本方法，包括张量的创建、运算、广播机制以及 CSV 文件的读取和缺失值处理。"
+  - deep-learning
+  - basic-knowledge
 ---
 
 本文介绍了深度学习中 N 维数组的概念，以及使用 PyTorch 和 Pandas 进行数据操作和预处理的基本方法，包括张量的创建、运算、广播机制以及 CSV 文件的读取和缺失值处理。
 
 ### 🎦 本节课程视频地址 👇
 
-[![Bilibil](https://i1.hdslb.com/bfs/archive/2bed5e04146c92346fae88a6d41156002ab49fb7.jpg@640w_400h_100Q_1c.webp)](https://www.bilibili.com/video/BV1CV411Y7i4)
+<a href="https://www.bilibili.com/video/BV1CV411Y7i4" target="_blank">
+  <img src="https://i1.hdslb.com/bfs/archive/2bed5e04146c92346fae88a6d41156002ab49fb7.jpg@640w_400h_100Q_1c.webp" alt="Bilibil" referrerpolicy="no-referrer">
+</a>
 
 ## N 维数组
 
@@ -35,7 +36,7 @@ excerpt: "本文介绍了深度学习中 N 维数组的概念，以及使用 PyT
 - **`[1:3,1:]`**：冒号前后跟数字代表取一个*前闭后开*区间的元素，**多在 CNN 中用于在整张图片矩阵中取出一个子区域的数据操作来与卷积核进行运算**
 - **`[::3,::2]`**：两个冒号后代表隔几个元素取，**多用于 CNN 中的“空洞卷积”操作**
 
-![空洞卷积](https://oscimg.oschina.net/oscnet/239b526729ef1ca62868d6269c62831ce24.jpg)
+<img src="https://oscimg.oschina.net/oscnet/239b526729ef1ca62868d6269c62831ce24.jpg" alt="空洞卷积" referrerpolicy="no-referrer">
 
 ### Pytorch 数据基本操作
 

@@ -3,8 +3,8 @@ title: 'Markdown 快速入门'
 date: 2021-09-14
 permalink: /blog/2021/09/markdown-learning/
 tags:
-  - Markdown
-  - Basic Knowledge
+  - markdown
+  - basic-knowledge
 ---
 
 本文介绍了如何配置 VSCode 以优化 Markdown 编写体验，包括推荐安装的扩展插件如 Markdown All In One、Markdown Emoji 等，以及如何利用这些工具提升文档编写效率。
