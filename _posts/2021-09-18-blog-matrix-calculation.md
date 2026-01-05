@@ -40,10 +40,10 @@ $$
 - 标量对向量求导得到**行向量**：
 
 $$
-\begin{array}{c|ccc}
-\text{y} & a & au & sum(\bf{x}) & ||\bf{x}||^2 \\
+\begin{array}{c|cccc}
+\text{y} & a & au & \text{sum}(\bf{x}) & ||\bf{x}||^2 \\
 \hline
-\partial{y}\over{\partial{\bf{x}}} & \bf{0}^T & a{{\partial{u}}\over{\partial{\bf{x}}}} & \bf{1}^T & 2\bf{x}^T
+\frac{\partial{y}}{\partial{\bf{x}}} & \bf{0}^T & a\frac{\partial{u}}{\partial{\bf{x}}} & \bf{1}^T & 2\bf{x}^T
 \end{array}
 $$
 
@@ -53,7 +53,7 @@ $$
 \begin{array}{c|lcc}
 \text{y} & u+v & uv & \langle{\bf{u},\bf{v}}\rangle \\
 \hline
-\partial{y}\over{\partial{\bf{x}}} & {\partial{u}\over{\partial{\bf{x}}}}+{\partial{v}\over{\partial{\bf{x}}}} & {\partial{u}\over{\partial{\bf{x}}}}v+{\partial{v}\over{\partial{\bf{x}}}}u & \bf{u}^T{\partial{\bf{v}}\over{\partial{\bf{x}}}}+\bf{v}^T{\partial{\bf{u}}\over{\partial{\bf{x}}}}\text{ (行向量)}
+\frac{\partial{y}}{\partial{\bf{x}}} & \frac{\partial{u}}{\partial{\bf{x}}}+\frac{\partial{v}}{\partial{\bf{x}}} & \frac{\partial{u}}{\partial{\bf{x}}}v+\frac{\partial{v}}{\partial{\bf{x}}}u & \bf{u}^T\frac{\partial{\bf{v}}}{\partial{\bf{x}}}+\bf{v}^T\frac{\partial{\bf{u}}}{\partial{\bf{x}}}\text{ (行向量)}
 \end{array}
 $$
 
@@ -95,7 +95,7 @@ $$
 \begin{array}{c|lcc}
 \bf{y} & a\bf{u} & \bf{Au} & \bf{u+v} \\
 \hline
-\partial{\bf{y}}\over{\partial{\bf{x}}} & a{{\partial{\bf{u}}}\over{\partial{\bf{x}}}} & \bf{A}{{\partial{\bf{u}}}\over{\partial{\bf{x}}}} & {{\partial{\bf{u}}}\over{\partial{\bf{x}}}}+{{\partial{\bf{v}}}\over{\partial{\bf{x}}}}
+\frac{\partial{\bf{y}}}{\partial{\bf{x}}} & a\frac{\partial{\bf{u}}}{\partial{\bf{x}}} & \bf{A}\frac{\partial{\bf{u}}}{\partial{\bf{x}}} & \frac{\partial{\bf{u}}}{\partial{\bf{x}}}+\frac{\partial{\bf{v}}}{\partial{\bf{x}}}
 \end{array}
 $$
 
