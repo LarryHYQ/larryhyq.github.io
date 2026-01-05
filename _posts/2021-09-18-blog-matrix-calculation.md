@@ -12,15 +12,19 @@ tags:
 
 ### 🎦 本节课程视频地址 👇
 
+<div align="center">
 <a href="https://www.bilibili.com/video/BV1eZ4y1w7PY" target="_blank">
   <img src="https://i2.hdslb.com/bfs/archive/c6e841abe7cb95476e44d0b724b4f12cda91a285.jpg@640w_400h_100Q_1c.webp" alt="Bilibil" referrerpolicy="no-referrer">
 </a>
+</div>
 
 ### 🎦 关于微积分相关知识，继续强烈推荐**3Blue1Brown**的超棒教程 👇
 
+<div align="center">
 <a href="https://space.bilibili.com/88461692/channel/detail?cid=13407&ctype=0" target="_blank">
   <img src="https://i1.hdslb.com/bfs/archive/11aab6ed64acf0bf9ca9d48ec97796a724490427.jpg@640w_400h_100Q_1c.webp" alt="Bilibil" referrerpolicy="no-referrer">
 </a>
+</div>
 
 ## 矩阵求导的意义
 

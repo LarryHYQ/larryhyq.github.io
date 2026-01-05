@@ -11,9 +11,11 @@ tags:
 
 ### 🎦 本节课程视频地址 👇
 
+<div align="center">
 <a href="https://www.bilibili.com/video/BV1CV411Y7i4" target="_blank">
   <img src="https://i1.hdslb.com/bfs/archive/2bed5e04146c92346fae88a6d41156002ab49fb7.jpg@640w_400h_100Q_1c.webp" alt="Bilibil" referrerpolicy="no-referrer">
 </a>
+</div>
 
 ## N 维数组
 
@@ -36,7 +38,9 @@ tags:
 - **`[1:3,1:]`**：冒号前后跟数字代表取一个*前闭后开*区间的元素，**多在 CNN 中用于在整张图片矩阵中取出一个子区域的数据操作来与卷积核进行运算**
 - **`[::3,::2]`**：两个冒号后代表隔几个元素取，**多用于 CNN 中的“空洞卷积”操作**
 
+<div align="center">
 <img src="https://oscimg.oschina.net/oscnet/239b526729ef1ca62868d6269c62831ce24.jpg" alt="空洞卷积" referrerpolicy="no-referrer">
+</div>
 
 ### Pytorch 数据基本操作
 

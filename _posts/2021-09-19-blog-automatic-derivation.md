@@ -12,9 +12,11 @@ tags:
 
 ### 🎦 本节课程视频地址 👇
 
-<a href="https://www.bilibili.com/video/BV1KA411N7Px" target="_blank">
-  <img src="https://i0.hdslb.com/bfs/archive/feadafc9bf7283f84caacc60d841a4202b0395eb.jpg@640w_400h_100Q_1c.webp" alt="Bilibil" referrerpolicy="no-referrer">
-</a>
+<div align="center">
+  <a href="https://www.bilibili.com/video/BV1KA411N7Px" target="_blank">
+    <img src="https://i0.hdslb.com/bfs/archive/feadafc9bf7283f84caacc60d841a4202b0395eb.jpg@640w_400h_100Q_1c.webp" alt="Bilibil" referrerpolicy="no-referrer">
+  </a>
+</div>
 
 ## 向量求导的链式法则
 
@@ -114,13 +116,17 @@ $$
 
 计算图是几乎目前所有深度学习框架使用的、用于实现神经网络计算的底层模型，是将复杂运算拆分成由多个简单运算符（操作子）组成的**有向无环图（DAG, Directed Acyclic Graph**），可以实现**自动求导**（正向传播、反向传播 Backpropagation）功能。
 
-<img src="https://zh.d2l.ai/_images/forward.svg" alt="forward" referrerpolicy="no-referrer">
+<div align="center">
+  <img src="https://zh.d2l.ai/_images/forward.svg" alt="forward" referrerpolicy="no-referrer">
+</div>
 
 关于反向传播算法，推荐观看3Blue1Brown博主的科普视频👇
 
-<a href="https://www.bilibili.com/video/BV16x411V7Qg" target="_blank">
-  <img src="https://i1.hdslb.com/bfs/archive/c617e8ce539c6dfb96fb89e7d2feec919b609b5d.jpg@640w_400h_100Q_1c.webp" alt="Bilibil" referrerpolicy="no-referrer">
-</a>
+<div align="center">
+  <a href="https://www.bilibili.com/video/BV16x411V7Qg" target="_blank">
+    <img src="https://i1.hdslb.com/bfs/archive/c617e8ce539c6dfb96fb89e7d2feec919b609b5d.jpg@640w_400h_100Q_1c.webp" alt="Bilibil" referrerpolicy="no-referrer">
+  </a>
+</div>
 
 
 使用计算图模型，可更方便的进行**并行化运算**（惰性求值），同时拆分成简单的运算符，可充分利用专有硬件（如 GPU 等）实现**硬件加速**来提升计算效率，详细内容可参考👉[这里](https://zh.d2l.ai/chapter_computational-performance/auto-parallelism.html)

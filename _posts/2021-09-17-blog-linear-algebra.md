@@ -12,15 +12,19 @@ tags:
 
 ### 🎦 本节课程视频地址 👇
 
+<div align="center">
 <a href="https://www.bilibili.com/video/BV1eK4y1U7Qy" target="_blank">
   <img src="https://i0.hdslb.com/bfs/archive/e9ec11aff2b4a5a12bc08fd2be9bc12357c34f51.jpg@640w_400h_100Q_1c.webp" alt="Bilibil" referrerpolicy="no-referrer">
 </a>
+</div>
 
 ### 🎦 关于线性代数相关知识，强烈推荐**3Blue1Brown**的超棒教程 👇
 
+<div align="center">
 <a href="https://www.bilibili.com/video/BV1ys411472E" target="_blank">
   <img src="https://i2.hdslb.com/bfs/archive/c81a8eb032f3eaa1afd604272a410ac6896f281e.jpg@640w_400h_100Q_1c.webp" alt="Bilibil" referrerpolicy="no-referrer">
 </a>
+</div>
 
 ## 基本运算
 
