@@ -16,7 +16,7 @@ author_profile: true
 {% for tag in group_names %}
   {% assign posts = group_items[forloop.index0] %}
   <div class="tag-group" id="{{ tag | slugify }}">
-    <h2 class="archive__subtitle">{{ tag }}</h2>
+    <h2 class="archive__subtitle"><a href="#{{ tag | slugify }}" style="text-decoration: none; color: inherit;">{{ tag }}</a></h2>
     {% for post in posts %}
       {% include archive-single.html %}
     {% endfor %}
