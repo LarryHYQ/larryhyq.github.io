@@ -127,27 +127,6 @@ redirect_from:
 <tr style="border: none;">
 <td style="border: none; width: 50%;">
   <figure style="margin: 0;">
-    <a href="/images/interests/photography/IMG_1591.jpg">
-      <img src='/images/interests/photography/IMG_1591.jpg' style="width: 100%; object-fit: cover;">
-    </a>
-    <figcaption style="text-align: center; font-size: 1.0em; color: #666; padding: 5px 0;">Qilian Mountains, Xining, Qinghai, Oct. 2, 2021</figcaption>
-  </figure>
-</td>
-<td style="border: none; width: 50%;">
-  <figure style="margin: 0;">
-    <a href="/images/interests/photography/IMG_2675-HDR.jpg">
-      <img src='/images/interests/photography/IMG_2675-HDR.jpg' style="width: 100%; object-fit: cover;">
-    </a>
-    <figcaption style="text-align: center; font-size: 1.0em; color: #666; padding: 5px 0;">Qinghai Lake, Xining, Qinghai, Oct. 10, 2021</figcaption>
-  </figure>
-</td>
-</tr>
-</table>
-
-<table style="border: none; width: 100%;">
-<tr style="border: none;">
-<td style="border: none; width: 50%;">
-  <figure style="margin: 0;">
     <a href="/images/interests/photography/DSC3602.jpg">
       <img src='/images/interests/photography/DSC3602.jpg' style="width: 100%; object-fit: cover;">
     </a>
@@ -160,6 +139,27 @@ redirect_from:
       <img src='/images/interests/photography/DSC3991.jpg' style="width: 100%; object-fit: cover;">
     </a>
     <figcaption style="text-align: center; font-size: 1.0em; color: #666; padding: 5px 0;">China National Archives of Publications and Culture, Hangzhou, Zhejiang, Jul. 9, 2024</figcaption>
+  </figure>
+</td>
+</tr>
+</table>
+
+<table style="border: none; width: 100%;">
+<tr style="border: none;">
+<td style="border: none; width: 50%;">
+  <figure style="margin: 0;">
+    <a href="/images/interests/photography/IMG_1591.jpg">
+      <img src='/images/interests/photography/IMG_1591.jpg' style="width: 100%; object-fit: cover;">
+    </a>
+    <figcaption style="text-align: center; font-size: 1.0em; color: #666; padding: 5px 0;">Qilian Mountains, Xining, Qinghai, Oct. 2, 2021</figcaption>
+  </figure>
+</td>
+<td style="border: none; width: 50%;">
+  <figure style="margin: 0;">
+    <a href="/images/interests/photography/IMG_2675-HDR.jpg">
+      <img src='/images/interests/photography/IMG_2675-HDR.jpg' style="width: 100%; object-fit: cover;">
+    </a>
+    <figcaption style="text-align: center; font-size: 1.0em; color: #666; padding: 5px 0;">Qinghai Lake, Xining, Qinghai, Oct. 10, 2021</figcaption>
   </figure>
 </td>
 </tr>
