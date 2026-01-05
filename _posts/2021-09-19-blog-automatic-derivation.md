@@ -44,7 +44,7 @@ $$
 
 - 向量链式法则求导示例：
 
-假设：向量 $\bf{x,w}\in\Bbb{R}^n$，$y\in\Bbb{R}$，$z=(\langle{\bf{x,w}}\rangle-y)^2$，求 ${\partial{z}}\over{\partial{\bf{w}}}$ ？
+假设：向量 $\mathbf{x}, \mathbf{w} \in \mathbb{R}^n$，$y \in \mathbb{R}$，$z=(\langle \mathbf{x}, \mathbf{w} \rangle - y)^2$，求 $\frac{\partial z}{\partial \mathbf{w}}$ ？
 
 令：
 
@@ -72,7 +72,7 @@ $$
 
 - 矩阵链式法则求导示例
 
-假设：矩阵 $\bf{X}\in\Bbb{R}^{m\times{n}}$，向量$\bf{w}\in{\Bbb{R^n}}$，$y\in\Bbb{R^m}$，$z=||\bf{Xw-y}||^2$，求${\partial{z}}\over{\partial{\bf{w}}}$ ？
+假设：矩阵 $\mathbf{X} \in \mathbb{R}^{m \times n}$，向量 $\mathbf{w} \in \mathbb{R}^n$，$\mathbf{y} \in \mathbb{R}^m$，$z=||\mathbf{X}\mathbf{w}-\mathbf{y}||^2$，求 $\frac{\partial z}{\partial \mathbf{w}}$ ？
 
 令：
 
@@ -100,7 +100,7 @@ $$
 
 ## 计算图
 
-计算图是几乎目前所有深度学习框架使用的、用于实现神经网络计算的底层模型，是将复杂运算拆分成由多个简单运算符（操作子）组成的**有向无环图（DAG, Directed Acyclic Graph**）👉[Wiki](https://zh.wiki.hancel.org/wiki/%E6%9C%89%E5%90%91%E6%97%A0%E7%8E%AF%E5%9B%BE)，可以实现**自动求导**（正向传播、反向传播 Backpropagation👉[Wiki](https://zh.wiki.hancel.org/wiki/%E5%8F%8D%E5%90%91%E4%BC%A0%E6%92%AD%E7%AE%97%E6%B3%95)）功能。
+计算图是几乎目前所有深度学习框架使用的、用于实现神经网络计算的底层模型，是将复杂运算拆分成由多个简单运算符（操作子）组成的**有向无环图（DAG, Directed Acyclic Graph**），可以实现**自动求导**（正向传播、反向传播 Backpropagation）功能。
 
 <img src="https://zh.d2l.ai/_images/forward.svg" alt="forward" referrerpolicy="no-referrer">
 
@@ -126,8 +126,6 @@ $$
 以上复杂度也决定了当神经网络非常大时，在训练过程中，对内存（CPU 计算）或显存（GPU 计算）容量要求非常高，因为所消耗的容量正比于神经网络节点数。
 
 关于计算图相关知识，李沐的视频教程较为简略，可参考官方文档中的文字讲解 👉[点击这里](https://zh.d2l.ai/chapter_multilayer-perceptrons/backprop.html)，同时还可观看吴恩达(AndrewNG)的 DeepLearning.ai 课程中的《计算图》章节 👇
-
-[![computation_graph_andrew]()](https://www.bilibili.com/video/BV1FT4y1E74V?p=13)
 
 <a href="https://www.bilibili.com/video/BV1FT4y1E74V?p=13" target="_blank">
   <img src="/images/blog/2021-09-19-blog-automatic-derivation/computation_graph_andrew.jpg">
