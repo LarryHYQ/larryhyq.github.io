@@ -22,23 +22,23 @@ tags:
 
 $$
 y=f(u),u=g(x) \\
-{{\partial{y}}\over{\partial{x}}}={{\partial{y}}\over{\partial{u}}}{{\partial{u}}\over{\partial{x}}}
+\frac{\partial{y}}{\partial{x}}=\frac{\partial{y}}{\partial{u}}\frac{\partial{u}}{\partial{x}}
 $$
 
 - 向量链式法则(求导结果的 shape 可以参考[第六课](_posts/2021-09-18-blog-matrix-calculation.md))
 
 $$
-{{\partial{y}}\over{\partial{\bf{x}}}}={{\partial{y}}\over{\partial{u}}}{{\partial{u}}\over{\partial{\bf{x}}}} \\
+\frac{\partial{y}}{\partial{\bf{x}}}=\frac{\partial{y}}{\partial{u}}\frac{\partial{u}}{\partial{\bf{x}}} \\
 \text{(1,n)    (1,)(1,n)} \\
 $$
 
 $$
-{{\partial{y}}\over{\partial{\bf{x}}}}={{\partial{y}}\over{\partial{\bf{u}}}}{{\partial{\bf{u}}}\over{\partial{\bf{x}}}} \\
+\frac{\partial{y}}{\partial{\bf{x}}}=\frac{\partial{y}}{\partial{\bf{u}}}\frac{\partial{\bf{u}}}{\partial{\bf{x}}} \\
 \text{(1,n)    (1,k)(k,n)} \\
 $$
 
 $$
-{{\partial{\bf{y}}}\over{\partial{\bf{x}}}}={{\partial{\bf{y}}}\over{\partial{\bf{u}}}}{{\partial{\bf{u}}}\over{\partial{\bf{x}}}} \\
+\frac{\partial{\bf{y}}}{\partial{\bf{x}}}=\frac{\partial{\bf{y}}}{\partial{\bf{u}}}\frac{\partial{\bf{u}}}{\partial{\bf{x}}} \\
 \text{(m,n)    (m,k)(k,n)} \\
 $$
 
@@ -58,13 +58,13 @@ $$
 
 $$
 \begin{aligned}
-    {\partial{z} \over {\partial{\bf{w}}}}
-    &={\partial{z} \over {\partial{b}}}
-    {\partial{b} \over{\partial{a}}}
-    {\partial{a} \over{\partial{\bf{w}}}} \\ \\
-    &={\partial{b^2}\over{\partial{b}}}
-    {\partial{a-y}\over{\partial{a}}}
-    {\partial{{\langle\bf{x,w}\rangle}} \over {\partial{\bf{w}}}} \\ \\
+    \frac{\partial{z}}{\partial{\bf{w}}}
+    &=\frac{\partial{z}}{\partial{b}}
+    \frac{\partial{b}}{\partial{a}}
+    \frac{\partial{a}}{\partial{\bf{w}}} \\ \\
+    &=\frac{\partial{b^2}}{\partial{b}}
+    \frac{\partial{a-y}}{\partial{a}}
+    \frac{\partial{\langle\bf{x,w}\rangle}}{\partial{\bf{w}}} \\ \\
     &={2b\cdot1\cdot\bf{x}^T} \\
     &=2(\langle{\bf{x,w}}\rangle-y)\bf{x}^T
 \end{aligned}
@@ -86,14 +86,13 @@ $$
 
 $$
 \begin{aligned}
-    {\partial{z}\over{\partial{\bf{w}}}}
-    &={{\partial{z}\over{\partial{\bf{b}}}}}
-    {{\partial{\bf{b}}\over{\partial{\bf{a}}}}}
-    {{\partial{\bf{a}}\over{\partial{\bf{w}}}}
-    } \\ \\
-    &={{\partial{||\bf{b}||}^2\over{\partial{\bf{b}}}}}
-    {{\partial{\bf{a-y}}\over{\partial{\bf{a}}}}}
-    {\partial{{\bf{Xw}}}\over{\partial{\bf{w}}}}  \\ \\
+    \frac{\partial{z}}{\partial{\bf{w}}}
+    &=\frac{\partial{z}}{\partial{\bf{b}}}
+    \frac{\partial{\bf{b}}}{\partial{\bf{a}}}
+    \frac{\partial{\bf{a}}}{\partial{\bf{w}}} \\ \\
+    &=\frac{\partial{||\bf{b}||}^2}{\partial{\bf{b}}}
+    \frac{\partial{\bf{a-y}}}{\partial{\bf{a}}}
+    \frac{\partial{\bf{Xw}}}{\partial{\bf{w}}}  \\ \\
     &={2\bf{b}^T\cdot\bf{I}\cdot\bf{X}} \\
     &=2{({\bf{Xw}}-\bf{y})}^T{\bf{X}}
 \end{aligned}
