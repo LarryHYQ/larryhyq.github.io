@@ -51,9 +51,11 @@ $$
 $$
 a={\langle\bf{x,w}\rangle}
 $$
+
 $$
 b={a-y}
 $$
+
 $$
 z=b^2
 $$
@@ -83,9 +85,11 @@ $$
 $$
 \mathbf{a}=\mathbf{Xw}
 $$
+
 $$
-\mathbf{b}=\mathbf{a-y} 
+\mathbf{b}=\mathbf{a-y}
 $$
+
 $$
 z=||\bf{b}||^2
 $$
