@@ -1,0 +1,40 @@
+.copy-code-button {
+  position: absolute;
+  top: 0.5rem;
+  right: 0.5rem;
+  background-color: #f8f9fa;
+  border: 1px solid #e9ecef;
+  border-radius: 0.25rem;
+  color: #6c757d;
+  font-size: 0.75rem;
+  padding: 0.25rem 0.5rem;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  z-index: 10;
+  opacity: 0; /* Hidden by default */
+}
+
+/* Show button on hover */
+div.highlighter-rouge:hover .copy-code-button,
+div.highlight:hover .copy-code-button,
+pre.highlight:hover .copy-code-button {
+  opacity: 1;
+}
+
+.copy-code-button:hover {
+  background-color: #e2e6ea;
+  color: #495057;
+}
+
+.copy-code-button.copied {
+  background-color: #28a745;
+  color: #fff;
+  border-color: #28a745;
+}
+
+/* Ensure the code block container handles the button positioning */
+div.highlighter-rouge,
+div.highlight,
+pre.highlight {
+  position: relative;
+}

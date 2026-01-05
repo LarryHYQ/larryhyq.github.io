@@ -37,7 +37,7 @@ tags:
 - 预测模型假设房价与特征**呈线性关系**，即：输出 = 输入的加权和 + 标量偏差
 
 $$
-y = \langle\bf{w,x}\rangle+b=
+y = \langle\mathbf{w}, \mathbf{x}\rangle+b=
 w_1x_1+w_2x_2+...+w_nx_n+b
 $$
 
@@ -48,22 +48,22 @@ $$
 通常为方便计算机使用并行加速运算能力，会**向量化**训练数据表示为列向量，相关理论可参考吴恩达 Deeplearning 课程第 17 节内容 👉[Bilibili](https://www.bilibili.com/video/BV1FT4y1E74V?p=17)，形式为：
 
 $$
-{\bf{X}}=[{\bf{x_1}},{\bf{x_2}},{\bf{x_3}},...,{\bf{x_n}}]^T
+\mathbf{X}=[\mathbf{x}_1, \mathbf{x}_2, \mathbf{x}_3, ..., \mathbf{x}_n]^T
 $$
 
 $$
-{\bf{y}}=[y_1,y_2,y_3,...,y_n]^T
+\mathbf{y}=[y_1, y_2, y_3, ..., y_n]^T
 $$
 
-（其中 ${\bf{X}}$ 的每一行是一个样本，对应列向量 $\bf{y}$ 中的一个标签元素）
+（其中 $\mathbf{X}$ 的每一行是一个样本，对应列向量 $\mathbf{y}$ 中的一个标签元素）
 
 - **损失函数**（Loss function）：用于衡量预估质量，通常我们会选择非负数作为损失，且数值越小表示损失越小，完美预测时的损失为 0。 回归问题中最常用的损失函数是平方误差函数。下式表示每个样本的损失：
 
 $$
-l(y,\hat{y})={1\over2}{(y-\hat{y})^2}
+l(y,\hat{y})=\frac{1}{2}(y-\hat{y})^2
 $$
 
-> 其中，式中的 $1\over2$ 为方便求导
+> 其中，式中的 $\frac{1}{2}$ 为方便求导
 
 <div align="center">
   <img src="https://zh.d2l.ai/_images/fit-linreg.svg" alt="单层神经网络" referrerpolicy="no-referrer">
@@ -72,13 +72,13 @@ $$
 - **代价函数**（Cost function）：在训练数据集上的损失平均
 
 $$
-L({\bf{X}},{\bf{y}},{\bf{w}},b)={1\over2n}\sum_{i=1}^n(y_i-<{\bf{w}},{\bf{x_i}}>-b)^2={1\over2n}||{\bf{y}}-{\bf{X}}{\bf{w}}-b||^2
+L(\mathbf{X}, \mathbf{y}, \mathbf{w}, b)=\frac{1}{2n}\sum_{i=1}^n(y_i-\langle\mathbf{w}, \mathbf{x}_i\rangle-b)^2=\frac{1}{2n}||\mathbf{y}-\mathbf{X}\mathbf{w}-b||^2
 $$
 
 - 最小化代价函数来学习参数：
 
 $$
-{\bf{w}}^*,{\bf{b}}^*=arg\,\min_{{\bf{w}},b}L({\bf{X}},{\bf{y}},{\bf{w}},b)
+\mathbf{w}^*, b^* = \mathop{\mathrm{argmin}}_{\mathbf{w}, b} L(\mathbf{X}, \mathbf{y}, \mathbf{w}, b)
 $$
 
 - 显式解：线性回归问题存在最优的解析解
@@ -86,37 +86,37 @@ $$
   首先将特征矩阵增加一列全 1 向量，再将偏差`b`合并进权重 **`w`**，以简化表示：
 
   $$
-  {\bf{X}}\leftarrow[{\bf{X}},{\bf{1}}]
+  \mathbf{X}\leftarrow[\mathbf{X}, \mathbf{1}]
   $$
 
   $$
-  {\bf{w}}\leftarrow\begin{bmatrix} {\bf{w}}\\ b\\ \end{bmatrix}
+  \mathbf{w}\leftarrow\begin{bmatrix} \mathbf{w}\\ b\\ \end{bmatrix}
   $$
 
   则：
 
   $$
-  l({\bf{X}},{\bf{y}},{\bf{w}})={1\over2n}||{\bf{y}}-{\bf{X}}{\bf{w}}||^2
+  l(\mathbf{X}, \mathbf{y}, \mathbf{w})=\frac{1}{2n}||\mathbf{y}-\mathbf{X}\mathbf{w}||^2
   $$
 
   $$
-  {\partial\over\partial{\bf{w}}}l({\bf{X}},{\bf{y}},{\bf{w}})={1\over n}({\bf{y}}-{\bf{X}}{\bf{w}})^T{\bf{X}}
+  \frac{\partial}{\partial\mathbf{w}}l(\mathbf{X}, \mathbf{y}, \mathbf{w})=\frac{1}{n}(\mathbf{y}-\mathbf{X}\mathbf{w})^T\mathbf{X}
   $$
 
   该损失函数是凸函数，其最优解满足求对应参数偏导为零：
 
 $$
-{\partial\over\partial{\bf{w}}}l({\bf{X}},{\bf{y}},{\bf{w}})=0
+\frac{\partial}{\partial\mathbf{w}}l(\mathbf{X}, \mathbf{y}, \mathbf{w})=0
 $$
 
 $$
-{1\over n}({\bf{y}}-{\bf{X}}{\bf{w}})^T{\bf{X}}=0
+\frac{1}{n}(\mathbf{y}-\mathbf{X}\mathbf{w})^T\mathbf{X}=0
 $$
 
 即当：
 
 $$
-{\bf{w}}^*=({\bf{X}}^T{\bf{X}})^{-1}{\bf{X}}{\bf{y}}
+\mathbf{w}^*=(\mathbf{X}^T\mathbf{X})^{-1}\mathbf{X}\mathbf{y}
 $$
 
 时，得到解析解，代价函数取得最小值。
@@ -127,7 +127,8 @@ $$
 
 如果一个模型没有显式解，就需要借助数值方法。
 首先可随机初始化一个参数值${\bf{w_0}}$，重复迭代$t=1,2,3...$，令：
-$${\bf{w_t}}={\bf{w_{t-1}}}-\eta{\partial l\over\partial{\bf{w_{t-1}}}}$$
+
+$$\mathbf{w}_t=\mathbf{w}_{t-1}-\eta\frac{\partial l}{\partial\mathbf{w}_{t-1}}$$
 
 > 其中，学习率（$\eta$）：步长的超参数（hyperparameter）,不能太小（会导致收敛时间过慢）也不能太大（产生震荡，无法收敛）。
 
@@ -137,7 +138,8 @@ $${\bf{w_t}}={\bf{w_{t-1}}}-\eta{\partial l\over\partial{\bf{w_{t-1}}}}$$
 
 在整个训练集上算梯度实在太贵
 可以随机采样$b$个样本$i_1,i_2,...,i_b$来近似损失
-$${1\over b}\sum_{i\in I_b}^nl({\bf{x_i}},y_i,{\bf{w}})$$
+
+$$\frac{1}{b}\sum_{i\in I_b}l(\mathbf{x}_i, y_i, \mathbf{w})$$
 
 $b$为批量大小（batch），另外一个重要的超参数。**为最大化计算效率，一般与运算设备（如 GPU）的存储大小相关，如 256、512、2048……**
 
@@ -302,9 +304,9 @@ for epoch in range(num_epochs):
 
 ## Pytorch 模块参考文档
 
-- `torch.utils.data`数据处理模块 🧐[中文](https://pytorch-cn.readthedocs.io/zh/latest/package_references/data/) | [官方英文](https://pytorch.org/docs/stable/data.html)
-- `torch.nn`神经网络基本 Block，如全连接层、卷积层、损失函数等等的实现 🧐[中文](https://pytorch-cn.readthedocs.io/zh/latest/package_references/torch-nn/) | [官方英文](https://pytorch.org/docs/stable/nn.html)
-- `torch.optim`神经网络常用优化器的实现 🧐[中文](https://pytorch-cn.readthedocs.io/zh/latest/package_references/torch-optim/) | [官方英文](https://pytorch.org/docs/stable/optim.html)
+- `torch.utils.data`数据处理模块 🧐[中文](https://pytorch-cn.readthedocs.io/zh/latest/package_references/data/) / [官方英文](https://pytorch.org/docs/stable/data.html)
+- `torch.nn`神经网络基本 Block，如全连接层、卷积层、损失函数等等的实现 🧐[中文](https://pytorch-cn.readthedocs.io/zh/latest/package_references/torch-nn/) / [官方英文](https://pytorch.org/docs/stable/nn.html)
+- `torch.optim`神经网络常用优化器的实现 🧐[中文](https://pytorch-cn.readthedocs.io/zh/latest/package_references/torch-optim/) / [官方英文](https://pytorch.org/docs/stable/optim.html)
 
 ---
 
