@@ -8,10 +8,52 @@ author_profile: true
 {% include base_path %}
 {% include group-by-array collection=site.posts field="tags" %}
 
+<div id="show-all-tags" style="display: none; margin-bottom: 1em;">
+  <a href="#" onclick="window.location.hash=''; return false;" class="btn">Show All Tags</a>
+</div>
+
+<div id="tag-archives">
 {% for tag in group_names %}
   {% assign posts = group_items[forloop.index0] %}
-  <h2 id="{{ tag | slugify }}" class="archive__subtitle">{{ tag }}</h2>
-  {% for post in posts %}
-    {% include archive-single.html %}
-  {% endfor %}
+  <div class="tag-group" id="{{ tag | slugify }}">
+    <h2 class="archive__subtitle">{{ tag }}</h2>
+    {% for post in posts %}
+      {% include archive-single.html %}
+    {% endfor %}
+  </div>
 {% endfor %}
+</div>
+
+<script>
+  function filterByTag() {
+    var hash = window.location.hash.substring(1);
+    var groups = document.querySelectorAll('.tag-group');
+    var showAllBtn = document.getElementById('show-all-tags');
+    
+    if (hash) {
+      var found = false;
+      groups.forEach(function(group) {
+        if (group.id === hash) {
+          group.style.display = "block";
+          found = true;
+        } else {
+          group.style.display = "none";
+        }
+      });
+      if (found) {
+        showAllBtn.style.display = "block";
+      } else {
+        groups.forEach(function(group) { group.style.display = "block"; });
+        showAllBtn.style.display = "none";
+      }
+    } else {
+      groups.forEach(function(group) {
+        group.style.display = "block";
+      });
+      showAllBtn.style.display = "none";
+    }
+  }
+
+  window.addEventListener('hashchange', filterByTag);
+  window.addEventListener('load', filterByTag);
+</script>
