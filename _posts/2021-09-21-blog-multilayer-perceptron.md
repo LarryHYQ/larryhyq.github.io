@@ -66,7 +66,7 @@ until all classified correctly
 
     $$y(\mathbf{x}^T\mathbf{w}+b)\ge\rho, \rho>0$$
 
-  - 对于$||\mathbf{w}||^2+b^2\le1$，感知机保证在\frac{r^2+1}{\rho^2}步后收敛。
+  - 对于$\Vert\mathbf{w}\Vert^2+b^2\le1$，感知机保证在$\frac{r^2+1}{\rho^2}$步后收敛。
 
 <div align="center">
   <img src="/images/blog/Images/perceptron.jpg" alt="感知机" referrerpolicy="no-referrer">
