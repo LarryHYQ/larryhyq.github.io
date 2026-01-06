@@ -30,19 +30,19 @@ tags:
 
 3. 在左侧扩展商店选择`Chinese(Simplified)(简体中文)`，点击安装
 
-   ![step3](/images/blog/2021-09-14-blog-markdown-learning/git_tutorials_1.png)
+   ![step3](/images/blog/Images/git_tutorials_1.png)
 
 4. 重复第 2 步，选择`zh-cn`重启 VSCode，便切换为中文界面
 
 5. 继续在左侧打开扩展商店，在顶部搜素框输入`markdown`，安装如下扩展：
 
-   ![step4](/images/blog/2021-09-14-blog-markdown-learning/git_tutorials_2.png)
+   ![step4](/images/blog/Images/git_tutorials_2.png)
 
 6. 同理再安装`Markdown Preview Mermaid Support`插件
 
 7. 安装完毕后，在编写 Markdown 文档时，点击顶部“放大镜 🔍”图标，便可在右侧开启实时预览功能
 
-   ![step5](/images/blog/2021-09-14-blog-markdown-learning/git_tutorials_3.png)
+   ![step5](/images/blog/Images/git_tutorials_3.png)
 
 ## 基础语法
 
@@ -75,13 +75,13 @@ Markdown 支持插入 Latex 公式语法，分为两种写法：
 
 以下为 Latex 数学符号语法整理：
 
-![latex_1](/images/blog/2021-09-14-blog-markdown-learning/latex_1.webp)
+![latex_1](/images/blog/Images/latex_1.webp)
 
-![latex_2](/images/blog/2021-09-14-blog-markdown-learning/latex_2.webp)
+![latex_2](/images/blog/Images/latex_2.webp)
 
-![latex_3](/images/blog/2021-09-14-blog-markdown-learning/latex_3.webp)
+![latex_3](/images/blog/Images/latex_3.webp)
 
-![latex_4](/images/blog/2021-09-14-blog-markdown-learning/latex_4.webp)
+![latex_4](/images/blog/Images/latex_4.webp)
 
 ## Mermaid 作图语法
 
@@ -89,7 +89,7 @@ Mermaid 是一个基于 Javascript 的图表绘制工具，通过解析类 Markd
 
 详细使用教程可以参考 👉[Mermaid 官方文档](https://mermaid-js.github.io/mermaid/#/)
 
-![Mermaid](/images/blog/2021-09-14-blog-markdown-learning/header.png)
+![Mermaid](/images/blog/Images/header.png)
 
 以下为快速入门示例：
 
@@ -234,7 +234,7 @@ pie
       Sit down: 3: Me
 </pre></td>
   <td align="center">
-    <img alt="User Journey Diagram" src="/images/blog/2021-09-14-blog-markdown-learning/gray-user-journey.png" />
+    <img alt="User Journey Diagram" src="/images/blog/Images/gray-user-journey.png" />
   </td>
 </tr>
 <!-- </Journey> -->
@@ -272,7 +272,7 @@ pie
 
 3. 在需要转换的 VSCode 窗口文件右键，出现以下菜单，选择`Markdown PDF:Export(PDF)`即可在 markdown 文件所在目录找到导出的 PDF 文件。
 
-![markdown2pdf](/images/blog/2021-09-14-blog-markdown-learning/markdown2pdf.jpg)
+![markdown2pdf](/images/blog/Images/markdown2pdf.jpg)
 
 ## 参考链接
 
