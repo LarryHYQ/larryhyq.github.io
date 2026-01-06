@@ -4,8 +4,6 @@ date: 2021-09-21
 permalink: /blog/2021/09/multilayer-perceptron/
 tags:
   - Deep Learning
-  - Basic Knowledge
-  - Math Basics
 ---
 
 本文详细介绍了从感知机到多层感知机（MLP）的演变历程，分析了 XOR 问题对 AI 发展的影响及非线性激活函数的重要性。文章深入讲解了 MLP 的结构、常用激活函数（Sigmoid、Tanh、ReLU）及基于 PyTorch 的代码实现，并探讨了参数初始化、深层网络优势及“维度灾难”等核心问题。
