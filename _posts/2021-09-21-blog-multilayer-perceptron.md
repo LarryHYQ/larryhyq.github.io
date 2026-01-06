@@ -8,7 +8,7 @@ tags:
   - Math Basics
 ---
 
-本文深入探讨了线性回归模型的基本原理，将其等价为单层神经网络进行解析。详细介绍了损失函数、代价函数、解析解及梯度下降优化算法的数学原理，并分别展示了基于 PyTorch 的从零代码实现与利用框架组件的简洁实现，为理解深度学习模型的训练过程奠定基础。
+本文详细介绍了从感知机到多层感知机（MLP）的演变历程，分析了 XOR 问题对 AI 发展的影响及非线性激活函数的重要性。文章深入讲解了 MLP 的结构、常用激活函数（Sigmoid、Tanh、ReLU）及基于 PyTorch 的代码实现，并探讨了参数初始化、深层网络优势及“维度灾难”等核心问题。
 
 
 ### 🎦 本节课程视频地址 👇
@@ -21,9 +21,9 @@ tags:
 
 ## 感知机（Perceptron）
 
-最早的 AI 模型之一，相当于单层神经网络。给定输入向量$\bf{x}$，权重向量$\bf{w}$，和偏移$b$，感知机输出：
+最早的 AI 模型之一，相当于单层神经网络。给定输入向量$\mathbf{x}$，权重向量$\mathbf{w}$，和偏移$b$，感知机输出：
 
-$$o=\sigma(\langle{\bf{w}},{\bf{x}}\rangle+b)$$
+$$o=\sigma(\langle{\mathbf{w}},{\mathbf{x}}\rangle+b)$$
 
 $$
 \sigma(x)=
@@ -64,9 +64,9 @@ until all classified correctly
 
   - 余量$\rho$分类两类
 
-    $$y({\bf{x}}^T{\bf{w}}+b)\ge\rho, \rho>0$$
+    $$y(\mathbf{x}^T\mathbf{w}+b)\ge\rho, \rho>0$$
 
-  - 对于$||{\bf{w}}||^2+b^2\le1$，感知机保证在${r^2+1}\over\rho^2$步后收敛。
+  - 对于$||\mathbf{w}||^2+b^2\le1$，感知机保证在\frac{r^2+1}{\rho^2}步后收敛。
 
 <div align="center">
   <img src="/images/blog/Images/perceptron.jpg" alt="感知机" referrerpolicy="no-referrer">
@@ -112,27 +112,27 @@ until all classified correctly
   <img src="/images/blog/Images/1_-eLjPY7UGSoQhSyW5qC6gw.gif" alt="Singel Hidden Layer" referrerpolicy="no-referrer">
 </div>
 
-- **Input Layer:** ${\bf{x}}\in{\mathbb R}^n$
-- **Hidden Layer:** ${\bf{W_1}}\in{\mathbb R}^{m\times n},{\bf{b_1}}\in{\mathbb R}^m$
-- **Output Layer:** ${\bf{w_2}}\in{\mathbb R}^m,{{b_2}}\in{\mathbb R}$
+- **Input Layer:** $\mathbf{x}\in{\mathbb R}^n$
+- **Hidden Layer:** $\mathbf{W_1}\in{\mathbb R}^{m\times n},\mathbf{b_1}\in{\mathbb R}^m$
+- **Output Layer:** $\mathbf{w_2}\in{\mathbb R}^m,{{b_2}}\in{\mathbb R}$
 
-> 隐藏层的维度\$m\$是一个超参数。\$
+> 隐藏层的维度$m$是一个超参数。
 
 单隐藏层感知机数学表达式为：
 
-$${\bf{h}}=\sigma({\bf{W_1}}{\bf{x}}+{\bf{b_1}})$$
+$$\mathbf{h}=\sigma(\mathbf{W_1}\mathbf{x}+\mathbf{b_1})$$
 
-$$o={\bf{w}}_2^T{\bf{h}}+b_2$$
+$$o=\mathbf{w}_2^T\mathbf{h}+b_2$$
 
-> 其中，${\bf{h}}$是单隐藏层的输出，$\sigma$ 是按元素的激活函数(activation function)，**激活函数必须是非线性的！**
+> 其中，$\mathbf{h}$是单隐藏层的输出，$\sigma$ 是按元素的激活函数(activation function)，**激活函数必须是非线性的！**
 
-> 如果激活函数为线性：则$o=a{\bf{w_2^TW_1x}}+b\prime$仍然是线性的，等于一个单层感知机。也就是说不论深度有多少层的线性感知机，都等价于单层感知机。
+> 如果激活函数为线性：则$o=a\mathbf{w}_2^T\mathbf{W}_1\mathbf{x}+b\prime$仍然是线性的，等于一个单层感知机。也就是说不论深度有多少层的线性感知机，都等价于单层感知机。
 
 - **常用激活函数**
 
   - **Sigmoid 函数**（多用于二分类问题的 Logistic 回归）
 
-  $$sigmoid(x)={{1}\over1+e^{-x}}$$
+  $$sigmoid(x)=\frac{1}{1+e^{-x}}$$
 
   <div align="center">
     <img src="https://zh.d2l.ai/_images/output_mlp_76f463_39_0.svg" alt="Sigmoid Function" referrerpolicy="no-referrer">
@@ -140,7 +140,7 @@ $$o={\bf{w}}_2^T{\bf{h}}+b_2$$
 
   - **Tanh 函数**
 
-  $$tanh(x)={{1-e^{-2x}}\over1+e^{-2x}}$$
+  $$tanh(x)=\frac{1-e^{-2x}}{1+e^{-2x}}$$
 
   <div align="center">
     <img src="https://zh.d2l.ai/_images/output_mlp_76f463_63_0.svg" alt="Tanh Function" referrerpolicy="no-referrer">
@@ -160,13 +160,13 @@ $$o={\bf{w}}_2^T{\bf{h}}+b_2$$
 
 $$y_1,y_2,...,y_k=softmax(o_1,o_2,...,o_k)$$
 
-- **Input Layer:** ${\bf{x}}\in{\mathbb R}^n$
-- **Hidden Layer:** ${\bf{W_1}}\in{\mathbb R}^{m\times n},{\bf{b_1}}\in{\mathbb R}^m$
-- **Output Layer:** ${\bf{W_2}}\in{\mathbb R}^{m\times k},{\bf{b_2}}\in{\mathbb R}^k$
+- **Input Layer:** $\mathbf{x}\in{\mathbb R}^n$
+- **Hidden Layer:** $\mathbf{W_1}\in{\mathbb R}^{m\times n},\mathbf{b_1}\in{\mathbb R}^m$
+- **Output Layer:** $\mathbf{W_2}\in{\mathbb R}^{m\times k},\mathbf{b_2}\in{\mathbb R}^k$
 
-  - ${\bf{h}}=\sigma({\bf{W_1}}{\bf{x}}+{\bf{b_1}})$
-  - ${\bf o}={\bf{W}}_2^T{\bf{h}}+\bf{b_2}$
-  - ${\bf y}=softmax({\bf o})$
+  - $\mathbf{h}=\sigma(\mathbf{W_1}\mathbf{x}+\mathbf{b_1})$
+  - $\mathbf{o}=\mathbf{W}_2^T\mathbf{h}+\mathbf{b_2}$
+  - $\mathbf{y}=softmax(\mathbf{o})$
 
 <div align="center">
     <img src="https://zh.d2l.ai/_images/mlp.svg" alt="MLP" referrerpolicy="no-referrer">
@@ -182,10 +182,10 @@ $$y_1,y_2,...,y_k=softmax(o_1,o_2,...,o_k)$$
 
 > 上图卷积神经网络可大致看作是含有三个隐藏层的多层感知机。其中三个激活函数必须均为非线性函数
 
-- ${\bf{h_1}}=\sigma({\bf{W_1}}{\bf{x}}+{\bf{b_1}})$
-- ${\bf{h_2}}=\sigma({\bf{W_2}}{\bf{x}}+{\bf{b_2}})$
-- ${\bf{h_3}}=\sigma({\bf{W_3}}{\bf{x}}+{\bf{b_3}})$
-- ${\bf o}={\bf{W}}_4{\bf{h_3}}+\bf{b_4}$
+- $\mathbf{h_1}=\sigma(\mathbf{W_1}\mathbf{x}+\mathbf{b_1})$
+- $\mathbf{h_2}=\sigma(\mathbf{W_2}\mathbf{x}+\mathbf{b_2})$
+- $\mathbf{h_3}=\sigma(\mathbf{W_3}\mathbf{x}+\mathbf{b_3})$
+- $\mathbf{o}=\mathbf{W}_4\mathbf{h_3}+\mathbf{b_4}$
 
 > 超参数：
 >
