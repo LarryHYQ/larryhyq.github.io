@@ -244,6 +244,26 @@ In 2025, I had the privilege of joining <a href="https://www.weibo.com/u/2104353
 
 Still We Rise.
 
+**Written after the 2026 Shanghai Grand Prix. Mar. 18, 2026.**
+
+2026—the year of brand-new F1 regulations—and once again, I have joined TeamLHChina. Once again, I find myself sitting across from my hero of over a decade, Lewis Hamilton; I still feel the same thrill I did in my youth, and the same excitement I felt during my very first visit to the paddock last year.
+
+Yet, this time, that excitement is accompanied by an even deeper sense of familiar warmth. I reconnected with familiar friends, and this time, I even lent a hand to the administrators with some tasks; such an exceptional fan community is one I am bound to follow forever.
+
+The bond between a true hero and their fans is, without question, a mutual journey of devotion. When Lewis stepped off the driver's parade truck, everyone assumed he was heading straight back to the pit lane. But then—emerging from behind the truck—he sprinted directly toward our TeamLHChina grandstand! My emotions were indescribable; my eyes welled up with tears as I chanted his name at the top of my lungs: "Lewis! Lewis! Lewis!" This is the hero I have loved for over a decade—I love his fighting spirit in every moment on the track, and I love his unwavering drive to constantly seek improvement.
+
+He once said, "The love from the fans is so pure, and I feel I can't give them anything in return." Yet his actions, his spirit, and his sheer determination have given me—from my days as a wide-eyed teenager to my current journey as a PhD student—the boundless motivation to overcome every obstacle in my path.
+
+Thank you, Lewis; this is the ultimate mutual journey.
+
+The best Lewis Hamilton 🫶🏾💜💛.
+
+The best TeamLHChina 🫶🏾💜💛.
+
+We win and we lose together.
+
+Still We Rise!!!
+
 ### My Vlog of 2025 F1 Shanghai Grand Prix
 
 <div style="position:relative;padding-bottom:56.25%;width:100%;height:0;">
