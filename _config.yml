@@ -56,7 +56,7 @@ author:
   # Social media
   artstation       : # Username
   bluesky          : # Username # Replace this with you Bluesky username
-  facebook         : "100047829583482" # Username
+  facebook         : #"100047829583482" # Username
   flickr           : # Username
   foursquare       : # Username
   goodreads        : # Username
@@ -78,7 +78,7 @@ author:
   wikipedia        : # Username
   xing             : # Username
   youtube          : #"LarryHYQ" # Username
-  zhihu            : "long-yin-hu-xiao-70" # Username
+  zhihu            : #"long-yin-hu-xiao-70" # Username
   bilibili         : "37874360" # Username
 
 # Publication Category - The following the list of publication categories and their headings
