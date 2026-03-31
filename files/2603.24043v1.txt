@@ -1,0 +1,6 @@
+@article{he2026ham,
+  title={HAM: A Training-Free Style Transfer Approach via Heterogeneous Attention Modulation for Diffusion Models},
+  author={He, Yeqi and Li, Liang and Yang, Zhiwen and Sheng, Xichun and Zhao, Zhidong and Yan, Chenggang},
+  journal={arXiv preprint arXiv:2603.24043},
+  year={2026}
+}
