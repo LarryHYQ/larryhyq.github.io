@@ -89,6 +89,8 @@ publication_category:
     title: 'Journal Articles'  
   books:
     title: 'Books'
+  competition:
+    title: 'Competition Essay'
 
 # Site Settings
 teaser                   :  # filename of teaser fallback teaser image placed in /images/ for social media previews
