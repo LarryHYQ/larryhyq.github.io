@@ -232,7 +232,7 @@ redirect_from:
 
 ### Favorite Driver:
 {: .no_toc}
-<a href="https://www.instagram.com/lewishamilton/" target="_blank" style="text-decoration: none;">**Lewis Hamilton**</a>
+<a href="https://www.lewishamilton.com/" target="_blank" style="text-decoration: none;">**Lewis Hamilton**</a>
 
 <!-- ### Favorite Team:
 {: .no_toc}
