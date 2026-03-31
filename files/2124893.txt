@@ -1,4 +1,4 @@
-@article{Alice2023example,
+@article{he_checking_2021,
     title={Checking the Pulse and Temperature of Higher Education},
     author={Yeqi He, Penghui Xue and Hongming Liu},
     journal={Interdisciplinary Contest in Modeling (ICM)},
