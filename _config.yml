@@ -35,7 +35,7 @@ author:
 
   # Academic websites
   academia         : # URL
-  arxiv            : # URL - Update with the correct link to your profile
+  arxiv            : "https://arxiv.org/search/cs?searchtype=author&query=He%2C+Yeqi" # URL - Update with the correct link to your profile
   googlescholar    : "https://scholar.google.com/citations?user=k-_ZVrQAAAAJ&hl=zh-CN"
   inspire-hep      : # URL
   impactstory      : # URL
@@ -56,7 +56,7 @@ author:
   # Social media
   artstation       : # Username
   bluesky          : # Username # Replace this with you Bluesky username
-  facebook         : # Username
+  facebook         : "100047829583482" # Username
   flickr           : # Username
   foursquare       : # Username
   goodreads        : # Username
