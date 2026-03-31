@@ -234,9 +234,9 @@ redirect_from:
 {: .no_toc}
 <a href="https://www.instagram.com/lewishamilton/" target="_blank" style="text-decoration: none;">**Lewis Hamilton**</a>
 
-### Favorite Team:
+<!-- ### Favorite Team:
 {: .no_toc}
-<a href="https://www.mercedesamgf1.com/" target="_blank" style="text-decoration: none;">**Mercedes-AMG Petronas F1 Team**</a>, <a href="https://www.ferrari.com/en-EN/formula1" target="_blank" style="text-decoration: none;">**Scuderia Ferrari**</a> (Emmm...Only Dowry Fans🙂)
+<a href="https://www.mercedesamgf1.com/" target="_blank" style="text-decoration: none;">**Mercedes-AMG Petronas F1 Team**</a>, <a href="https://www.ferrari.com/en-EN/formula1" target="_blank" style="text-decoration: none;">**Scuderia Ferrari**</a> (Emmm...Only Dowry Fans🙂) -->
 
 I first watched an F1 race in 2008, when Lewis Hamilton won his first World Drivers' Championship. I wasn't very interested after that, as I was in elementary school, but Lewis Hamilton's name was deeply engraved in my mind. Later, nearing the end of middle school and having been recommended for high school, I revisited F1 in the 2015 season, witnessing the reign of Lewis and Mercedes. 2018, 2019, and 2020 are the three most unforgettable seasons for me. 2021... what can I say, that stupid FIA?
 
@@ -251,11 +251,44 @@ Still We Rise.
   </iframe>
 </div>
 
+### My Vlog of 2026 F1 Shanghai Grand Prix
+
+<div style="position:relative;padding-bottom:56.25%;width:100%;height:0;">
+  <iframe src="https://player.bilibili.com/player.html?isOutside=true&amp;aid=116249782653347&bvid=BV1wuwqzfEGF&cid=36790603064&amp;page=1&autoplay=0" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true" style="position:absolute;height:100%;width:100%;">
+  </iframe>
+</div>
+
 ### Photos of Lewis Hamilton
 
 <table style="border: none; width: 100%;">
 <tr style="border: none;">
 <td style="border: none; width: 100%;">
+  <figure style="margin: 0;">
+    <a href="/images/interests/formula1/26lewis2.jpg">
+      <img src='/images/interests/formula1/26lewis2.jpg' style="width: 100%; object-fit: cover;">
+    </a>
+    <figcaption style="text-align: center; font-size: 1.0em; color: #666; padding: 5px 0;">Group photo of Lewis with TeamLHChina., Shanghai International Circuit, Shanghai, Mar. 15, 2026</figcaption>
+  </figure>
+</td>
+</tr>
+</table>
+
+<table style="border: none; width: 100%;">
+<tr style="border: none;">
+<td style="border: none; width: 100%;">
+  <figure style="margin: 0;">
+    <a href="/images/interests/formula1/26lewis1.jpg">
+      <img src='/images/interests/formula1/26lewis1.jpg' style="width: 100%; object-fit: cover;">
+    </a>
+    <figcaption style="text-align: center; font-size: 1.0em; color: #666; padding: 5px 0;">Group photo of Lewis with TeamLHChina., Shanghai International Circuit, Shanghai, Mar. 15, 2026</figcaption>
+  </figure>
+</td>
+</tr>
+</table>
+
+<table style="border: none; width: 100%;">
+<tr style="border: none;">
+<td style="border: none; width: 50%;">
   <figure style="margin: 0;">
     <a href="/images/interests/formula1/LH44groupphoto-Sun.jpg">
       <img src='/images/interests/formula1/LH44groupphoto-Sun.jpg' style="width: 100%; object-fit: cover;">
@@ -263,8 +296,38 @@ Still We Rise.
     <figcaption style="text-align: center; font-size: 1.0em; color: #666; padding: 5px 0;">Group photo of TeamLHChina, Shanghai International Circuit, Shanghai, Mar. 23, 2025</figcaption>
   </figure>
 </td>
+<td style="border: none; width: 50%;">
+  <figure style="margin: 0;">
+    <a href="/images/interests/formula1/26Shanghai-Sun.jpg">
+      <img src='/images/interests/formula1/26Shanghai-Sun.jpg' style="width: 100%; object-fit: cover;">
+    </a>
+    <figcaption style="text-align: center; font-size: 1.0em; color: #666; padding: 5px 0;">Group photo of TeamLHChina, Shanghai International Circuit, Shanghai, Mar. 15, 2026</figcaption>
+  </figure>
+</td>
 </tr>
 </table>
+
+<table style="border: none; width: 100%;">
+<tr style="border: none;">
+<td style="border: none; width: 50%;">
+  <figure style="margin: 0;">
+    <a href="/images/interests/formula1/DSC8206.jpg">
+      <img src='/images/interests/formula1/DSC8206.jpg' style="width: 100%; object-fit: cover;">
+    </a>
+    <figcaption style="text-align: center; font-size: 1.0em; color: #666; padding: 5px 0;">Shanghai International Circuit, Shanghai, Mar. 13, 2026</figcaption>
+  </figure>
+</td>
+<td style="border: none; width: 50%;">
+  <figure style="margin: 0;">
+    <a href="/images/interests/formula1/DSC8422.jpg">
+      <img src='/images/interests/formula1/DSC8422.jpg' style="width: 100%; object-fit: cover;">
+    </a>
+    <figcaption style="text-align: center; font-size: 1.0em; color: #666; padding: 5px 0;">Shanghai International Circuit, Shanghai, Mar. 15, 2026</figcaption>
+  </figure>
+</td>
+</tr>
+</table>
+
 
 <table style="border: none; width: 100%;">
 <tr style="border: none;">
