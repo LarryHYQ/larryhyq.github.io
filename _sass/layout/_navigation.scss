@@ -363,6 +363,70 @@
   }
 }
 
+@media (max-width: 767px) {
+  .greedy-nav {
+    min-width: 0;
+
+    button {
+      top: 50%;
+      width: 44px;
+      height: 44px;
+      transform: translateY(-50%);
+    }
+
+    .visible-links {
+      display: flex;
+      align-items: center;
+      width: calc(100% - 52px);
+      min-height: 44px;
+
+      > li {
+        display: block;
+      }
+
+      > .masthead__menu-item:not(.persist):not(.masthead__menu-item--current) {
+        display: none;
+      }
+
+      > li:first-child {
+        flex: 1 1 auto;
+        min-width: 0;
+        padding-right: 12px;
+        font-size: 0.875rem;
+
+        a {
+          margin: 0;
+          overflow: hidden;
+          text-overflow: ellipsis;
+          white-space: nowrap;
+        }
+      }
+
+      .masthead__menu-item--current {
+        flex: 0 1 auto;
+        min-width: 0;
+        max-width: 48%;
+      }
+
+      .masthead__section-link {
+        margin: 0;
+        font-size: 0.875rem;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+
+      #theme-toggle {
+        flex: none;
+        margin-left: 10px;
+
+        a {
+          margin: 0;
+        }
+      }
+    }
+  }
+}
+
 
 /*
    Navigation list
