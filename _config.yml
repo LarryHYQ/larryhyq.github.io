@@ -74,12 +74,15 @@ author:
   tumblr           : # Username
   twitter          : "HYQLarry" # Username for X / Twitter
   vine             : # Username
-  weibo            : # Username
   wikipedia        : # Username
   xing             : # Username
   youtube          : #"LarryHYQ" # Username
   zhihu            : #"long-yin-hu-xiao-70" # Username
   bilibili         : "37874360" # Username
+  # Copy the full public profile URL; leave blank to hide an unconfigured link.
+  weibo            : "https://weibo.com/u/5548033405"
+  douyin           : "https://www.douyin.com/user/MS4wLjABAAAAcKp0Lf3G_CnHBtdReis3yv4nPOM1Oy-9YB4suNqYyP_1DhryLEZ4gEW0c6uQtx0k?from_tab_name=main" # TikTok
+  xiaohongshu      : "https://www.xiaohongshu.com/user/profile/5d0ceaef000000001603d949" # RedNote
 
 # Publication Category - The following the list of publication categories and their headings
 publication_category:
