@@ -1,6 +1,6 @@
 ---
 title: '多层感知机'
-date: 2021-09-21
+date: 2021-09-22
 permalink: /blog/2021/09/multilayer-perceptron/
 tags:
   - Deep Learning

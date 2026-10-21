@@ -1,0 +1,627 @@
+[
+  {
+    "file": "d2l-15beec5f706b8323.png",
+    "original_source": "http://easy-ai.oss-accelerate.aliyuncs.com/2021-03-02-Data%20Scientists%20Spend%20Most%20of%20Their%20Time%20Cleaning%20Data.png",
+    "source": "http://easy-ai.oss-accelerate.aliyuncs.com/2021-03-02-Data%20Scientists%20Spend%20Most%20of%20Their%20Time%20Cleaning%20Data.png"
+  },
+  {
+    "file": "d2l-7b89b46aa25155c0.webp",
+    "original_source": "https://i0.hdslb.com/bfs/archive/05748657d6dcc33037810daa434d1d6301f481d7.jpg@640w_400h_100Q_1c.webp",
+    "source": "https://i0.hdslb.com/bfs/archive/05748657d6dcc33037810daa434d1d6301f481d7.jpg@640w_400h_100Q_1c.webp"
+  },
+  {
+    "file": "d2l-c4092ca0b3813953.webp",
+    "original_source": "https://i0.hdslb.com/bfs/archive/3ef8277ddc45a2f72ef150b5fde5c943a6cfd152.jpg@640w_400h_100Q_1c.webp",
+    "source": "https://i0.hdslb.com/bfs/archive/3ef8277ddc45a2f72ef150b5fde5c943a6cfd152.jpg@640w_400h_100Q_1c.webp"
+  },
+  {
+    "file": "d2l-13ce794a0392c171.webp",
+    "original_source": "https://i0.hdslb.com/bfs/archive/527d7d30d91a5761502fa45f9c08cbd7d57bb550.jpg@640w_400h_100Q_1c.webp",
+    "source": "https://i0.hdslb.com/bfs/archive/527d7d30d91a5761502fa45f9c08cbd7d57bb550.jpg@640w_400h_100Q_1c.webp"
+  },
+  {
+    "file": "d2l-bc64d57dfb99be5c.webp",
+    "original_source": "https://i0.hdslb.com/bfs/archive/9a09827a8220e688f6866c928f58f5a256788aab.jpg@640w_400h_100Q_1c.webp",
+    "source": "https://i0.hdslb.com/bfs/archive/9a09827a8220e688f6866c928f58f5a256788aab.jpg@640w_400h_100Q_1c.webp"
+  },
+  {
+    "file": "d2l-5fb302eb8455e75d.webp",
+    "original_source": "https://i0.hdslb.com/bfs/archive/9a176a578149cc1bd2c7b136af7da505f40512a1.jpg@640w_400h_100Q_1c.webp",
+    "source": "https://i0.hdslb.com/bfs/archive/9a176a578149cc1bd2c7b136af7da505f40512a1.jpg@640w_400h_100Q_1c.webp"
+  },
+  {
+    "file": "d2l-25f6594ef2921cc4.webp",
+    "original_source": "https://i0.hdslb.com/bfs/archive/9e885e1474ec2740721104ab3262eabeb44cf317.jpg@640w_400h_100Q_1c.webp",
+    "source": "https://i0.hdslb.com/bfs/archive/9e885e1474ec2740721104ab3262eabeb44cf317.jpg@640w_400h_100Q_1c.webp"
+  },
+  {
+    "file": "d2l-f1bb1d15f11151b6.webp",
+    "original_source": "https://i0.hdslb.com/bfs/archive/a64d3da4f34eb1bcd3b840e33a34e3a1585ea86a.jpg@640w_400h_100Q_1c.webp",
+    "source": "https://i0.hdslb.com/bfs/archive/a64d3da4f34eb1bcd3b840e33a34e3a1585ea86a.jpg@640w_400h_100Q_1c.webp"
+  },
+  {
+    "file": "d2l-f24a8b720675a81e.webp",
+    "original_source": "https://i0.hdslb.com/bfs/archive/b16e54070ffd2768a763a768463311b085de66d3.jpg@640w_400h_100Q_1c.webp",
+    "source": "https://i0.hdslb.com/bfs/archive/b16e54070ffd2768a763a768463311b085de66d3.jpg@640w_400h_100Q_1c.webp"
+  },
+  {
+    "file": "d2l-f9bad84b513e3100.webp",
+    "original_source": "https://i0.hdslb.com/bfs/archive/c06a4441d28bb48a5e7a5d73e68578d50d2783da.jpg@640w_400h_100Q_1c.webp",
+    "source": "https://i0.hdslb.com/bfs/archive/c06a4441d28bb48a5e7a5d73e68578d50d2783da.jpg@640w_400h_100Q_1c.webp"
+  },
+  {
+    "file": "d2l-b9ae46034218e362.webp",
+    "original_source": "https://i0.hdslb.com/bfs/archive/c5b59337e4e102a48da7bada38ea372b27774009.jpg@640w_400h_100Q_1c.webp",
+    "source": "https://i0.hdslb.com/bfs/archive/c5b59337e4e102a48da7bada38ea372b27774009.jpg@640w_400h_100Q_1c.webp"
+  },
+  {
+    "file": "d2l-00182e92b8fa1a67.webp",
+    "original_source": "https://i0.hdslb.com/bfs/archive/d12bdc5f377444e73ba65e9ee2b27847535aff64.jpg@640w_400h_100Q_1c.webp",
+    "source": "https://i0.hdslb.com/bfs/archive/d12bdc5f377444e73ba65e9ee2b27847535aff64.jpg@640w_400h_100Q_1c.webp"
+  },
+  {
+    "file": "d2l-30d98e92dddd1380.webp",
+    "original_source": "https://i0.hdslb.com/bfs/archive/d66e2524575703d66340b8fd486793523fc5c32f.jpg@640w_400h_100Q_1c.webp",
+    "source": "https://i0.hdslb.com/bfs/archive/d66e2524575703d66340b8fd486793523fc5c32f.jpg@640w_400h_100Q_1c.webp"
+  },
+  {
+    "file": "d2l-b0be70adc7aaaccb.webp",
+    "original_source": "https://i1.hdslb.com/bfs/archive/01b1dc12575928c5026b4b124c134388d9bed2eb.jpg@640w_400h_100Q_1c.webp",
+    "source": "https://i1.hdslb.com/bfs/archive/01b1dc12575928c5026b4b124c134388d9bed2eb.jpg@640w_400h_100Q_1c.webp"
+  },
+  {
+    "file": "d2l-35a55d5bc2d2ac29.webp",
+    "original_source": "https://i1.hdslb.com/bfs/archive/1c5388eac5758e87d1a53959eb0ba524ea2e3c3c.jpg@640w_400h_100Q_1c.webp",
+    "source": "https://i1.hdslb.com/bfs/archive/1c5388eac5758e87d1a53959eb0ba524ea2e3c3c.jpg@640w_400h_100Q_1c.webp"
+  },
+  {
+    "file": "d2l-c640eb8f9a478c68.webp",
+    "original_source": "https://i1.hdslb.com/bfs/archive/46cc51ad8dcf1541c5a3e106546805d5b6420ac1.jpg@640w_400h_100Q_1c.webp",
+    "source": "https://i1.hdslb.com/bfs/archive/46cc51ad8dcf1541c5a3e106546805d5b6420ac1.jpg@640w_400h_100Q_1c.webp"
+  },
+  {
+    "file": "d2l-6fd8b81bedcbf54e.webp",
+    "original_source": "https://i1.hdslb.com/bfs/archive/4fbdc632ed7cbf51e5097fc1c10c196887376775.jpg@640w_400h_100Q_1c.webp",
+    "source": "https://i1.hdslb.com/bfs/archive/4fbdc632ed7cbf51e5097fc1c10c196887376775.jpg@640w_400h_100Q_1c.webp"
+  },
+  {
+    "file": "d2l-53bffb46d18bad9f.webp",
+    "original_source": "https://i1.hdslb.com/bfs/archive/52db906a4e9c54589a4486e323534913f0731a1f.jpg@640w_400h_100Q_1c.webp",
+    "source": "https://i1.hdslb.com/bfs/archive/52db906a4e9c54589a4486e323534913f0731a1f.jpg@640w_400h_100Q_1c.webp"
+  },
+  {
+    "file": "d2l-7a07240e2fafa8e9.webp",
+    "original_source": "https://i1.hdslb.com/bfs/archive/61cfe56aefdbe660babd754f3782e748b055e358.jpg@640w_400h_100Q_1c.webp",
+    "source": "https://i1.hdslb.com/bfs/archive/61cfe56aefdbe660babd754f3782e748b055e358.jpg@640w_400h_100Q_1c.webp"
+  },
+  {
+    "file": "d2l-8dc6fac626d39c33.webp",
+    "original_source": "https://i1.hdslb.com/bfs/archive/66e9026b84cf669fc6c3862ac4648b8d3349275a.jpg@640w_400h_100Q_1c.webp",
+    "source": "https://i1.hdslb.com/bfs/archive/66e9026b84cf669fc6c3862ac4648b8d3349275a.jpg@640w_400h_100Q_1c.webp"
+  },
+  {
+    "file": "d2l-d6fe48515402b68c.webp",
+    "original_source": "https://i1.hdslb.com/bfs/archive/6c4b1968346e5e66314f48311991b34b26244670.jpg@640w_400h_100Q_1c.webp",
+    "source": "https://i1.hdslb.com/bfs/archive/6c4b1968346e5e66314f48311991b34b26244670.jpg@640w_400h_100Q_1c.webp"
+  },
+  {
+    "file": "d2l-3b14c8ed4340e8a5.webp",
+    "original_source": "https://i1.hdslb.com/bfs/archive/74c42a4b752084a4f20f3e0ec318b59f009679ae.jpg@640w_400h_100Q_1c.webp",
+    "source": "https://i1.hdslb.com/bfs/archive/74c42a4b752084a4f20f3e0ec318b59f009679ae.jpg@640w_400h_100Q_1c.webp"
+  },
+  {
+    "file": "d2l-9258114828aad816.webp",
+    "original_source": "https://i1.hdslb.com/bfs/archive/7831a88cef7a4f169648bd21e8b1cb7fe0ca104d.jpg@640w_400h_100Q_1c.webp",
+    "source": "https://i1.hdslb.com/bfs/archive/7831a88cef7a4f169648bd21e8b1cb7fe0ca104d.jpg@640w_400h_100Q_1c.webp"
+  },
+  {
+    "file": "d2l-08b2742381d8d7b4.webp",
+    "original_source": "https://i1.hdslb.com/bfs/archive/7f53ce06c826938d646dfc7dbf010a741fa8c3cc.jpg@640w_400h_100Q_1c.webp",
+    "source": "https://i1.hdslb.com/bfs/archive/7f53ce06c826938d646dfc7dbf010a741fa8c3cc.jpg@640w_400h_100Q_1c.webp"
+  },
+  {
+    "file": "d2l-cc4741771c8fc0db.webp",
+    "original_source": "https://i1.hdslb.com/bfs/archive/8070ac6287174cbc197dc539da3d271d9f3066b6.jpg@640w_400h_100Q_1c.webp",
+    "source": "https://i1.hdslb.com/bfs/archive/8070ac6287174cbc197dc539da3d271d9f3066b6.jpg@640w_400h_100Q_1c.webp"
+  },
+  {
+    "file": "d2l-120c53060299da19.webp",
+    "original_source": "https://i1.hdslb.com/bfs/archive/ac2781fb68a3e42c48833e453ec0e859ad04a2ae.jpg@640w_400h_100Q_1c.webp",
+    "source": "https://i1.hdslb.com/bfs/archive/ac2781fb68a3e42c48833e453ec0e859ad04a2ae.jpg@640w_400h_100Q_1c.webp"
+  },
+  {
+    "file": "d2l-6c739905f689e5c9.webp",
+    "original_source": "https://i1.hdslb.com/bfs/archive/c18ecde2e397ecc1a071ef3c896fdfe85835d2d6.jpg@640w_400h_100Q_1c.webp",
+    "source": "https://i1.hdslb.com/bfs/archive/c18ecde2e397ecc1a071ef3c896fdfe85835d2d6.jpg@640w_400h_100Q_1c.webp"
+  },
+  {
+    "file": "d2l-5a380eb27e589509.webp",
+    "original_source": "https://i1.hdslb.com/bfs/archive/e518be7059c2b5d5fcc1805177f474b8468373c4.jpg@640w_400h_100Q_1c.webp",
+    "source": "https://i1.hdslb.com/bfs/archive/e518be7059c2b5d5fcc1805177f474b8468373c4.jpg@640w_400h_100Q_1c.webp"
+  },
+  {
+    "file": "d2l-480b3eccc706945d.webp",
+    "original_source": "https://i1.hdslb.com/bfs/archive/e6e6a431793630d37f11edc1f4f0c9453b175f1c.jpg@640w_400h_100Q_1c.webp",
+    "source": "https://i1.hdslb.com/bfs/archive/e6e6a431793630d37f11edc1f4f0c9453b175f1c.jpg@640w_400h_100Q_1c.webp"
+  },
+  {
+    "file": "d2l-ded57ee98bedb092.webp",
+    "original_source": "https://i1.hdslb.com/bfs/archive/ed34f0da8524120e89920d138732a524b9c0ceaa.jpg@640w_400h_100Q_1c.webp",
+    "source": "https://i1.hdslb.com/bfs/archive/ed34f0da8524120e89920d138732a524b9c0ceaa.jpg@640w_400h_100Q_1c.webp"
+  },
+  {
+    "file": "d2l-6dac0c0a5256aca5.webp",
+    "original_source": "https://i1.hdslb.com/bfs/archive/f68d47e72ff00bd216c4c4fc8d44006540d91370.jpg@640w_400h_100Q_1c.webp",
+    "source": "https://i1.hdslb.com/bfs/archive/f68d47e72ff00bd216c4c4fc8d44006540d91370.jpg@640w_400h_100Q_1c.webp"
+  },
+  {
+    "file": "d2l-c191633600549b5d.webp",
+    "original_source": "https://i2.hdslb.com/bfs/archive/089fcabf684d79aee5561546acb5986680509914.jpg@640w_400h_100Q_1c.webp",
+    "source": "https://i2.hdslb.com/bfs/archive/089fcabf684d79aee5561546acb5986680509914.jpg@640w_400h_100Q_1c.webp"
+  },
+  {
+    "file": "d2l-af4923823ef6ab25.webp",
+    "original_source": "https://i2.hdslb.com/bfs/archive/1060d9d14c8d840fefaf6972f8b539d05655aa5d.jpg@640w_400h_100Q_1c.webp",
+    "source": "https://i2.hdslb.com/bfs/archive/1060d9d14c8d840fefaf6972f8b539d05655aa5d.jpg@640w_400h_100Q_1c.webp"
+  },
+  {
+    "file": "d2l-2ef38fd369ef7f7c.webp",
+    "original_source": "https://i2.hdslb.com/bfs/archive/300fb344d7e0f1fb18e169c9ed3ecb7af8841143.jpg@640w_400h_100Q_1c.webp",
+    "source": "https://i2.hdslb.com/bfs/archive/300fb344d7e0f1fb18e169c9ed3ecb7af8841143.jpg@640w_400h_100Q_1c.webp"
+  },
+  {
+    "file": "d2l-ef691622f2460046.webp",
+    "original_source": "https://i2.hdslb.com/bfs/archive/31677fa89093f30b98e516884b110b8d983643ca.jpg@640w_400h_100Q_1c.webp",
+    "source": "https://i2.hdslb.com/bfs/archive/31677fa89093f30b98e516884b110b8d983643ca.jpg@640w_400h_100Q_1c.webp"
+  },
+  {
+    "file": "d2l-0f9a8c1b85bb49f5.webp",
+    "original_source": "https://i2.hdslb.com/bfs/archive/31bbec5db68b26ae5c86a5c7a6ac5b52f5751de1.jpg@640w_400h_100Q_1c.webp",
+    "source": "https://i2.hdslb.com/bfs/archive/31bbec5db68b26ae5c86a5c7a6ac5b52f5751de1.jpg@640w_400h_100Q_1c.webp"
+  },
+  {
+    "file": "d2l-c414b5a2789367fe.webp",
+    "original_source": "https://i2.hdslb.com/bfs/archive/333ddb3535b03cdd9a02d154fd798f767151a431.jpg@640w_400h_100Q_1c.webp",
+    "source": "https://i2.hdslb.com/bfs/archive/333ddb3535b03cdd9a02d154fd798f767151a431.jpg@640w_400h_100Q_1c.webp"
+  },
+  {
+    "file": "d2l-d7fb9d74218b5bf8.webp",
+    "original_source": "https://i2.hdslb.com/bfs/archive/537f10ce693bd7113b4eba116e64ec4ab443039d.jpg@640w_400h_100Q_1c.webp",
+    "source": "https://i2.hdslb.com/bfs/archive/537f10ce693bd7113b4eba116e64ec4ab443039d.jpg@640w_400h_100Q_1c.webp"
+  },
+  {
+    "file": "d2l-83db8e389845f703.webp",
+    "original_source": "https://i2.hdslb.com/bfs/archive/5727467abfa7e461b648acf5156602b044dba730.jpg@640w_400h_100Q_1c.webp",
+    "source": "https://i2.hdslb.com/bfs/archive/5727467abfa7e461b648acf5156602b044dba730.jpg@640w_400h_100Q_1c.webp"
+  },
+  {
+    "file": "d2l-a4fe622758cc3044.webp",
+    "original_source": "https://i2.hdslb.com/bfs/archive/5ca1d49f172c9940461d6b42d51e9c7d89da3c2a.jpg@640w_400h_100Q_1c.webp",
+    "source": "https://i2.hdslb.com/bfs/archive/5ca1d49f172c9940461d6b42d51e9c7d89da3c2a.jpg@640w_400h_100Q_1c.webp"
+  },
+  {
+    "file": "d2l-bda7c1f0346a00a0.webp",
+    "original_source": "https://i2.hdslb.com/bfs/archive/5cf6b3c8606c1bdda979ea50bf8c3989912315c1.jpg@640w_400h_100Q_1c.webp",
+    "source": "https://i2.hdslb.com/bfs/archive/5cf6b3c8606c1bdda979ea50bf8c3989912315c1.jpg@640w_400h_100Q_1c.webp"
+  },
+  {
+    "file": "d2l-edc4849f2ab4850c.webp",
+    "original_source": "https://i2.hdslb.com/bfs/archive/7db6e4ecbe249b369dca33211383303bef33f477.jpg@640w_400h_100Q_1c.webp",
+    "source": "https://i2.hdslb.com/bfs/archive/7db6e4ecbe249b369dca33211383303bef33f477.jpg@640w_400h_100Q_1c.webp"
+  },
+  {
+    "file": "d2l-656dbe379bc30f30.webp",
+    "original_source": "https://i2.hdslb.com/bfs/archive/851de14b6b74db43bf94c4682bc5c6415ea20ad5.jpg@640w_400h_100Q_1c.webp",
+    "source": "https://i2.hdslb.com/bfs/archive/851de14b6b74db43bf94c4682bc5c6415ea20ad5.jpg@640w_400h_100Q_1c.webp"
+  },
+  {
+    "file": "d2l-e99b93ee41cd430c.webp",
+    "original_source": "https://i2.hdslb.com/bfs/archive/8d8c0bed24f9fd3c760c3ca34ce992061824f371.jpg@640w_400h_100Q_1c.webp",
+    "source": "https://i2.hdslb.com/bfs/archive/8d8c0bed24f9fd3c760c3ca34ce992061824f371.jpg@640w_400h_100Q_1c.webp"
+  },
+  {
+    "file": "d2l-46345ff4286d848b.webp",
+    "original_source": "https://i2.hdslb.com/bfs/archive/9f357cf3d856d9497eb3d0c6e86868e7d1b253a6.jpg@640w_400h_100Q_1c.webp",
+    "source": "https://i2.hdslb.com/bfs/archive/9f357cf3d856d9497eb3d0c6e86868e7d1b253a6.jpg@640w_400h_100Q_1c.webp"
+  },
+  {
+    "file": "d2l-e5f188480c8ebfeb.webp",
+    "original_source": "https://i2.hdslb.com/bfs/archive/be5a425d39483a2af5950792d4c9a1a1753a81ea.jpg@640w_400h_100Q_1c.webp",
+    "source": "https://i2.hdslb.com/bfs/archive/be5a425d39483a2af5950792d4c9a1a1753a81ea.jpg@640w_400h_100Q_1c.webp"
+  },
+  {
+    "file": "d2l-3e0abe27adce7853.webp",
+    "original_source": "https://i2.hdslb.com/bfs/archive/c52c4d88d8fe65f6d2ffac27b8ce6cb02dcdcacc.jpg@640w_400h_100Q_1c.webp",
+    "source": "https://i2.hdslb.com/bfs/archive/c52c4d88d8fe65f6d2ffac27b8ce6cb02dcdcacc.jpg@640w_400h_100Q_1c.webp"
+  },
+  {
+    "file": "d2l-a352ad2eb835989e.webp",
+    "original_source": "https://i2.hdslb.com/bfs/archive/d20ed4243d80ed7d2c047bc421254b5ff2797c8e.jpg@640w_400h_100Q_1c.webp",
+    "source": "https://i2.hdslb.com/bfs/archive/d20ed4243d80ed7d2c047bc421254b5ff2797c8e.jpg@640w_400h_100Q_1c.webp"
+  },
+  {
+    "file": "d2l-72cff0c68a92daaa.webp",
+    "original_source": "https://i2.hdslb.com/bfs/archive/d3ac6a33084e673003dfd4f16685419e891d1bc9.jpg@640w_400h_100Q_1c.webp",
+    "source": "https://i2.hdslb.com/bfs/archive/d3ac6a33084e673003dfd4f16685419e891d1bc9.jpg@640w_400h_100Q_1c.webp"
+  },
+  {
+    "file": "d2l-29e17c492f235bf1.webp",
+    "original_source": "https://i2.hdslb.com/bfs/archive/dc2e8e29a1a7cbc3e9f65c94cf08568a13b3c60a.jpg@640w_400h_100Q_1c.webp",
+    "source": "https://i2.hdslb.com/bfs/archive/dc2e8e29a1a7cbc3e9f65c94cf08568a13b3c60a.jpg@640w_400h_100Q_1c.webp"
+  },
+  {
+    "file": "d2l-4de9601762e37c6f.webp",
+    "original_source": "https://i2.hdslb.com/bfs/archive/f163ed143e1cd21ab9bd24ad7121f01a05336a4f.jpg@640w_400h_100Q_1c.webp",
+    "source": "https://i2.hdslb.com/bfs/archive/f163ed143e1cd21ab9bd24ad7121f01a05336a4f.jpg@640w_400h_100Q_1c.webp"
+  },
+  {
+    "file": "d2l-786ded8ca1cec074.webp",
+    "original_source": "https://i2.hdslb.com/bfs/archive/f607b36e03455d530688a31157a0012a35e09bc0.jpg@640w_400h_100Q_1c.webp",
+    "source": "https://i2.hdslb.com/bfs/archive/f607b36e03455d530688a31157a0012a35e09bc0.jpg@640w_400h_100Q_1c.webp"
+  },
+  {
+    "file": "d2l-97e519d554d97ea2.webp",
+    "original_source": "https://i2.hdslb.com/bfs/archive/fb059336bb681f6908c77a0c3db9d87c2f29680f.jpg@640w_400h_100Q_1c.webp",
+    "source": "https://i2.hdslb.com/bfs/archive/fb059336bb681f6908c77a0c3db9d87c2f29680f.jpg@640w_400h_100Q_1c.webp"
+  },
+  {
+    "file": "d2l-42c346e815601a08.webp",
+    "original_source": "https://pic4.zhimg.com/v2-fefed1116d955a856ca1bf474bb90c17_b.webp",
+    "source": "https://pic4.zhimg.com/v2-fefed1116d955a856ca1bf474bb90c17_b.webp"
+  },
+  {
+    "file": "d2l-a41885431023656b.png",
+    "original_source": "https://theaisummer.com/static/d42512016d9b99eabb69a61bb295cd50/2e9f9/normalization.png",
+    "source": "https://theaisummer.com/static/d42512016d9b99eabb69a61bb295cd50/2e9f9/normalization.png"
+  },
+  {
+    "file": "google-tpu-v4-layout.png",
+    "original_source": "https://www.eet-china.com/d/file/news/2021-05-19/57ccf7aa62cb16ffe979cafe07834fe1.jpg",
+    "source": "https://docs.cloud.google.com/static/tpu/docs/images/tpu-v4-layout.png",
+    "reference": "https://docs.cloud.google.com/tpu/docs/v4"
+  },
+  {
+    "file": "d2l-2feba781abf0f491.svg",
+    "original_source": "https://zh-v1.d2l.ai/_images/capacity_vs_error.svg",
+    "source": "https://zh-v1.d2l.ai/_images/capacity_vs_error.svg"
+  },
+  {
+    "file": "d2l-a7b235d5832a1aa6.svg",
+    "original_source": "https://zh.d2l.ai/_images/alexnet.svg",
+    "source": "https://zh.d2l.ai/_images/alexnet.svg"
+  },
+  {
+    "file": "d2l-299bc1bc05007f9e.svg",
+    "original_source": "https://zh.d2l.ai/_images/anchor-label.svg",
+    "source": "https://zh.d2l.ai/_images/anchor-label.svg"
+  },
+  {
+    "file": "d2l-837b28ee740e3e41.svg",
+    "original_source": "https://zh.d2l.ai/_images/blocks.svg",
+    "source": "https://zh.d2l.ai/_images/blocks.svg"
+  },
+  {
+    "file": "d2l-217bce3e54a3a608.svg",
+    "original_source": "https://zh.d2l.ai/_images/bw-hierarchy.svg",
+    "source": "https://zh.d2l.ai/_images/bw-hierarchy.svg"
+  },
+  {
+    "file": "d2l-12582389ba2fba55.svg",
+    "original_source": "https://zh.d2l.ai/_images/conv-1x1.svg",
+    "source": "https://zh.d2l.ai/_images/conv-1x1.svg"
+  },
+  {
+    "file": "d2l-3423f2879d9f255a.svg",
+    "original_source": "https://zh.d2l.ai/_images/conv-multi-in.svg",
+    "source": "https://zh.d2l.ai/_images/conv-multi-in.svg"
+  },
+  {
+    "file": "d2l-c2a378708eb09623.svg",
+    "original_source": "https://zh.d2l.ai/_images/conv-pad.svg",
+    "source": "https://zh.d2l.ai/_images/conv-pad.svg"
+  },
+  {
+    "file": "d2l-399f8de6d0f38c2b.svg",
+    "original_source": "https://zh.d2l.ai/_images/conv-stride.svg",
+    "source": "https://zh.d2l.ai/_images/conv-stride.svg"
+  },
+  {
+    "file": "d2l-936c9218f0b8b1ae.svg",
+    "original_source": "https://zh.d2l.ai/_images/correlation.svg",
+    "source": "https://zh.d2l.ai/_images/correlation.svg"
+  },
+  {
+    "file": "d2l-4fa26fa1ba5a7180.svg",
+    "original_source": "https://zh.d2l.ai/_images/densenet-block.svg",
+    "source": "https://zh.d2l.ai/_images/densenet-block.svg"
+  },
+  {
+    "file": "d2l-398e1201a641d339.svg",
+    "original_source": "https://zh.d2l.ai/_images/densenet.svg",
+    "source": "https://zh.d2l.ai/_images/densenet.svg"
+  },
+  {
+    "file": "d2l-01b064a0bb909e9f.svg",
+    "original_source": "https://zh.d2l.ai/_images/dropout2.svg",
+    "source": "https://zh.d2l.ai/_images/dropout2.svg"
+  },
+  {
+    "file": "d2l-2d5ba994da5eb501.svg",
+    "original_source": "https://zh.d2l.ai/_images/finetune.svg",
+    "source": "https://zh.d2l.ai/_images/finetune.svg"
+  },
+  {
+    "file": "d2l-8405bef07ccede16.svg",
+    "original_source": "https://zh.d2l.ai/_images/functionclasses.svg",
+    "source": "https://zh.d2l.ai/_images/functionclasses.svg"
+  },
+  {
+    "file": "d2l-ed6bf83b53d014e9.svg",
+    "original_source": "https://zh.d2l.ai/_images/inception.svg",
+    "source": "https://zh.d2l.ai/_images/inception.svg"
+  },
+  {
+    "file": "d2l-e32ba894ee594c84.svg",
+    "original_source": "https://zh.d2l.ai/_images/iou.svg",
+    "source": "https://zh.d2l.ai/_images/iou.svg"
+  },
+  {
+    "file": "d2l-8678e212165e5be6.png",
+    "original_source": "https://zh.d2l.ai/_images/latencynumbers.png",
+    "source": "https://zh.d2l.ai/_images/latencynumbers.png"
+  },
+  {
+    "file": "d2l-cfe4adc96937ff60.svg",
+    "original_source": "https://zh.d2l.ai/_images/lenet.svg",
+    "source": "https://zh.d2l.ai/_images/lenet.svg"
+  },
+  {
+    "file": "d2l-c7ceb564f6136c39.svg",
+    "original_source": "https://zh.d2l.ai/_images/mobo-symbol.svg",
+    "source": "https://zh.d2l.ai/_images/mobo-symbol.svg"
+  },
+  {
+    "file": "d2l-4ef40bd5740a8300.svg",
+    "original_source": "https://zh.d2l.ai/_images/nin.svg",
+    "source": "https://zh.d2l.ai/_images/nin.svg"
+  },
+  {
+    "file": "d2l-ee18774b35f62cfc.svg",
+    "original_source": "https://zh.d2l.ai/_images/output_alexnet_180871_32_1.svg",
+    "source": "https://zh.d2l.ai/_images/output_alexnet_180871_38_1.svg"
+  },
+  {
+    "file": "d2l-ed12dbc04dcda615.svg",
+    "original_source": "https://zh.d2l.ai/_images/output_anchor_f592d1_177_0.svg",
+    "source": "https://zh.d2l.ai/_images/output_anchor_f592d1_234_0.svg"
+  },
+  {
+    "file": "d2l-b04b8d96a6139b56.svg",
+    "original_source": "https://zh.d2l.ai/_images/output_anchor_f592d1_195_0.svg",
+    "source": "https://zh.d2l.ai/_images/output_anchor_f592d1_258_0.svg"
+  },
+  {
+    "file": "d2l-d2c6974ba5830392.svg",
+    "original_source": "https://zh.d2l.ai/_images/output_anchor_f592d1_51_0.svg",
+    "source": "https://zh.d2l.ai/_images/output_anchor_f592d1_66_0.svg"
+  },
+  {
+    "file": "d2l-a42fa4a97c4b8b1f.svg",
+    "original_source": "https://zh.d2l.ai/_images/output_batch-norm_cf033c_42_1.svg",
+    "source": "https://zh.d2l.ai/_images/output_batch-norm_cf033c_51_1.svg"
+  },
+  {
+    "file": "d2l-7ead77809df84067.svg",
+    "original_source": "https://zh.d2l.ai/_images/output_bounding-box_d6b70e_58_0.svg",
+    "source": "https://zh.d2l.ai/_images/output_bounding-box_d6b70e_70_0.svg"
+  },
+  {
+    "file": "d2l-a8bed8d8552a2aab.svg",
+    "original_source": "https://zh.d2l.ai/_images/output_convexity_94e148_18_0.svg",
+    "source": "https://zh.d2l.ai/_images/output_convexity_94e148_36_0.svg"
+  },
+  {
+    "file": "d2l-133d9d8d7fb19b1f.svg",
+    "original_source": "https://zh.d2l.ai/_images/output_densenet_e82156_102_1.svg",
+    "source": "https://zh.d2l.ai/_images/output_densenet_e82156_126_1.svg"
+  },
+  {
+    "file": "d2l-2cf735d585948348.svg",
+    "original_source": "https://zh.d2l.ai/_images/output_dropout_1110bf_54_0.svg",
+    "source": "https://zh.d2l.ai/_images/output_dropout_1110bf_66_0.svg"
+  },
+  {
+    "file": "d2l-dfe0d5338a9b1ef5.png",
+    "original_source": "https://zh.d2l.ai/_images/output_fine-tuning_368659_30_0.png",
+    "source": "https://zh.d2l.ai/_images/output_fine-tuning_368659_42_0.png"
+  },
+  {
+    "file": "d2l-9109e50108029f82.svg",
+    "original_source": "https://zh.d2l.ai/_images/output_fine-tuning_368659_82_1.svg",
+    "source": "https://zh.d2l.ai/_images/output_fine-tuning_368659_108_1.svg"
+  },
+  {
+    "file": "d2l-b523f7a8bdaaf2d9.svg",
+    "original_source": "https://zh.d2l.ai/_images/output_gd_79c039_90_1.svg",
+    "source": "https://zh.d2l.ai/_images/output_gd_79c039_111_1.svg"
+  },
+  {
+    "file": "d2l-1063104ecc3f5e0d.svg",
+    "original_source": "https://zh.d2l.ai/_images/output_googlenet_83a8b4_90_1.svg",
+    "source": "https://zh.d2l.ai/_images/output_googlenet_83a8b4_111_1.svg"
+  },
+  {
+    "file": "d2l-646d0379156acc3e.svg",
+    "original_source": "https://zh.d2l.ai/_images/output_image-augmentation_7d0887_136_1.svg",
+    "source": "https://zh.d2l.ai/_images/output_image-augmentation_7d0887_178_1.svg"
+  },
+  {
+    "file": "d2l-90aed4025559f63d.svg",
+    "original_source": "https://zh.d2l.ai/_images/output_image-augmentation_7d0887_33_0.svg",
+    "source": "https://zh.d2l.ai/_images/output_image-augmentation_7d0887_42_0.svg"
+  },
+  {
+    "file": "d2l-7fd77e429efdcd25.svg",
+    "original_source": "https://zh.d2l.ai/_images/output_image-augmentation_7d0887_51_0.svg",
+    "source": "https://zh.d2l.ai/_images/output_image-augmentation_7d0887_66_0.svg"
+  },
+  {
+    "file": "d2l-bf257a668486cfe8.svg",
+    "original_source": "https://zh.d2l.ai/_images/output_image-augmentation_7d0887_60_0.svg",
+    "source": "https://zh.d2l.ai/_images/output_image-augmentation_7d0887_78_0.svg"
+  },
+  {
+    "file": "d2l-67eaa0dfe4b39a99.svg",
+    "original_source": "https://zh.d2l.ai/_images/output_image-augmentation_7d0887_69_0.svg",
+    "source": "https://zh.d2l.ai/_images/output_image-augmentation_7d0887_90_0.svg"
+  },
+  {
+    "file": "d2l-4cdfc33caf630978.svg",
+    "original_source": "https://zh.d2l.ai/_images/output_image-augmentation_7d0887_87_0.svg",
+    "source": "https://zh.d2l.ai/_images/output_image-augmentation_7d0887_114_0.svg"
+  },
+  {
+    "file": "d2l-2fb3790bfe6f7cc1.svg",
+    "original_source": "https://zh.d2l.ai/_images/output_kaggle-cifar10_42a34e_129_1.svg",
+    "source": "https://zh.d2l.ai/_images/output_kaggle-cifar10_42a34e_169_1.svg"
+  },
+  {
+    "file": "d2l-ba039e506a151d8c.svg",
+    "original_source": "https://zh.d2l.ai/_images/output_kaggle-cifar10_42a34e_138_1.svg",
+    "source": "https://zh.d2l.ai/_images/output_kaggle-cifar10_42a34e_181_1.svg"
+  },
+  {
+    "file": "d2l-d1c3c92ded4cf00a.svg",
+    "original_source": "https://zh.d2l.ai/_images/output_kaggle-house-price_1852a7_137_1.svg",
+    "source": "https://zh.d2l.ai/_images/output_kaggle-house-price_1852a7_170_1.svg"
+  },
+  {
+    "file": "d2l-eac707a5f8c071ea.svg",
+    "original_source": "https://zh.d2l.ai/_images/output_kaggle-house-price_1852a7_161_1.svg",
+    "source": "https://zh.d2l.ai/_images/output_kaggle-house-price_1852a7_200_1.svg"
+  },
+  {
+    "file": "d2l-f998ff595c09197a.svg",
+    "original_source": "https://zh.d2l.ai/_images/output_lenet_4a2e9e_52_1.svg",
+    "source": "https://zh.d2l.ai/_images/output_lenet_4a2e9e_67_1.svg"
+  },
+  {
+    "file": "d2l-34488b75ee7dfe04.svg",
+    "original_source": "https://zh.d2l.ai/_images/output_minibatch-sgd_f4d60f_150_0.svg",
+    "source": "https://zh.d2l.ai/_images/output_minibatch-sgd_f4d60f_186_0.svg"
+  },
+  {
+    "file": "d2l-9a25a0879c6ebc39.svg",
+    "original_source": "https://zh.d2l.ai/_images/output_momentum_e3683f_30_1.svg",
+    "source": "https://zh.d2l.ai/_images/output_momentum_e3683f_36_1.svg"
+  },
+  {
+    "file": "d2l-d3e3f907ef9e26a6.svg",
+    "original_source": "https://zh.d2l.ai/_images/output_momentum_e3683f_54_0.svg",
+    "source": "https://zh.d2l.ai/_images/output_momentum_e3683f_66_0.svg"
+  },
+  {
+    "file": "d2l-d719c4ddb335ea52.svg",
+    "original_source": "https://zh.d2l.ai/_images/output_nin_8ad4f3_42_1.svg",
+    "source": "https://zh.d2l.ai/_images/output_nin_8ad4f3_51_1.svg"
+  },
+  {
+    "file": "d2l-1f2957fe81c13e1e.svg",
+    "original_source": "https://zh.d2l.ai/_images/output_numerical-stability-and-init_e60514_6_0.svg",
+    "source": "https://zh.d2l.ai/_images/output_numerical-stability-and-init_e60514_6_0.svg"
+  },
+  {
+    "file": "d2l-3e69fbe7481ac4e8.svg",
+    "original_source": "https://zh.d2l.ai/_images/output_optimization-intro_70d214_39_0.svg",
+    "source": "https://zh.d2l.ai/_images/output_optimization-intro_70d214_39_0.svg"
+  },
+  {
+    "file": "d2l-cc9d75ba2d20fc46.svg",
+    "original_source": "https://zh.d2l.ai/_images/output_resnet_46beba_102_1.svg",
+    "source": "https://zh.d2l.ai/_images/output_resnet_46beba_126_1.svg"
+  },
+  {
+    "file": "d2l-8ea670c7efd88b7f.svg",
+    "original_source": "https://zh.d2l.ai/_images/output_sgd_baca77_18_1.svg",
+    "source": "https://zh.d2l.ai/_images/output_sgd_baca77_18_1.svg"
+  },
+  {
+    "file": "d2l-cb521dd359481fdc.svg",
+    "original_source": "https://zh.d2l.ai/_images/output_underfit-overfit_ec26bd_77_1.svg",
+    "source": "https://zh.d2l.ai/_images/output_underfit-overfit_ec26bd_111_1.svg"
+  },
+  {
+    "file": "d2l-fbe99efd4c887741.svg",
+    "original_source": "https://zh.d2l.ai/_images/output_vgg_4a7574_59_1.svg",
+    "source": "https://zh.d2l.ai/_images/output_vgg_4a7574_71_1.svg"
+  },
+  {
+    "file": "d2l-e23088dbdef7811d.svg",
+    "original_source": "https://zh.d2l.ai/_images/output_weight-decay_ec9cc0_106_1.svg",
+    "source": "https://zh.d2l.ai/_images/output_weight-decay_ec9cc0_130_1.svg"
+  },
+  {
+    "file": "d2l-5051ce99315073ad.svg",
+    "original_source": "https://zh.d2l.ai/_images/output_weight-decay_ec9cc0_107_1.svg",
+    "source": "https://zh.d2l.ai/_images/output_weight-decay_ec9cc0_131_1.svg"
+  },
+  {
+    "file": "d2l-19b6dcb7868cfef3.svg",
+    "original_source": "https://zh.d2l.ai/_images/output_weight-decay_ec9cc0_63_1.svg",
+    "source": "https://zh.d2l.ai/_images/output_weight-decay_ec9cc0_81_1.svg"
+  },
+  {
+    "file": "d2l-5296a53de851f75e.svg",
+    "original_source": "https://zh.d2l.ai/_images/output_weight-decay_ec9cc0_78_1.svg",
+    "source": "https://zh.d2l.ai/_images/output_weight-decay_ec9cc0_96_1.svg"
+  },
+  {
+    "file": "d2l-c3a36a1254dfc763.svg",
+    "original_source": "https://zh.d2l.ai/_images/pacman.svg",
+    "source": "https://zh.d2l.ai/_images/pacman.svg"
+  },
+  {
+    "file": "d2l-7546be02ebc9adf0.svg",
+    "original_source": "https://zh.d2l.ai/_images/ps.svg",
+    "source": "https://zh.d2l.ai/_images/ps.svg"
+  },
+  {
+    "file": "d2l-5e42fa3ce561e474.svg",
+    "original_source": "https://zh.d2l.ai/_images/residual-block.svg",
+    "source": "https://zh.d2l.ai/_images/residual-block.svg"
+  },
+  {
+    "file": "d2l-ec50b0452859ef6b.svg",
+    "original_source": "https://zh.d2l.ai/_images/resnet-block.svg",
+    "source": "https://zh.d2l.ai/_images/resnet-block.svg"
+  },
+  {
+    "file": "d2l-76c6efc8f77429cf.svg",
+    "original_source": "https://zh.d2l.ai/_images/resnet18.svg",
+    "source": "https://zh.d2l.ai/_images/resnet18.svg"
+  },
+  {
+    "file": "d2l-d2e63a575e94d3d0.svg",
+    "original_source": "https://zh.d2l.ai/_images/softmaxreg.svg",
+    "source": "https://zh.d2l.ai/_images/softmaxreg.svg"
+  },
+  {
+    "file": "d2l-81368fbde817c23b.png",
+    "original_source": "https://zh.d2l.ai/_images/turing.png",
+    "source": "https://zh.d2l.ai/_images/turing.png"
+  },
+  {
+    "file": "d2l-50cd81d592bf7cd7.svg",
+    "original_source": "https://zh.d2l.ai/_images/vgg.svg",
+    "source": "https://zh.d2l.ai/_images/vgg.svg"
+  },
+  {
+    "file": "d2l-6b03b4d8c6f79d5c.jpg",
+    "original_source": "https://zh.d2l.ai/_images/where-wally-walker-books.jpg",
+    "source": "https://zh.d2l.ai/_images/where-wally-walker-books.jpg"
+  },
+  {
+    "file": "semantic-vs-instance-segmentation.svg",
+    "source": "Created during migration to illustrate the note; the supplied source referenced an absent 下載.png."
+  }
+]

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 270" role="img" aria-labelledby="title desc">
+<title id="title">Semantic segmentation versus instance segmentation</title>
+<desc id="desc">Two circles share a semantic class. Semantic segmentation colors them alike; instance segmentation gives each circle a distinct instance label. A square belongs to another class.</desc>
+<rect width="840" height="270" fill="#fff"/>
+<g font-family="Arial, sans-serif" text-anchor="middle" fill="#343a40" font-size="17">
+<text x="140" y="30">Objects</text><text x="420" y="30">Semantic segmentation</text><text x="700" y="30">Instance segmentation</text>
+</g>
+<g stroke="#d8dee5" fill="#f1f3f5"><rect x="20" y="50" width="240" height="170" rx="8"/><rect x="300" y="50" width="240" height="170" rx="8"/><rect x="580" y="50" width="240" height="170" rx="8"/></g>
+<g stroke="#58616d" stroke-width="3" fill="#fff"><circle cx="80" cy="105" r="30"/><circle cx="155" cy="145" r="30"/><rect x="188" y="77" width="48" height="48" rx="3"/></g>
+<g><circle cx="360" cy="105" r="30" fill="#3578c8"/><circle cx="435" cy="145" r="30" fill="#3578c8"/><rect x="468" y="77" width="48" height="48" rx="3" fill="#e2993e"/>
+<circle cx="640" cy="105" r="30" fill="#3578c8"/><circle cx="715" cy="145" r="30" fill="#239b87"/><rect x="748" y="77" width="48" height="48" rx="3" fill="#e2993e"/></g>
+<g font-family="Arial, sans-serif" text-anchor="middle" fill="#58616d" font-size="14"><text x="140" y="250">Two circles and one square</text><text x="420" y="250">Same class = same label</text><text x="700" y="250">Each object = its own label</text></g>
+</svg>
