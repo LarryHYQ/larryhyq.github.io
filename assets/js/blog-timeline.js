@@ -98,25 +98,6 @@
   let hideTimer;
   let hovered = false;
   const pointers = new Set();
-  let touchActivated = false;
-  let lastScrollAt = -Infinity;
-  let lastHapticAt = -Infinity;
-  window.addEventListener('pointerdown', event => {
-    if (event.isTrusted && event.pointerType === 'touch') touchActivated = true;
-  }, { passive: true });
-  const pulseTick = () => {
-    const now = window.performance.now();
-    if (!mobile.matches || !touchActivated || document.hidden ||
-        typeof navigator.vibrate !== 'function' ||
-        navigator.userActivation?.hasBeenActive === false ||
-        now - lastScrollAt > 160 || now - lastHapticAt < 100) return;
-    lastHapticAt = now;
-    try {
-      navigator.vibrate(10);
-    } catch {
-      // Unsupported or denied haptics must never interrupt navigation.
-    }
-  };
 
   // Keep the rail available throughout a touch gesture or keyboard interaction.
   const hideWhenIdle = () => {
@@ -177,7 +158,6 @@
       return;
     }
 
-    const changedEntry = activePost !== null;
     if (activePost) {
       const previous = tickById.get(activePost.id);
       previous?.classList.remove('is-active');
@@ -187,7 +167,6 @@
     const tick = tickById.get(post.id);
     tick?.classList.add('is-active');
     tick?.setAttribute('aria-current', 'location');
-    if (changedEntry && tick) pulseTick();
     monthLinks.forEach(link => link.classList.toggle('is-active', link.dataset.timelineMonth === post.dataset.month));
     yearLinks.forEach(link => link.classList.toggle('is-active', link.dataset.timelineYear === post.dataset.year));
 
@@ -249,7 +228,7 @@
       timeline.classList.remove('is-visible');
     }
   });
-  window.addEventListener('scroll', () => { lastScrollAt = window.performance.now(); hideTooltip(); showTimeline(); scheduleUpdate(); }, { passive: true });
+  window.addEventListener('scroll', () => { hideTooltip(); showTimeline(); scheduleUpdate(); }, { passive: true });
   window.addEventListener('resize', () => { measure(); scheduleUpdate(); });
   window.addEventListener('load', () => { measure(); scheduleUpdate(); });
   window.addEventListener('hashchange', scheduleUpdate);
