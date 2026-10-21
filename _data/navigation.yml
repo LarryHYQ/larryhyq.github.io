@@ -8,8 +8,13 @@
 #      Markdown formatted page while the second is generated using JSON.
 
 main:
+  - title: "Home"
+    url: /
+
   - title: "Publications"
     url: /publications/
+    active_paths:
+      - /publication/
 
   # - title: "Talks"
   #   url: /talks/    
@@ -21,7 +26,10 @@ main:
   #   url: /portfolio/
 
   - title: "Blog"
-    url: /blog
+    url: /blog/
+    active_paths:
+      - /tags/
+      - /categories/
         
   - title: "Honors & Awards"
     url: /honors-and-awards/
