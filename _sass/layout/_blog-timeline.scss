@@ -1,5 +1,6 @@
-/* Date navigation is scoped to the Blog archive. */
-.archive--blog {
+/* Shared rail for chronological archives and section navigation. */
+.archive--blog,
+.archive--timeline {
   .archive__item-title {
     margin-top: 1.5em;
     font-size: $type-size-4;
@@ -49,6 +50,7 @@
 
   .blog-timeline {
     position: sticky;
+    z-index: 15;
     top: unquote("max(calc(var(--blog-masthead-height, #{$masthead-height}) + 16px), 25vh)");
     align-self: start;
     text-align: right;
@@ -97,8 +99,8 @@
     top: 0;
     z-index: 2;
     min-height: 44px;
-    margin-bottom: 0.6rem;
-    padding-bottom: 0.5rem;
+    margin-bottom: 0.4rem;
+    padding-bottom: 0.4rem;
     font-size: 1.15rem;
     font-weight: normal;
     background: var(--global-bg-color);
@@ -123,13 +125,13 @@
   }
 
   .blog-timeline__month {
-    min-height: 32px;
-    margin-top: 0.5rem;
+    min-height: 28px;
+    margin-top: 0.35rem;
     font-size: 0.65rem;
   }
 
   .blog-timeline__tick {
-    min-height: 32px;
+    min-height: 28px;
     gap: 6px;
 
     &::after {
@@ -203,7 +205,7 @@
     }
 
     .blog-timeline__month {
-      min-height: 44px;
+      min-height: 38px;
       font-size: 12px;
     }
 
@@ -221,5 +223,41 @@
     .blog-timeline a {
       transition: none;
     }
+  }
+}
+
+// Section names replace months; long entry names stay in desktop tooltips.
+.archive--timeline {
+  .blog-timeline__year { font-size: 14px; }
+  .blog-timeline__month {
+    min-height: 38px;
+    font-size: 11px;
+    line-height: 1.4;
+    overflow-wrap: break-word;
+  }
+  .blog-timeline__month--stacked { white-space: pre-line; }
+  [data-timeline-entry],
+  [data-timeline-content] h2,
+  [data-timeline-content] h3 {
+    scroll-margin-top: calc(var(--blog-masthead-height, #{$masthead-height}) + 1.5rem);
+  }
+  .blog-timeline__tooltip {
+    position: fixed;
+    z-index: 30;
+    width: max-content;
+    max-width: min(320px, calc(100vw - 110px));
+    padding: 8px 12px;
+    border: 1px solid var(--global-border-color);
+    border-radius: 6px;
+    background: var(--global-bg-color);
+    color: var(--global-text-color);
+    box-shadow: 0 3px 14px rgba(0, 0, 0, 0.1);
+    font-size: 12px;
+    line-height: 1.5;
+    text-align: left;
+    pointer-events: none;
+  }
+  @media (max-width: 767px), (hover: none) {
+    .blog-timeline__tooltip { display: none; }
   }
 }

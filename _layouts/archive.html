@@ -15,10 +15,17 @@ layout: default
 <div id="main" role="main">
   {% include sidebar.html %}
 
-  <div class="archive{% if page.blog_timeline %} archive--blog{% endif %}">
+  <div class="archive{% if page.blog_timeline %} archive--blog{% endif %}{% if page.section_timeline %} archive--timeline{% endif %}">
     {% unless page.header.overlay_color or page.header.overlay_image %}
       <h1 class="page__title">{{ page.title }}</h1>
     {% endunless %}
-    {{ content }}
+    {% if page.section_timeline %}
+      <div class="blog-archive" data-section-archive data-timeline-title="{{ page.section_timeline | escape }}">
+        <div class="blog-archive__posts" data-timeline-content>{{ content }}</div>
+      </div>
+      <script defer src="{{ '/assets/js/blog-timeline.js' | relative_url }}?v={{ site.time | date: '%Y%m%d%H%M%S' }}"></script>
+    {% else %}
+      {{ content }}
+    {% endif %}
   </div>
 </div>

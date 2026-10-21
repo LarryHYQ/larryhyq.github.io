@@ -3,6 +3,7 @@ layout: archive
 title: "Publications"
 permalink: /publications/
 author_profile: true
+section_timeline: Publication
 ---
 
 {% if site.author.googlescholar %}
@@ -20,15 +21,19 @@ author_profile: true
         {% continue %}
       {% endif %}
       {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
+        <h2 id="publication-category-{{ category[0] | slugify }}">{{ category[1].title }}</h2><hr />
         {% assign title_shown = true %}
       {% endunless %}
-      {% include archive-single.html %}
+      <div id="publication-{{ post.url | slugify }}" data-timeline-entry>
+        {% include archive-single.html heading_level=3 %}
+      </div>
     {% endfor %}
   {% endfor %}
 {% else %}
   {% for post in site.publications reversed %}
-    {% include archive-single.html %}
+    <div id="publication-{{ post.url | slugify }}" data-timeline-entry>
+        {% include archive-single.html heading_level=3 %}
+      </div>
   {% endfor %}
 {% endif %}
 

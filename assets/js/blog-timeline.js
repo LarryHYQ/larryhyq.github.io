@@ -1,25 +1,122 @@
-/* Date navigation for the Blog archive; no dependency on the global JS bundle. */
+/* Shared archive/section navigation; no dependency on the global JS bundle. */
 (() => {
-  const archive = document.querySelector('[data-blog-archive]');
+  const archive = document.querySelector('[data-blog-archive], [data-section-archive]');
   if (!archive) return;
+
+  // Build from rendered content so new papers and Interest headings join the
+  // index automatically, without a second list of titles to maintain.
+  if (archive.hasAttribute('data-section-archive')) {
+    const content = archive.querySelector('[data-timeline-content]');
+    const title = archive.dataset.timelineTitle;
+    const nav = document.createElement('nav');
+    nav.className = 'blog-timeline';
+    nav.setAttribute('aria-label', `${title} navigation`);
+    const track = document.createElement('div');
+    track.className = 'blog-timeline__track';
+    track.dataset.timelineTrack = '';
+    nav.append(track);
+    const makeLink = (className, target, label) => {
+      const link = document.createElement('a');
+      link.className = className;
+      link.href = `#${target.id}`;
+      link.textContent = label;
+      return link;
+    };
+    const pageTitle = archive.closest('.archive').querySelector('.page__title');
+    pageTitle.id ||= 'page-timeline-top';
+    const header = makeLink('blog-timeline__year', pageTitle, title);
+    header.dataset.timelineYear = title;
+    track.append(header);
+    let group = '';
+    content.querySelectorAll(':scope > h2, :scope > h3, :scope > [data-timeline-entry]').forEach((entry, index) => {
+      entry.id ||= `rail-entry-${index}`;
+      if (entry.tagName === 'H2') {
+        group = entry.id;
+        const link = makeLink('blog-timeline__month', entry, entry.textContent.trim());
+        if (title === 'Publication') {
+          // Apply one wrapping rule to all present and future paper categories.
+          link.setAttribute('aria-label', entry.textContent.trim());
+          link.textContent = entry.textContent.trim().split(/\s+/).join('\n');
+          link.classList.add('blog-timeline__month--stacked');
+        }
+        link.dataset.timelineMonth = group;
+        track.append(link);
+      } else {
+        const heading = entry.querySelector('.archive__item-title') || entry;
+        const label = heading.textContent.trim().replace(/:\s*$/, '');
+        const link = makeLink('blog-timeline__tick', entry, '');
+        link.dataset.timelinePost = entry.id;
+        link.dataset.timelineLabel = label;
+        link.setAttribute('aria-label', label);
+        // Text is deliberately kept out of the compact rail, on both viewports.
+        track.append(link);
+      }
+      entry.dataset.blogPost = '';
+      entry.dataset.month = group;
+      entry.dataset.year = title;
+    });
+    archive.append(nav);
+  }
 
   const posts = Array.from(archive.querySelectorAll('[data-blog-post]'));
   const track = archive.querySelector('[data-timeline-track]');
-  const monthLinks = document.querySelectorAll('[data-timeline-month]');
+  const monthLinks = archive.querySelectorAll('[data-timeline-month]');
   const yearLinks = archive.querySelectorAll('[data-timeline-year]');
+  const monthById = new Map(Array.from(monthLinks).map(link => [link.dataset.timelineMonth, link]));
   const timeline = archive.querySelector('.blog-timeline');
   const mobile = window.matchMedia('(max-width: 767px)');
   const tickById = new Map(Array.from(archive.querySelectorAll('[data-timeline-post]'))
     .map(link => [link.dataset.timelinePost, link]));
   const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
-  const container = archive.closest('.archive--blog');
+  const container = archive.closest('.archive');
   const masthead = document.querySelector('.masthead');
+  if (!timeline || !posts.length) return;
+
+  // A fixed tooltip avoids clipping long titles inside the scrollable rail.
+  const tooltip = document.createElement('div');
+  tooltip.className = 'blog-timeline__tooltip';
+  tooltip.hidden = true;
+  if (archive.hasAttribute('data-section-archive')) timeline.append(tooltip);
+  const hideTooltip = () => { tooltip.hidden = true; };
+  const showTooltip = event => {
+    const link = event.target.closest('[data-timeline-label]');
+    if (!link || !window.matchMedia('(hover: hover) and (pointer: fine)').matches) return;
+    tooltip.textContent = link.dataset.timelineLabel;
+    tooltip.hidden = false;
+    const rect = link.getBoundingClientRect();
+    tooltip.style.left = `${Math.max(8, rect.left - tooltip.offsetWidth - 12)}px`;
+    tooltip.style.top = `${Math.max(8, Math.min(window.innerHeight - tooltip.offsetHeight - 8, rect.top + (rect.height - tooltip.offsetHeight) / 2))}px`;
+  };
+  timeline.addEventListener('pointerover', showTooltip);
+  timeline.addEventListener('focusin', showTooltip);
+  timeline.addEventListener('pointerout', hideTooltip);
+  timeline.addEventListener('focusout', hideTooltip);
+
   let positions = [];
   let activePost = null;
   let scheduled = false;
   let hideTimer;
   let hovered = false;
   const pointers = new Set();
+  let touchActivated = false;
+  let lastScrollAt = -Infinity;
+  let lastHapticAt = -Infinity;
+  window.addEventListener('pointerdown', event => {
+    if (event.isTrusted && event.pointerType === 'touch') touchActivated = true;
+  }, { passive: true });
+  const pulseTick = () => {
+    const now = window.performance.now();
+    if (!mobile.matches || !touchActivated || document.hidden ||
+        typeof navigator.vibrate !== 'function' ||
+        navigator.userActivation?.hasBeenActive === false ||
+        now - lastScrollAt > 160 || now - lastHapticAt < 100) return;
+    lastHapticAt = now;
+    try {
+      navigator.vibrate(10);
+    } catch {
+      // Unsupported or denied haptics must never interrupt navigation.
+    }
+  };
 
   // Keep the rail available throughout a touch gesture or keyboard interaction.
   const hideWhenIdle = () => {
@@ -76,10 +173,11 @@
     const post = posts[index];
     if (!post) return;
     if (post === activePost) {
-      revealTick(tickById.get(post.id));
+      revealTick(tickById.get(post.id) || monthById.get(post.dataset.month));
       return;
     }
 
+    const changedEntry = activePost !== null;
     if (activePost) {
       const previous = tickById.get(activePost.id);
       previous?.classList.remove('is-active');
@@ -89,10 +187,11 @@
     const tick = tickById.get(post.id);
     tick?.classList.add('is-active');
     tick?.setAttribute('aria-current', 'location');
+    if (changedEntry && tick) pulseTick();
     monthLinks.forEach(link => link.classList.toggle('is-active', link.dataset.timelineMonth === post.dataset.month));
     yearLinks.forEach(link => link.classList.toggle('is-active', link.dataset.timelineYear === post.dataset.year));
 
-    revealTick(tick);
+    revealTick(tick || monthById.get(post.dataset.month));
   };
 
   const scheduleUpdate = () => {
@@ -138,7 +237,7 @@
   window.addEventListener('pointercancel', releasePointer, { passive: true });
   timeline.addEventListener('focusin', showTimeline);
   timeline.addEventListener('focusout', hideWhenIdle);
-  track.addEventListener('scroll', showTimeline, { passive: true });
+  track.addEventListener('scroll', () => { hideTooltip(); showTimeline(); }, { passive: true });
   timeline.addEventListener('wheel', showTimeline, { passive: true });
   document.addEventListener('keydown', event => {
     if (event.key === 'Tab') showTimeline();
@@ -150,7 +249,7 @@
       timeline.classList.remove('is-visible');
     }
   });
-  window.addEventListener('scroll', () => { showTimeline(); scheduleUpdate(); }, { passive: true });
+  window.addEventListener('scroll', () => { lastScrollAt = window.performance.now(); hideTooltip(); showTimeline(); scheduleUpdate(); }, { passive: true });
   window.addEventListener('resize', () => { measure(); scheduleUpdate(); });
   window.addEventListener('load', () => { measure(); scheduleUpdate(); });
   window.addEventListener('hashchange', scheduleUpdate);
@@ -174,6 +273,11 @@
       update();
     }));
   });
+  // Images and responsive embeds can change section positions after DOM ready.
+  if ('ResizeObserver' in window) {
+    const observer = new ResizeObserver(() => { measure(); scheduleUpdate(); });
+    observer.observe(archive.querySelector('.blog-archive__posts'));
+  }
   document.fonts?.ready.then(() => { measure(); scheduleUpdate(); });
   measure();
   update();

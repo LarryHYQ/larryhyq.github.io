@@ -39,7 +39,7 @@ redirect_from:
           <a class="blog-timeline__year" href="#{{ year.name }}" data-timeline-year="{{ year.name }}">{{ year.name }}</a>
           {% assign year_months = year.items | group_by_exp: 'post', "post.date | date: '%Y-%m'" %}
           {% for month in year_months %}
-            <a class="blog-timeline__month" href="#blog-month-{{ month.name }}" data-timeline-month="{{ month.name }}">{{ month.items.first.date | date: '%m' }}月</a>
+            <a class="blog-timeline__month" href="#blog-month-{{ month.name }}" data-timeline-month="{{ month.name }}">{{ month.items.first.date | date: '%m' | plus: 0 }}月</a>
             {% for post in month.items %}
               <a class="blog-timeline__tick" href="#blog-{{ post.id | slugify }}" data-timeline-post="blog-{{ post.id | slugify }}" aria-label="{{ post.date | date: '%Y-%m-%d' }}：{{ post.title | escape }}" title="{{ post.date | date: '%Y-%m-%d' }} · {{ post.title | escape }}"><span class="blog-timeline__day" aria-hidden="true">{{ post.date | date: '%m.%d' }}</span><span class="sr-only">{{ post.date | date: '%Y-%m-%d' }}</span></a>
             {% endfor %}
@@ -50,4 +50,4 @@ redirect_from:
   </nav>
 </div>
 
-<script defer src="{{ base_path }}/assets/js/blog-timeline.js"></script>
+<script defer src="{{ base_path }}/assets/js/blog-timeline.js?v={{ site.time | date: '%Y%m%d%H%M%S' }}"></script>

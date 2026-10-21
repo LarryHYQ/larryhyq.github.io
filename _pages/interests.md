@@ -3,6 +3,7 @@ layout: archive
 title: "Interests"
 permalink: /interests/
 author_profile: true
+section_timeline: Interest
 redirect_from:
   - /resume
 ---
@@ -245,6 +246,7 @@ In 2025, I had the privilege of joining <a href="https://www.weibo.com/u/2104353
 Still We Rise.
 
 **Written after the 2026 Shanghai Grand Prix. Mar. 18, 2026.**
+{: #written-after-2026-shanghai-grand-prix data-timeline-entry="true"}
 
 2026—the year of brand-new F1 regulations—and once again, I have joined TeamLHChina. Once again, I find myself sitting across from my hero of over a decade, Lewis Hamilton; I still feel the same thrill I did in my youth, and the same excitement I felt during my very first visit to the paddock last year.
 
