@@ -49,10 +49,18 @@
 
   .blog-timeline {
     position: sticky;
-    top: calc(#{$masthead-height} + 1.5rem);
+    top: unquote("max(calc(var(--blog-masthead-height, #{$masthead-height}) + 16px), 25vh)");
     align-self: start;
     text-align: right;
     font-variant-numeric: tabular-nums;
+    transition: opacity 0.2s ease, transform 0.2s ease, visibility 0.2s;
+
+    &.is-enhanced:not(.is-visible) {
+      opacity: 0;
+      visibility: hidden;
+      pointer-events: none;
+      transform: translateX(4px);
+    }
 
     a {
       display: flex;
@@ -75,23 +83,8 @@
     }
   }
 
-  .blog-timeline__label {
-    margin: 0 8px 0.5rem 0;
-    color: var(--global-text-color-light);
-    font-size: 0.65rem;
-    letter-spacing: 0.08em;
-  }
-
-  .blog-timeline__current {
-    display: block;
-    margin: 0 8px 1rem 0;
-    color: var(--global-text-color);
-    font-size: 0.6rem;
-    white-space: nowrap;
-  }
-
   .blog-timeline__track {
-    max-height: calc(100vh - #{$masthead-height} - 8rem);
+    max-height: 50vh;
     overflow-y: auto;
     overscroll-behavior: contain;
     padding-right: 8px;
@@ -136,12 +129,13 @@
   }
 
   .blog-timeline__tick {
-    min-height: 24px;
+    min-height: 32px;
+    gap: 6px;
 
     &::after {
       content: "";
       display: block;
-      width: 22px;
+      width: 12px;
       height: 2px;
       border-radius: 2px;
       background: var(--global-dark-border-color);
@@ -150,13 +144,13 @@
 
     &:hover::after,
     &.is-active::after {
-      width: 44px;
+      width: 22px;
       background: var(--global-link-color);
     }
   }
 
   .blog-timeline__day {
-    display: none;
+    font-size: 10px;
   }
 
   @media (max-width: 767px) {
@@ -175,28 +169,10 @@
       border-radius: 12px;
       background: var(--global-bg-color);
       box-shadow: 0 3px 18px rgba(0, 0, 0, 0.1);
-      transition: opacity 0.2s ease, transform 0.2s ease, visibility 0.2s;
-
-      &.is-enhanced:not(.is-visible) {
-        opacity: 0;
-        visibility: hidden;
-        pointer-events: none;
-        transform: translateX(4px);
-      }
-    }
-
-    .blog-timeline__label {
-      margin-right: 4px;
-      font-size: 10px;
-    }
-
-    .blog-timeline__current {
-      margin: 0 4px 8px 0;
-      font-size: 10px;
     }
 
     .blog-timeline__track {
-      max-height: 48vh;
+      max-height: calc(50vh - 24px);
       padding-right: 4px;
       touch-action: pan-y;
     }
@@ -208,25 +184,6 @@
     .blog-timeline__month {
       min-height: 44px;
       font-size: 12px;
-    }
-
-    .blog-timeline__tick {
-      min-height: 32px;
-      gap: 6px;
-
-      &::after {
-        width: 12px;
-      }
-
-      &:hover::after,
-      &.is-active::after {
-        width: 22px;
-      }
-    }
-
-    .blog-timeline__day {
-      display: inline;
-      font-size: 10px;
     }
 
     .blog-post,

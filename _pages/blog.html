@@ -33,8 +33,6 @@ redirect_from:
   </div>
 
   <nav class="blog-timeline" aria-label="博客时间轴">
-    <p class="blog-timeline__label">时间定位</p>
-    <time class="blog-timeline__current" datetime="{{ blog_posts.first.date | date: '%Y-%m-%d' }}" data-timeline-current>{{ blog_posts.first.date | date: '%Y-%m-%d' }}</time>
     <div class="blog-timeline__track" data-timeline-track>
       {% for year in blog_years %}
         <div class="blog-timeline__year-group">

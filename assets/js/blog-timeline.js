@@ -5,7 +5,6 @@
 
   const posts = Array.from(archive.querySelectorAll('[data-blog-post]'));
   const track = archive.querySelector('[data-timeline-track]');
-  const currentDate = archive.querySelector('[data-timeline-current]');
   const monthLinks = document.querySelectorAll('[data-timeline-month]');
   const yearLinks = archive.querySelectorAll('[data-timeline-year]');
   const timeline = archive.querySelector('.blog-timeline');
@@ -19,19 +18,19 @@
   let activePost = null;
   let scheduled = false;
   let hideTimer;
+  let hovered = false;
   const pointers = new Set();
 
   // Keep the rail available throughout a touch gesture or keyboard interaction.
   const hideWhenIdle = () => {
     window.clearTimeout(hideTimer);
     hideTimer = window.setTimeout(() => {
-      if (!pointers.size && !timeline.contains(document.activeElement)) {
+      if (!hovered && !pointers.size && !timeline.contains(document.activeElement)) {
         timeline.classList.remove('is-visible');
       }
     }, 1400);
   };
   const showTimeline = () => {
-    if (!mobile.matches) return;
     timeline.classList.add('is-visible');
     hideWhenIdle();
   };
@@ -59,9 +58,10 @@
     if (track.getClientRects().length) {
       const top = parseFloat(window.getComputedStyle(track.parentElement).top);
       const bottom = mobile.matches ? window.innerHeight - 24 : Math.min(window.innerHeight - 24, archive.getBoundingClientRect().bottom);
-      const available = bottom - top - track.offsetTop;
-      // Keep the year/date header visible as the footer enters the viewport.
-      const height = `${Math.max(80, mobile.matches ? Math.min(window.innerHeight * 0.48, available) : available)}px`;
+      const padding = timeline.offsetHeight - track.offsetHeight;
+      const available = bottom - top - padding;
+      // Cap the whole rail at half the viewport, including its mobile frame.
+      const height = `${Math.max(80, Math.min(window.innerHeight * 0.5 - padding, available))}px`;
       if (track.style.maxHeight !== height) track.style.maxHeight = height;
     }
     const threshold = window.scrollY + Math.min(window.innerHeight * 0.25, 160);
@@ -89,8 +89,6 @@
     const tick = tickById.get(post.id);
     tick?.classList.add('is-active');
     tick?.setAttribute('aria-current', 'location');
-    currentDate.textContent = post.dataset.date;
-    currentDate.dateTime = post.dataset.date;
     monthLinks.forEach(link => link.classList.toggle('is-active', link.dataset.timelineMonth === post.dataset.month));
     yearLinks.forEach(link => link.classList.toggle('is-active', link.dataset.timelineYear === post.dataset.year));
 
@@ -119,6 +117,16 @@
   };
 
   timeline.addEventListener('click', navigate, true);
+  timeline.addEventListener('pointerenter', event => {
+    if (event.pointerType !== 'mouse') return;
+    hovered = true;
+    showTimeline();
+  });
+  timeline.addEventListener('pointerleave', event => {
+    if (event.pointerType !== 'mouse') return;
+    hovered = false;
+    hideWhenIdle();
+  });
   timeline.addEventListener('pointerdown', event => {
     pointers.add(event.pointerId);
     showTimeline();
@@ -134,7 +142,7 @@
   timeline.addEventListener('wheel', showTimeline, { passive: true });
   document.addEventListener('keydown', event => {
     if (event.key === 'Tab') showTimeline();
-    if (event.key === 'Escape' && mobile.matches) {
+    if (event.key === 'Escape') {
       if (timeline.contains(document.activeElement) && activePost) {
         activePost.setAttribute('tabindex', '-1');
         activePost.focus({ preventScroll: true });
