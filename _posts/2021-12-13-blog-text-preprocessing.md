@@ -1,0 +1,208 @@
+---
+title: 'D2L-41 文本预处理'
+date: 2021-12-13
+permalink: /blog/2021/12/text-preprocessing/
+tags:
+  - Deep Learning
+  - Nature Language Processing
+  - Dive to Deep Learning
+redirect_from:
+  - /blog/2021/10/text-preprocessing/
+---
+
+本文介绍自然语言处理中的文本预处理流程，包括读取语料、分词、构建词表和将词元转换为索引，并说明字符级与词级处理方式的区别。
+
+{% raw %}
+
+### 🎦 本节课程视频地址 👇
+
+
+<div align="center">
+  <a href="https://www.bilibili.com/video/BV1Fo4y1Q79L" target="_blank">
+    <img src="/images/blog/Images/d2l-656dbe379bc30f30.webp" alt="Bilibil" referrerpolicy="no-referrer">
+  </a>
+</div>
+
+
+## 文本预处理
+
+- 下载/读取文本
+
+```python
+import collections
+import re
+from d2l import torch as d2l
+
+d2l.DATA_HUB['time_machine'] = (d2l.DATA_URL + 'timemachine.txt',
+                                '090b5e7e70c295757f55df93cb0a180b9691891a')
+
+def read_time_machine():
+    with open(d2l.download('time_machine'), 'r') as f:
+        lines = f.readlines()
+    # 使用正则表达式进行模式匹配
+    # 将所有非字母变为空格
+    return [re.sub('[^A-Za-z]+', ' ', line).strip().lower() for line in lines]
+
+lines = read_time_machine()
+print(f'文本总行数: {len(lines)}')
+print(lines[0])
+print(lines[10])
+
+# Out:
+# 文本总行数:3221
+# ...
+```
+
+
+- 词元化(tokenize)
+
+```python
+# 每个文本序列被拆分成一个词元列表，词元（token）是文本的基本单位。
+def tokenize(lines, token='word'):
+    if token == 'word':#按单词
+        #按空格分割句子
+        return [line.split() for line in lines]
+    elif token == 'char':#按字母
+        #把字符串变成列表，按单个字符
+        return [list(line) for line in lines]
+    else:
+        print('错误：未知词元类型：' + token)
+
+# 分词
+tokens = tokenize(lines)
+for i in range(11):
+    print(tokens[i])
+```
+
+
+- 构建Vocab字典对象
+
+用来将字符串类型的标记映射到从零开始的数值索引，因为神经网络训练时需要输入数值而不是字符串，同时生成词频统计
+
+```python
+class Vocab:
+    def __init__(self, tokens=None, min_freq=0, reserved_tokens=None):
+        if tokens is None:
+            tokens = []
+        if reserved_tokens is None:
+            reserved_tokens = []
+        # 计算词的频数统计
+        counter = count_corpus(tokens)
+        # 按频数key=x[1]，降序排序
+        self._token_freqs = sorted(counter.items(), key=lambda x: x[1],
+                                   reverse=True)
+        # 初始化索引查词元的列表：idx -> token
+        # 语料库中不存在词元和reserved_tokens列表合并
+        self.idx_to_token = ['<unk>'] + reserved_tokens
+        # 初始化词元倒查对应索引字典：token -> idx
+        self.token_to_idx = {token: idx
+                             for idx, token in enumerate(self.idx_to_token)}
+        # 遍历词频统计
+        for token, freq in self._token_freqs:
+            # 遇到低于频数阈值的词则跳过，过滤长尾词
+            if freq < min_freq:
+                break
+            # 否则如果第一次在词元倒查对应索引字典出现的词
+            if token not in self.token_to_idx:
+                # 添加新词到索引查词元的列表
+                self.idx_to_token.append(token)
+                # 添加新元素到词元倒查对应索引字典
+                self.token_to_idx[token] = len(self.idx_to_token) - 1
+
+    # __len__使对象可以被len()方法调用
+    def __len__(self):
+        return len(self.idx_to_token)
+
+    # 定义给定token返回index的方法
+    def __getitem__(self, tokens):
+        # 如果token不为list或tuple类型（即为单个词，字符串类型），直接返回对应索引，若不存该词在则返回缺省值self.unk=0
+        if not isinstance(tokens, (list, tuple)):
+            return self.token_to_idx.get(tokens, self.unk)
+        # 若为可迭代列表等对象，则递归
+        return [self.__getitem__(token) for token in tokens]
+
+    # 定义给定index返回token的方法
+    def to_tokens(self, indices):
+        # 若为单个词对象，直接返回索引对应词
+        if not isinstance(indices, (list, tuple)):
+            return self.idx_to_token[indices]
+        # 否则递归
+        return [self.idx_to_token[index] for index in indices]
+
+    #装饰器，把方法变属性
+    @property
+    def unk(self):
+        return 0
+
+    @property
+    def token_freqs(self):
+        return self._token_freqs
+```
+
+
+- 定义词频统计函数
+
+```python
+def count_corpus(tokens):
+    # 判断tokens是否为 1D list或 2D list
+    if len(tokens) == 0 or isinstance(tokens[0], list):
+        #for line in tokens:
+        #    for token in line:
+        #对双重循环的每一个元素，做token操作放在新的列表tokens里
+        #这里就把两层嵌套列表变成了一层嵌套
+        #tokens的每一行的字符串列表(line)里的单词字符串(token)
+        #返回的是整个文本(tokens)所有的字符串
+        tokens = [token for line in tokens for token in line]
+    # 计算每个词出现的频数
+    return collections.Counter(tokens)
+
+# 创建词汇表
+vocab = Vocab(tokens)
+print(list(vocab.token_to_idx.items())[:10])
+
+# Out:
+# [('<unk>',0),('the',1),('i',2),....('that',9)]
+```
+
+
+- 将以上功能打包至`load_corpus_time_machine`函数
+
+```python
+def load_corpus_time_machine(max_tokens=-1):
+    lines = read_time_machine()
+    tokens = tokenize(lines, 'word')
+    vocab = Vocab(tokens)
+    # 因为时光机器数据集中的每个文本行不一定是一个句子或一个段落，
+    # 所以将所有文本行展平到一个列表中
+    corpus = [vocab[token] for line in tokens for token in line]
+    # 返回每一个token的索引
+    if max_tokens > 0:
+        corpus = corpus[:max_tokens]
+    return corpus, vocab
+
+# 处理语料
+corpus, vocab = load_corpus_time_machine()
+len(corpus), len(vocab)
+# Out:
+# (32775, 4580)
+```
+
+
+> 感悟：要有系统思维，懂得如何将一件复杂的任务拆分成多项简单的任务，学会组织工作流并通过代码实现
+
+需要注意的是，在做 NLP 训练和预测的相关任务时，使用的 Vocabulary 必须是**同一个**才可以。
+
+## Python 参考文档
+
+- Python 正则表达式 🧐[官方中文](https://docs.python.org/zh-cn/3/library/re.html)
+- `collection.Counter()` Pytorch Counter 对象 🧐[官方中文](https://docs.python.org/zh-cn/3/library/collections.html#counter-objects)
+
+---
+
+## Q&A🤓
+
+**Q：Vocab 实现里，为什么要对`_token_freqs`进行排序？乱序也不影响使用啊？**
+
+**🙋‍♂️**：排序主要是性能考虑，将词频高的放在列表前端较集中的部分，方便计算机进行 Cache，能提高读取的性能；另一方面也方便人来查看；同时，多多少少也有[霍夫曼编码](https://wiwiki.kfd.me/wiki/%E9%9C%8D%E5%A4%AB%E6%9B%BC%E7%BC%96%E7%A0%81)的思想。
+
+{% endraw %}

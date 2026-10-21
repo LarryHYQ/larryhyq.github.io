@@ -3,17 +3,53 @@ layout: archive
 permalink: /blog/
 title: "Blog"
 author_profile: true
+blog_timeline: true
 redirect_from:
   - /wordpress/blog-posts/
 ---
 
 {% include base_path %}
-{% capture written_year %}'None'{% endcapture %}
-{% for post in site.posts %}
-  {% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
-  {% if year != written_year %}
-    <h2 id="{{ year | slugify }}" class="archive__subtitle">{{ year }}</h2>
-    {% capture written_year %}{{ year }}{% endcapture %}
-  {% endif %}
-  {% include archive-single.html %}
-{% endfor %}
+{% assign blog_posts = site.posts | sort: 'date' %}
+{% assign blog_years = blog_posts | group_by_exp: 'post', "post.date | date: '%Y'" %}
+
+<div class="blog-archive" data-blog-archive>
+  <div class="blog-archive__posts">
+    {% for year in blog_years %}
+      <section class="blog-year" aria-labelledby="{{ year.name }}">
+        <h2 id="{{ year.name }}" class="archive__subtitle">{{ year.name }}</h2>
+        {% assign year_months = year.items | group_by_exp: 'post', "post.date | date: '%Y-%m'" %}
+        {% for month in year_months %}
+          <section class="blog-month" aria-labelledby="blog-month-{{ month.name }}">
+            <h3 id="blog-month-{{ month.name }}" class="blog-month__heading">{{ month.items.first.date | date: '%B' }}</h3>
+            {% for post in month.items %}
+              <div id="blog-{{ post.id | slugify }}" class="blog-post" data-blog-post data-date="{{ post.date | date: '%Y-%m-%d' }}" data-month="{{ month.name }}" data-year="{{ year.name }}">
+                {% include archive-single.html heading_level=4 %}
+              </div>
+            {% endfor %}
+          </section>
+        {% endfor %}
+      </section>
+    {% endfor %}
+  </div>
+
+  <nav class="blog-timeline" aria-label="博客时间轴">
+    <p class="blog-timeline__label">时间定位</p>
+    <time class="blog-timeline__current" datetime="{{ blog_posts.first.date | date: '%Y-%m-%d' }}" data-timeline-current>{{ blog_posts.first.date | date: '%Y-%m-%d' }}</time>
+    <div class="blog-timeline__track" data-timeline-track>
+      {% for year in blog_years %}
+        <div class="blog-timeline__year-group">
+          <a class="blog-timeline__year" href="#{{ year.name }}" data-timeline-year="{{ year.name }}">{{ year.name }}</a>
+          {% assign year_months = year.items | group_by_exp: 'post', "post.date | date: '%Y-%m'" %}
+          {% for month in year_months %}
+            <a class="blog-timeline__month" href="#blog-month-{{ month.name }}" data-timeline-month="{{ month.name }}">{{ month.items.first.date | date: '%m' }}月</a>
+            {% for post in month.items %}
+              <a class="blog-timeline__tick" href="#blog-{{ post.id | slugify }}" data-timeline-post="blog-{{ post.id | slugify }}" aria-label="{{ post.date | date: '%Y-%m-%d' }}：{{ post.title | escape }}" title="{{ post.date | date: '%Y-%m-%d' }} · {{ post.title | escape }}"><span class="blog-timeline__day" aria-hidden="true">{{ post.date | date: '%m.%d' }}</span><span class="sr-only">{{ post.date | date: '%Y-%m-%d' }}</span></a>
+            {% endfor %}
+          {% endfor %}
+        </div>
+      {% endfor %}
+    </div>
+  </nav>
+</div>
+
+<script defer src="{{ base_path }}/assets/js/blog-timeline.js"></script>
