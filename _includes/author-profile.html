@@ -37,24 +37,54 @@
         <li><a href="mailto:{{ author.email }}"><i class="fas fa-fw fa-envelope icon-pad-right" aria-hidden="true"></i>{{ site.data.ui-text[site.locale].email_label | default: "Email" }}</a></li>
       {% endif %}
 
-      <!-- Font Awesome and Academicons icons / Academic websites -->
-      {% if author.academia %}
-        <li><a href="{{ author.academia }}"><i class="ai ai-academia ai-fw icon-pad-right" aria-hidden="true"></i>Academia</a></li>
+      <!-- Primary profile links, in the preferred display order -->
+      {% if author.github %}
+        <li><a href="https://github.com/{{ author.github }}">{% include icons/github.svg %}GitHub</a></li>
       {% endif %}
       {% if author.arxiv %}
         <li><a href="{{ author.arxiv }}">{% include icons/arxiv.svg %}arXiv</a></li>
-      {% endif %}      
+      {% endif %}
+      {% if author.orcid %}
+        <li><a href="{{ author.orcid }}"><i class="ai ai-orcid ai-fw icon-pad-right"></i>ORCID</a></li>
+      {% endif %}
+      {% if author.dblp %}
+        <li><a href="{{ author.dblp | escape }}">{% include icons/dblp.svg %}DBLP</a></li>
+      {% endif %}
       {% if author.googlescholar %}
         <li><a href="{{ author.googlescholar }}">{% include icons/google-scholar.svg %}Google Scholar</a></li>
+      {% endif %}
+      {% if author.twitter %}
+        <li><a href="https://X.com/{{ author.twitter }}"><i class="fab fa-fw fa-x-twitter icon-pad-right" aria-hidden="true"></i>X</a></li>
+      {% endif %}
+      {% if author.instagram %}
+        <li><a href="https://instagram.com/{{ author.instagram }}">{% include icons/instagram.svg %}Instagram</a></li>
+      {% endif %}
+      {% if author.bilibili %}
+        <li><a href="https://space.bilibili.com/{{ author.bilibili }}"><i class="fab fa-fw fa-bilibili icon-pad-right" aria-hidden="true"></i>BiliBili</a></li>
+      {% endif %}
+      {% if author.weibo and author.weibo != '' %}
+        {% assign weibo_url = author.weibo %}
+        {% unless weibo_url contains '://' %}
+          {% assign weibo_url = author.weibo | prepend: 'https://weibo.com/' %}
+        {% endunless %}
+        <li><a href="{{ weibo_url | escape }}">{% include icons/weibo.svg %}Weibo</a></li>
+      {% endif %}
+      {% if author.douyin and author.douyin != '' %}
+        <li><a href="{{ author.douyin | escape }}">{% include icons/tiktok.svg %}TikTok</a></li>
+      {% endif %}
+      {% if author.xiaohongshu and author.xiaohongshu != '' %}
+        <li><a href="{{ author.xiaohongshu | escape }}">{% include icons/xiaohongshu.svg %}RedNote</a></li>
+      {% endif %}
+
+      <!-- Font Awesome and Academicons icons / Academic websites -->
+      {% if author.academia %}
+        <li><a href="{{ author.academia }}"><i class="ai ai-academia ai-fw icon-pad-right" aria-hidden="true"></i>Academia</a></li>
       {% endif %}
       {% if author.semantic %}
         <li><a href="{{ author.semantic }}"><i class="ai ai-semantic-scholar ai-fw icon-pad-right"></i>Semantic Scholar</a></li>
       {% endif %}
       {% if author.impactstory %}
         <li><a href="{{ author.impactstory }}"><i class="ai ai-impactstory ai-fw icon-pad-right"></i>Impactstory</a></li>
-      {% endif %}
-      {% if author.orcid %}
-        <li><a href="{{ author.orcid }}"><i class="ai ai-orcid ai-fw icon-pad-right"></i>ORCID</a></li>
       {% endif %}
       {% if author.pubmed %}
         <li><a href="{{ author.pubmed }}"><i class="ai ai-pubmed ai-fw icon-pad-right"></i>PubMed</a></li>
@@ -79,9 +109,6 @@
       {% if author.dribbble %}
         <li><a href="https://dribbble.com/{{ author.dribbble }}"><i class="fab fa-fw fa-dribbble icon-pad-right" aria-hidden="true"></i>Dribbble</a></li>
       {% endif %}      
-      {% if author.github %}
-        <li><a href="https://github.com/{{ author.github }}">{% include icons/github.svg %}GitHub</a></li>
-      {% endif %}
       {% if author.kaggle %}
         <li><a href="https://kaggle.com/{{ author.kaggle }}"><i class="fab fa-fw fa-kaggle icon-pad-right" aria-hidden="true"></i>Kaggle</a></li>
       {% endif %}      
@@ -114,9 +141,6 @@
       {% if author.keybase %}
         <li><a href="https://keybase.io/{{ author.keybase }}"><i class="fas fa-fw fa-key icon-pad-right" aria-hidden="true"></i>Keybase</a></li>
       {% endif %}
-      {% if author.instagram %}
-        <li><a href="https://instagram.com/{{ author.instagram }}">{% include icons/instagram.svg %}Instagram</a></li>
-      {% endif %}      
       {% if author.lastfm %}
         <li><a href="https://last.fm/user/{{ author.lastfm }}"><i class="fab fa-fw fa-lastfm icon-pad-right" aria-hidden="true"></i>Last.fm</a></li>
       {% endif %}      
@@ -144,28 +168,9 @@
       {% if author.tumblr %}
         <li><a href="https://{{ author.tumblr }}.tumblr.com"><i class="fab fa-fw fa-tumblr icon-pad-right" aria-hidden="true"></i>Tumblr</a></li>
       {% endif %}      
-      {% if author.twitter %}
-        <li><a href="https://X.com/{{ author.twitter }}"><i class="fab fa-fw fa-x-twitter icon-pad-right" aria-hidden="true"></i>X</a></li>
-      {% endif %}
       {% if author.vine %}
         <li><a href="https://vine.co/u/{{ author.vine }}"><i class="fab fa-fw fa-vine icon-pad-right" aria-hidden="true"></i>Vine</a></li>
       {% endif %}        
-      {% if author.bilibili %}
-        <li><a href="https://space.bilibili.com/{{ author.bilibili }}"><i class="fab fa-fw fa-bilibili icon-pad-right" aria-hidden="true"></i>BiliBili</a></li>
-      {% endif %}
-      {% if author.weibo and author.weibo != '' %}
-        {% assign weibo_url = author.weibo %}
-        {% unless weibo_url contains '://' %}
-          {% assign weibo_url = author.weibo | prepend: 'https://weibo.com/' %}
-        {% endunless %}
-        <li><a href="{{ weibo_url | escape }}">{% include icons/weibo.svg %}Weibo</a></li>
-      {% endif %}
-      {% if author.douyin and author.douyin != '' %}
-        <li><a href="{{ author.douyin | escape }}">{% include icons/tiktok.svg %}TikTok</a></li>
-      {% endif %}
-      {% if author.xiaohongshu and author.xiaohongshu != '' %}
-        <li><a href="{{ author.xiaohongshu | escape }}">{% include icons/xiaohongshu.svg %}RedNote</a></li>
-      {% endif %}
       {% if author.wikipedia %}
         <li><a href="https://en.wikipedia.org/wiki/User:{{ author.wikipedia }}"><i class="fab fa-fw fa-wikipedia-w icon-pad-right" aria-hidden="true"></i>Wikipedia</a></li>
       {% endif %}                
