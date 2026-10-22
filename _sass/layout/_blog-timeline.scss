@@ -239,6 +239,7 @@
       .blog-timeline__track {
         width: 76px;
         height: 100%;
+        margin-top: 0;
         padding-right: 4px;
         opacity: 0;
         transition: opacity 0.12s ease;
@@ -259,25 +260,34 @@
       html[data-theme="dark"] & { background: rgba(30, 34, 39, 0.55); }
 
       .blog-timeline__toggle {
+        // The whole compact rail is one directory button; its glyph stays at top.
+        position: absolute;
+        inset: 0;
+        z-index: 3;
         display: flex;
-        align-items: center;
+        align-items: flex-start;
         justify-content: center;
-        width: 16px;
-        height: 20px;
-        margin: 0 0 3px;
-        padding: 0;
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 8px 0 0;
         border: 0;
         color: var(--global-link-color);
         background: transparent;
         font-size: 14px;
-        line-height: 1;
+        line-height: 20px;
         cursor: pointer;
         &:focus-visible { outline: 2px solid var(--global-link-color); }
       }
       .blog-timeline__track {
         width: 100%;
         height: calc(100% - 23px);
+        margin-top: 23px;
         padding-right: 0;
+        // Keep following the article programmatically, but let gestures pan the page.
+        overflow-y: hidden;
+        overscroll-behavior: auto;
+        pointer-events: none;
       }
       .blog-timeline__year,
       .blog-timeline__month,

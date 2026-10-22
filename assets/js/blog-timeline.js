@@ -354,7 +354,7 @@
     if (mobile.matches && mobileExpanded && !timeline.contains(event.target)) setMobileExpanded(false);
   }, { passive: true });
   const notePageScroll = event => {
-    if (mobile.matches && !timeline.contains(event.target)) mobileScrollStarted = true;
+    if (mobile.matches && (!mobileExpanded || !timeline.contains(event.target))) mobileScrollStarted = true;
   };
   // Initial layout, hash restoration and directory auto-scroll do not reveal the
   // mobile rail. A page scrolling gesture is required, then the title threshold.
