@@ -84,6 +84,7 @@ author:
   weibo            : "https://weibo.com/u/5548033405"
   douyin           : "https://www.douyin.com/user/MS4wLjABAAAAcKp0Lf3G_CnHBtdReis3yv4nPOM1Oy-9YB4suNqYyP_1DhryLEZ4gEW0c6uQtx0k?from_tab_name=main" # TikTok
   xiaohongshu      : "https://www.xiaohongshu.com/user/profile/5d0ceaef000000001603d949" # RedNote
+  mapmyvisitors    : "2Ez_XpaoEU96QbcYUnrBxxJFWfRIGvJIHX6LiSBkCnA" # Widget ID; leave blank to hide the visitor map
 
 # Publication Category - The following the list of publication categories and their headings
 publication_category:

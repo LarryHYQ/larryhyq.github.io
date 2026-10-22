@@ -22,7 +22,7 @@
 
   <div class="author__urls-wrapper">
     <button type="button" class="btn btn--inverse" aria-controls="author-profile-links" aria-expanded="false">Follow</button>
-    <ul id="author-profile-links" class="author__urls social-icons">
+    <ul id="author-profile-links" class="author__urls social-icons{% if author.mapmyvisitors and author.mapmyvisitors != '' %} author__urls--with-map{% endif %}">
       <!-- Font Awesome icons / Biographic information  -->
       {% if author.location %}
         <li class="author__desktop"><i class="fas fa-fw fa-location-dot icon-pad-right" aria-hidden="true"></i>{{ author.location }}</li>
@@ -183,6 +183,9 @@
       {% if author.zhihu %}
       <li><a href="https://www.zhihu.com/people/{{ author.zhihu }}"><i class="fab fa-fw fa-zhihu icon-pad-right" aria-hidden="true"></i>Zhihu</a></li>
       {% endif %}      
+      {% if author.mapmyvisitors and author.mapmyvisitors != '' %}
+        {% include visitor-map.html %}
+      {% endif %}
     </ul>
   </div>
 </div>

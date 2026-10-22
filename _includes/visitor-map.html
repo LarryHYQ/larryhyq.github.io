@@ -1,0 +1,8 @@
+<li class="author__visitor-map">
+  <h4 class="author__visitor-map-title">Visitors</h4>
+  <div class="author__visitor-map-frame" data-visitor-map-frame data-map-width="600">
+    <script async type="text/javascript" id="mapmyvisitors" src="https://mapmyvisitors.com/map.js?cl=e1d7c8&amp;w=600&amp;t=n&amp;d={{ author.mapmyvisitors | uri_escape }}&amp;co=faf8f4&amp;cmo=bea58b&amp;cmn=b28a54&amp;ct=494e52"></script>
+    <noscript><img src="https://mapmyvisitors.com/map.png?cl=e1d7c8&amp;w=600&amp;t=n&amp;d={{ author.mapmyvisitors | uri_escape }}&amp;co=faf8f4&amp;cmo=bea58b&amp;cmn=b28a54&amp;ct=494e52" alt="World visitor map" width="600" height="294"></noscript>
+  </div>
+  <script defer src="{{ base_path }}/assets/js/visitor-map.js?v={{ site.time | date: '%Y%m%d%H%M%S' }}"></script>
+</li>

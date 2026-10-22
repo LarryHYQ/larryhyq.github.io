@@ -289,3 +289,70 @@
     }
   }
 }
+
+/* The visitor map follows the account links, inside Follow on small screens. */
+.author__urls--with-map {
+  @media (max-width: 1023px) {
+    width: min(280px, calc(100vw - 32px));
+    max-width: calc(100vw - 32px);
+  }
+}
+
+.author__urls .author__visitor-map {
+  margin-top: 18px;
+  padding-top: 14px;
+  border-top: 1px solid var(--global-border-color);
+  white-space: normal;
+
+  @media (max-width: 1023px) {
+    margin-top: 14px;
+    padding-top: 12px;
+  }
+}
+
+.sidebar .author__visitor-map-title {
+  margin: 0 0 10px;
+  color: var(--global-text-color);
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 1.4;
+  letter-spacing: 0.01em;
+}
+
+.author__visitor-map-frame {
+  position: relative;
+  overflow: hidden;
+  border: 1px solid #e8eef0;
+  border-radius: 7px;
+  background: #faf8f4;
+
+  &::before {
+    content: "";
+    display: block;
+    padding-top: 49.01960784%; // The provider map has a 2.04:1 aspect ratio.
+  }
+
+  > noscript img {
+    position: absolute;
+    inset: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    border: 0;
+    border-radius: 0;
+  }
+}
+
+.author__visitor-map #mapmyvisitors-widget {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  max-width: none;
+  min-height: 0;
+  margin: 0;
+  padding: 0;
+  transform: scale(var(--visitor-map-scale, 0));
+  transform-origin: top left;
+}
