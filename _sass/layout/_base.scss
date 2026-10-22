@@ -2,7 +2,6 @@
    BASE ELEMENTS
    ========================================================================== */
 html {
-  /* sticky footer fix */
   position: relative;
   min-height: 100%;
 }
@@ -14,7 +13,7 @@ body {
 
   margin: 0;
   padding: $masthead-height 0 0;
-  padding-bottom: 9em;
+  padding-bottom: 2em;
   font-family: $global-font-family;
   line-height: 1.5;
 
@@ -354,8 +353,7 @@ b, i, strong, em, blockquote, p, q, span, figure, img, h1, h2, header, input, a,
     .toc,
     .page__share,
     .page__related,
-    .ads,
-    .page__footer {
+    .ads {
       display: none;
     }
   }
