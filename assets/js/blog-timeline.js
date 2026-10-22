@@ -92,6 +92,30 @@
   timeline.addEventListener('pointerout', hideTooltip);
   timeline.addEventListener('focusout', hideTooltip);
 
+  // The small rail opens through an explicit click, never through page scroll.
+  let mobileExpanded = false;
+  const toggle = document.createElement('button');
+  toggle.type = 'button';
+  toggle.className = 'blog-timeline__toggle';
+  toggle.textContent = '≡';
+  toggle.setAttribute('aria-label', '展开定位轴');
+  track.id ||= 'blog-timeline-track';
+  toggle.setAttribute('aria-controls', track.id);
+  timeline.insertBefore(toggle, track);
+  const trackLinks = Array.from(track.querySelectorAll('a'));
+  const syncMobileState = () => {
+    const compact = mobile.matches && !mobileExpanded;
+    timeline.classList.toggle('is-compact', compact);
+    toggle.setAttribute('aria-expanded', String(mobile.matches && mobileExpanded));
+    if (compact) track.setAttribute('aria-hidden', 'true');
+    else track.removeAttribute('aria-hidden');
+    trackLinks.forEach(link => {
+      if (compact) link.setAttribute('tabindex', '-1');
+      else link.removeAttribute('tabindex');
+    });
+  };
+  syncMobileState();
+
   let positions = [];
   let activePost = null;
   let scheduled = false;
@@ -103,10 +127,10 @@
   const hideWhenIdle = () => {
     window.clearTimeout(hideTimer);
     hideTimer = window.setTimeout(() => {
-      if (!hovered && !pointers.size && !timeline.contains(document.activeElement)) {
+      if (!hovered && !pointers.size && (mobile.matches || !timeline.contains(document.activeElement))) {
         timeline.classList.remove('is-visible');
       }
-    }, 1400);
+    }, mobile.matches ? 3000 : 1400);
   };
   const showTimeline = () => {
     timeline.classList.add('is-visible');
@@ -134,13 +158,22 @@
   const update = () => {
     scheduled = false;
     if (track.getClientRects().length) {
-      const top = parseFloat(window.getComputedStyle(track.parentElement).top);
-      const bottom = mobile.matches ? window.innerHeight - 24 : Math.min(window.innerHeight - 24, archive.getBoundingClientRect().bottom);
-      const padding = timeline.offsetHeight - track.offsetHeight;
-      const available = bottom - top - padding;
-      // Cap the whole rail at half the viewport, including its mobile frame.
-      const height = `${Math.max(80, Math.min(window.innerHeight * 0.5 - padding, available))}px`;
-      if (track.style.maxHeight !== height) track.style.maxHeight = height;
+      const top = parseFloat(window.getComputedStyle(timeline).top);
+      if (mobile.matches) {
+        // Explicit pixel endpoints let both width and height animate in Safari.
+        // Expanded content keeps its original density and half-screen maximum.
+        const naturalHeight = track.scrollHeight + 24;
+        const desired = mobileExpanded ? Math.min(window.innerHeight * 0.5, naturalHeight) : window.innerHeight * 0.25;
+        const height = Math.max(40, Math.min(desired, window.innerHeight - top - 24));
+        timeline.style.setProperty('--mobile-rail-height', `${height}px`);
+        track.style.maxHeight = '';
+      } else {
+        timeline.style.removeProperty('--mobile-rail-height');
+        const bottom = Math.min(window.innerHeight - 24, archive.getBoundingClientRect().bottom);
+        const padding = timeline.offsetHeight - track.offsetHeight;
+        const height = `${Math.max(80, Math.min(window.innerHeight * 0.5 - padding, bottom - top - padding))}px`;
+        if (track.style.maxHeight !== height) track.style.maxHeight = height;
+      }
     }
     const threshold = window.scrollY + Math.min(window.innerHeight * 0.25, 160);
     let index = 0;
@@ -179,7 +212,35 @@
     window.requestAnimationFrame(update);
   };
 
+  const setMobileExpanded = (expanded, restoreFocus = false) => {
+    const wasHidden = !timeline.classList.contains('is-visible');
+    mobileExpanded = mobile.matches && expanded;
+    if (!mobileExpanded && timeline.contains(document.activeElement)) document.activeElement.blur();
+    syncMobileState();
+    hideTooltip();
+    if (wasHidden) {
+      update();
+      // Commit the new size while invisible so a revealed compact rail never
+      // flashes the previously expanded frame.
+      timeline.getBoundingClientRect();
+    }
+    showTimeline();
+    scheduleUpdate();
+    if (!restoreFocus && timeline.contains(document.activeElement)) document.activeElement.blur();
+    if (restoreFocus) {
+      const target = mobileExpanded ?
+        tickById.get(activePost?.id) || monthById.get(activePost?.dataset.month) || trackLinks[0] : toggle;
+      target?.focus({ preventScroll: true });
+    }
+  };
+
   const navigate = event => {
+    if (mobile.matches && !mobileExpanded) {
+      event.preventDefault();
+      event.stopPropagation();
+      setMobileExpanded(true, event.detail === 0);
+      return;
+    }
     const link = event.target.closest('a[href^="#"]');
     if (!link || event.button !== 0 || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return;
     const target = document.getElementById(decodeURIComponent(link.hash.slice(1)));
@@ -221,6 +282,10 @@
   document.addEventListener('keydown', event => {
     if (event.key === 'Tab') showTimeline();
     if (event.key === 'Escape') {
+      if (mobile.matches) {
+        setMobileExpanded(false, mobileExpanded || timeline.contains(document.activeElement));
+        return;
+      }
       if (timeline.contains(document.activeElement) && activePost) {
         activePost.setAttribute('tabindex', '-1');
         activePost.focus({ preventScroll: true });
@@ -228,7 +293,27 @@
       timeline.classList.remove('is-visible');
     }
   });
-  window.addEventListener('scroll', () => { hideTooltip(); showTimeline(); scheduleUpdate(); }, { passive: true });
+  document.addEventListener('pointerdown', event => {
+    if (mobile.matches && mobileExpanded && !timeline.contains(event.target)) setMobileExpanded(false);
+  }, { passive: true });
+  window.addEventListener('scroll', () => {
+    if (mobile.matches) {
+      if (mobileExpanded || timeline.contains(document.activeElement)) setMobileExpanded(false);
+    }
+    hideTooltip();
+    showTimeline();
+    scheduleUpdate();
+  }, { passive: true });
+  mobile.addEventListener('change', () => {
+    mobileExpanded = false;
+    syncMobileState();
+    measure();
+    showTimeline();
+    scheduleUpdate();
+  });
+  timeline.addEventListener('transitionend', event => {
+    if (event.target === timeline && (event.propertyName === 'height' || event.propertyName === 'width')) scheduleUpdate();
+  });
   window.addEventListener('resize', () => { measure(); scheduleUpdate(); });
   window.addEventListener('load', () => { measure(); scheduleUpdate(); });
   window.addEventListener('hashchange', scheduleUpdate);
@@ -260,4 +345,5 @@
   document.fonts?.ready.then(() => { measure(); scheduleUpdate(); });
   measure();
   update();
+  if (mobile.matches) showTimeline();
 })();

@@ -70,10 +70,14 @@ a {
   color: var(--global-link-color);
 }
 
-/* Apply focus state */
+/* Show a focus indicator for keyboard navigation, without click/tap outlines. */
 
-a:focus {
+:focus-visible {
   @extend %tab-focus;
+}
+
+:focus:not(:focus-visible) {
+  outline: 0;
 }
 
 /* Remove outline from links */
