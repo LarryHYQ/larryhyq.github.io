@@ -70,6 +70,7 @@
   const reducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)');
   const container = archive.closest('.archive');
   const masthead = document.querySelector('.masthead');
+  const pageHeading = container.querySelector('.page__title') || archive;
   if (!timeline || !posts.length) return;
 
   // A fixed tooltip avoids clipping long titles inside the scrollable rail.
@@ -121,7 +122,18 @@
   let scheduled = false;
   let hideTimer;
   let hovered = false;
+  let mobileScrollStarted = false;
+  let collapseContentTimer;
+  let swipe = null;
+  let suppressClickUntil = 0;
   const pointers = new Set();
+
+  const canShowMobileTimeline = () => mobileScrollStarted &&
+    pageHeading.getBoundingClientRect().top <= (masthead?.getBoundingClientRect().bottom || 0) + 16;
+  const hideTimeline = () => {
+    window.clearTimeout(hideTimer);
+    timeline.classList.remove('is-visible');
+  };
 
   // Keep the rail available throughout a touch gesture or keyboard interaction.
   const hideWhenIdle = () => {
@@ -133,6 +145,10 @@
     }, mobile.matches ? 3000 : 1400);
   };
   const showTimeline = () => {
+    if (mobile.matches && !canShowMobileTimeline()) {
+      hideTimeline();
+      return;
+    }
     timeline.classList.add('is-visible');
     hideWhenIdle();
   };
@@ -157,6 +173,7 @@
 
   const update = () => {
     scheduled = false;
+    if (mobile.matches && !canShowMobileTimeline()) hideTimeline();
     if (track.getClientRects().length) {
       const top = parseFloat(window.getComputedStyle(timeline).top);
       if (mobile.matches) {
@@ -214,6 +231,9 @@
 
   const setMobileExpanded = (expanded, restoreFocus = false) => {
     const wasHidden = !timeline.classList.contains('is-visible');
+    const collapsing = mobile.matches && mobileExpanded && !expanded && !wasHidden && !reducedMotion.matches;
+    window.clearTimeout(collapseContentTimer);
+    timeline.classList.toggle('is-collapsing', collapsing);
     mobileExpanded = mobile.matches && expanded;
     if (!mobileExpanded && timeline.contains(document.activeElement)) document.activeElement.blur();
     syncMobileState();
@@ -226,6 +246,13 @@
     }
     showTimeline();
     scheduleUpdate();
+    if (collapsing) {
+      // Keep the old labels in place while they fade, then fade in compact ticks.
+      collapseContentTimer = window.setTimeout(() => {
+        timeline.classList.remove('is-collapsing');
+        scheduleUpdate();
+      }, 120);
+    }
     if (!restoreFocus && timeline.contains(document.activeElement)) document.activeElement.blur();
     if (restoreFocus) {
       const target = mobileExpanded ?
@@ -235,6 +262,11 @@
   };
 
   const navigate = event => {
+    if (performance.now() < suppressClickUntil) {
+      event.preventDefault();
+      event.stopPropagation();
+      return;
+    }
     if (mobile.matches && !mobileExpanded) {
       event.preventDefault();
       event.stopPropagation();
@@ -248,6 +280,7 @@
     event.preventDefault();
     // The theme also attaches a smooth-scroll handler to every anchor.
     event.stopPropagation();
+    if (mobile.matches) setMobileExpanded(false);
     target.scrollIntoView({ behavior: reducedMotion.matches ? 'instant' : 'smooth', block: 'start' });
     if (window.location.hash !== link.hash) window.history.pushState(null, '', link.hash);
     target.setAttribute('tabindex', '-1');
@@ -267,10 +300,30 @@
     hideWhenIdle();
   });
   timeline.addEventListener('pointerdown', event => {
+    suppressClickUntil = 0;
+    swipe = mobile.matches && mobileExpanded && event.pointerType === 'touch' && event.isPrimary ?
+      { id: event.pointerId, x: event.clientX, y: event.clientY } : null;
     pointers.add(event.pointerId);
     showTimeline();
   });
+  window.addEventListener('pointermove', event => {
+    if (!swipe || event.pointerId !== swipe.id) return;
+    const dx = event.clientX - swipe.x;
+    const dy = event.clientY - swipe.y;
+    if (Math.abs(dy) > 12 && Math.abs(dy) >= Math.abs(dx)) {
+      swipe = null;
+      return;
+    }
+    if (Math.abs(dx) >= 24 && Math.abs(dx) > Math.abs(dy) * 1.5) {
+      // Swiping over an anchor must not activate it through a compatibility click.
+      suppressClickUntil = performance.now() + 500;
+      swipe = null;
+      if (event.cancelable) event.preventDefault();
+      if (dx > 0) setMobileExpanded(false);
+    }
+  }, { passive: false });
   const releasePointer = event => {
+    if (swipe?.id === event.pointerId) swipe = null;
     if (pointers.delete(event.pointerId)) hideWhenIdle();
   };
   window.addEventListener('pointerup', releasePointer, { passive: true });
@@ -280,6 +333,10 @@
   track.addEventListener('scroll', () => { hideTooltip(); showTimeline(); }, { passive: true });
   timeline.addEventListener('wheel', showTimeline, { passive: true });
   document.addEventListener('keydown', event => {
+    if (['ArrowUp', 'ArrowDown', 'PageUp', 'PageDown', 'Home', 'End', ' '].includes(event.key) &&
+        !event.target.closest('input, textarea, select, [contenteditable="true"]')) {
+      mobileScrollStarted = true;
+    }
     if (event.key === 'Tab') showTimeline();
     if (event.key === 'Escape') {
       if (mobile.matches) {
@@ -296,6 +353,13 @@
   document.addEventListener('pointerdown', event => {
     if (mobile.matches && mobileExpanded && !timeline.contains(event.target)) setMobileExpanded(false);
   }, { passive: true });
+  const notePageScroll = event => {
+    if (mobile.matches && !timeline.contains(event.target)) mobileScrollStarted = true;
+  };
+  // Initial layout, hash restoration and directory auto-scroll do not reveal the
+  // mobile rail. A page scrolling gesture is required, then the title threshold.
+  window.addEventListener('touchmove', notePageScroll, { passive: true });
+  window.addEventListener('wheel', notePageScroll, { passive: true });
   window.addEventListener('scroll', () => {
     if (mobile.matches) {
       if (mobileExpanded || timeline.contains(document.activeElement)) setMobileExpanded(false);
@@ -305,6 +369,9 @@
     scheduleUpdate();
   }, { passive: true });
   mobile.addEventListener('change', () => {
+    window.clearTimeout(collapseContentTimer);
+    timeline.classList.remove('is-collapsing');
+    swipe = null;
     mobileExpanded = false;
     syncMobileState();
     measure();
@@ -345,5 +412,4 @@
   document.fonts?.ready.then(() => { measure(); scheduleUpdate(); });
   measure();
   update();
-  if (mobile.matches) showTimeline();
 })();

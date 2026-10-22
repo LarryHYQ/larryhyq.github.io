@@ -71,7 +71,6 @@
       color: var(--global-text-color-light);
       text-decoration: none;
 
-      &:hover,
       &.is-active {
         color: var(--global-link-color);
         text-decoration: none;
@@ -146,8 +145,18 @@
       transition: width 0.15s ease, background-color 0.15s ease;
     }
 
-    &:hover::after,
     &.is-active::after {
+      width: 22px;
+      background: var(--global-link-color);
+    }
+  }
+
+  @media (hover: hover) and (pointer: fine) {
+    .blog-timeline a:hover {
+      color: var(--global-link-color);
+      text-decoration: none;
+    }
+    .blog-timeline__tick:hover::after {
       width: 22px;
       background: var(--global-link-color);
     }
@@ -196,11 +205,16 @@
       border-radius: 12px;
       background: var(--global-bg-color);
       box-shadow: 0 3px 18px rgba(0, 0, 0, 0.1);
-      transition: width 0.24s ease, height 0.24s ease, padding 0.24s ease,
-        right 0.24s ease, background-color 0.24s ease, border-color 0.24s ease,
-        box-shadow 0.24s ease, opacity 0.2s ease, transform 0.2s ease, visibility 0.2s;
+      touch-action: pan-y pinch-zoom;
+      transition: width 0.42s cubic-bezier(0.4, 0, 0.2, 1), height 0.42s cubic-bezier(0.4, 0, 0.2, 1),
+        padding 0.42s ease, right 0.42s ease, background-color 0.42s ease, border-color 0.42s ease,
+        box-shadow 0.42s ease, opacity 0.2s ease, transform 0.2s ease, visibility 0.2s;
 
+      &:not(.is-visible),
       &.is-enhanced:not(.is-visible) {
+        opacity: 0;
+        visibility: hidden;
+        pointer-events: none;
         transform: translateX(2px);
         transition: opacity 0.2s ease, transform 0.2s ease, visibility 0.2s;
       }
@@ -212,7 +226,23 @@
       max-height: none;
       overflow-x: hidden;
       padding-right: 4px;
-      touch-action: pan-y;
+      touch-action: pan-y pinch-zoom;
+      transition: opacity 0.18s ease;
+    }
+
+    // Fade the expanded labels before switching their layout to compact ticks.
+    .blog-timeline.is-compact.is-collapsing {
+      .blog-timeline__toggle { position: absolute; opacity: 0; pointer-events: none; }
+      .blog-timeline__track {
+        width: 76px;
+        height: 100%;
+        padding-right: 4px;
+        opacity: 0;
+        transition: opacity 0.12s ease;
+      }
+      .blog-timeline__year,
+      .blog-timeline__month { display: flex; }
+      .blog-timeline__day { display: inline; }
     }
 
     .blog-timeline.is-compact {
@@ -279,6 +309,7 @@
     .blog-timeline,
     .blog-timeline.is-enhanced:not(.is-visible),
     .blog-timeline__track,
+    .blog-timeline.is-compact.is-collapsing .blog-timeline__track,
     .blog-timeline__tick::after,
     .blog-timeline a {
       transition: none;
