@@ -91,8 +91,11 @@
     overflow-y: auto;
     overscroll-behavior: contain;
     padding-right: 8px;
-    scrollbar-width: thin;
-    scrollbar-color: var(--global-border-color) transparent;
+    scrollbar-width: none;
+
+    &::-webkit-scrollbar {
+      display: none;
+    }
   }
 
   .blog-timeline__year {
@@ -275,8 +278,6 @@
         width: 100%;
         height: calc(100% - 23px);
         padding-right: 0;
-        scrollbar-width: none;
-        &::-webkit-scrollbar { display: none; }
       }
       .blog-timeline__year,
       .blog-timeline__month,
