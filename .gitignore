@@ -1,0 +1,60 @@
+# Keep this file versioned. Git ignore rules do not control Jekyll publishing.
+# Remaining optional local content stays excluded until separately reviewed.
+
+# Jekyll build output and caches
+_site/
+.sass-cache/
+.jekyll-cache/
+.jekyll-metadata
+
+# Local development artifacts (also excluded by _config.yml)
+local/
+
+# Ruby / Bundler dependencies and local lockfile
+Gemfile.lock
+/vendor/
+.bundle/
+
+# Node.js dependencies and local lockfile
+node_modules/
+package-lock.json
+
+# Editor and macOS metadata
+.vscode/
+.DS_Store
+
+# Optional category archive (not currently versioned)
+_pages/category-archive.html
+
+# Optional Markdown content generators (local copies)
+markdown_generator/OrcidToBib.ipynb
+markdown_generator/publications.ipynb
+markdown_generator/publications.py
+markdown_generator/publications.tsv
+markdown_generator/PubsFromBib.ipynb
+markdown_generator/pubsFromBib.py
+markdown_generator/readme.md
+markdown_generator/talks.ipynb
+markdown_generator/talks.py
+markdown_generator/talks.tsv
+
+# Personal content backups (keep until explicitly reviewed)
+_pages/interests-old.md
+images/interests/photography/DSC1667.jpg
+images/interests/photography/DSC3355.jpg
+images/interests/photography/DSC3441.jpg
+images/interests/photography/DSC3475.jpg
+images/interests/photography/DSC3497.jpg
+images/interests/photography/DSC3506.jpg
+images/interests/photography/DSC5481.jpg
+images/interests/photography/DSC5688.jpg
+images/interests/photography/DSC6116-HDR.jpg
+images/interests/photography/IMG_0652.jpg
+images/interests/photography/IMG_2189-HDR.jpg
+images/interests/photography/IMG_2499.jpg
+images/interests/photography/IMG_4035.jpg
+images/interests/photography/IMG_4043.jpg
+images/interests/photography/IMG_5240.jpg
+images/interests/photography/IMG_5383.jpg
+images/interests/photography/IMG_9615.jpg
+images/Yeqihe-blue.jpg
