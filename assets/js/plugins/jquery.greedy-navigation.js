@@ -104,10 +104,23 @@ $btn.on('click', function () {
   $(this).attr('aria-expanded', !$hlinks.hasClass('hidden'));
 });
 
+function closeNavigation() {
+  $hlinks.addClass('hidden');
+  $btn.removeClass('close').attr('aria-expanded', 'false');
+}
+
+// Dismiss without swallowing the outside interaction or stealing its focus.
+$(document).on('pointerdown focusin', function (event) {
+  if (!$(event.target).closest('#navigation-more, #site-nav > button').length) {
+    closeNavigation();
+  }
+});
+$hlinks.on('click', 'a', closeNavigation);
+
 $(document).on('keydown', function (event) {
   if (event.key === 'Escape' && !$hlinks.hasClass('hidden')) {
-    $hlinks.addClass('hidden');
-    $btn.removeClass('close').attr('aria-expanded', 'false').trigger('focus');
+    closeNavigation();
+    $btn.trigger('focus');
   }
 });
 

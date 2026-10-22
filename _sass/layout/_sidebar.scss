@@ -251,16 +251,31 @@
     color: #fb7299;
   }
 
-  .author__brand-icon {
-    display: inline-block;
-    width: 1.25em;
+  // Reserve the same column for font glyphs and SVGs, including profile facts.
+  a > i,
+  a > svg,
+  .author__desktop > i {
+    flex: 0 0 20px;
+    width: 20px;
     height: 1em;
-    margin-right: 0.5em;
-    vertical-align: -0.125em;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+    text-align: center;
+  }
+
+  .author__desktop {
+    @media screen and (min-width: 1024px) {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
   }
 
   a {
-    display: block;
+    display: flex;
+    align-items: center;
+    gap: 8px;
     margin-bottom: 5px;
     padding-right: 5px;
     padding-top: 2px;

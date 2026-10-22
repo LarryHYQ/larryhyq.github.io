@@ -87,7 +87,6 @@ if (plotlyElements.length > 0) {
 
 $(document).ready(function () {
   // SCSS SETTINGS - These should be the same as the settings in the relevant files 
-  const scssLarge = 925;          // pixels, from /_sass/_themes.scss
   const scssMastheadHeight = 70;  // pixels, from the current theme (e.g., /_sass/theme/_default.scss)
 
   // If the user hasn't chosen a theme, follow the OS preference
@@ -120,16 +119,38 @@ $(document).ready(function () {
   // FitVids init
   fitvids();
 
-  // Follow menu drop down
-  $(".author__urls-wrapper button").on("click", function () {
-    $(".author__urls").fadeToggle("fast", function () { });
-    $(".author__urls-wrapper button").toggleClass("open");
+  // The profile links are a popover only while the Follow button is visible.
+  const $followButton = $(".author__urls-wrapper button");
+  const $followLinks = $(".author__urls");
+  let followCompact = $followButton.is(':visible');
+  const setFollowOpen = (open) => {
+    $followButton.toggleClass('open', open).attr('aria-expanded', String(open));
+    $followLinks.stop(true, true)[open ? 'fadeIn' : 'fadeOut']('fast');
+  };
+  $followButton.on('click', function () {
+    setFollowOpen(!$(this).hasClass('open'));
   });
-
-  // Restore the follow menu if toggled on a window resize
-  jQuery(window).on('resize', function () {
-    if ($('.author__urls.social-icons').css('display') == 'none' && $(window).width() >= scssLarge) {
-      $(".author__urls").css('display', 'block')
+  $(document).on('pointerdown focusin', function (event) {
+    if ($followButton.is(':visible') && $followButton.hasClass('open') &&
+        !$(event.target).closest('.author__urls-wrapper').length) {
+      setFollowOpen(false);
+    }
+  });
+  $followLinks.on('click', 'a', function () {
+    if ($followButton.is(':visible')) setFollowOpen(false);
+  });
+  $(document).on('keydown', function (event) {
+    if (event.key === 'Escape' && $followButton.is(':visible') && $followButton.hasClass('open')) {
+      setFollowOpen(false);
+      $followButton.trigger('focus');
+    }
+  });
+  $(window).on('resize', function () {
+    const compact = $followButton.is(':visible');
+    if (compact !== followCompact) {
+      $followLinks.stop(true, true).css('display', '');
+      $followButton.removeClass('open').attr('aria-expanded', 'false');
+      followCompact = compact;
     }
   });
 
