@@ -209,6 +209,8 @@
       background: var(--global-bg-color);
       box-shadow: 0 3px 18px rgba(0, 0, 0, 0.1);
       touch-action: pan-y pinch-zoom;
+      // The rail already animates on activation; avoid iOS's rectangular tap flash.
+      -webkit-tap-highlight-color: transparent;
       transition: width 0.42s cubic-bezier(0.4, 0, 0.2, 1), height 0.42s cubic-bezier(0.4, 0, 0.2, 1),
         padding 0.42s ease, right 0.42s ease, background-color 0.42s ease, border-color 0.42s ease,
         box-shadow 0.42s ease, opacity 0.2s ease, transform 0.2s ease, visibility 0.2s;
@@ -272,6 +274,9 @@
         margin: 0;
         padding: 8px 0 0;
         border: 0;
+        -webkit-appearance: none;
+        appearance: none;
+        box-shadow: none;
         color: var(--global-link-color);
         background: transparent;
         font-size: 14px;
