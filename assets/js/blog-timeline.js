@@ -93,7 +93,7 @@
   timeline.addEventListener('pointerout', hideTooltip);
   timeline.addEventListener('focusout', hideTooltip);
 
-  // The small rail opens through an explicit click, never through page scroll.
+  // The small rail opens through a tap or left swipe, never through page scroll.
   let mobileExpanded = false;
   const toggle = document.createElement('button');
   toggle.type = 'button';
@@ -301,13 +301,13 @@
   });
   timeline.addEventListener('pointerdown', event => {
     suppressClickUntil = 0;
-    swipe = mobile.matches && mobileExpanded && event.pointerType === 'touch' && event.isPrimary ?
+    swipe = mobile.matches && event.pointerType === 'touch' && event.isPrimary ?
       { id: event.pointerId, x: event.clientX, y: event.clientY } : null;
     pointers.add(event.pointerId);
     showTimeline();
   });
   window.addEventListener('pointermove', event => {
-    if (!swipe || event.pointerId !== swipe.id) return;
+    if (!swipe || swipe.handled || event.pointerId !== swipe.id) return;
     const dx = event.clientX - swipe.x;
     const dy = event.clientY - swipe.y;
     if (Math.abs(dy) > 12 && Math.abs(dy) >= Math.abs(dx)) {
@@ -317,13 +317,18 @@
     if (Math.abs(dx) >= 24 && Math.abs(dx) > Math.abs(dy) * 1.5) {
       // Swiping over an anchor must not activate it through a compatibility click.
       suppressClickUntil = performance.now() + 500;
-      swipe = null;
+      swipe.handled = true;
       if (event.cancelable) event.preventDefault();
-      if (dx > 0) setMobileExpanded(false);
+      const expand = dx < 0;
+      if (expand !== mobileExpanded) setMobileExpanded(expand);
     }
   }, { passive: false });
   const releasePointer = event => {
-    if (swipe?.id === event.pointerId) swipe = null;
+    if (swipe?.id === event.pointerId) {
+      // A held swipe must still suppress its compatibility click on release.
+      if (swipe.handled) suppressClickUntil = performance.now() + 500;
+      swipe = null;
+    }
     if (pointers.delete(event.pointerId)) hideWhenIdle();
   };
   window.addEventListener('pointerup', releasePointer, { passive: true });
