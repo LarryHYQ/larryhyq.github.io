@@ -246,31 +246,67 @@
 
 /*
    Honors & Awards image tables
-   Keep the certificates at their natural aspect ratio (no fixed height, which
-   used to crop them into vertical strips) and show two per row on phones.
+   Each certificate keeps its natural aspect ratio. Rows are flex rows where all
+   certificates share the same height and the row fills the full content width,
+   with column widths proportional to each image's aspect ratio (--ar).
+   The four-image tables switch to two per row on phones for readability.
    ========================================================================== */
 
 .honor-grid {
-  td {
-    vertical-align: top;
+  display: block;
+  width: 100%;
+
+  tbody {
+    display: block;
   }
 
-  @media (max-width: 767px) {
+  tr {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 8px;
+  }
+
+  td {
     display: block;
+    flex: var(--ar, 1) 1 0;
+    min-width: 0;
+    margin: 0;
+    padding: 0;
+    border: none;
+  }
 
-    tbody {
-      display: block;
+  img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
+  // Two per row on phones with matching heights and near-equal sizes.
+  &--2up-flow {
+    @media (max-width: 767px) {
+      tr {
+        flex-wrap: wrap;
+      }
+
+      td {
+        flex: var(--ar, 1) 1 0;
+        min-width: 40%;
+      }
     }
+  }
 
-    tr {
-      display: grid;
-      grid-template-columns: repeat(2, minmax(0, 1fr));
-      gap: 8px;
-    }
+  // Two equal-width columns per row on phones.
+  &--2up-equal {
+    @media (max-width: 767px) {
+      tr {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 8px;
+      }
 
-    td {
-      display: block;
-      width: auto !important;
+      td {
+        flex: none;
+      }
     }
   }
 }
