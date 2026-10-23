@@ -310,3 +310,109 @@
     }
   }
 }
+
+/*
+   Honors & Awards award list
+   Cards with a level colour bar: national (incl. international),
+   provincial/regional and other.
+   ========================================================================== */
+
+.award-list {
+  margin: 0 0 14px;
+  padding: 0;
+  list-style: none;
+}
+
+.award-item {
+  --aw-color: #6f767b;
+  position: relative;
+  margin: 8px 0;
+  padding: 9px 14px 10px 16px;
+  border-radius: 8px;
+  background: color-mix(in srgb, var(--global-text-color) 4%, transparent);
+
+  &::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 10px;
+    bottom: 10px;
+    width: 3px;
+    border-radius: 3px;
+    background: var(--aw-color);
+  }
+
+  &[data-level="national"] {
+    --aw-color: #b4532e;
+  }
+
+  &[data-level="provincial"] {
+    --aw-color: #2f7f93;
+  }
+
+  html[data-theme="dark"] &[data-level="national"] {
+    --aw-color: #ffb08f;
+  }
+
+  html[data-theme="dark"] &[data-level="provincial"] {
+    --aw-color: #7fd4e8;
+  }
+
+  html[data-theme="dark"] &[data-level="other"] {
+    --aw-color: #c3c9cd;
+  }
+
+  @media (max-width: 767px) {
+    margin: 7px 0;
+    padding: 8px 12px 9px 14px;
+  }
+}
+
+.award-main {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+}
+
+.award-year {
+  flex: none;
+  color: color-mix(in srgb, var(--global-text-color) 62%, transparent);
+  font-size: 0.82em;
+  font-weight: 600;
+  font-variant-numeric: tabular-nums;
+  letter-spacing: 0.02em;
+}
+
+.award-name {
+  flex: 1 1 auto;
+  min-width: 0;
+  font-weight: 600;
+  line-height: 1.45;
+}
+
+.award-prize {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+  margin-top: 5px;
+}
+
+.award-en {
+  font-size: 0.92em;
+  font-weight: 600;
+  color: var(--global-text-color);
+}
+
+.award-tag {
+  display: inline-block;
+  padding: 1px 9px;
+  border-radius: 999px;
+  border: 1px solid color-mix(in srgb, var(--aw-color) 34%, transparent);
+  background: color-mix(in srgb, var(--aw-color) 13%, transparent);
+  color: var(--aw-color);
+  font-size: 0.78em;
+  font-weight: 600;
+  line-height: 1.6;
+  white-space: nowrap;
+}
