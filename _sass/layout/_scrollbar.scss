@@ -14,6 +14,7 @@
   .sidebar {
     scrollbar-width: thin;                       // Firefox
     scrollbar-color: transparent transparent;
+    scrollbar-gutter: stable;                    // Reserve the gutter so content does not shift
   }
 
   html.is-scrolling,

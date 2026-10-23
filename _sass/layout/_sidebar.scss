@@ -67,7 +67,7 @@
 .sidebar__right {
   margin-bottom: 1em;
 
-  @include breakpoint($large) {
+  @media screen and (min-width: $sidebar-screen-min-width) {
     position: relative;
     float: right;
     width: $right-sidebar-width-narrow;

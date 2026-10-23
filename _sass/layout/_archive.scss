@@ -9,7 +9,7 @@
     @include span(12 of 12);
   }
 
-  @include breakpoint($large) {
+  @media screen and (min-width: $sidebar-screen-min-width) {
     @include span(10 of 12 last);
     @include prefix(0.5 of 12);
   }
