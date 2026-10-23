@@ -12,7 +12,7 @@ var $vlinks_persist_tail = $vlinks.children("*.persist.tail");
 var $hlinks = $('#site-nav .hidden-links');
 var $sectionItems = $vlinks.children(':not(.persist)');
 var $currentSection = $sectionItems.filter('.masthead__menu-item--current');
-var compactNav = window.matchMedia('(max-width: 767px)');
+var compactNav = window.matchMedia('(max-width: 1023px)');
 var wasCompact = false;
 
 var breaks = [];

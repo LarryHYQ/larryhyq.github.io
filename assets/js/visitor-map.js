@@ -24,4 +24,16 @@
       window.requestAnimationFrame(measure);
     });
   }
+
+  // The map is injected by a third-party widget that may be blocked or
+  // unreachable; hide the empty placeholder instead of leaving a blank box.
+  const section = frame.closest('.author__visitor-map');
+  if (section) {
+    const HIDE_EMPTY_AFTER = 8000;
+    window.setTimeout(() => {
+      if (!frame.querySelector('#mapmyvisitors-widget')) {
+        section.style.display = 'none';
+      }
+    }, HIDE_EMPTY_AFTER);
+  }
 })();
