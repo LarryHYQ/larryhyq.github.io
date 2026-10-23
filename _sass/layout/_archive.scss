@@ -324,12 +324,14 @@
 }
 
 .award-item {
-  --aw-color: #6f767b;
+  --aw-color: #9aa3a8;              // level colour (bar)
+  --aw-tag-bg: #efefef;             // tag background (light theme)
+  --aw-tag-fg: #55606a;             // tag text (light theme)
   position: relative;
   margin: 8px 0;
   padding: 9px 14px 10px 16px;
   border-radius: 8px;
-  background: color-mix(in srgb, var(--global-text-color) 4%, transparent);
+  background: color-mix(in srgb, var(--global-border-color) 32%, transparent);
 
   &::before {
     content: "";
@@ -343,23 +345,37 @@
   }
 
   &[data-level="national"] {
-    --aw-color: #b4532e;
+    --aw-color: #c0563a;
+    --aw-tag-bg: #fbe3df;
+    --aw-tag-fg: #a63b22;
   }
 
   &[data-level="provincial"] {
-    --aw-color: #2f7f93;
+    --aw-color: #3f8ea8;
+    --aw-tag-bg: #e2f0f4;
+    --aw-tag-fg: #2f6f88;
+  }
+
+  html[data-theme="dark"] & {
+    background: color-mix(in srgb, var(--global-text-color) 6%, transparent);
   }
 
   html[data-theme="dark"] &[data-level="national"] {
     --aw-color: #ffb08f;
+    --aw-tag-bg: color-mix(in srgb, #ffb08f 16%, transparent);
+    --aw-tag-fg: #ffd3bd;
   }
 
   html[data-theme="dark"] &[data-level="provincial"] {
     --aw-color: #7fd4e8;
+    --aw-tag-bg: color-mix(in srgb, #7fd4e8 16%, transparent);
+    --aw-tag-fg: #bfe9f4;
   }
 
   html[data-theme="dark"] &[data-level="other"] {
     --aw-color: #c3c9cd;
+    --aw-tag-bg: color-mix(in srgb, #c3c9cd 16%, transparent);
+    --aw-tag-fg: #dde2e6;
   }
 
   @media (max-width: 767px) {
@@ -408,9 +424,8 @@
   display: inline-block;
   padding: 1px 9px;
   border-radius: 999px;
-  border: 1px solid color-mix(in srgb, var(--aw-color) 34%, transparent);
-  background: color-mix(in srgb, var(--aw-color) 13%, transparent);
-  color: var(--aw-color);
+  background: var(--aw-tag-bg);
+  color: var(--aw-tag-fg);
   font-size: 0.78em;
   font-weight: 600;
   line-height: 1.6;
