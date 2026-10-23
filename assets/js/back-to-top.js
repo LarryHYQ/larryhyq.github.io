@@ -7,13 +7,14 @@
 
   if (document.querySelector(".to-top")) return;
 
-  var desktopQuery = window.matchMedia("(min-width: 1024px)");
-  var mobileQuery = window.matchMedia("(max-width: 767px)");
+  // Phones mirror the narrow timeline rail: it appears/disappears together with
+  // the rail (see blog-timeline.js). Wider viewports align the button with the
+  // right-hand navigation column instead.
+  var railQuery = window.matchMedia("(max-width: 767px)");
+  var alignQuery = window.matchMedia("(min-width: 768px)");
   var SHOW_AFTER = 80;
   var HIDE_DELAY = 1500;
-  // Prefer the timeline / table of contents that actually sits in the right gutter.
   var COLUMN_SELECTORS = [".blog-timeline", ".sidebar__right"];
-  var GUTTER_COLUMN_WIDTH = 96;
   var MAIN_PADDING = 18;
 
   var button = document.createElement("button");
@@ -24,38 +25,112 @@
   document.body.appendChild(button);
 
   var hideTimer = null;
+  var rail = null;
+  var observedRail = null;
+  var railInsertObserver = null;
 
-  function columnCenter() {
+  function getRail() {
+    // The section timelines are created by blog-timeline.js (deferred), so look
+    // the element up lazily instead of caching a miss.
+    if (!rail) rail = document.querySelector(".blog-timeline");
+    return rail;
+  }
+
+  function mirrorRail() {
+    return railQuery.matches && !!getRail();
+  }
+
+  function syncRail() {
+    var element = getRail();
+    if (!element) return;
+    button.classList.toggle("is-visible", element.classList.contains("is-visible"));
+  }
+
+  function watchRail() {
+    var element = getRail();
+    if (!element || element === observedRail || typeof MutationObserver === "undefined") return;
+    observedRail = element;
+    new MutationObserver(function () {
+      if (mirrorRail()) syncRail();
+    }).observe(element, { attributes: true, attributeFilter: ["class"] });
+  }
+
+  // Section timelines are appended by the deferred blog-timeline.js, so the
+  // alignment is recalculated as soon as the rail enters the document.
+  function watchForRail() {
+    if (getRail() || railInsertObserver || typeof MutationObserver === "undefined") return;
+    railInsertObserver = new MutationObserver(function () {
+      if (!getRail()) return;
+      railInsertObserver.disconnect();
+      railInsertObserver = null;
+      settle();
+    });
+    railInsertObserver.observe(document.body, { childList: true, subtree: true });
+    window.setTimeout(function () {
+      if (railInsertObserver) {
+        railInsertObserver.disconnect();
+        railInsertObserver = null;
+      }
+    }, 10000);
+  }
+
+  function settle() {
+    if (railInsertObserver) {
+      railInsertObserver.disconnect();
+      railInsertObserver = null;
+    }
+    place();
+    window.requestAnimationFrame(place);
+    window.setTimeout(place, 400);
+    watchRail();
+    syncRail();
+  }
+
+  function translateX(element) {
+    var transform = window.getComputedStyle(element).transform;
+    if (!transform || transform === "none") return 0;
+    var matrix = transform.match(/matrix\(([^)]+)\)/);
+    if (!matrix) return 0;
+    var values = matrix[1].split(",");
+    return parseFloat(values[4]) || 0;
+  }
+
+  function gutterAxis() {
     for (var i = 0; i < COLUMN_SELECTORS.length; i++) {
       var column = document.querySelector(COLUMN_SELECTORS[i]);
       if (!column) continue;
       var columnRect = column.getBoundingClientRect();
       // Pages such as Interests also contain an in-flow, full-width table of
-      // contents; only narrow gutter columns are used for alignment.
-      if (columnRect.width > 0 && columnRect.width <= 200) {
-        return columnRect.left + columnRect.width / 2;
+      // contents; only narrow gutter columns define the alignment axis.
+      if (!(columnRect.width > 0 && columnRect.width <= 200)) continue;
+      var track = column.querySelector(".blog-timeline__track");
+      if (track) {
+        var trackRect = track.getBoundingClientRect();
+        var paddingRight = parseFloat(window.getComputedStyle(track).paddingRight) || 0;
+        // The rail slides 4px while hidden; measure its resting position.
+        var shift = translateX(column) + translateX(track);
+        return trackRect.right - paddingRight - shift;
       }
+      return columnRect.right - translateX(column);
     }
     var main = document.getElementById("main");
     if (!main) return null;
-    // Pages without a table of contents: use the same right-hand gutter so the
-    // button keeps the same horizontal position across pages.
-    var mainRect = main.getBoundingClientRect();
-    return mainRect.right - MAIN_PADDING - GUTTER_COLUMN_WIDTH / 2;
+    // Pages without a navigation column: align with the same content edge so
+    // the button keeps one horizontal position across pages.
+    return main.getBoundingClientRect().right - MAIN_PADDING;
   }
 
   function place() {
-    if (!desktopQuery.matches) {
+    if (!alignQuery.matches) {
       button.style.right = "";
       return;
     }
-    var center = columnCenter();
-    if (center === null) {
+    var axis = gutterAxis();
+    if (axis === null) {
       button.style.right = "";
       return;
     }
-    var viewportWidth = document.documentElement.clientWidth;
-    button.style.right = Math.round(viewportWidth - center - button.offsetWidth / 2) + "px";
+    button.style.right = Math.round(document.documentElement.clientWidth - axis) + "px";
   }
 
   function show() {
@@ -63,6 +138,7 @@
   }
 
   function scheduleHide() {
+    if (mirrorRail()) return;
     window.clearTimeout(hideTimer);
     hideTimer = window.setTimeout(function () {
       if (button.matches(":hover") || button.matches(":focus-visible")) return;
@@ -71,12 +147,16 @@
   }
 
   function onScroll() {
+    if (mirrorRail()) {
+      syncRail();
+      return;
+    }
     show();
     scheduleHide();
   }
 
   function targetTop() {
-    if (!mobileQuery.matches) return 0;
+    if (!railQuery.matches) return 0;
     var title = document.querySelector(".page__title, #main h1");
     if (!title) return 0;
     var masthead = document.querySelector(".masthead");
@@ -85,8 +165,15 @@
   }
 
   window.addEventListener("scroll", onScroll, { passive: true });
-  window.addEventListener("resize", place, { passive: true });
-  window.addEventListener("load", place);
+  window.addEventListener("resize", function () {
+    place();
+    watchRail();
+    if (mirrorRail()) syncRail();
+  }, { passive: true });
+  window.addEventListener("load", function () {
+    settle();
+    watchForRail();
+  });
   window.addEventListener("orientationchange", place, { passive: true });
 
   button.addEventListener("mouseenter", function () {
@@ -105,4 +192,6 @@
   });
 
   place();
+  watchRail();
+  watchForRail();
 })();
