@@ -7,7 +7,7 @@
 [![MIT license](https://img.shields.io/badge/License-MIT-blue?style=flat-square)](https://github.com/LarryHYQ/larryhyq.github.io/blob/main/LICENSE)
 [![Website](https://img.shields.io/badge/Website-larryhyq.github.io-2ea44f?style=flat-square&logo=googlechrome&logoColor=white)](https://larryhyq.github.io/)
 [![Last commit](https://img.shields.io/github/last-commit/LarryHYQ/larryhyq.github.io?style=flat-square&logo=git&label=Updated)](https://github.com/LarryHYQ/larryhyq.github.io/commits/main)
-[![Version](https://img.shields.io/badge/Version-4.12.3-6a5acd?style=flat-square)](docs/VERSIONS.md)
+[![Version](https://img.shields.io/badge/Version-4.0.3-6a5acd?style=flat-square)](docs/VERSIONS.md)
 
 **个人学术主页 · 研究记录 · 博客笔记 · 兴趣相册**
 
@@ -38,17 +38,17 @@
 
 ## 版本记录
 
-当前版本 **4.12.3**（2026-10-24）。**每一条提交都对应一个独立版本号**，版本规则、完整版本历史与逐条提交记录见 [`docs/VERSIONS.md`](docs/VERSIONS.md)。
+当前版本 **4.0.3**（2026-10-24）。**每一条提交都对应一个独立版本号**，版本规则、完整版本历史与逐条提交记录见 [`docs/VERSIONS.md`](docs/VERSIONS.md)。
 
 | 大版本 | 时间 | 主题 |
 | --- | --- | --- |
-| **4.x** | 2026-10-23 – 2026-10-24 | 阅读体验与视觉：侧栏与滚动条、断点统一、荣誉奖项、一键置顶（当前） |
-| 3.x | 2026-10-21 – 2026-10-22 | 信息架构：导航当前页指示、作者资料、博客时间轴、归档布局 |
-| 2.x | 2026-03-31 – 2026-10-20 | 学术内容体系：出版物页重构、2026 年 F1 上海站内容 |
-| 1.x | 2026-01-05 – 2026-03-30 | 博客与归档体系（MathJax、代码复制、标签归档） |
-| 0.x | 2025-09-19 – 2026-01-04 | 建站与基础内容填充 |
+| **4.0** | 2026-10-24 起 | 阅读体验与视觉：侧栏与滚动条、断点统一、荣誉奖项、一键置顶（当前） |
+| 3.x | 2026-10-23 – 2026-10-24 | 功能开发期：导航、时间轴、侧栏滚动、荣誉奖项、一键置顶（全部为 beta） |
+| 2.x | 2026-04-02 – 2026-10-23 | 学术内容体系：出版物页重构、2026 年 F1 上海站内容 |
+| 1.x | 2026-01-06 – 2026-04-01 | 博客与归档体系（MathJax、代码复制、标签归档） |
+| 0.x | 2025-09-19 – 2026-01-05 | 建站与基础内容填充 |
 
-版本规则：微微调整（CV、新增博客、新增奖项、文档等）→ 修订号 `X.Y.Z`；内容与格式小调整 → 次版本 `X.Y`；功能 / 逻辑更新 → `X.Y beta`（每个功能点一个十分位）；整体改版或较大功能体系调整 → 新大版本 `X.0`。
+版本规则：内容级更新（CV、新增博客、新增奖项、文档等）→ 修订号 `X.Y.Z`；内容与格式小调整 → 次版本 `X.Y`；功能 / 逻辑更新 → `X.Y beta`（可连续，每个功能点一个十分位）；**连续的 beta 结束后紧接着发布新的大版本 `X.0`**。
 
 ## 技术栈
 
