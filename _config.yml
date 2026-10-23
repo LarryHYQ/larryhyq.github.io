@@ -186,6 +186,7 @@ exclude:
   - Capfile
   - config
   - Dockerfile
+  - docs
   - Gemfile
   - Gruntfile.js
   - gulpfile.js
