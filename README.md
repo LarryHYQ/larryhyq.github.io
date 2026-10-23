@@ -6,6 +6,7 @@
 [![GitHub forks](https://img.shields.io/github/forks/LarryHYQ/larryhyq.github.io?style=flat-square&logo=github&label=Forks)](https://github.com/LarryHYQ/larryhyq.github.io/network/members)
 [![MIT license](https://img.shields.io/badge/License-MIT-blue?style=flat-square)](https://github.com/LarryHYQ/larryhyq.github.io/blob/main/LICENSE)
 [![Website](https://img.shields.io/badge/Website-larryhyq.github.io-2ea44f?style=flat-square&logo=googlechrome&logoColor=white)](https://larryhyq.github.io/)
+[![Version](https://img.shields.io/badge/Version-3.0-6a5acd?style=flat-square)](docs/VERSIONS.md)
 [![Jekyll](https://img.shields.io/badge/Build-Jekyll-cc0000?style=flat-square&logo=jekyll&logoColor=white)](https://jekyllrb.com/)
 [![GitHub Pages](https://img.shields.io/badge/Deploy-GitHub%20Pages-222222?style=flat-square&logo=githubpages&logoColor=white)](https://pages.github.com/)
 [![Last commit](https://img.shields.io/github/last-commit/LarryHYQ/larryhyq.github.io?style=flat-square&logo=git&label=Updated)](https://github.com/LarryHYQ/larryhyq.github.io/commits/main)
@@ -36,6 +37,19 @@
 | 页面归档 | `/page-archive/` | 网站页面归档 |
 | 标签归档 | `/tags/` | 按标签浏览文章 |
 | 简历与附件 | `/files/` | 中文简历、论文 PDF、BibTeX/文本资料 |
+
+## 版本记录
+
+当前版本 **3.0**（2026-10-24），这是个人主页的一次大版本更新：交互与信息架构（导航、博客时间轴、侧栏与滚动条、荣誉奖项、一键置顶、版本记录）。
+
+| 大版本 | 日期 | 主题 |
+| --- | --- | --- |
+| **3.0** | 2026-10-24 | 交互与信息架构大版本：导航、博客时间轴、归档布局、侧栏滚动、荣誉奖项、一键置顶 |
+| 2.0 | 2026-03-31 | 学术内容改版：出版物页重构、2026 年 F1 上海站内容 |
+| 1.0 | 2026-01-05 | 博客与归档体系上线（MathJax、代码复制、标签归档） |
+| 0.x | 2025-09-19 | 建站与基础内容填充 |
+
+完整版本历史、编号规则（大版本 `X.0` / 功能更新 `X.Y beta` / 小调整 `X.Y` / 微微调整 `X.Y.Z`）与提交标注示例见 [`docs/VERSIONS.md`](docs/VERSIONS.md)。
 
 ## 技术栈
 
