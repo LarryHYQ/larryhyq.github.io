@@ -243,3 +243,34 @@
     }
   }
 }
+
+/*
+   Honors & Awards image tables
+   Keep the certificates at their natural aspect ratio (no fixed height, which
+   used to crop them into vertical strips) and show two per row on phones.
+   ========================================================================== */
+
+.honor-grid {
+  td {
+    vertical-align: top;
+  }
+
+  @media (max-width: 767px) {
+    display: block;
+
+    tbody {
+      display: block;
+    }
+
+    tr {
+      display: grid;
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 8px;
+    }
+
+    td {
+      display: block;
+      width: auto !important;
+    }
+  }
+}

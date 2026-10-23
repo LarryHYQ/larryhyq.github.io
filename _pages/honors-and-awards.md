@@ -23,11 +23,11 @@ redirect_from:
   <span><strong>Meritorious Winner</strong>&nbsp;&nbsp;<strong>国际一等奖</strong></span>
 </div>
 
-<table style="border: none; width: 100%;">
+<table class="honor-grid" style="border: none; width: 100%;">
 <tr style="border: none;">
-<td style="border: none; width: 33.33%;"><a href="/images/honors-and-awards/20数模省三.jpg"><img src='/images/honors-and-awards/20数模省三.jpg' alt='2020 China Undergraduate Mathematical Contest in Modeling Zhejiang Division Third Prize' style="width: 100%; height: 250px; object-fit: cover;"></a></td>
-<td style="border: none; width: 33.33%;"><a href="/images/honors-and-awards/21数模省三.jpg"><img src='/images/honors-and-awards/21数模省三.jpg' alt='2021 China Undergraduate Mathematical Contest in Modeling Zhejiang Division Third Prize' style="width: 100%; height: 250px; object-fit: cover;"></a></td>
-<td style="border: none; width: 33.33%;"><a href="/images/honors-and-awards/ICM-M.jpg"><img src='/images/honors-and-awards/ICM-M.jpg' alt='2021 The Interdisciplinary Contest in Modeling(ICM)® Meritorious Winner' style="width: 100%; height: 250px; object-fit: cover;"></a></td>
+<td style="border: none; width: 33.33%;"><a href="/images/honors-and-awards/20数模省三.jpg"><img src='/images/honors-and-awards/20数模省三.jpg' alt='2020 China Undergraduate Mathematical Contest in Modeling Zhejiang Division Third Prize' style="width: 100%; object-fit: cover;"></a></td>
+<td style="border: none; width: 33.33%;"><a href="/images/honors-and-awards/21数模省三.jpg"><img src='/images/honors-and-awards/21数模省三.jpg' alt='2021 China Undergraduate Mathematical Contest in Modeling Zhejiang Division Third Prize' style="width: 100%; object-fit: cover;"></a></td>
+<td style="border: none; width: 33.33%;"><a href="/images/honors-and-awards/ICM-M.jpg"><img src='/images/honors-and-awards/ICM-M.jpg' alt='2021 The Interdisciplinary Contest in Modeling(ICM)® Meritorious Winner' style="width: 100%; object-fit: cover;"></a></td>
 </tr>
 </table>
 
@@ -50,12 +50,12 @@ redirect_from:
   <span><strong>Zhejiang Division First Prize</strong>&nbsp;&nbsp;<strong>浙江赛区一等奖</strong></span>
 </div>
 
-<table style="border: none;">
+<table class="honor-grid" style="border: none; width: 100%;">
 <tr style="border: none;">
-<td style="border: none;"><a href="/images/honors-and-awards/21智能车省一.jpg"><img src='/images/honors-and-awards/21智能车省一.jpg' alt='2021 National University Students Intelligent Car Race Zhejiang Division First Prize'></a></td>
-<td style="border: none;"><a href="/images/honors-and-awards/21智能车东部二.jpg"><img src='/images/honors-and-awards/21智能车东部二.jpg' alt='2021 National University Students Intelligent Car Race Eastern Division Second Prize'></a></td>
-<td style="border: none;"><a href="/images/honors-and-awards/21智能车国二.jpg"><img src='/images/honors-and-awards/21智能车国二.jpg' alt='2021 National University Students Intelligent Car Race National Finals Second Prize'></a></td>
-<td style="border: none;"><a href="/images/honors-and-awards/22智能车省一.jpg"><img src='/images/honors-and-awards/22智能车省一.jpg' alt='2022 National University Students Intelligent Car Race Zhejiang Division First Prize'></a></td>
+<td style="border: none; width: 25%;"><a href="/images/honors-and-awards/21智能车省一.jpg"><img src='/images/honors-and-awards/21智能车省一.jpg' alt='2021 National University Students Intelligent Car Race Zhejiang Division First Prize' style="width: 100%; object-fit: cover;"></a></td>
+<td style="border: none; width: 25%;"><a href="/images/honors-and-awards/21智能车东部二.jpg"><img src='/images/honors-and-awards/21智能车东部二.jpg' alt='2021 National University Students Intelligent Car Race Eastern Division Second Prize' style="width: 100%; object-fit: cover;"></a></td>
+<td style="border: none; width: 25%;"><a href="/images/honors-and-awards/21智能车国二.jpg"><img src='/images/honors-and-awards/21智能车国二.jpg' alt='2021 National University Students Intelligent Car Race National Finals Second Prize' style="width: 100%; object-fit: cover;"></a></td>
+<td style="border: none; width: 25%;"><a href="/images/honors-and-awards/22智能车省一.jpg"><img src='/images/honors-and-awards/22智能车省一.jpg' alt='2022 National University Students Intelligent Car Race Zhejiang Division First Prize' style="width: 100%; object-fit: cover;"></a></td>
 </tr>
 </table>
 
@@ -78,11 +78,11 @@ redirect_from:
   <span><strong>Eastern Division Third Prize</strong>&nbsp;&nbsp;<strong>东部赛区三等奖</strong></span>
 </div>
 
-<table style="border: none; width: 100%;">
+<table class="honor-grid" style="border: none; width: 100%;">
 <tr style="border: none;">
-<td style="border: none; width: 25%;"><a href="/images/honors-and-awards/20数竞国三.jpg"><img src='/images/honors-and-awards/20数竞国三.jpg' alt='2020 The 12th Chinese Mathematics Competitions for College Students Third Prize' style="width: 100%; height: 250px; object-fit: cover;"></a></td>
-<td style="border: none; width: 25%;"><a href="/images/honors-and-awards/大创.jpg"><img src='/images/honors-and-awards/大创.jpg' alt='2021 National Undergraduate Training Program for Innovation and Entrepreneurship National project' style="width: 100%; height: 250px; object-fit: cover;"></a></td>
-<td style="border: none; width: 25%;"><a href="/images/honors-and-awards/华为智能基座.jpg"><img src='/images/honors-and-awards/华为智能基座.jpg' alt='2021 Ministry of Education-Huawei Smart Base Future Star' style="width: 100%; height: 250px; object-fit: cover;"></a></td>
-<td style="border: none; width: 25%;"><a href="/images/honors-and-awards/服务外包东部三.jpg"><img src='/images/honors-and-awards/服务外包东部三.jpg' alt='2022 Competition of Service Outsourcing and Entrepreneurship Innovation Eastern Division Third Prize' style="width: 100%; height: 250px; object-fit: cover;"></a></td>
+<td style="border: none; width: 25%;"><a href="/images/honors-and-awards/20数竞国三.jpg"><img src='/images/honors-and-awards/20数竞国三.jpg' alt='2020 The 12th Chinese Mathematics Competitions for College Students Third Prize' style="width: 100%; object-fit: cover;"></a></td>
+<td style="border: none; width: 25%;"><a href="/images/honors-and-awards/大创.jpg"><img src='/images/honors-and-awards/大创.jpg' alt='2021 National Undergraduate Training Program for Innovation and Entrepreneurship National project' style="width: 100%; object-fit: cover;"></a></td>
+<td style="border: none; width: 25%;"><a href="/images/honors-and-awards/华为智能基座.jpg"><img src='/images/honors-and-awards/华为智能基座.jpg' alt='2021 Ministry of Education-Huawei Smart Base Future Star' style="width: 100%; object-fit: cover;"></a></td>
+<td style="border: none; width: 25%;"><a href="/images/honors-and-awards/服务外包东部三.jpg"><img src='/images/honors-and-awards/服务外包东部三.jpg' alt='2022 Competition of Service Outsourcing and Entrepreneurship Innovation Eastern Division Third Prize' style="width: 100%; object-fit: cover;"></a></td>
 </tr>
 </table>
