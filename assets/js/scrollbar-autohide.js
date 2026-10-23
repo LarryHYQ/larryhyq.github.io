@@ -1,21 +1,31 @@
-/* Desktop only: reveal the page scrollbar while scrolling and hide it when idle. */
+/* Desktop only: reveal a scrollbar while its area is scrolling, hide it when idle. */
 (function () {
-  var root = document.documentElement;
-  var hideTimer = null;
   var HIDE_DELAY = 800;
   var desktopQuery = window.matchMedia
     ? window.matchMedia("(hover: hover) and (pointer: fine)")
     : null;
 
-  function onScroll() {
-    root.classList.add("is-scrolling");
-    window.clearTimeout(hideTimer);
-    hideTimer = window.setTimeout(function () {
-      root.classList.remove("is-scrolling");
-    }, HIDE_DELAY);
-  }
-
   if (!desktopQuery || !desktopQuery.matches) return;
 
-  window.addEventListener("scroll", onScroll, { passive: true });
+  function autoHide(scroller, classTarget) {
+    var hideTimer = null;
+    scroller.addEventListener(
+      "scroll",
+      function () {
+        classTarget.classList.add("is-scrolling");
+        window.clearTimeout(hideTimer);
+        hideTimer = window.setTimeout(function () {
+          classTarget.classList.remove("is-scrolling");
+        }, HIDE_DELAY);
+      },
+      { passive: true }
+    );
+  }
+
+  // Page scrollbar
+  autoHide(window, document.documentElement);
+
+  // Sidebar scrollbar (the sidebar is fixed and scrolls independently on desktop)
+  var sidebar = document.querySelector(".sidebar");
+  if (sidebar) autoHide(sidebar, sidebar);
 })();

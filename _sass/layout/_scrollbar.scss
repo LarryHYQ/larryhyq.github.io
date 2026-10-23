@@ -3,38 +3,45 @@
    ========================================================================== */
 
 /*
-   Desktop only: keep the page scrollbar hidden until the page is being
-   scrolled, then fade the thumb back in. Touch devices keep their native
-   overlay scrollbars (iOS Safari already hides them), so they are excluded.
+   Desktop only: keep the page and sidebar scrollbars hidden until their area
+   is being scrolled, then reveal the thumb again. Touch devices keep their
+   native overlay scrollbars (iOS Safari already hides them), so they are
+   excluded.
    ========================================================================== */
 
 @media (hover: hover) and (pointer: fine) {
-  html {
+  html,
+  .sidebar {
     scrollbar-width: thin;                       // Firefox
     scrollbar-color: transparent transparent;
   }
 
-  html.is-scrolling {
+  html.is-scrolling,
+  .sidebar.is-scrolling {
     scrollbar-color: rgba(128, 128, 128, 0.65) transparent;
   }
 
-  html::-webkit-scrollbar {
+  html::-webkit-scrollbar,
+  .sidebar::-webkit-scrollbar {
     width: 12px;
     height: 12px;
   }
 
-  html::-webkit-scrollbar-track {
+  html::-webkit-scrollbar-track,
+  .sidebar::-webkit-scrollbar-track {
     background: transparent;
   }
 
-  html::-webkit-scrollbar-thumb {
+  html::-webkit-scrollbar-thumb,
+  .sidebar::-webkit-scrollbar-thumb {
     border: 3px solid transparent;
     border-radius: 8px;
     background-color: transparent;
     background-clip: content-box;
   }
 
-  html.is-scrolling::-webkit-scrollbar-thumb {
+  html.is-scrolling::-webkit-scrollbar-thumb,
+  .sidebar.is-scrolling::-webkit-scrollbar-thumb {
     background-color: rgba(128, 128, 128, 0.65);
   }
 }
