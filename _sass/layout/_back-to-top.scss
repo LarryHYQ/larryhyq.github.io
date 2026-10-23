@@ -1,0 +1,86 @@
+/* ==========================================================================
+   BACK TO TOP
+   Shows while the page is scrolling and fades out when idle, keeping the same
+   rhythm as the scrollbars (see _scrollbar.scss).
+   ========================================================================== */
+
+.to-top {
+  position: fixed;
+  right: 22px;
+  bottom: 22px;
+  z-index: 25;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  padding: 0;
+  border: 1px solid color-mix(in srgb, var(--global-text-color) 16%, transparent);
+  border-radius: 50%;
+  background: color-mix(in srgb, var(--global-bg-color) 86%, transparent);
+  color: color-mix(in srgb, var(--global-text-color) 72%, transparent);
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.12);
+  -webkit-backdrop-filter: blur(6px);
+  backdrop-filter: blur(6px);
+  cursor: pointer;
+  opacity: 0;
+  visibility: hidden;
+  transform: translateY(6px);
+  transition: opacity 0.22s ease, transform 0.22s ease, visibility 0.22s,
+    color 0.2s, border-color 0.2s;
+
+  &.is-visible {
+    opacity: 1;
+    visibility: visible;
+    transform: none;
+  }
+
+  &:hover,
+  &:focus-visible {
+    color: var(--global-link-color);
+    border-color: var(--global-link-color);
+  }
+
+  &:focus-visible {
+    outline: 2px solid var(--global-link-color);
+    outline-offset: 2px;
+  }
+
+  i {
+    font-size: 16px;
+    line-height: 1;
+  }
+
+  @media (max-width: 767px) {
+    right: 13px;
+    bottom: 12px;
+    width: 36px;
+    height: 36px;
+
+    &.is-visible {
+      opacity: 0.72;
+    }
+
+    i {
+      font-size: 14px;
+    }
+  }
+}
+
+html[data-theme="dark"] .to-top {
+  background: color-mix(in srgb, var(--global-bg-color) 78%, transparent);
+  border-color: color-mix(in srgb, #ffffff 24%, transparent);
+  color: #ececec;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .to-top {
+    transition: none;
+  }
+}
+
+@media print {
+  .to-top {
+    display: none !important;
+  }
+}
