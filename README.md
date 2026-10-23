@@ -1,93 +1,117 @@
-# Academic Pages - 个人学术主页模板
+# LarryHYQ's Attic
 
 <div align="center">
 
-[![GitHub stars](https://img.shields.io/github/stars/LarryHYQ/larryhyq.github.io)](https://github.com/LarryHYQ/larryhyq.github.io)
-[![GitHub forks](https://img.shields.io/github/forks/LarryHYQ/larryhyq.github.io)](https://github.com/LarryHYQ/larryhyq.github.io)
-[![GitHub license](https://img.shields.io/github/license/academicpages/academicpages.github.io?color=blue)](https://github.com/LarryHYQ/larryhyq.github.io/blob/main/LICENSE)
+[![GitHub stars](https://img.shields.io/github/stars/LarryHYQ/larryhyq.github.io?style=flat-square&logo=github&label=Stars)](https://github.com/LarryHYQ/larryhyq.github.io/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/LarryHYQ/larryhyq.github.io?style=flat-square&logo=github&label=Forks)](https://github.com/LarryHYQ/larryhyq.github.io/network/members)
+[![MIT license](https://img.shields.io/badge/License-MIT-blue?style=flat-square)](https://github.com/LarryHYQ/larryhyq.github.io/blob/main/LICENSE)
+[![Website](https://img.shields.io/badge/Website-larryhyq.github.io-2ea44f?style=flat-square&logo=googlechrome&logoColor=white)](https://larryhyq.github.io/)
+[![Jekyll](https://img.shields.io/badge/Build-Jekyll-cc0000?style=flat-square&logo=jekyll&logoColor=white)](https://jekyllrb.com/)
+[![GitHub Pages](https://img.shields.io/badge/Deploy-GitHub%20Pages-222222?style=flat-square&logo=githubpages&logoColor=white)](https://pages.github.com/)
+[![Last commit](https://img.shields.io/github/last-commit/LarryHYQ/larryhyq.github.io?style=flat-square&logo=git&label=Updated)](https://github.com/LarryHYQ/larryhyq.github.io/commits/main)
+
+**个人学术主页 · 研究记录 · 博客笔记 · 兴趣相册**
+
+[在线访问主页](https://larryhyq.github.io/) · [查看项目结构](docs/PROJECT_STRUCTURE.md) · [浏览论文](https://larryhyq.github.io/publications/) · [阅读博客](https://larryhyq.github.io/blog/)
 
 </div>
 
-**Academic Pages** 是一个专为个人和专业学术作品集网站设计的 GitHub Pages 模板。
+![LarryHYQ's Attic Home Page](images/Homepage.jpg "LarryHYQ's Attic Home Page")
 
-![Academic Pages 模板示例](images/themes/homepage-light.png "Academic Pages 模板示例")
+## 项目简介
 
-## 🚀 快速开始
+这是贺业祺（Yeqi He）的个人学术主页，使用 Jekyll 和 GitHub Pages 构建。网站集中展示个人简介、研究方向、发表成果、机器学习学习笔记、竞赛经历、兴趣爱好和可下载的论文与简历文件。
 
-1. 如果您还没有 GitHub 账号，请先注册并确认您的电子邮件（必须！）。
-2. 点击右上角的 **"Use this template"** 按钮。
-3. 在 "New repository" 页面上，输入您的公开仓库名称为 `[您的GitHub用户名].github.io`，这也将是您网站的 URL。
-4. 设置全站配置并添加您的内容。
-5. 将任何文件（如 PDF、.zip 文件等）上传到 `files/` 目录。它们将可以通过 `https://[您的GitHub用户名].github.io/files/example.pdf` 访问。
-6. 通过进入仓库设置中的 "GitHub pages" 部分检查状态。
-7. （可选）使用 `markdown_generator` 文件夹中的 Jupyter notebooks 或 python 脚本，从 TSV 文件生成出版物和演讲的 markdown 文件。
+研究方向主要围绕计算机视觉、生成模型、扩散模型、风格迁移和少样本生成模型适配展开。主页内容同时保留了摄影、羽毛球、足球、音乐和 Formula 1 等个人兴趣记录。
 
-更多信息请访问 [https://academicpages.github.io/](https://academicpages.github.io/)
+## 网站内容
 
-## 💻 本地运行
+| 页面 | 路径 | 内容 |
+| --- | --- | --- |
+| 个人主页 | `/` | 个人简介、教育经历、研究兴趣和联系方式 |
+| 论文成果 | `/publications/` | 论文、竞赛文章、摘要、引用信息和 PDF 阅读入口 |
+| 博客 | `/blog/` | 机器学习与深度学习学习笔记，带年月时间轴 |
+| 荣誉奖项 | `/honors-and-awards/` | 数学建模、智能车、创新创业等经历 |
+| 兴趣爱好 | `/interests/` | 摄影、羽毛球、足球、音乐和 Formula 1 |
+| 页面归档 | `/page-archive/` | 网站页面归档 |
+| 标签归档 | `/tags/` | 按标签浏览文章 |
+| 简历与附件 | `/files/` | 中文简历、论文 PDF、BibTeX/文本资料 |
 
-在初步构建网站时，能够在推送到 GitHub 之前在本地预览更改是非常有用的。要在本地工作，您需要：
+## 技术栈
 
-1. 克隆仓库并按照上述说明进行更新。
+- **站点生成**：Jekyll、Liquid、Kramdown、Rouge
+- **主题基础**：Academic Pages / Minimal Mistakes
+- **样式**：SCSS，支持 default 与 air 主题以及亮色/暗色配色
+- **交互脚本**：原生 JavaScript、jQuery、时间轴、主题切换、代码复制、折叠内容和访客地图
+- **图标字体**：Font Awesome、Academicons
+- **部署**：GitHub Pages；本地可使用 Bundler 和 Jekyll 预览
 
-### 使用 IDE 本地开发
+更完整的目录与文件职责请参阅 [`docs/PROJECT_STRUCTURE.md`](docs/PROJECT_STRUCTURE.md)。
 
-1. 确保您已安装 `ruby-dev`、`bundler` 和 `nodejs`。
-    
-    在大多数 Linux 发行版和 [Windows Subsystem Linux (WSL)](https://learn.microsoft.com/zh-cn/windows/wsl/about) 上，命令如下：
-    ```bash
-    sudo apt install ruby-dev ruby-bundler nodejs
-    ```
-    如果遇到错误 `Unable to locate package ruby-bundler` 或 `Unable to locate package nodejs`，请运行：
-    ```bash
-    sudo apt update && sudo apt upgrade -y
-    ```
-    然后再次尝试运行安装命令。
+## 本地运行
 
-    在 macOS 上，命令如下：
-    ```bash
-    brew install ruby
-    brew install node
-    gem install bundler
-    ```
+### 1. 准备运行环境
 
-2. 运行 `bundle install` 安装 Ruby 依赖项。如果遇到错误，请删除 `Gemfile.lock` 并重试。
-
-    如果遇到文件权限错误，如 `Fetching bundler-2.6.3.gem ERROR: While executing gem (Gem::FilePermissionError)`，建议在本地安装 Gems：
-    ```bash
-    bundle config set --local path 'vendor/bundle'
-    ```
-    然后再次运行 `bundle install`。成功后，您应该会看到 `vendor` 和 `.bundle` 文件夹。
-
-3. 运行 `jekyll serve -l -H localhost` 生成 HTML 并在 `localhost:4000` 上提供服务。本地服务器会在更改时自动重建并刷新页面。
-    您也可以尝试 `bundle exec jekyll serve -l -H localhost` 以确保 Jekyll 使用您本地机器上的特定依赖项。
-
-如果您在 Linux 上运行，可能需要安装一些额外的依赖项：`sudo apt install build-essential gcc make`。
-
-## 🐳 使用 Docker
-
-在不同的操作系统上工作，或者只是想避免安装依赖项？如果您安装了 [Docker](https://www.docker.com/)，可以使用提供的 `Dockerfile` 构建一个容器来为您运行网站。
-
-在仓库中运行以下命令来构建并执行容器：
+项目使用 GitHub Pages 兼容的 Jekyll 依赖。建议使用 Ruby 3.0 或更高版本；macOS 自带的 Ruby 2.6 可能无法编译当前依赖。Apple Silicon Mac 可以使用 Homebrew Ruby：
 
 ```bash
-chmod -R 777 .
-docker compose up
+brew install ruby
+export PATH="/opt/homebrew/opt/ruby/bin:$PATH"
+ruby -v
 ```
 
-现在您应该可以通过 `localhost:4000` 访问网站了。
+Intel Mac 的 Ruby 路径通常是 `/usr/local/opt/ruby/bin`。确认 `ruby -v` 显示 3.x 后，在项目根目录安装依赖，并把依赖放在被 Git 忽略的 `vendor/bundle/`：
 
-### 在 VS Code 中使用 DevContainer
+```bash
+bundle config set --local path 'vendor/bundle'
+bundle install
+```
 
-如果您使用 [Visual Studio Code](https://code.visualstudio.com/)，可以使用此仓库自带的 [Dev Container](https://code.visualstudio.com/docs/devcontainers/containers)。通常 VS Code 会检测到开发容器配置可用，并询问您是否要使用容器。如果没有发生这种情况，您可以手动启动容器：**F1 -> DevContainer: Reopen in Container**。这将在容器中重启您的 VS Code，并自动在 http://localhost:4000 本地托管您的学术主页。所有更改将在几秒钟后实时更新到该页面。
+如果 macOS 报告原生 gem 缺少 C/C++ 头文件，请先安装或修复 Xcode Command Line Tools，再重新执行 `bundle install`：
 
-## 🔧 维护与致谢
+```bash
+xcode-select --install
+```
 
-本项目基于 [Academic Pages](https://github.com/academicpages/academicpages.github.io) 模板修改。
+### 2. 启动 Jekyll
 
-原始项目由 [Stuart Geiger](https://github.com/staeiou) 从 [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) 分叉（然后分离），后者由 Michael Rose © 2016 创建并在 MIT 许可下发布。目前由 [Robert Zupko](https://github.com/rjzupkoii) 维护。
+```bash
+bundle exec jekyll serve --livereload --host localhost
+```
 
-如果您有关于模板的错误报告或功能请求，请[通过 GitHub 提交](https://github.com/academicpages/academicpages.github.io/issues/new/choose)。关于如何设置模板样式的问题，请随时在 [GitHub 上发起新的讨论](https://github.com/academicpages/academicpages.github.io/discussions)。
+启动后打开 <http://localhost:4000> 查看本地渲染的网站。`--livereload` 会在内容或样式变化后自动刷新浏览器；按 `Ctrl+C` 停止服务。修改 `_config.yml` 后需要重启 Jekyll 进程。
 
----
-*感谢原作者及社区的贡献。*
+只想检查一次完整构建时，可以运行：
+
+```bash
+bundle exec jekyll build
+```
+
+### 3. 构建前端脚本（可选）
+
+如果修改了 `assets/js/_main.js` 或插件脚本，可以安装 Node 依赖并重新压缩：
+
+```bash
+npm install
+npm run build:js
+```
+
+生成的压缩文件为 `assets/js/main.min.js`。
+
+## 内容维护
+
+- 修改站点名称、作者资料、社交链接和 Jekyll 默认值：编辑 [`_config.yml`](_config.yml)。
+- 新增博客：在 `_posts/` 中创建 `YYYY-MM-DD-title.md`，添加 Jekyll front matter。
+- 新增论文：在 `_publications/` 中创建 Markdown 文件，设置 `collection: publications`、分类、日期、摘要和引用信息。
+- 修改导航：编辑 [`_data/navigation.yml`](_data/navigation.yml)。
+- 修改页面模板：编辑 `_layouts/` 与 `_includes/`。
+- 修改主题和页面样式：编辑 `_sass/` 或 [`assets/css/main.scss`](assets/css/main.scss)。
+- 添加可公开访问的 PDF、BibTeX 或其他资料：放入 `files/`，然后在页面中使用 `/files/<文件名>` 引用。
+
+## 目录说明
+
+项目级目录和文件的功能说明集中在 [`docs/PROJECT_STRUCTURE.md`](docs/PROJECT_STRUCTURE.md)。旧版模板 README 已保存为 `README.legacy.md`，用于历史参考；该文件已加入 `.gitignore`。
+
+## 致谢与许可
+
+本项目基于 [Academic Pages](https://github.com/academicpages/academicpages.github.io) 和 [Minimal Mistakes](https://github.com/mmistakes/minimal-mistakes) 主题生态修改。仓库代码遵循 [MIT License](LICENSE)；第三方字体、图片和资料请以各自的授权与来源说明为准。

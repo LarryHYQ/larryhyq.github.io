@@ -1,6 +1,9 @@
 # Keep this file versioned. Git ignore rules do not control Jekyll publishing.
 # Remaining optional local content stays excluded until separately reviewed.
 
+# Archived project documentation
+README.legacy.md
+
 # Jekyll build output and caches
 _site/
 .sass-cache/
