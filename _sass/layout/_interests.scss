@@ -1,0 +1,453 @@
+/* ==========================================================================
+   Interests page (layout "D": line lists + card blocks + shows table)
+   Scope: 首页 “Interests” 页（front matter: archive_class: "interests-page"）。
+   所有规则都收在 .interests-page 之下，避免影响其它页面。
+   ========================================================================== */
+
+.interests-page {
+  /* 章节标题：小号大写 + 细线 */
+  h2 {
+    margin-top: 2.6em;
+    padding-bottom: 0.45em;
+    border-bottom: 1px solid var(--global-border-color);
+    font-size: 1.05em;
+    font-weight: 600;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+  }
+
+  h3 {
+    margin-top: 2em;
+    font-size: 0.8em;
+    font-weight: 600;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    opacity: 0.8;
+  }
+
+  /* 图注、嵌入视频 */
+  td[colspan] {
+    padding-top: 8px !important;
+    font-size: 0.84em !important;
+    letter-spacing: 0.02em;
+    opacity: 0.72;
+  }
+
+  figcaption {
+    padding-top: 8px !important;
+    font-size: 0.84em !important;
+    letter-spacing: 0.02em;
+    opacity: 0.72;
+  }
+
+  iframe {
+    border-radius: 10px;
+  }
+
+  /* ----------------------------------------------------------------------
+     细线列表：喜欢的摄影师 / 球员 / 歌手 / 歌曲
+     ---------------------------------------------------------------------- */
+  .ir-chips {
+    display: grid;
+    gap: 0 28px;
+    margin: 10px 0 20px;
+    padding: 0;
+    list-style: none;
+  }
+
+  .ir-chip {
+    display: flex;
+    padding: 7px 0;
+    border-bottom: 1px solid var(--global-border-color);
+    font-size: 0.86em;
+    line-height: 1.5;
+  }
+
+  .ir-chip a {
+    color: var(--global-text-color);
+    text-decoration: none;
+  }
+
+  .ir-chip a:hover {
+    color: var(--global-link-color);
+  }
+
+  /* 固定两列（摄影师 / 球员），名字加粗 */
+  .ir-chips.ir-two {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .ir-chips.ir-two .ir-chip,
+  .ir-chips.ir-two .ir-chip a {
+    font-weight: 600;
+  }
+
+  /* 喜欢的歌：三列；手机两列，省空间 */
+  .ir-songs {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  /* 省略号：单独成行 */
+  .ir-more {
+    margin: 2px 0 18px;
+    padding-left: 2px;
+    font-size: 0.95em;
+    letter-spacing: 0.06em;
+    opacity: 0.6;
+  }
+
+  /* ----------------------------------------------------------------------
+     卡片：相机 / 羽毛球装备
+     ---------------------------------------------------------------------- */
+  .ir-card {
+    padding: 14px 16px;
+    border: 1px solid var(--global-border-color);
+    border-radius: 10px;
+    background: color-mix(in srgb, var(--global-text-color) 3.5%, transparent);
+  }
+
+  .ir-card h4 {
+    margin: 0 0 8px;
+    font-size: 0.72em;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    opacity: 0.7;
+  }
+
+  .ir-card ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .ir-card li {
+    padding: 4px 0;
+    font-size: 0.9em;
+    line-height: 1.5;
+  }
+
+  .ir-item-meta {
+    display: block;
+    font-size: 0.82em;
+    opacity: 0.68;
+  }
+
+  /* 括号内容整体不拆行：放不下时整段换到下一行 */
+  .ir-paren {
+    white-space: nowrap;
+  }
+
+  /* 相机与镜头：主卡通栏 + 设备卡两栏 */
+  .ir-d-cams {
+    display: grid;
+    gap: 14px;
+    margin: 14px 0 24px;
+  }
+
+  .ir-d-cam-main {
+    grid-column: 1 / -1;
+  }
+
+  .ir-d-cam-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 14px;
+  }
+
+  .ir-d-lenses {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .ir-d-lenses li {
+    padding: 3px 0;
+    font-size: 0.88em;
+    line-height: 1.6;
+  }
+
+  .ir-device h4 {
+    margin: 0;
+    line-height: 1.4;
+  }
+
+  /* 羽毛球装备：球拍长卡 + 右侧三张短卡，左右等高 */
+  .ir-d-equip {
+    display: grid;
+    grid-template-columns: 1.05fr 1fr;
+    gap: 14px;
+    margin: 14px 0 24px;
+    align-items: stretch;
+  }
+
+  .ir-d-equip > .ir-card:first-child {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .ir-d-equip > .ir-card:first-child > ul {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .ir-d-equip-side {
+    display: grid;
+    gap: 14px;
+  }
+
+  /* ----------------------------------------------------------------------
+     演唱会：四列表格（Tour / Singer / Shows / Period）
+     容器变窄时（< 700px）自动切为两行卡片式
+     ---------------------------------------------------------------------- */
+  .ir-d-ct {
+    margin: 14px 0 24px;
+    border-top: 1px solid var(--global-border-color);
+    container-type: inline-size;
+  }
+
+  .ir-d-ct-row {
+    display: grid;
+    grid-template-columns: 1.3fr 0.95fr 0.5fr 1.25fr;
+    align-items: baseline;
+    gap: 16px;
+    padding: 11px 0;
+    border-bottom: 1px solid var(--global-border-color);
+    white-space: nowrap;
+  }
+
+  .ir-d-ct-head {
+    padding: 8px 0;
+    font-size: 0.72em;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    opacity: 0.55;
+  }
+
+  .ir-d-ct-row .tour {
+    font-weight: 600;
+  }
+
+  .ir-d-ct-row .singer {
+    font-size: 0.84em;
+    opacity: 0.85;
+  }
+
+  .ir-d-ct-row .period {
+    font-size: 0.84em;
+    font-variant-numeric: tabular-nums;
+    opacity: 0.72;
+  }
+
+  .ir-d-ct-row .shows {
+    font-weight: 700;
+    font-variant-numeric: tabular-nums;
+  }
+
+  .ir-d-ct-row .shows .unit {
+    display: none;
+    margin-left: 0;
+    font-size: 0.74em;
+    font-weight: 500;
+    opacity: 0.6;
+  }
+
+  /* ----------------------------------------------------------------------
+     专辑：两列 + 年份右对齐
+     ---------------------------------------------------------------------- */
+  .ir-album-group {
+    margin: 14px 0 20px;
+  }
+
+  .ir-artist {
+    margin: 0 0 8px;
+    font-size: 0.92em;
+    letter-spacing: 0.02em;
+  }
+
+  .ir-albums {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    gap: 0 28px;
+  }
+
+  .ir-album {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 6px 0;
+    border-bottom: 1px solid var(--global-border-color);
+  }
+
+  .ir-album-year {
+    font-variant-numeric: tabular-nums;
+    font-size: 0.82em;
+    opacity: 0.62;
+  }
+
+  /* ----------------------------------------------------------------------
+     足球：球队卡片 + 口号
+     ---------------------------------------------------------------------- */
+  .ir-teams {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 12px;
+    margin: 12px 0 16px;
+  }
+
+  .ir-team {
+    padding: 12px 16px;
+  }
+
+  .ir-team-label {
+    display: block;
+    margin-bottom: 6px;
+    font-size: 0.72em;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    opacity: 0.62;
+  }
+
+  .ir-slogan {
+    margin: 14px 0;
+    padding: 6px 14px;
+    border-left: 3px solid var(--global-border-color);
+    font-weight: 600;
+  }
+
+  /* ----------------------------------------------------------------------
+     F1 长文
+     ---------------------------------------------------------------------- */
+  .ir-essay {
+    margin-top: 8px;
+  }
+
+  .ir-essay p {
+    margin-bottom: 1.05em;
+    line-height: 1.8;
+    text-align: justify;
+  }
+
+  .ir-essay p.ir-lead {
+    font-size: 1.05em;
+  }
+
+  .ir-quote {
+    margin: 20px 0 !important;
+    padding: 8px 18px;
+    border-left: 3px solid var(--global-border-color);
+    font-style: italic;
+  }
+
+  .ir-sign {
+    font-size: 0.9em;
+    font-style: normal;
+    text-align: right;
+    opacity: 0.68;
+  }
+
+  .ir-vlog-section {
+    margin-top: 2.2em;
+  }
+
+  /* ----------------------------------------------------------------------
+     移动端
+     ---------------------------------------------------------------------- */
+  @media (max-width: 767px) {
+    .ir-d-cams,
+    .ir-d-equip {
+      grid-template-columns: 1fr;
+    }
+
+    .ir-songs {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    /* 无 container query 支持时的兜底：手机端直接卡片式 */
+    .ir-d-ct-head {
+      display: none;
+    }
+
+    .ir-d-ct-row {
+      grid-template-columns: 1fr auto;
+      grid-template-areas:
+        "tour shows"
+        "singer period";
+      row-gap: 4px;
+      white-space: normal;
+    }
+
+    .ir-d-ct-row .tour {
+      grid-area: tour;
+    }
+
+    .ir-d-ct-row .shows {
+      grid-area: shows;
+      text-align: right;
+      white-space: nowrap;
+    }
+
+    .ir-d-ct-row .singer {
+      grid-area: singer;
+    }
+
+    .ir-d-ct-row .period {
+      grid-area: period;
+      text-align: right;
+    }
+
+    .ir-d-ct-row .shows .unit {
+      display: inline;
+    }
+  }
+
+  /* 更窄时设备卡改单列：避免非 Mavic 的卡片标题折行 */
+  @media (max-width: 389px) {
+    .ir-d-cam-grid {
+      grid-template-columns: 1fr;
+    }
+  }
+}
+
+/* 演唱会表格：按容器宽度切换（现代浏览器） */
+@container (max-width: 699px) {
+  .interests-page .ir-d-ct-head {
+    display: none;
+  }
+
+  .interests-page .ir-d-ct-row {
+    grid-template-columns: 1fr auto;
+    grid-template-areas:
+      "tour shows"
+      "singer period";
+    row-gap: 4px;
+    white-space: normal;
+  }
+
+  .interests-page .ir-d-ct-row .tour {
+    grid-area: tour;
+  }
+
+  .interests-page .ir-d-ct-row .shows {
+    grid-area: shows;
+    text-align: right;
+    white-space: nowrap;
+  }
+
+  .interests-page .ir-d-ct-row .singer {
+    grid-area: singer;
+  }
+
+  .interests-page .ir-d-ct-row .period {
+    grid-area: period;
+    text-align: right;
+  }
+
+  .interests-page .ir-d-ct-row .shows .unit {
+    display: inline;
+  }
+}

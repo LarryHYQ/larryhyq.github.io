@@ -20,7 +20,7 @@ layout: default
       <h1 class="page__title">{{ page.title }}</h1>
     {% endunless %}
     {% if page.section_timeline %}
-      <div class="blog-archive" data-section-archive data-timeline-title="{{ page.section_timeline | escape }}">
+      <div class="blog-archive{% if page.archive_class %} {{ page.archive_class }}{% endif %}" data-section-archive data-timeline-title="{{ page.section_timeline | escape }}">
         <div class="blog-archive__posts" data-timeline-content>{{ content }}</div>
       </div>
       <script defer src="{{ '/assets/js/blog-timeline.js' | relative_url }}?v={{ site.time | date: '%Y%m%d%H%M%S' }}"></script>
