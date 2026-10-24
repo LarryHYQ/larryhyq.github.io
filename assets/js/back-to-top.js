@@ -14,6 +14,7 @@
   var alignQuery = window.matchMedia("(min-width: 768px)");
   var SHOW_AFTER = 80;
   var HIDE_DELAY = 1500;
+  var HIDE_DELAY_MOBILE = 3000;
   var COLUMN_SELECTORS = [".blog-timeline", ".sidebar__right"];
   var MAIN_PADDING = 18;
 
@@ -133,7 +134,25 @@
     button.style.right = Math.round(document.documentElement.clientWidth - axis) + "px";
   }
 
+  // Pages without a timeline rail (Home / Honors …) still have to hide the
+  // button once the reader scrolls back up to the profile / title area, just
+  // like rail pages do: the rail only appears after the page title has passed
+  // under the masthead (see blog-timeline.js canShowMobileTimeline()).
+  function titleGateOpen() {
+    if (!railQuery.matches) return true;
+    var title = document.querySelector(".page__title, #main h1");
+    if (!title) return window.scrollY > SHOW_AFTER;
+    var masthead = document.querySelector(".masthead");
+    var mastheadBottom = masthead ? masthead.getBoundingClientRect().bottom : 0;
+    return title.getBoundingClientRect().top <= mastheadBottom + 16;
+  }
+
   function show() {
+    if (!titleGateOpen()) {
+      window.clearTimeout(hideTimer);
+      button.classList.remove("is-visible");
+      return;
+    }
     if (window.scrollY > SHOW_AFTER) button.classList.add("is-visible");
   }
 
@@ -143,7 +162,7 @@
     hideTimer = window.setTimeout(function () {
       if (button.matches(":hover") || button.matches(":focus-visible")) return;
       button.classList.remove("is-visible");
-    }, HIDE_DELAY);
+    }, railQuery.matches ? HIDE_DELAY_MOBILE : HIDE_DELAY);
   }
 
   function onScroll() {
