@@ -82,14 +82,15 @@
     font-weight: 600;
   }
 
-  /* 喜欢的歌：三列；手机两列，省空间 */
+  /* 喜欢的歌：三列；手机两列，省空间；省略号紧跟列表，去掉底边距 */
   .ir-songs {
     grid-template-columns: repeat(3, minmax(0, 1fr));
+    margin-bottom: 0;
   }
 
-  /* 省略号：单独成行 */
+  /* 省略号：单独成行；贴近上方的列表，与下方内容留出更大间距 */
   .ir-more {
-    margin: 2px 0 18px;
+    margin: 8px 0 22px;
     padding-left: 2px;
     font-size: 0.95em;
     letter-spacing: 0.06em;

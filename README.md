@@ -7,7 +7,7 @@
 [![MIT license](https://img.shields.io/badge/License-MIT-blue?style=flat-square)](https://github.com/LarryHYQ/larryhyq.github.io/blob/main/LICENSE)
 [![Website](https://img.shields.io/badge/Website-larryhyq.github.io-2ea44f?style=flat-square&logo=googlechrome&logoColor=white)](https://larryhyq.github.io/)
 [![Last commit](https://img.shields.io/github/last-commit/LarryHYQ/larryhyq.github.io?style=flat-square&logo=git&label=Updated)](https://github.com/LarryHYQ/larryhyq.github.io/commits/main)
-[![Version](https://img.shields.io/badge/Version-4.1.1-6a5acd?style=flat-square)](docs/VERSIONS.md)
+[![Version](https://img.shields.io/badge/Version-4.2-6a5acd?style=flat-square)](docs/VERSIONS.md)
 
 **个人学术主页 · 研究记录 · 博客笔记 · 兴趣相册**
 
@@ -38,7 +38,7 @@
 
 ## 版本记录
 
-当前版本 **4.1.1**（2026-10-24）。**每一条提交都对应一个独立版本号**，版本规则、完整版本历史与逐条提交记录见 [`docs/VERSIONS.md`](docs/VERSIONS.md)。
+当前版本 **4.2**（2026-10-24）。**每一条提交都对应一个独立版本号**，版本规则、完整版本历史与逐条提交记录见 [`docs/VERSIONS.md`](docs/VERSIONS.md)。
 
 | 大版本 | 时间 | 主题 |
 | --- | --- | --- |
