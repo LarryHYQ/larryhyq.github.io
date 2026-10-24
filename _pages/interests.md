@@ -577,22 +577,24 @@ Club Team: <a href="https://fcbayern.com/" style="text-decoration: none;">**Fuß
 
 ### Favorite Concerts:
 {: .no_toc}
-- **Fear and Dreams** - **Eason Chan(陈奕迅)** - 182 - Dec. 2022 - Aug. 2025 ❤
+- **Fear and Dreams** - **Eason Chan(陈奕迅)** - 182 - Dec. 2022 - Aug. 2025
 - **Another EASON's LIFE** - **Eason Chan(陈奕迅)** - 59 - Apr. 2015 - Oct. 2016
 - **EASON's LIFE** - **Eason Chan(陈奕迅)** - 76 - Jul. 2013 - Dec. 2014
-- **DUO** - **Eason Chan(陈奕迅)** - 66 - Mar. 2010 - Dec. 2012 ❤
+- **DUO** - **Eason Chan(陈奕迅)** - 66 - Mar. 2010 - Dec. 2012
 - **Get A Life** - **Eason Chan(陈奕迅)** - 10 - Feb. 2006 - Aug. 2006
-- **The Best Place** - **Leehom Wang(王力宏)** - 41 - Apr. 2025 - Present
-- **MUSIC MAN II 火力全开** - **Leehom Wang(王力宏)** - 56 - Nov. 2011 - Jun. 2014 ❤
-- **MUSIC MAN** - **Leehom Wang(王力宏)** - 22 - Sept. 2008 - Jun. 2011 ❤
+- **The Best Place II** - **Leehom Wang(王力宏)** - 35 - May 2026 - Present
+- **The Best Place** - **Leehom Wang(王力宏)** - 57 - Apr. 2025 - Feb. 2026
+- **MUSIC MAN II 火力全开** - **Leehom Wang(王力宏)** - 56 - Nov. 2011 - Jun. 2014
+- **MUSIC MAN** - **Leehom Wang(王力宏)** - 22 - Sept. 2008 - Jun. 2011
 
 ### Concert Posters
 
-<table style="border: none; width: 100%;">
+<table class="honor-grid honor-grid--2up-flow" style="border: none; width: 100%;">
 <tr style="border: none;">
-<td style="border: none; width: 35.3%;"><a href="/images/interests/music/Eason-Hangzhou.jpg"><img src='/images/interests/music/Eason-Hangzhou.jpg' style="width: 100%; object-fit: cover;"></a></td>
-<td style="border: none; width: 33.1%;"><a href="/images/interests/music/Leehom-Beijing.jpg"><img src='/images/interests/music/Leehom-Beijing.jpg' style="width: 100%; object-fit: cover;"></a></td>
-<td style="border: none; width: 31.6%;"><a href="/images/interests/music/Leehom-Ningbo.jpg"><img src='/images/interests/music/Leehom-Ningbo.jpg' style="width: 100%; object-fit: cover;"></a></td>
+<td style="border: none; --ar: 0.8000;"><a href="/images/interests/music/Eason-Hangzhou.jpg"><img src='/images/interests/music/Eason-Hangzhou.jpg' style="width: 100%; object-fit: cover;"></a></td>
+<td style="border: none; --ar: 0.7500;"><a href="/images/interests/music/Leehom-Beijing.jpg"><img src='/images/interests/music/Leehom-Beijing.jpg' style="width: 100%; object-fit: cover;"></a></td>
+<td style="border: none; --ar: 0.7146;"><a href="/images/interests/music/Leehom-Ningbo.jpg"><img src='/images/interests/music/Leehom-Ningbo.jpg' style="width: 100%; object-fit: cover;"></a></td>
+<td style="border: none; --ar: 0.7500;"><a href="/images/interests/music/Leehom-Hangzhou.jpg"><img src='/images/interests/music/Leehom-Hangzhou.jpg' style="width: 100%; object-fit: cover;"></a></td>
 </tr>
 </table>
 
@@ -602,9 +604,9 @@ Club Team: <a href="https://fcbayern.com/" style="text-decoration: none;">**Fuß
 {: .no_toc}
 <table style="border: none; width: 100%;">
 <tr style="border: none;">
-<td style="border: none; width: 36%;"><a href="/images/interests/music/Eason-Hangzhou-1.jpg"><img src='/images/interests/music/Eason-Hangzhou-1.jpg' style="width: 100%; object-fit: cover;"></a></td>
-<td style="border: none; width: 32%;"><a href="/images/interests/music/IMG_20240930_202924.jpg"><img src='/images/interests/music/IMG_20240930_202924.jpg' style="width: 100%; object-fit: cover;"></a></td>
-<td style="border: none; width: 32%;"><a href="/images/interests/music/IMG_20240930_213837.jpg"><img src='/images/interests/music/IMG_20240930_213837.jpg' style="width: 100%; object-fit: cover;"></a></td>
+<td style="border: none; width: 34.5%;"><a href="/images/interests/music/IMG_1066.jpg"><img src='/images/interests/music/IMG_1066.jpg' style="width: 100%; object-fit: cover;"></a></td>
+<td style="border: none; width: 34.6%;"><a href="/images/interests/music/Eason-Hangzhou-1.jpg"><img src='/images/interests/music/Eason-Hangzhou-1.jpg' style="width: 100%; object-fit: cover;"></a></td>
+<td style="border: none; width: 30.9%;"><a href="/images/interests/music/IMG_20240930_213837.jpg"><img src='/images/interests/music/IMG_20240930_213837.jpg' style="width: 100%; object-fit: cover;"></a></td>
 </tr>
 </table>
 
@@ -612,9 +614,9 @@ Club Team: <a href="https://fcbayern.com/" style="text-decoration: none;">**Fuß
 {: .no_toc}
 <table style="border: none; width: 100%;">
 <tr style="border: none;">
-<td style="border: none; width: 29.8%;"><a href="/images/interests/music/Leehom-Beijing-1.jpg"><img src='/images/interests/music/Leehom-Beijing-1.jpg' style="width: 100%; object-fit: cover;"></a></td>
-<td style="border: none; width: 35.1%;"><a href="/images/interests/music/IMG_3305.jpg"><img src='/images/interests/music/IMG_3305.jpg' style="width: 100%; object-fit: cover;"></a></td>
-<td style="border: none; width: 35.1%;"><a href="/images/interests/music/IMG_3417.jpg"><img src='/images/interests/music/IMG_3417.jpg' style="width: 100%; object-fit: cover;"></a></td>
+<td style="border: none; width: 39.5%;"><a href="/images/interests/music/Leehom-Beijing-1.jpg"><img src='/images/interests/music/Leehom-Beijing-1.jpg' style="width: 100%; object-fit: cover;"></a></td>
+<td style="border: none; width: 39.5%;"><a href="/images/interests/music/IMG_1065.jpg"><img src='/images/interests/music/IMG_1065.jpg' style="width: 100%; object-fit: cover;"></a></td>
+<td style="border: none; width: 21.0%;"><a href="/images/interests/music/IMG_1064.jpg"><img src='/images/interests/music/IMG_1064.jpg' style="width: 100%; object-fit: cover;"></a></td>
 </tr>
 </table>
 
@@ -625,6 +627,16 @@ Club Team: <a href="https://fcbayern.com/" style="text-decoration: none;">**Fuß
 <td style="border: none; width: 33.3%;"><a href="/images/interests/music/IMG_6301.jpg"><img src='/images/interests/music/IMG_6301.jpg' style="width: 100%; object-fit: cover;"></a></td>
 <td style="border: none; width: 33.3%;"><a href="/images/interests/music/IMG_6302.jpg"><img src='/images/interests/music/IMG_6302.jpg' style="width: 100%; object-fit: cover;"></a></td>
 <td style="border: none; width: 33.3%;"><a href="/images/interests/music/IMG_6303.jpg"><img src='/images/interests/music/IMG_6303.jpg' style="width: 100%; object-fit: cover;"></a></td>
+</tr>
+</table>
+
+#### The Best Place II - Hangzhou, May 30, 2026 - Leehom Wang(王力宏) - Concert Photos
+{: .no_toc}
+<table style="border: none; width: 100%;">
+<tr style="border: none;">
+<td style="border: none; width: 47.6%;"><a href="/images/interests/music/IMG_1061.jpg"><img src='/images/interests/music/IMG_1061.jpg' style="width: 100%; object-fit: cover;"></a></td>
+<td style="border: none; width: 26.2%;"><a href="/images/interests/music/IMG_1062.jpg"><img src='/images/interests/music/IMG_1062.jpg' style="width: 100%; object-fit: cover;"></a></td>
+<td style="border: none; width: 26.2%;"><a href="/images/interests/music/IMG_1063.jpg"><img src='/images/interests/music/IMG_1063.jpg' style="width: 100%; object-fit: cover;"></a></td>
 </tr>
 </table>
 
