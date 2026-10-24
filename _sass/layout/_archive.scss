@@ -431,3 +431,16 @@
   line-height: 1.6;
   white-space: nowrap;
 }
+
+
+/* 非时间轴页面（如荣誉页）使用与时间轴页面一致的版心宽度：
+   右侧预留与目录轴相同的列宽（96px + 列间距）。 */
+.archive__body {
+  padding-right: calc(96px + #{clamp(1.5rem, 4vw, 3.5rem)});
+}
+
+@media (max-width: 767px) {
+  .archive__body {
+    padding-right: 0;
+  }
+}

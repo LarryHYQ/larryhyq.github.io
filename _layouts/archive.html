@@ -25,7 +25,7 @@ layout: default
       </div>
       <script defer src="{{ '/assets/js/blog-timeline.js' | relative_url }}?v={{ site.time | date: '%Y%m%d%H%M%S' }}"></script>
     {% else %}
-      {{ content }}
+      {% if page.archive_narrow %}<div class="archive__body">{{ content }}</div>{% else %}{{ content }}{% endif %}
     {% endif %}
   </div>
 </div>
